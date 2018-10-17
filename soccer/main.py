@@ -157,7 +157,6 @@ def main(ctx, apikey, use12hour, output_format, output_file, list):
 def competitions(ctx, competition_id, listcodes, areas, plan):
     """Serves as an entry point to the Competitions Resource"""
     url = 'competitions/{}'.format(competition_id) if competition_id else 'competitions/'
-    print(competition_id, listcodes, areas, plan)
     payload = {}  # hold the filters
     if areas:
         payload['areas'] = areas
@@ -207,7 +206,25 @@ def standings(ctx, standingtype):
               help='display limit matches in which player with given id played ')
 @click.pass_context
 def players(ctx, player_id, matches, date_from, date_to, competitions, status, limit):
-    pass
+    url = 'players/{}'.format(player_id) if player_id else 'players/'
+    url += 'matches' if matches else ''
+    if matches:
+        payload = {}
+        if date_from:
+            payload['dateFrom'] = date_from
+        if date_to:
+            payload['dateTo'] = date_to
+        if competitions:
+           payload['competitions'] = competitions
+        if status:
+            payload['status'] = status
+        if limit:
+            payload['limit'] = limit
+    if any([limit, status, competitions, date_to, date_from]) and not matches:
+        click.secho('seems like you forgot to provide the --matches flag, you need that,'
+                    'to be able to add filters', fg='red')
+    response = RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
+    return response
 
 
 @click.command()
