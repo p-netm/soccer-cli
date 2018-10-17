@@ -1,13 +1,15 @@
 import os
 import sys
 import json
-
 import click
+
+from .validators import validate_standing, validate_limit, validate_competitions, validate_venue, validate_status,\
+    validate_season, validate_matchday, validate_plan, validate_date
+import subresource as sr
 
 from leaagueids import LEAGUE_IDS
 from exceptions import IncorrectParametersException
-from writers import get_writer
-from request_handler import RequestHandler
+# from request_handler import RequestHandler
 
 
 def load_json(file):
@@ -104,10 +106,8 @@ def list_team_codes():
         click.secho("")
 
 
-import click
-
 @click.group()
-@click.option('--apikey', default='Some key',
+@click.option('--apikey', default=load_config_key,
               help="API key to use.")
 @click.option('--use12hour', is_flag=True, default=False,
               help="Displays the time using 12 hour format instead of 24 (default).")
@@ -119,10 +119,12 @@ import click
               help='Output in JSON format.')
 @click.option('-o', '--output-file', default=None,
               help="Save output to a file (only if csv or json option is provided).")
-def main(apikey, use12hour, output_format, output_file):
+@click.option('--list', 'listcodes', is_flag=True,
+              help='list codes and names of all available competitions')
+def main(apikey, use12hour, output_format, output_file, list):
     """
     A CLI for live and past football scores from various football leagues.
-    resources are given as commands and subresources are options
+    resources are given as commands and subresources and their filters as options
 
     Resources:
 
@@ -143,75 +145,90 @@ def main(apikey, use12hour, output_format, output_file):
     pass
 
 
-@click.command()
-@click.option('--id', '-i', 'competition_id', help='id for the competitions to load, if no id: returns all available competitions')
-@click.option('--list', 'listcodes', is_flag=True, help='list codes and names of all available competitions')
-@click.option('--teams','-t', help=' list teams for that particular competition')
-@click.option('--standings', is_flag=True, help='show standings for particular competition')
-@click.option('--matches', '-m', is_flag=True, help='list matches for a particular competition')
-# filters
-@click.option('--areas', help='[competitions]:: filters competition to particular area')
-@click.option('--plan', help='[competitions]:: filters and shows competitions for a particular plan')
-@click.option('--season', help='[teams, matches]:: list matches, and teams in a particular competition for given season')
-@click.option('--stage', help='[teams, matches]:: filters either teams or matches to given stage')
-@click.option('--standingtype', help='[standings]:: show stndings for a particular competition ')
-@click.option('--datefrom', help='[matches]:: list matches for competition with given id from given date')
-@click.option('--dateto', help='[matches]:: list matches for competition with given id to this given day')
-@click.option('--status', help='[matches]:: filter matches for competition with given id to status of play')
-@click.option('--matchday', help='for [matches]: filter matches for competition with given id to given matchday')
-@click.option('--group', help='for[matches]: filter matches for competition with given id to given group')
+@click.group()
+@click.option('--id', '-i', 'competition_id', type=click.INT,
+              help='id for the competitions to load, if no id: returns all available competitions')
+@click.option('--areas',
+              help='filters competition to particular area')
+@click.option('--plan', callback=validate_plan,
+              help='filters and shows competitions for a particular plan')
+def competitions(competition_id, listcodes, areas, plan):
+    """Serves as an entry point to the Competitions Resource"""
+    url = 'competitions/'
+    print(competition_id, listcodes, areas, plan)
 
-def competitions(competition_id, listcodes, teams, standings, matches, areas, plan, season, stage, standingtype,
-                 datefrom, dateto, status, matchday, group):
-    print(competition_id, listcodes, teams, standings, matches, areas, plan, season, stage, standingtype,
-                 datefrom, dateto, status, matchday, group)
 
 @click.command()
-@click.option('--id', '-i', 'player_id', help='displays player with this id')
+@click.option('--standingtype',callback=validate_standing,
+              help='[standings]:: show stndings for a particular competition ')
+def standings(standingtype):
+    print(standingtype)
+
+
+@click.command()
+@click.option('--id', '-i', 'player_id', type=click.INT,
+              help='displays player info with this id, absent id will return a 404')
 @click.option('--matches', '-m',is_flag=True, help='matches where player with given id played')
-@click.option('--from', '-f', 'date_from', help='display matches in which player with given id played from this date')
-@click.option('--to', '-t', 'date_to', help='display matches in which player with given id played to this date')
-@click.option('--competitions', '-c',  help='display matches in which player with given id played that belong to this competition')
-@click.option('--status', '-s', help='display matches in which player with given id played that have this status')
-@click.option('--limit', '-l', 'date_from', help='display limit matches in which player with given id played ')
+@click.option('--from', '-f', 'date_from', callback=validate_date,
+              help='display matches in which player with given id played from this date')
+@click.option('--to', '-t', 'date_to', callback=validate_date,
+              help='display matches in which player with given id played to this date')
+@click.option('--competitions', '-c', multiple=True, callback=validate_competitions,
+              help='display matches in which player with given id played that belong to this competition')
+@click.option('--status', '-s', callback=validate_status,
+              help='display matches in which player with given id played that have this status')
+@click.option('--limit', '-l', callback=validate_limit,
+              help='display limit matches in which player with given id played ')
 def players(player_id, matches, date_from, date_to, competitions, status, limit):
     pass
 
+
 @click.command()
-@click.option('--id', '-i', 'match_id', help='displays matches with this id | display or',)
-@click.option('--from', '-f', 'date_from', help='display matches played from this date')
-@click.option('--to', '-t', 'date_to', help='display matches played to this date')
-@click.option('--competitions', '-c',  help='display matches with given id that belong to this competition')
-@click.option('--status', '-s', help='display matches  that have this status')
+@click.option('--id', '-i', 'match_id', type=click.INT,
+              help='displays matches with this id',)
+@click.option('--from', '-f', 'date_from', callback=validate_date,
+              help='display matches played from this date')
+@click.option('--to', '-t', 'date_to', callback=validate_date,
+              help='display matches played to this date')
+@click.option('--competitions', '-c', multiple=True, callback=validate_competitions,
+              help='display matches that belong to competition with given id')
+@click.option('--status', '-s', callback=validate_status,
+              help='display matches  that have this status')
 def matches(match_id, date_from, date_to, status):
     pass
 
+
 @click.command()
-@click.option('--id', '-i', 'area_id', help='displays area with this id')
+@click.option('--id', '-i', 'area_id', type=click.INT,
+              help='display area info with this id')
 def areas(area_id):
     pass
 
+
 @click.command()
-@click.option('--id', '-i', 'team_id', help='displays team with this id')
-@click.option('--matches', '-m',is_flag=True, help='matches where team with given id played')
-@click.option('--from', '-f', 'date_from', help='display matches in which team with given id played from this date')
-@click.option('--to', '-t', 'date_to', help='display matches in which team with given id played to this date')
-@click.option('--venue', '-v',  help='display matches in which team with given id played in the given venue')
-@click.option('--status', '-s', help='display matches in which team with given id played that have this status')
-@click.option('--limit', '-l', 'date_from', help='display limit matches in which team with given id played ')
-def teams(team_id,venue, status, limit, matches, date_from, date_to,):
+@click.option('--id', '-i', 'team_id', type=click.INT,
+              help='displays team info with this id')
+@click.option('--matches', '-m', is_flag=True, help='matches where team with given id played')
+@click.option('--from', '-f', 'date_from', callback=validate_date,
+              help='display matches in which team with given id played from this date')
+@click.option('--to', '-t', 'date_to', callback=validate_date,
+              help='display matches in which team with given id played to this date')
+@click.option('--venue', '-v', callback=validate_venue,
+              help='display matches in which team with given id played in the given venue')
+@click.option('--status', '-s', callback=validate_status,
+              help='display matches in which team with given id played that have this status')
+@click.option('--limit', '-l', callback=validate_limit,
+              help='display limit matches in which team with given id played ')
+def teams(team_id, venue, status, limit, matches, date_from, date_to,):
     pass
 
-
+competitions.add_command(sr.teams)
+competitions.add_command(sr.matches)
 main.add_command(competitions)
 main.add_command(players)
 main.add_command(teams)
 main.add_command(matches)
 main.add_command(areas)
-
-
-if __name__ == '__main__':
-    main()
 
 
 if __name__ == '__main__':
