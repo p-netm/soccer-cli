@@ -240,7 +240,18 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
               help='display matches  that have this status')
 @click.pass_context
 def matches(ctx, match_id, date_from, date_to, status):
-    pass
+    url = 'matches/{}'.format(match_id) if match_id else 'matches'
+    payload = {}
+    if date_from:
+        payload['dateFrom'] = date_from
+    if date_to:
+        payload['dateTo'] = date_to
+    if competitions:
+        payload['competitions'] = competitions
+    if status:
+        payload['status'] = status
+    response = RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
+    return response
 
 
 @click.command()
@@ -248,7 +259,9 @@ def matches(ctx, match_id, date_from, date_to, status):
               help='display area info with this id')
 @click.pass_context
 def areas(ctx, area_id):
-    pass
+    url = 'areas/{}'.format(area_id) if area_id else 'areas'
+    response = RequestHandler._get(url, headers=ctx.obj['headers'])
+    return response
 
 
 @click.command()
