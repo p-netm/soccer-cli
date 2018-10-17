@@ -25,7 +25,7 @@ class ValidatorTest(unittest.TestCase):
         inp = random.choice(sample)
         if random.randint(0,1):
             inp = inp.lower()
-        self.assertEqual(inp.upper, validate_standing(None, None, inp))
+        self.assertEqual(inp.upper(), validate_status(None, None, inp))
 
         # validate_venue
         self.assertEqual('HOME', validate_venue(None, None, 'home'))
@@ -39,7 +39,7 @@ class ValidatorTest(unittest.TestCase):
         sample = ['TIER_ONE', 'TIER_TWO', 'TIER_THREE', 'TIER_FOUR']
         inp = random.choice(sample)
         if random.randint(0, 1): inp = inp.lower()
-        self.assertEqual(inp.upper, validate_plan(None, None, inp))
+        self.assertEqual(inp.upper(), validate_plan(None, None, inp))
 
         # validate competitions
         sample = ['1']
@@ -111,4 +111,4 @@ class ValidatorTest(unittest.TestCase):
 
     def test_validate_standingtype_for_garbage_data(self):
         with self.assertRaises(BadParameter):
-            validate_standing('anything not in enumerated list')
+            validate_standing(None, None, 'anything not in enumerated list')

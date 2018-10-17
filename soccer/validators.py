@@ -19,12 +19,13 @@ def validate_matchday(ctx, param, value):
     format from api: Integer /[1-4]+[0-9]*/
     :param value: [str] matchday
     """
-    regex = r'^[1-4]+[0-9]*&'
+    regex = r'^[1-4]+[0-9]*$'
     try:
         if re.search(regex, value):
             return int(value)
+        else: raise BadParameter('unexpected value for matchday')
     except ValueError:
-        raise BadParameter('unexpected value for matchday')
+        raise BadParameter('unexpected value for matchday, expected int: got {}'.format(type(value)))
 
 
 def validate_season(ctx, param, value):
@@ -34,7 +35,7 @@ def validate_season(ctx, param, value):
     :return: str(value) or raise error
     """
     try:
-        if int(value) > 1848 and len(value < 5):
+        if int(value) > 1848 and len(value) < 5:
             return value
     except ValueError:
         raise BadParameter('unexpected value for season')
