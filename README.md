@@ -53,11 +53,15 @@ To get colorized terminal output on Windows, make sure to install [ansicon](http
 Usage
 ====
 
-### Get standings for a league
+### Get standings for a competition
 
 ```bash
-$ soccer --standings --league=PL # PL is the league code for English Premier League
+$ soccer competitions --id 2021 standings # 2021 is the competition id for English Premier League
 ```
+
+
+__The content below is not correct for the v2 api and its unedited. I am working on doing so as i port the project to 
+the version 2 api__
 
 ### Get scores for a particular team
 
