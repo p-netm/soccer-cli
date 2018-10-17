@@ -9,7 +9,7 @@ import subresource as sr
 
 from leaagueids import LEAGUE_IDS
 from exceptions import IncorrectParametersException
-# from request_handler import RequestHandler
+from request_handler import RequestHandler
 
 
 def load_json(file):
@@ -121,7 +121,8 @@ def list_team_codes():
               help="Save output to a file (only if csv or json option is provided).")
 @click.option('--list', 'listcodes', is_flag=True,
               help='list codes and names of all available competitions')
-def main(apikey, use12hour, output_format, output_file, list):
+@click.pass_context
+def main(ctx, apikey, use12hour, output_format, output_file, list):
     """
     A CLI for live and past football scores from various football leagues.
     resources are given as commands and subresources and their filters as options
@@ -142,27 +143,52 @@ def main(apikey, use12hour, output_format, output_file, list):
         -match
     """
     headers = {'X-Auth-Token': apikey}
-    pass
+    ctx.obj['headers'] = headers
 
 
-@click.group()
+@click.group(invoke_without_command=True)
 @click.option('--id', '-i', 'competition_id', type=click.INT,
               help='id for the competitions to load, if no id: returns all available competitions')
 @click.option('--areas',
               help='filters competition to particular area')
 @click.option('--plan', callback=validate_plan,
               help='filters and shows competitions for a particular plan')
-def competitions(competition_id, listcodes, areas, plan):
+@click.pass_context
+def competitions(ctx, competition_id, listcodes, areas, plan):
     """Serves as an entry point to the Competitions Resource"""
-    url = 'competitions/'
+    url = 'competitions/{}'.format(competition_id) if competition_id else 'competitions/'
     print(competition_id, listcodes, areas, plan)
+    payload = {}  # hold the filters
+    if areas:
+        payload['areas'] = areas
+    if plan:
+        payload['plan'] = plan
+    if ctx.invoked_subcommand is None:
+        # dealing with the resource only, no subresources, add id
+        response = RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
+        click.secho(response.json(), fg='blue', bold=True)
+        return
+    else:
+        ctx.obj['url'] = url
+        ctx.obj['competition_id'] = competition_id
 
 
 @click.command()
 @click.option('--standingtype',callback=validate_standing,
-              help='[standings]:: show stndings for a particular competition ')
-def standings(standingtype):
-    print(standingtype)
+              help='[standings]:: show standings for a particular competition ')
+@click.pass_context
+def standings(ctx, standingtype):
+    """
+    This is the Standings subresource for the competitions resource, only accessed and works
+    if a competition id is present
+    """
+    if not ctx.obj.get('competition_id'):
+        click.secho('You have to provide a competition id', fg='red', bold=True)
+        return
+    else:
+        url = ctx.obj['url'] + 'standings'
+        payload = {'standingType':standingtype} if standingtype else {}
+        RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
 
 
 @click.command()
@@ -179,7 +205,8 @@ def standings(standingtype):
               help='display matches in which player with given id played that have this status')
 @click.option('--limit', '-l', callback=validate_limit,
               help='display limit matches in which player with given id played ')
-def players(player_id, matches, date_from, date_to, competitions, status, limit):
+@click.pass_context
+def players(ctx, player_id, matches, date_from, date_to, competitions, status, limit):
     pass
 
 
@@ -194,14 +221,16 @@ def players(player_id, matches, date_from, date_to, competitions, status, limit)
               help='display matches that belong to competition with given id')
 @click.option('--status', '-s', callback=validate_status,
               help='display matches  that have this status')
-def matches(match_id, date_from, date_to, status):
+@click.pass_context
+def matches(ctx, match_id, date_from, date_to, status):
     pass
 
 
 @click.command()
 @click.option('--id', '-i', 'area_id', type=click.INT,
               help='display area info with this id')
-def areas(area_id):
+@click.pass_context
+def areas(ctx, area_id):
     pass
 
 
@@ -219,7 +248,8 @@ def areas(area_id):
               help='display matches in which team with given id played that have this status')
 @click.option('--limit', '-l', callback=validate_limit,
               help='display limit matches in which team with given id played ')
-def teams(team_id, venue, status, limit, matches, date_from, date_to,):
+@click.pass_context
+def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to,):
     pass
 
 competitions.add_command(sr.teams)
@@ -232,4 +262,4 @@ main.add_command(areas)
 
 
 if __name__ == '__main__':
-    main()
+    main(obj={})
