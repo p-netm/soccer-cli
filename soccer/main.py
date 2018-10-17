@@ -223,6 +223,7 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
     if any([limit, status, competitions, date_to, date_from]) and not matches:
         click.secho('seems like you forgot to provide the --matches flag, you need that,'
                     'to be able to add filters', fg='red')
+        return
     response = RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
     return response
 
@@ -277,10 +278,29 @@ def areas(ctx, area_id):
 @click.option('--status', '-s', callback=validate_status,
               help='display matches in which team with given id played that have this status')
 @click.option('--limit', '-l', callback=validate_limit,
-              help='display limit matches in which team with given id played ')
+              help='enforce a limit on the number of match records that should be returned for this team')
 @click.pass_context
 def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to,):
-    pass
+    url = 'teams/{}'.format(team_id) if team_id else 'teams'
+    url += 'matches' if matches else ''
+    if matches:
+        payload = {}
+        if date_from:
+            payload['dateFrom'] = date_from
+        if date_to:
+            payload['dateTo'] = date_to
+        if competitions:
+            payload['venue'] = venue
+        if status:
+            payload['status'] = status
+        if limit:
+            payload['limit'] = limit
+    if any([venue, status, limit, date_from, date_to]) and not matches:
+        click.secho('seems like you forgot to provide the --matches flag, you need that'
+                    ' to be able to add filters', fg='red')
+        return
+    response = RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
+    return response
 
 competitions.add_command(sr.teams)
 competitions.add_command(sr.matches)
