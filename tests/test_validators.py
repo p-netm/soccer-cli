@@ -1,5 +1,6 @@
 import unittest
 import random
+from click import BadParameter
 from soccer.validators import validate_competitions, validate_date, validate_plan, validate_limit, \
     validate_matchday, validate_season, validate_status, validate_venue, validate_standing
 
@@ -51,3 +52,63 @@ class ValidatorTest(unittest.TestCase):
 
         #validate_standing
         self.assertEqual('TOTAL', validate_standing(None, None, 'total'))
+
+    def test_validate_match_day_for_invalid_data(self):
+        sample = '1a'
+        sample1 = '0'
+
+        with self.assertRaises(BadParameter):
+            validate_matchday(None, None,sample)
+            validate_matchday(None, None, sample1)
+            validate_matchday(None, None, '-5')
+
+    def test_validate_season_for_invalid_data(self):
+        sample = '002'
+        sample2 = 'sdf'
+        sample3 = '10000'
+        with self.assertRaises(BadParameter):
+            validate_season(None, None, sample)
+            validate_season(None, None, sample2)
+            validate_season(None, None, sample3)
+            validate_season(None, None, '-1985')
+
+    def test_validate_date_for_invalid_data(self):
+        sample = '20180822'
+        sample1 = '2018oct25'
+        sample2 = '20182305'
+        sample3 = '2018-23-05'
+        sample4 = '2017-02-29'
+        with self.assertRaises(BadParameter):
+            validate_season(None, None, sample)
+            validate_season(None, None, sample1)
+            validate_season(None, None, sample2)
+            validate_season(None, None, sample3)
+            validate_season(None, None, sample4)
+
+    def test_validate_status_for_invalid_data(self):
+        with self.assertRaises(BadParameter):
+            validate_status(None, None, 'anything')
+
+    def test_validate_venue_for_invalid_data(self):
+        with self.assertRaises(BadParameter):
+            validate_venue(None, None, 'boring')
+
+    def test_validate_plan_and_limit_for_invalid_data(self):
+        with self.assertRaises(BadParameter):
+            validate_venue(None, None, 'boring')
+            validate_limit(None, None, '-1')
+            validate_limit(None, None, '0')
+            validate_limit(None, None, 'sd')
+
+    def test_validate_competitions_for_invalid_data(self):
+        with self.assertRaises(BadParameter):
+            validate_competitions(None, None, '5')
+            validate_competitions(None, None, '-1')
+            validate_competitions(None, None, 'PL')
+            validate_competitions(None, None, ['PL', '5'])
+            validate_competitions(None, None, ['-5', '-8'])
+            validate_competitions(None, None, ['-5'])
+
+    def test_validate_standingtype_for_garbage_data(self):
+        with self.assertRaises(BadParameter):
+            validate_standing('anything not in enumerated list')
