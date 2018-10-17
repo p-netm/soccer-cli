@@ -3,14 +3,16 @@ import sys
 import json
 import click
 
-from .validators import validate_standing, validate_limit, validate_competitions, validate_venue, validate_status,\
+from validators import validate_standing, validate_limit, validate_competitions, validate_venue, validate_status,\
     validate_season, validate_matchday, validate_plan, validate_date
-import subresource as sr
+from subresource import teams as Teams
+from subresource import matches as Matches
 
-from leaagueids import LEAGUE_IDS
+from leagueids import LEAGUE_IDS
 from exceptions import IncorrectParametersException
 from request_handler import RequestHandler
 
+request_handler = RequestHandler()
 
 def load_json(file):
     """Load JSON file at app start"""
@@ -122,7 +124,7 @@ def list_team_codes():
 @click.option('--list', 'listcodes', is_flag=True,
               help='list codes and names of all available competitions')
 @click.pass_context
-def main(ctx, apikey, use12hour, output_format, output_file, list):
+def main(ctx, apikey, use12hour, output_format, output_file, listcodes):
     """
     A CLI for live and past football scores from various football leagues.
     resources are given as commands and subresources and their filters as options
@@ -154,7 +156,7 @@ def main(ctx, apikey, use12hour, output_format, output_file, list):
 @click.option('--plan', callback=validate_plan,
               help='filters and shows competitions for a particular plan')
 @click.pass_context
-def competitions(ctx, competition_id, listcodes, areas, plan):
+def competitions(ctx, competition_id, areas, plan):
     """Serves as an entry point to the Competitions Resource"""
     url = 'competitions/{}'.format(competition_id) if competition_id else 'competitions/'
     payload = {}  # hold the filters
@@ -164,9 +166,10 @@ def competitions(ctx, competition_id, listcodes, areas, plan):
         payload['plan'] = plan
     if ctx.invoked_subcommand is None:
         # dealing with the resource only, no subresources, add id
-        response = RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
-        click.secho(response.json(), fg='blue', bold=True)
-        return
+        response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        import pprint
+        pprint.pprint(response)
+        return response
     else:
         ctx.obj['url'] = url
         ctx.obj['competition_id'] = competition_id
@@ -187,7 +190,7 @@ def standings(ctx, standingtype):
     else:
         url = ctx.obj['url'] + 'standings'
         payload = {'standingType':standingtype} if standingtype else {}
-        RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
+        request_handler.get(url, headers=ctx.obj['headers'], params=payload)
 
 
 @click.command()
@@ -224,7 +227,7 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
         click.secho('seems like you forgot to provide the --matches flag, you need that,'
                     'to be able to add filters', fg='red')
         return
-    response = RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
+    response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
     return response
 
 
@@ -251,7 +254,7 @@ def matches(ctx, match_id, date_from, date_to, status):
         payload['competitions'] = competitions
     if status:
         payload['status'] = status
-    response = RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
+    response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
     return response
 
 
@@ -261,7 +264,7 @@ def matches(ctx, match_id, date_from, date_to, status):
 @click.pass_context
 def areas(ctx, area_id):
     url = 'areas/{}'.format(area_id) if area_id else 'areas'
-    response = RequestHandler._get(url, headers=ctx.obj['headers'])
+    response = request_handler.get(url, headers=ctx.obj['headers'])
     return response
 
 
@@ -299,11 +302,11 @@ def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to,):
         click.secho('seems like you forgot to provide the --matches flag, you need that'
                     ' to be able to add filters', fg='red')
         return
-    response = RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
+    response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
     return response
 
-competitions.add_command(sr.teams)
-competitions.add_command(sr.matches)
+competitions.add_command(Teams)
+competitions.add_command(Matches)
 main.add_command(competitions)
 main.add_command(players)
 main.add_command(teams)

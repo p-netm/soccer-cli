@@ -1,4 +1,4 @@
-import urllib.parse.urljoin as join
+from urllib.parse import urljoin as join
 import requests
 import click
 from exceptions import APIErrorException
@@ -8,8 +8,7 @@ class RequestHandler(object):
 
     BASE_URL = 'http://api.football-data.org/v2/'
 
-    def __init__(self, headers, writer):
-        self.headers = headers
+    def __init__(self, writer=None):
         self.writer = writer
 
     def _get(self, url, **kwargs):
@@ -18,7 +17,7 @@ class RequestHandler(object):
         req = requests.get(url, **kwargs)
 
         if req.status_code == requests.codes.ok:
-            return req
+            return req.json()
 
         if req.status_code == requests.codes.bad:
             raise APIErrorException('Invalid request. Check parameters; {}'.format(req.json().get('message')))
@@ -35,3 +34,5 @@ class RequestHandler(object):
         if req.status_code == 500:
             raise APIErrorException('This has nothing to do with you. {}'.format(req.json()['message']))
 
+    def get(self, url, **kwargs):
+        return self._get(url, **kwargs)

@@ -5,8 +5,10 @@ helps differentiate between a command to a resource and  a command to a subresou
 """
 
 import click
-from .validators import *
-from .request_handler import RequestHandler
+from validators import *
+from request_handler import RequestHandler
+
+request_handler = RequestHandler()
 
 @click.command()
 @click.option('--season', callback=validate_season,
@@ -26,7 +28,8 @@ def teams(ctx, season, stage):
         if season:
             payload['season'] = season
             payload['stage'] = stage
-        return RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
+        response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        return response
 
 
 
@@ -47,6 +50,7 @@ def teams(ctx, season, stage):
               help='filters matches of given competition id to given stage')
 @click.pass_context
 def matches(ctx, date_from, date_to, status, matchday, group, season, stage):
+    """subresource of matches within competitions"""
     if not ctx.obj.get('competition_id'):
         click.secho('You have to provide a competition id', fg='red', bold=True)
         return
@@ -67,4 +71,5 @@ def matches(ctx, date_from, date_to, status, matchday, group, season, stage):
             payload['season'] = season
         if stage:
             payload['stage'] = stage
-        return RequestHandler._get(url, headers=ctx.obj['headers'], params=payload)
+        response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        return response

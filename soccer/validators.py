@@ -9,6 +9,7 @@ from datetime import datetime
 
 
 def check_in(option, value, enums):
+    if not value: return value
     value = value.upper()
     if value in enums: return value
     else: raise BadParameter('{} values only include [{}]'.format(option, " | ".join(enums)))
@@ -19,6 +20,7 @@ def validate_matchday(ctx, param, value):
     format from api: Integer /[1-4]+[0-9]*/
     :param value: [str] matchday
     """
+    if not value: return value
     regex = r'^[1-4]+[0-9]*$'
     try:
         if re.search(regex, value):
@@ -34,6 +36,7 @@ def validate_season(ctx, param, value):
     :param value: [str] season year of play
     :return: str(value) or raise error
     """
+    if not value: return value
     try:
         if int(value) > 1848 and len(value) < 5:
             return value
@@ -67,6 +70,7 @@ def validate_date(ctx, param, value):
     :return: str()
     api format: String /YYYY-MM-dd/
     """
+    if not value: return value
     try:
         datetime.strptime(value, '%Y-%m-%d')
         return value
@@ -99,6 +103,7 @@ def validate_competitions(ctx, param, value):
     :return: list
     api format: String /\d+,\d+/
     """
+    if not value: return value
     regex = r'\d+'
     for _id in value:
         if not re.search(regex, _id):
@@ -122,6 +127,7 @@ def validate_limit(ctx, param, value):
     :return: [int(value) or error]
     api format: Integer /\d+/
     """
+    if not value: return value
     try:
         return int(value)
     except ValueError:
