@@ -50,39 +50,68 @@ Currently supports Linux, Mac OS X, NetBSD, FreeBSD and Windows.
 
 To get colorized terminal output on Windows, make sure to install [ansicon](https://github.com/adoxa/ansicon/releases/latest) and [colorama](https://pypi.org/project/colorama/).
 
+<hr>
+
 Usage
 ====
 
-### Get standings for a competition
-
-```bash
-$ soccer competitions --id 2021 standings # 2021 is the competition id for English Premier League
-```
-
+<details>
+  <summary>Competition Resource commands </summary>
+  
+  #### get specific competition/league info
+  
+  ```bash
+  $ soccer competitions --id 2021 standings # 2021 is the competition id for English Premier League
+  ```
+  <hr>
+</details>
 
 __The content below is not correct for the v2 api and its unedited. I am working on doing so as i port the project to 
 the version 2 api__
 
-### Get scores for a particular team
+<details>
+<summary> Team resource commands </summary>
+  ```bash
+  $ soccer teams --id <id> # MUFC is the team code for Manchester United
+  ```
+  <hr>
+</details>
 
-```bash
-$ soccer --team=MUFC # MUFC is the team code for Manchester United
-$ soccer --team=PSG --time=10 # scores for all the Paris Saint-Germain games over the past 10 days
-```
+<details>
+<summary> Match Resource commands </summary>
+  
+  #### Get upcoming fixtures
+  
+  ```bash
+  $ soccer
+  ```
+  <hr>
+</details>
 
-### Get upcoming fixtures
+<details>
+<summary> Player Resource commands </summary>
 
-```bash
-$ soccer --time 5 --upcoming # get upcoming fixtures for next 5 days
-$ soccer --time 5 --upcoming --use12hour # upcoming fixture for next 5 days with timings in 12 hour format
-```
+  #### get specific player info
 
-### Get scores for live games
+  ```bash
+  $ soccer players --id  <id> # <id> is the id of player of interest
+  ```
+  <hr>
+</details>
 
-```bash
-$ soccer --live
-```
-
+<details>
+<summary> Areas Resource commands </summary>
+  
+  #### get area info
+  
+  ```bash
+  $ soccer areas # retrieves info for all areas in api
+  $ soccer areas --id 2000 # retrieves info WC whose id is 2000
+  ```
+  
+  <hr>
+</details>
+ 
 ### Get scores for a particular league
 
 ```bash
@@ -90,17 +119,6 @@ $ soccer --league=BL # BL is the league code for Bundesliga
 $ soccer --league=FL --time=15 # get scores for all the French Ligue games over the past 15 days
 ```
 
-### Get information about players of a team
-
-```bash
-$ soccer --team=JUVE --players
-```
-
-### Get scores for all seven leagues with a set time period
-
-```bash
-$ soccer --time=10 # get scores for all the seven leagues over the past 10 days
-```
 
 ### Get the output in csv or json
 
@@ -142,6 +160,7 @@ $ soccer --help
 - Spain:
   - LLIGA: La Liga
   - SD: Segunda Division
+_And upto 131+ more competitions oferred by the API, supports all competitions offered by the api_ 
 
 ### Team and team codes
 
@@ -180,10 +199,10 @@ Todo
 ====
 - [ ] Enable cache
 - [ ] Add more test cases
-- [x] Add fixtures for UEFA Champions League
+- [ ] Add fixtures for UEFA Champions League
 - [ ] Add league filter for live scores
-- [x] Color coding for Europa league and differentiation between straight CL and CL playoff spots, and the same for EL spots
-- [x] Add support for team line up
+- [ ] Color coding for Europa league and differentiation between straight CL and CL playoff spots, and the same for EL spots
+- [ ] Add support for team line up
 - [ ] A built in watch feature so you can run once with --live and just leave the program running.
 
 Licence
