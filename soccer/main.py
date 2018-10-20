@@ -7,7 +7,7 @@ from validators import validate_standing, validate_limit, validate_competitions,
     validate_season, validate_matchday, validate_plan, validate_date
 from subresource import teams as Teams
 from subresource import matches as Matches
-from subresource import create_payload
+from subresource import create_payload, global_click_option, add_options, time_click_option, list_click_option
 
 from leagueids import LEAGUE_IDS
 from exceptions import IncorrectParametersException
@@ -112,20 +112,8 @@ def list_team_codes():
 @click.group()
 @click.option('--apikey', default=load_config_key,
               help="API key to use.")
-@click.option('--use12hour', is_flag=True, default=False,
-              help="Displays the time using 12 hour format instead of 24 (default).")
-@click.option('--stdout', 'output_format', flag_value='stdout', default=True,
-              help="Print to stdout.")
-@click.option('--csv', 'output_format', flag_value='csv',
-              help='Output in CSV format.')
-@click.option('--json', 'output_format', flag_value='json',
-              help='Output in JSON format.')
-@click.option('-o', '--output-file', default=None,
-              help="Save output to a file (only if csv or json option is provided).")
-@click.option('--list', 'listcodes', is_flag=True,
-              help='list codes and names of all available competitions')
 @click.pass_context
-def main(ctx, apikey, use12hour, output_format, output_file, listcodes):
+def main(ctx, apikey):
     """
     A CLI for live and past football scores from various football leagues.
     resources are given as commands and subresources and their filters as options
@@ -150,6 +138,7 @@ def main(ctx, apikey, use12hour, output_format, output_file, listcodes):
 
 
 @click.group(invoke_without_command=True)
+@add_options(global_click_option)
 @click.option('--id', '-i', 'competition_id', type=click.INT,
               help='id for the competitions to load, if no id: returns all available competitions')
 @click.option('--areas',
@@ -157,8 +146,8 @@ def main(ctx, apikey, use12hour, output_format, output_file, listcodes):
 @click.option('--plan', callback=validate_plan,
               help='filters and shows competitions for a particular plan')
 @click.pass_context
-def competitions(ctx, competition_id, areas, plan):
-    """Serves as an entry point to the Competitions Resource"""
+def competitions(ctx, competition_id, areas, plan, output_format, output_file,):
+    """Competitions Resource Endpoint"""
     url = 'competitions/{}'.format(competition_id) if competition_id else 'competitions/'
     payload = create_payload(areas=areas, plan=plan)
     if ctx.invoked_subcommand is None:
@@ -171,10 +160,11 @@ def competitions(ctx, competition_id, areas, plan):
 
 
 @click.command()
+@add_options(global_click_option)
 @click.option('--standingtype',callback=validate_standing,
               help='[standings]:: show standings for a particular competition ')
 @click.pass_context
-def standings(ctx, standingtype):
+def standings(ctx, standingtype, output_format, output_file,):
     """
     This is the Standings subresource for the competitions resource, only accessed and works
     if a competition id is present
@@ -189,6 +179,8 @@ def standings(ctx, standingtype):
 
 
 @click.command()
+@add_options(global_click_option)
+@add_options(time_click_option)
 @click.option('--id', '-i', 'player_id', type=click.INT,
               help='displays player info with this id, absent id will return a 404')
 @click.option('--matches', '-m',is_flag=True, help='matches where player with given id played')
@@ -203,7 +195,9 @@ def standings(ctx, standingtype):
 @click.option('--limit', '-l', callback=validate_limit,
               help='display limit matches in which player with given id played ')
 @click.pass_context
-def players(ctx, player_id, matches, date_from, date_to, competitions, status, limit):
+def players(ctx, player_id, matches, date_from, date_to, competitions, status, limit,
+            use12hour, output_format, output_file,):
+    """Players Resource Endpoint"""
     url = 'players/{}'.format(player_id) if player_id else 'players/'
     url += 'matches' if matches else ''
     if matches:
@@ -218,6 +212,8 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
 
 
 @click.command()
+@add_options(global_click_option)
+@add_options(time_click_option)
 @click.option('--id', '-i', 'match_id', type=click.INT,
               help='displays matches with this id',)
 @click.option('--from', '-f', 'date_from', callback=validate_date,
@@ -229,7 +225,8 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
 @click.option('--status', '-s', callback=validate_status,
               help='display matches  that have this status')
 @click.pass_context
-def matches(ctx, match_id, date_from, date_to, status):
+def matches(ctx, match_id, date_from, date_to, status, use12hour, output_format, output_file):
+    """Matches Resource Endpoint"""
     url = 'matches/{}'.format(match_id) if match_id else 'matches'
     payload = create_payload(date_from=date_from, date_to=date_to, competitions=competitions, status=status)
     response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
@@ -237,16 +234,20 @@ def matches(ctx, match_id, date_from, date_to, status):
 
 
 @click.command()
+@add_options(global_click_option)
 @click.option('--id', '-i', 'area_id', type=click.INT,
               help='display area info with this id')
 @click.pass_context
-def areas(ctx, area_id):
+def areas(ctx, area_id, output_format, output_file):
+    """Areas Resource Endpoint"""
     url = 'areas/{}'.format(area_id) if area_id else 'areas'
     response = request_handler.get(url, headers=ctx.obj['headers'])
     return response
 
 
 @click.command()
+@add_options(global_click_option)
+@add_options(time_click_option)
 @click.option('--id', '-i', 'team_id', type=click.INT,
               help='displays team info with this id')
 @click.option('--matches', '-m', is_flag=True, help='matches where team with given id played')
@@ -261,7 +262,8 @@ def areas(ctx, area_id):
 @click.option('--limit', '-l', callback=validate_limit,
               help='enforce a limit on the number of match records that should be returned for this team')
 @click.pass_context
-def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to,):
+def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to, use12hour, output_format, output_file,):
+    """Teams Resource Endpoint"""
     url = 'teams/{}'.format(team_id) if team_id else 'teams'
     url += 'matches' if matches else ''
     if matches:

@@ -1,7 +1,7 @@
 """
 There are a few names that are shared between resources and subresources, and thus to be
 able to nest cli commands for such commands i found i had to introduce an additional namespace, that
-helps differentiate between a command to a resource and  a command to a subresource
+helps differentiate between a command to a resource, and  a command to a subresource
 """
 
 import click
@@ -28,13 +28,47 @@ def create_payload(**kwargs):
 
 request_handler = RequestHandler()
 
+
+
+global_click_option = [
+        click.option('--stdout', 'output_format', flag_value='stdout', default=True,
+                      help="Print to stdout."),
+        click.option('--csv', 'output_format', flag_value='csv',
+                      help='Output in CSV format.'),
+        click.option('--json', 'output_format', flag_value='json',
+                      help='Output in JSON format.'),
+        click.option('-o', '--output-file', default=None,
+                      help="Save output to a file (only if csv or json option is provided).")
+    ]
+
+time_click_option = [
+        click.option('--use12hour', is_flag=True, default=False,
+                      help="Displays the time using 12 hour format instead of 24 (default).")]
+
+list_click_option = [
+        click.option('--list', 'listcodes', is_flag=True,
+              help='list codes and names of all available competitions')
+    ]
+
+def add_options(options):
+    def _add_options(func):
+        for option in reversed(options):
+            func = option(func)
+        return func
+    return _add_options
+
+
+
+
+
 @click.command()
+@add_options(global_click_option)
 @click.option('--season', callback=validate_season,
               help=' list  teams in a particular competition for given season')
 @click.option('--stage',
               help=' filters teams in a competitions with the given id to given stage')
 @click.pass_context
-def teams(ctx, season, stage):
+def teams(ctx, season, stage, output_format, output_file,):
     """Subresource for teams within competitions """
     # /v2/competitions/{id}/teams
     if not ctx.obj.get('competition_id'):
@@ -49,6 +83,8 @@ def teams(ctx, season, stage):
 
 
 @click.command()
+@add_options(global_click_option)
+@add_options(time_click_option)
 @click.option('--from', '-f', 'date_from', callback=validate_date,
               help='list matches for competition with given id from given date')
 @click.option('--to', '-t', 'date_to', callback=validate_date,
@@ -64,7 +100,8 @@ def teams(ctx, season, stage):
 @click.option('--stage',
               help='filters matches of given competition id to given stage')
 @click.pass_context
-def matches(ctx, date_from, date_to, status, matchday, group, season, stage):
+def matches(ctx, date_from, date_to, status, matchday, group, season, stage,
+            use12hour, output_format, output_file,):
     """subresource of matches within competitions"""
     if not ctx.obj.get('competition_id'):
         click.secho('You have to provide a competition id', fg='red', bold=True)
