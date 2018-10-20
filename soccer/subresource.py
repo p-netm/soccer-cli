@@ -4,7 +4,7 @@ able to nest cli commands for such commands i found i had to introduce an additi
 helps differentiate between a command to a resource, and  a command to a subresource
 """
 
-import click
+import click, json
 from validators import *
 from request_handler import RequestHandler
 
@@ -58,9 +58,6 @@ def add_options(options):
     return _add_options
 
 
-
-
-
 @click.command()
 @add_options(global_click_option)
 @click.option('--season', callback=validate_season,
@@ -78,6 +75,7 @@ def teams(ctx, season, stage, output_format, output_file,):
         url = ctx.obj['url'] + 'teams'
         payload = create_payload(season=season, stage=stage)
         response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        click.echo(json.dumps(response, indent=4, sort_keys=True))
         return response
 
 
@@ -111,4 +109,5 @@ def matches(ctx, date_from, date_to, status, matchday, group, season, stage,
         payload = create_payload(date_from=date_from, date_to=date_to, status=status, matchday=matchday, group=group,
                                  season=season, stage=stage)
         response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        click.echo(json.dumps(response, indent=4, sort_keys=True))
         return response

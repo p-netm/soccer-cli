@@ -153,6 +153,7 @@ def competitions(ctx, competition_id, areas, plan, output_format, output_file,):
     if ctx.invoked_subcommand is None:
         # dealing with the resource only, no subresources, add id
         response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        click.echo(json.dumps(response, indent=4, sort_keys=True))
         return response
     else:
         ctx.obj['url'] = url
@@ -175,7 +176,8 @@ def standings(ctx, standingtype, output_format, output_file,):
     else:
         url = ctx.obj['url'] + 'standings'
         payload = {'standingType':standingtype} if standingtype else {}
-        request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        click.echo(json.dumps(response, indent=4, sort_keys=True))
 
 
 @click.command()
@@ -208,6 +210,7 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
                     'to be able to add filters', fg='red')
         return
     response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+    click.echo(json.dumps(response, indent=4, sort_keys=True))
     return response
 
 
@@ -230,6 +233,7 @@ def matches(ctx, match_id, date_from, date_to, status, use12hour, output_format,
     url = 'matches/{}'.format(match_id) if match_id else 'matches'
     payload = create_payload(date_from=date_from, date_to=date_to, competitions=competitions, status=status)
     response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+    click.echo(json.dumps(response, indent=4, sort_keys=True))
     return response
 
 
@@ -242,6 +246,7 @@ def areas(ctx, area_id, output_format, output_file):
     """Areas Resource Endpoint"""
     url = 'areas/{}'.format(area_id) if area_id else 'areas'
     response = request_handler.get(url, headers=ctx.obj['headers'])
+    click.echo(json.dumps(response, indent=4, sort_keys=True))
     return response
 
 
@@ -273,6 +278,7 @@ def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to, use12
                     ' to be able to add filters', fg='red')
         return
     response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+    click.echo(json.dumps(response, indent=4, sort_keys=True))
     return response
 
 competitions.add_command(Teams)
