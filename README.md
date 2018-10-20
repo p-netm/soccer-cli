@@ -58,22 +58,126 @@ Usage
 <details>
   <summary>Competition Resource commands </summary>
   
+  #### get all competitions
+  ```bash
+  $ soccer competitions
+  ```
+  
+  ##### filters: areas, and plans
+  
+  ###### areas
+  
+  ```bash
+  $ soccer competitions --areas 2072 #  2072 is england's area id
+  ```
+  
+  ###### plan(payment pLAN)
+  
+  usually if you are not subscribed to any premium plans, you'r requests will be automatically handled as TIER_ONE
+  
+  ```bash
+  $soccer competitions --plan TIER_ONE # TIER_ONE has access to 14
+  ``` 
+  
   #### get specific competition/league info
   
   ```bash
   $ soccer competitions --id 2021 standings # 2021 is the competition id for English Premier League
   ```
+  
+  #### get teams in a certain competition(league)
+  
+  ```bash
+  $ soccer competitions --id 2021 teams
+  ```
+  
+  ##### filters: season and stage
+  
+  ###### season
+  
+  ```bash
+  $ soccer competitions --id 2021 teams --season 2017 # season is the year that the league starts in
+  ```
+  
+  ###### stage
+  
+  ```bash
+  $ soccer competitions --id 2021 teams --stage <stage>
+  ```
+  
+  #### get a specific competition's standings
+  
+  ```bash
+  $ soccer competitions --id 2021 standings
+  ```
+  
+  ##### filters: standingtype
+  
+  choice between three values : total(default) or standings for the honme plays or away plays
+  
+  ````bash
+  $ soccer competitions --id 2021 standings --standingtype HOME
+  ```
+  the standing types are case insesitive when fed in through the shell
+  
+  #### get a specific competition's matches
+  
+  ```bash
+  $ soccer competitions --id 2021 matches
+  ```
+  
+  ##### filters : dates(from and to), stage, status, matchday, group, and season
+  
+  ###### dates 
+  
+  ```bash
+  $ soccer competitions --id 2021 matches --from 2018-10-18 --to 2018-10-20
+  ```
+  
+  ###### status
+  
+  Can use this to get the live matches within a certain competition
+  ```bash
+  $ soccer competitions --id 2021 matches --status LIVE
+  ```
+  
+  _hope you get the idea and can comfortably use the other filters and a combination of any
+  to specify your query_
+  
+  #### get scorers within a competition
+  
+  ```bash
+  $ soccer competition --id 2021 scorers
+  $ soccer competition --id 2021 scorers --limit 20 # to get info on the top 20 scorers of the English premier league
+  ```
+  
   <hr>
 </details>
 
-__The content below is not correct for the v2 api and its unedited. I am working on doing so as i port the project to 
-the version 2 api__
-
 <details>
 <summary> Team resource commands </summary>
+  #### specific team info
+  
   ```bash
   $ soccer teams --id <id> # MUFC is the team code for Manchester United
   ```
+  
+  #### subresource matches of teams
+  
+  used to get match records on which team of given id participated in
+  
+  ```bash
+  $ soccer teams --id 66 matches  #  66 happend to be Manchester United's team id
+  ```
+  
+  ##### filters : dates(from and to), status, venue, limit
+  
+  ```bash
+  $ soccer teams --id 66 matches --from 2018-09-23 --to 2018-10-01
+  $ soccer teams --id 66 matches --status CANCELLED
+  $ soccer teams --id 66 matches --venue <venue>
+  ```
+  
   <hr>
 </details>
 
@@ -83,8 +187,23 @@ the version 2 api__
   #### Get upcoming fixtures
   
   ```bash
-  $ soccer
+  $ soccer matches --status SCHEDULED
   ```
+  
+  #### all mathes and specific match
+  
+  ```bash
+  $ soccer matches
+  $ soccer matches --id <match_id>
+  ```
+  
+  ##### Match resource fjilters : competitions, dates, status
+  
+  ```bash
+  soccer matches --competitions 2000 # world cup matches
+  soccer matches --competitions 2021 --competitions 2000 #Request for matches from 2 competitions
+  ```
+  
   <hr>
 </details>
 
@@ -96,6 +215,19 @@ the version 2 api__
   ```bash
   $ soccer players --id  <id> # <id> is the id of player of interest
   ```
+  
+  #### get matches that player played in
+  
+  ```bash
+  $ soccer players --id <player_id> 
+  ```
+  
+  ##### filters : dates(from and to), status, competitions/leagues, limit
+  
+  ```bash
+  $ soccer players --id 1 --competitions 2021 --status FINISHED 
+  ```
+  
   <hr>
 </details>
 
@@ -111,32 +243,13 @@ the version 2 api__
   
   <hr>
 </details>
- 
-### Get scores for a particular league
 
-```bash
-$ soccer --league=BL # BL is the league code for Bundesliga
-$ soccer --league=FL --time=15 # get scores for all the French Ligue games over the past 15 days
-```
-
-
-### Get the output in csv or json
-
-```bash
-$ soccer --league PL --standings --csv # prints the output in csv format
-$ soccer --league PL --standings --json # prints the output in json format
-```
-
-### Store the ouput in a file
-
-```bash
-$ soccer --league PL --standings --csv -o 'standings.csv' # stores the ouput in scv format in `standings.csv`
-```
 
 ### Help
 ```bash
 $ soccer --help
 ```
+
 ### List of supported leagues and their league codes
 
 - Europe:
@@ -180,27 +293,20 @@ To run specific test file (in this case the tests in test_request_handler.py)
 $ python -m unittest tests.test_request_handler
 ```
 
-Demo
-====
-
-### Standings
-![standings](http://i.imgur.com/voyWLQE.gif)
-
-### Live scores
-![](http://i.imgur.com/EX9GMAM.gif)
-
-### Team scores
-![](http://i.imgur.com/QfvH8QL.png)
-
-### Output in json format
-![](http://i.imgur.com/jqGhLia.gif)
 
 Todo
 ====
+- [ ] replace demo sections
+- [ ] add how to get ids section
+- [ ] integrate the writer with updated code
+- [ ] add a developer interface : to use dot notation and direct method clls as opposed to cli
+- [ ] Badly need to add tests
+- [ ] id listing
+- [ ] predictive analytical statistics
 - [ ] Enable cache
 - [ ] Add more test cases
 - [ ] Add fixtures for UEFA Champions League
-- [ ] Add league filter for live scores
+- [x] Add league filter for live scores
 - [ ] Color coding for Europa league and differentiation between straight CL and CL playoff spots, and the same for EL spots
 - [ ] Add support for team line up
 - [ ] A built in watch feature so you can run once with --live and just leave the program running.
@@ -209,8 +315,12 @@ Licence
 ====
 Open sourced under [MIT License](LICENSE)
 
-Support
+Contributions
 ====
-If you like my work, please support the project by donating.
+this is one of the simplest projects out here on github and it does require lots of help
+so feel free to branch out and send  pull request, or raise any issues that may better the project
+in the Issues section. Thanks.
 
-- https://gratipay.com/~architv
+Support 
+====
+If you like my work, please support the project by donating
