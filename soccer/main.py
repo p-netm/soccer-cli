@@ -7,7 +7,7 @@ from validators import validate_standing, validate_limit, validate_competitions,
     validate_season, validate_matchday, validate_plan, validate_date
 from subresource import teams as Teams
 from subresource import matches as Matches
-from subresources import create_payload
+from subresource import create_payload
 
 from leagueids import LEAGUE_IDS
 from exceptions import IncorrectParametersException
