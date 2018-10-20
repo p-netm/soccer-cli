@@ -7,6 +7,7 @@ from validators import validate_standing, validate_limit, validate_competitions,
     validate_season, validate_matchday, validate_plan, validate_date
 from subresource import teams as Teams
 from subresource import matches as Matches
+from subresources import create_payload
 
 from leagueids import LEAGUE_IDS
 from exceptions import IncorrectParametersException
@@ -159,16 +160,10 @@ def main(ctx, apikey, use12hour, output_format, output_file, listcodes):
 def competitions(ctx, competition_id, areas, plan):
     """Serves as an entry point to the Competitions Resource"""
     url = 'competitions/{}'.format(competition_id) if competition_id else 'competitions/'
-    payload = {}  # hold the filters
-    if areas:
-        payload['areas'] = areas
-    if plan:
-        payload['plan'] = plan
+    payload = create_payload(areas=areas, plan=plan)
     if ctx.invoked_subcommand is None:
         # dealing with the resource only, no subresources, add id
         response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
-        import pprint
-        pprint.pprint(response)
         return response
     else:
         ctx.obj['url'] = url
@@ -212,17 +207,8 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
     url = 'players/{}'.format(player_id) if player_id else 'players/'
     url += 'matches' if matches else ''
     if matches:
-        payload = {}
-        if date_from:
-            payload['dateFrom'] = date_from
-        if date_to:
-            payload['dateTo'] = date_to
-        if competitions:
-           payload['competitions'] = competitions
-        if status:
-            payload['status'] = status
-        if limit:
-            payload['limit'] = limit
+        payload = create_payload(date_from=date_from, date_to=date_to, competitions=competitions, status=status,
+                                 limit=limit)
     if any([limit, status, competitions, date_to, date_from]) and not matches:
         click.secho('seems like you forgot to provide the --matches flag, you need that,'
                     'to be able to add filters', fg='red')
@@ -245,15 +231,7 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
 @click.pass_context
 def matches(ctx, match_id, date_from, date_to, status):
     url = 'matches/{}'.format(match_id) if match_id else 'matches'
-    payload = {}
-    if date_from:
-        payload['dateFrom'] = date_from
-    if date_to:
-        payload['dateTo'] = date_to
-    if competitions:
-        payload['competitions'] = competitions
-    if status:
-        payload['status'] = status
+    payload = create_payload(date_from=date_from, date_to=date_to, competitions=competitions, status=status)
     response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
     return response
 
@@ -287,17 +265,7 @@ def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to,):
     url = 'teams/{}'.format(team_id) if team_id else 'teams'
     url += 'matches' if matches else ''
     if matches:
-        payload = {}
-        if date_from:
-            payload['dateFrom'] = date_from
-        if date_to:
-            payload['dateTo'] = date_to
-        if competitions:
-            payload['venue'] = venue
-        if status:
-            payload['status'] = status
-        if limit:
-            payload['limit'] = limit
+        payload = create_payload(date_from=date_from, date_to=date_to, venue=venue, status=status, limit=limit)
     if any([venue, status, limit, date_from, date_to]) and not matches:
         click.secho('seems like you forgot to provide the --matches flag, you need that'
                     ' to be able to add filters', fg='red')

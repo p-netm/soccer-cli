@@ -1,6 +1,7 @@
 from urllib.parse import urljoin as join
 import requests
 import click
+
 from exceptions import APIErrorException
 
 

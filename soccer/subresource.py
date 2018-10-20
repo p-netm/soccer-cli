@@ -8,6 +8,24 @@ import click
 from validators import *
 from request_handler import RequestHandler
 
+def create_payload(**kwargs):
+    """
+    :param kwargs: key value pairs entry's for parameters to be appended into the query string
+    :return: payload dictionary
+    """
+    payload = {}
+    payload.update({'dateFrom':kwargs['date_from']}) if kwargs.get('date_from') else payload.update({})
+    payload.update({'dateTo':kwargs['date_to']}) if kwargs.get('date_to') else payload.update({})
+    payload.update({'status':kwargs['status']}) if kwargs.get('status') else payload.update({})
+    payload.update({'matchday':kwargs['matchday']}) if kwargs.get('matchday') else payload.update({})
+    payload.update({'group':kwargs['group']}) if kwargs.get('group') else payload.update({})
+    payload.update({'season':kwargs['season']}) if kwargs.get('season') else payload.update({})
+    payload.update({'stage':kwargs['stage']}) if kwargs.get('stage') else payload.update({})
+    payload.update({'limit':kwargs['limit']}) if kwargs.get('limit') else payload.update({})
+    payload.update({'competitions':kwargs['competitions']}) if kwargs.get('competitions') else payload.update({})
+    payload.update({'venue':kwargs['venue']}) if kwargs.get('venue') else payload.update({})
+    return payload
+
 request_handler = RequestHandler()
 
 @click.command()
@@ -24,10 +42,7 @@ def teams(ctx, season, stage):
         return
     else:
         url = ctx.obj['url'] + 'teams'
-        payload = {}
-        if season:
-            payload['season'] = season
-            payload['stage'] = stage
+        payload = create_payload(season=season, stage=stage)
         response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
         return response
 
@@ -56,20 +71,7 @@ def matches(ctx, date_from, date_to, status, matchday, group, season, stage):
         return
     else:
         url =  ctx.obj['url'] + 'matches'
-        payload = {}
-        if date_from:
-            payload['dateFrom'] = date_from
-        if date_to:
-            payload['dateTo'] = date_to
-        if status:
-            payload['status'] = status
-        if matchday:
-            payload['matchday'] = matchday
-        if group:
-            payload['group'] = group
-        if season:
-            payload['season'] = season
-        if stage:
-            payload['stage'] = stage
+        payload = create_payload(date_from=date_from, date_to=date_to, status=status, matchday=matchday, group=group,
+                                 season=season, stage=stage)
         response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
         return response
