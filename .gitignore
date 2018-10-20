@@ -4,6 +4,11 @@ config.py
 README
 README.txt
 
+/venv/
+__pycache__/
+/.vscode/
+.idea/
+
 # Distribution / packaging
 .Python
 env/
