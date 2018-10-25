@@ -41,7 +41,7 @@ def validate_season(ctx, param, value):
         if int(value) > 1848 and len(value) < 5:
             return value
     except ValueError:
-        raise BadParameter('unexpected value for season')
+        raise BadParameter('unexpected value for season. Expected season year in the format /YYYY/')
 
 
 def validate_status(ctx, param, value):
@@ -75,7 +75,7 @@ def validate_date(ctx, param, value):
         datetime.strptime(value, '%Y-%m-%d')
         return value
     except ValueError:
-        raise BadParameter('unexpected value for range')
+        raise BadParameter('unexpected value for date, expected format is /YYYY-MM-dd/; got:{}'.format(value))
 
 
 def validate_stage(ctx, param, value):
