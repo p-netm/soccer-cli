@@ -58,12 +58,12 @@ Usage
 <details>
   <summary>Competition Resource commands </summary>
   
-  #### get all competitions
+  ##### get all competitions
   ```bash
   $ soccer competitions
   ```
   
-  ##### filters: areas, and plans
+   filters: areas, and plans
   
   ###### areas
   
@@ -79,19 +79,23 @@ Usage
   $soccer competitions --plan TIER_ONE # TIER_ONE has access to 14
   ``` 
   
-  #### get specific competition/league info
+  <hr>
+  
+  ##### get specific competition/league info
   
   ```bash
   $ soccer competitions --id 2021 standings # 2021 is the competition id for English Premier League
   ```
   
-  #### get teams in a certain competition(league)
+  <hr>
+  
+  ##### get teams in a certain competition(league)
   
   ```bash
   $ soccer competitions --id 2021 teams
   ```
   
-  ##### filters: season and stage
+  filters: season and stage
   
   ###### season
   
@@ -105,20 +109,25 @@ Usage
   $ soccer competitions --id 2021 teams --stage <stage>
   ```
   
-  #### get a specific competition's standings
+  <hr>
+  
+  ##### get a specific competition's standings
   
   ```bash
   $ soccer competitions --id 2021 standings
   ```
   
-  ##### filters: standingtype
+  filters: standingtype
   
-  choice between three values : total(default) or standings for the honme plays or away plays
+  ###### standingtType as standingtype
   
-  ````bash
+  ```bash
   $ soccer competitions --id 2021 standings --standingtype HOME
   ```
-  the standing types are case insesitive when fed in through the shell
+  
+  the standing types are case insesitive when fed in through the shell otherwise should be strictly upper.
+  
+  <hr>
   
   #### get a specific competition's matches
   
@@ -126,7 +135,7 @@ Usage
   $ soccer competitions --id 2021 matches
   ```
   
-  ##### filters : dates(from and to), stage, status, matchday, group, and season
+  filters : dates(from and to), stage, status, matchday, group, and season
   
   ###### dates 
   
@@ -144,6 +153,8 @@ Usage
   _hope you get the idea and can comfortably use the other filters and a combination of any
   to specify your query_
   
+  <hr>
+  
   #### get scorers within a competition
   
   ```bash
@@ -156,21 +167,22 @@ Usage
 
 <details>
 <summary> Team resource commands </summary>
+     
   #### specific team info
   
   ```bash
   $ soccer teams --id <id> # MUFC is the team code for Manchester United
   ```
   
-  #### subresource matches of teams
+  #### Matches subresource
   
   used to get match records on which team of given id participated in
   
   ```bash
-  $ soccer teams --id 66 matches  #  66 happend to be Manchester United's team id
+  $ soccer teams --id 66 matches  #  66 happens to be Manchester United's team id
   ```
   
-  ##### filters : dates(from and to), status, venue, limit
+  ###### filters : dates(from and to), status, venue, limit
   
   ```bash
   $ soccer teams --id 66 matches --from 2018-09-23 --to 2018-10-01
@@ -197,7 +209,7 @@ Usage
   $ soccer matches --id <match_id>
   ```
   
-  ##### Match resource fjilters : competitions, dates, status
+  ##### Match resource fillters : competitions, dates, status
   
   ```bash
   soccer matches --competitions 2000 # world cup matches
@@ -222,7 +234,7 @@ Usage
   $ soccer players --id <player_id> 
   ```
   
-  ##### filters : dates(from and to), status, competitions/leagues, limit
+  ###### filters : dates(from and to), status, competitions/leagues, limit
   
   ```bash
   $ soccer players --id 1 --competitions 2021 --status FINISHED 
