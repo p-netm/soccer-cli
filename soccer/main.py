@@ -3,29 +3,16 @@ import sys
 import json
 import click
 
-from validators import validate_standing, validate_limit, validate_competitions, validate_venue, validate_status,\
+from soccer.validators import validate_standing, validate_limit, validate_competitions, validate_venue, validate_status,\
     validate_season, validate_matchday, validate_plan, validate_date
-from subresource import teams as Teams
-from subresource import matches as Matches
-from subresource import create_payload, global_click_option, add_options, time_click_option, list_click_option
-
-from leagueids import LEAGUE_IDS
-from exceptions import IncorrectParametersException
-from request_handler import RequestHandler
+from soccer.subresource import teams as Teams
+from soccer.subresource import matches as Matches
+from soccer._utils import create_payload, add_options, global_click_option, \
+    time_click_option, list_click_option, CustomMultiGroup
+from soccer.request_handler import RequestHandler
+from soccer.writers import get_writer
 
 request_handler = RequestHandler()
-
-def load_json(file):
-    """Load JSON file at app start"""
-    here = os.path.dirname(os.path.abspath(__file__))
-    with open(os.path.join(here, file)) as jfile:
-        data = json.load(jfile)
-    return data
-
-TEAM_DATA = load_json("teams.json")["teams"]
-TEAM_NAMES = {team["code"]: team["id"] for team in TEAM_DATA}
-
-
 
 def get_input_key():
     """Input API key and validate"""
@@ -74,42 +61,7 @@ def load_config_key():
             sys.exit(1)
     return api_token
 
-
-def map_team_id(code):
-    """Take in team ID, read JSON file to map ID to name"""
-    """people need ids to access teams, the current approach requires that the programmers populates a subset
-    of known teams with their codes and then save that in a json file from which users can read the team on interest 
-    code, however this approach has clear shortcomings . its not robust and requires often manual changes to add
-    teams details as they are being added in the api. yet again, the teams.json file held about 250 team records which
-    is a very small portion of the teams that we expect the api to serve. My proposed change is to let the api tell
-    us what teams it has. my change will include the application recording any new teams inside the json.teams file
-    after each request, where the api returns team data that the application has not seen before.
-    
-    As a result one can look at teams code and add filters such as league, or area."""
-    for team in TEAM_DATA:
-        if team["code"] == code:
-            click.secho(team["name"], fg="green")
-            break
-    else:
-        click.secho("No team found for this code", fg="red", bold=True)
-
-
-def list_team_codes():
-    """List team names in alphabetical order of team ID, per league."""
-    # Sort teams by league, then alphabetical by code
-    cleanlist = sorted(TEAM_DATA, key=lambda k: (k["league"]["name"], k["code"]))
-    # Get league names
-    leaguenames = sorted(list(set([team["league"]["name"] for team in cleanlist])))
-    for league in leaguenames:
-        teams = [team for team in cleanlist if team["league"]["name"] == league]
-        click.secho(league, fg="green", bold=True)
-        for team in teams:
-            if team["code"] != "null":
-                click.secho(u"{0}: {1}".format(team["code"], team["name"]), fg="yellow")
-        click.secho("")
-
-
-@click.group()
+@click.group(invoke_without_command=True, cls=CustomMultiGroup)
 @click.option('--apikey', default=load_config_key,
               help="API key to use.")
 @click.pass_context
@@ -133,11 +85,13 @@ def main(ctx, apikey):
     - Player
         -match
     """
+    if ctx.obj is None:
+        ctx.obj = {}
     headers = {'X-Auth-Token': apikey}
     ctx.obj['headers'] = headers
 
 
-@click.group(invoke_without_command=True)
+@main.group(['competitions', 'leagues'], invoke_without_command=True)
 @add_options(global_click_option)
 @click.option('--id', '-i', 'competition_id', type=click.INT,
               help='id for the competitions to load, if no id: returns all available competitions')
@@ -146,43 +100,51 @@ def main(ctx, apikey):
 @click.option('--plan', callback=validate_plan,
               help='filters and shows competitions for a particular plan')
 @click.pass_context
-def competitions(ctx, competition_id, areas, plan, output_format, output_file,):
+def competitions(ctx, competition_id, areas, plan, output_format, output_file):
     """Competitions Resource Endpoint"""
     url = 'competitions/{}'.format(competition_id) if competition_id else 'competitions/'
     payload = create_payload(areas=areas, plan=plan)
     if ctx.invoked_subcommand is None:
         # dealing with the resource only, no subresources, add id
         response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
-        click.echo(json.dumps(response, indent=4, sort_keys=True))
-        return response
+        writer = get_writer(output_format, output_file)
+        writer.write_competitions(response)
+        return
     else:
         ctx.obj['url'] = url
         ctx.obj['competition_id'] = competition_id
 
 
-@click.command()
+@competitions.command()
 @add_options(global_click_option)
 @click.option('--standingtype',callback=validate_standing,
               help='[standings]:: show standings for a particular competition ')
 @click.pass_context
-def standings(ctx, standingtype, output_format, output_file,):
+def standings(ctx, standingtype, output_format, output_file):
     """
     This is the Standings subresource for the competitions resource, only accessed and works
     if a competition id is present
     """
     if not ctx.obj.get('competition_id'):
         click.secho('You have to provide a competition id', fg='red', bold=True)
-        return
+        raise click.Abort()
     else:
-        url = ctx.obj['url'] + 'standings'
+        url = ctx.obj['url'] + '/standings'
         payload = {'standingType':standingtype} if standingtype else {}
         response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
-        click.echo(json.dumps(response, indent=4, sort_keys=True))
+        writer = get_writer(output_format, output_file)
+        writer.write_standings(response)
 
 
-@click.command()
+@competitions.command()
 @add_options(global_click_option)
-@add_options(time_click_option)
+@click.option('--limit', '-l', callback=validate_limit,
+              help='limit number of records')
+def scorers(limit, output_format, output_file):
+    pass
+
+@main.command()
+@add_options(global_click_option)
 @click.option('--id', '-i', 'player_id', type=click.INT,
               help='displays player info with this id, absent id will return a 404')
 @click.option('--matches', '-m',is_flag=True, help='matches where player with given id played')
@@ -197,8 +159,7 @@ def standings(ctx, standingtype, output_format, output_file,):
 @click.option('--limit', '-l', callback=validate_limit,
               help='display limit matches in which player with given id played ')
 @click.pass_context
-def players(ctx, player_id, matches, date_from, date_to, competitions, status, limit,
-            use12hour, output_format, output_file,):
+def players(ctx, player_id, matches, date_from, date_to, competitions, status, limit, output_format, output_file):
     """Players Resource Endpoint"""
     url = 'players/{}'.format(player_id) if player_id else 'players/'
     url += 'matches' if matches else ''
@@ -208,13 +169,14 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
     if any([limit, status, competitions, date_to, date_from]) and not matches:
         click.secho('seems like you forgot to provide the --matches flag, you need that,'
                     'to be able to add filters', fg='red')
-        return
+        raise click.Abort()
     response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
-    click.echo(json.dumps(response, indent=4, sort_keys=True))
-    return response
+    writer = get_writer(output_format, output_file)
+    writer.write_players(response)
+    return
 
 
-@click.command()
+@main.command()
 @add_options(global_click_option)
 @add_options(time_click_option)
 @click.option('--id', '-i', 'match_id', type=click.INT,
@@ -233,11 +195,12 @@ def matches(ctx, match_id, date_from, date_to, status, use12hour, output_format,
     url = 'matches/{}'.format(match_id) if match_id else 'matches'
     payload = create_payload(date_from=date_from, date_to=date_to, competitions=competitions, status=status)
     response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
-    click.echo(json.dumps(response, indent=4, sort_keys=True))
-    return response
+    writer = get_writer(output_format, output_file)
+    writer.write_matches(response, use12hour)
+    return
 
 
-@click.command()
+@main.command()
 @add_options(global_click_option)
 @click.option('--id', '-i', 'area_id', type=click.INT,
               help='display area info with this id')
@@ -246,13 +209,13 @@ def areas(ctx, area_id, output_format, output_file):
     """Areas Resource Endpoint"""
     url = 'areas/{}'.format(area_id) if area_id else 'areas'
     response = request_handler.get(url, headers=ctx.obj['headers'])
-    click.echo(json.dumps(response, indent=4, sort_keys=True))
-    return response
+    writer = get_writer(output_format, output_file)
+    writer.write_areas(response)
+    return
 
 
-@click.command()
+@main.command()
 @add_options(global_click_option)
-@add_options(time_click_option)
 @click.option('--id', '-i', 'team_id', type=click.INT,
               help='displays team info with this id')
 @click.option('--matches', '-m', is_flag=True, help='matches where team with given id played')
@@ -267,7 +230,7 @@ def areas(ctx, area_id, output_format, output_file):
 @click.option('--limit', '-l', callback=validate_limit,
               help='enforce a limit on the number of match records that should be returned for this team')
 @click.pass_context
-def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to, use12hour, output_format, output_file,):
+def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to, output_format, output_file):
     """Teams Resource Endpoint"""
     url = 'teams/{}'.format(team_id) if team_id else 'teams'
     url += 'matches' if matches else ''
@@ -276,19 +239,14 @@ def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to, use12
     if any([venue, status, limit, date_from, date_to]) and not matches:
         click.secho('seems like you forgot to provide the --matches flag, you need that'
                     ' to be able to add filters', fg='red')
-        return
+        raise click.Abort()
     response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
-    click.echo(json.dumps(response, indent=4, sort_keys=True))
-    return response
+    writer = get_writer(output_format, output_file)
+    writer.write_teams(response)
+    return
 
 competitions.add_command(Teams)
 competitions.add_command(Matches)
-main.add_command(competitions)
-main.add_command(players)
-main.add_command(teams)
-main.add_command(matches)
-main.add_command(areas)
-
 
 if __name__ == '__main__':
     main(obj={})
