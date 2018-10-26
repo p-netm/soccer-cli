@@ -61,7 +61,7 @@ def load_config_key():
             sys.exit(1)
     return api_token
 
-@click.group(invoke_without_command=True, cls=CustomMultiGroup)
+@click.group(invoke_without_command=True)
 @click.option('--apikey', default=load_config_key,
               help="API key to use.")
 @click.pass_context
@@ -91,7 +91,7 @@ def main(ctx, apikey):
     ctx.obj['headers'] = headers
 
 
-@main.group(['competitions', 'leagues'], invoke_without_command=True)
+@main.group(invoke_without_command=True)
 @add_options(global_click_option)
 @click.option('--id', '-i', 'competition_id', type=click.INT,
               help='id for the competitions to load, if no id: returns all available competitions')
@@ -122,7 +122,7 @@ def competitions(ctx, competition_id, areas, plan, output_format, output_file):
 @click.pass_context
 def standings(ctx, standingtype, output_format, output_file):
     """
-    This is the Standings subresource for the competitions resource, only accessed and works
+    Standings subresource for the competitions resource, only accessed and works
     if a competition id is present
     """
     if not ctx.obj.get('competition_id'):
@@ -138,10 +138,21 @@ def standings(ctx, standingtype, output_format, output_file):
 
 @competitions.command()
 @add_options(global_click_option)
+@click.pass_context
 @click.option('--limit', '-l', callback=validate_limit,
               help='limit number of records')
-def scorers(limit, output_format, output_file):
-    pass
+def scorers(ctx, limit, output_format, output_file):
+    """Scorers subresource for competitions resource"""
+    if not ctx.obj.get('competition_id'):
+        click.secho('You have to provide a competition id', fg='red', bold=True)
+        raise click.Abort()
+    else:
+        url = ctx.obj['url'] + 'scorers'
+        payload = create_payload(limit=limit)
+        response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        writer = get_writer(output_format, output_file)
+        writer.write_scorers(response)
+        return
 
 @main.command()
 @add_options(global_click_option)
@@ -161,8 +172,12 @@ def scorers(limit, output_format, output_file):
 @click.pass_context
 def players(ctx, player_id, matches, date_from, date_to, competitions, status, limit, output_format, output_file):
     """Players Resource Endpoint"""
-    url = 'players/{}'.format(player_id) if player_id else 'players/'
+    url = 'players/{}'.format(player_id) if player_id else ''
+    if not url:
+        click.secho("Please provide a specific player's id", fg='red', bold=True)
+        raise click.Abort()
     url += 'matches' if matches else ''
+    payload = {}
     if matches:
         payload = create_payload(date_from=date_from, date_to=date_to, competitions=competitions, status=status,
                                  limit=limit)
@@ -190,7 +205,7 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
 @click.option('--status', '-s', callback=validate_status,
               help='display matches  that have this status')
 @click.pass_context
-def matches(ctx, match_id, date_from, date_to, status, use12hour, output_format, output_file):
+def matches(ctx, match_id, date_from, date_to, status, competitions, use12hour, output_format, output_file):
     """Matches Resource Endpoint"""
     url = 'matches/{}'.format(match_id) if match_id else 'matches'
     payload = create_payload(date_from=date_from, date_to=date_to, competitions=competitions, status=status)
@@ -232,8 +247,9 @@ def areas(ctx, area_id, output_format, output_file):
 @click.pass_context
 def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to, output_format, output_file):
     """Teams Resource Endpoint"""
-    url = 'teams/{}'.format(team_id) if team_id else 'teams'
+    url = 'teams/{}'.format(team_id) if team_id else 'teams/'
     url += 'matches' if matches else ''
+    payload = {}
     if matches:
         payload = create_payload(date_from=date_from, date_to=date_to, venue=venue, status=status, limit=limit)
     if any([venue, status, limit, date_from, date_to]) and not matches:
