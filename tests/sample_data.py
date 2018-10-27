@@ -1,4 +1,4 @@
-{
+data = {
   "many_competitions": {
     "count": 147,
     "filters": {},
@@ -10,15 +10,15 @@
           "name": "Africa"
         },
         "name": "WC Qualification",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 7,
           "startDate": "2015-10-07",
           "endDate": "2017-11-14",
           "currentMatchday": 6,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-04T23:54:04Z"
@@ -31,14 +31,14 @@
         },
         "name": "Superliga Argentina",
         "code": "ASL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 282,
           "startDate": "2018-08-11",
           "endDate": "2019-04-07",
           "currentMatchday": 10,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-25T03:09:47Z"
@@ -50,20 +50,20 @@
           "name": "Argentina"
         },
         "name": "Supercopa Argentina",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 27,
           "startDate": "2018-03-15",
           "endDate": "2018-03-15",
-          "currentMatchday": null,
+          "currentMatchday": None,
           "winner": {
             "id": 2069,
             "name": "CA River Plate",
             "shortName": "River Plate",
             "tla": "RIV",
-            "crestUrl": null
+            "crestUrl": None
           }
         },
         "numberOfAvailableSeasons": 1,
@@ -76,15 +76,15 @@
           "name": "Argentina"
         },
         "name": "Primera B Nacional",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 295,
           "startDate": "2018-08-25",
           "endDate": "2019-04-20",
           "currentMatchday": 8,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-23T03:44:54Z"
@@ -97,14 +97,14 @@
         },
         "name": "A League",
         "code": "AAL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 283,
           "startDate": "2018-10-19",
           "endDate": "2019-04-28",
           "currentMatchday": 2,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-25T19:25:05Z"
@@ -116,15 +116,15 @@
           "name": "Australia"
         },
         "name": "FFA Cup",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 28,
           "startDate": "2018-02-10",
           "endDate": "2018-08-29",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-06T14:10:21Z"
@@ -136,15 +136,15 @@
           "name": "Austria"
         },
         "name": "Erste Liga",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 161,
           "startDate": "2018-07-27",
           "endDate": "2019-06-01",
           "currentMatchday": 12,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-21T18:44:28Z"
@@ -157,14 +157,14 @@
         },
         "name": "Bundesliga",
         "code": "ABL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 208,
           "startDate": "2018-07-27",
           "endDate": "2019-03-17",
           "currentMatchday": 12,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-26T00:00:18Z"
@@ -176,15 +176,15 @@
           "name": "Austria"
         },
         "name": "ÖFB Cup",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 162,
           "startDate": "2018-07-20",
           "endDate": "2018-09-25",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-09-26T22:44:22Z"
@@ -197,19 +197,19 @@
         },
         "name": "Playoffs 1/2",
         "code": "APL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 24,
           "startDate": "2018-05-31",
           "endDate": "2018-06-03",
-          "currentMatchday": null,
+          "currentMatchday": None,
           "winner": {
             "id": 2022,
             "name": "SKN Sankt Pölten",
             "shortName": "St. Pölten",
             "tla": "STP",
-            "crestUrl": null
+            "crestUrl": None
           }
         },
         "numberOfAvailableSeasons": 1,
@@ -223,14 +223,14 @@
         },
         "name": "Jupiler Pro League",
         "code": "BJL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 163,
           "startDate": "2018-07-27",
           "endDate": "2019-03-17",
           "currentMatchday": 12,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T16:35:08Z"
@@ -242,15 +242,15 @@
           "name": "Belgium"
         },
         "name": "Coupe de Belgique",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 30,
           "startDate": "2017-07-28",
           "endDate": "2018-03-17",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-04T23:58:29Z"
@@ -262,15 +262,15 @@
           "name": "Belgium"
         },
         "name": "Supercoupe de Belgique",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 165,
           "startDate": "2018-07-22",
           "endDate": "2018-07-22",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-04T23:58:10Z"
@@ -282,15 +282,15 @@
           "name": "Belgium"
         },
         "name": "Playoffs II",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 34,
           "startDate": "2018-03-31",
           "endDate": "2018-05-23",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-02T13:08:02Z"
@@ -302,15 +302,15 @@
           "name": "Belgium"
         },
         "name": "Division 1B",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 164,
           "startDate": "2018-08-03",
           "endDate": "2019-03-01",
           "currentMatchday": 12,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-21T17:51:15Z"
@@ -322,15 +322,15 @@
           "name": "Bolivia"
         },
         "name": "LFPB",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 36,
           "startDate": "2018-01-27",
           "endDate": "2018-11-28",
           "currentMatchday": 16,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-26T04:14:28Z"
@@ -342,15 +342,15 @@
           "name": "Bosnia and Herzegovina"
         },
         "name": "Premier Liga",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 167,
           "startDate": "2018-07-21",
           "endDate": "2019-02-09",
           "currentMatchday": 15,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T21:30:07Z"
@@ -362,15 +362,15 @@
           "name": "Brazil"
         },
         "name": "Série D",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 40,
           "startDate": "2018-04-21",
           "endDate": "2018-08-04",
           "currentMatchday": 6,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-04T23:59:34Z"
@@ -383,7 +383,7 @@
         },
         "name": "Série A",
         "code": "BSA",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_ONE",
         "currentSeason": {
           "id": 15,
@@ -395,7 +395,7 @@
             "name": "São Paulo FC",
             "shortName": "São Paulo",
             "tla": "SAO",
-            "crestUrl": null
+            "crestUrl": None
           }
         },
         "numberOfAvailableSeasons": 1,
@@ -408,15 +408,15 @@
           "name": "Brazil"
         },
         "name": "Série C",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 38,
           "startDate": "2018-04-14",
           "endDate": "2018-08-28",
           "currentMatchday": 18,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-09-24T02:30:06Z"
@@ -429,14 +429,14 @@
         },
         "name": "Série B",
         "code": "BSB",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 31,
           "startDate": "2018-04-14",
           "endDate": "2018-11-24",
           "currentMatchday": 33,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-24T02:54:45Z"
@@ -448,15 +448,15 @@
           "name": "Brazil"
         },
         "name": "Copa do Brasil",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 39,
           "startDate": "2018-01-30",
           "endDate": "2018-08-17",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-19T23:40:00Z"
@@ -468,15 +468,15 @@
           "name": "Bulgaria"
         },
         "name": "A PFG",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 168,
           "startDate": "2018-07-20",
           "endDate": "2019-03-16",
           "currentMatchday": 13,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T21:39:13Z"
@@ -488,15 +488,15 @@
           "name": "Bulgaria"
         },
         "name": "Kupa na Bulgarija",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 41,
           "startDate": "2017-09-19",
           "endDate": "2018-05-09",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:00:10Z"
@@ -508,15 +508,15 @@
           "name": "Canada"
         },
         "name": "Canadian Championship",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 43,
           "startDate": "2018-06-07",
           "endDate": "2018-08-16",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:01:12Z"
@@ -529,14 +529,14 @@
         },
         "name": "Primera División",
         "code": "CPD",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 51,
           "startDate": "2018-02-03",
           "endDate": "2018-12-01",
           "currentMatchday": 27,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-23T03:45:01Z"
@@ -548,15 +548,15 @@
           "name": "Chile"
         },
         "name": "Playoffs 1/2",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 44,
           "startDate": "2017-11-25",
           "endDate": "2017-12-21",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:01:23Z"
@@ -568,15 +568,15 @@
           "name": "Chile"
         },
         "name": "Supercopa de Chile",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 45,
           "startDate": "2018-01-26",
           "endDate": "2018-01-26",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:01:51Z"
@@ -588,15 +588,15 @@
           "name": "China PR"
         },
         "name": "Chinese Super League",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 46,
           "startDate": "2018-03-02",
           "endDate": "2018-11-12",
           "currentMatchday": 27,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-21T17:34:35Z"
@@ -608,15 +608,15 @@
           "name": "Colombia"
         },
         "name": "Liga Postobón",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 47,
           "startDate": "2018-02-03",
           "endDate": "2018-11-11",
           "currentMatchday": 17,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-23T13:41:28Z"
@@ -628,15 +628,15 @@
           "name": "Colombia"
         },
         "name": "Superliga de Colombia",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 48,
           "startDate": "2018-02-01",
           "endDate": "2018-02-08",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:02:32Z"
@@ -648,15 +648,15 @@
           "name": "Croatia"
         },
         "name": "Prva Liga",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 170,
           "startDate": "2018-07-27",
           "endDate": "2019-05-25",
           "currentMatchday": 12,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T16:35:08Z"
@@ -668,15 +668,15 @@
           "name": "Czech Republic"
         },
         "name": "Synot Liga",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 171,
           "startDate": "2018-07-20",
           "endDate": "2019-04-27",
           "currentMatchday": 13,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T19:59:13Z"
@@ -688,10 +688,10 @@
           "name": "Denmark"
         },
         "name": "Play Offs 1/2",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
-        "currentSeason": null,
+        "currentSeason": None,
         "numberOfAvailableSeasons": 0,
         "lastUpdated": "2018-07-13T13:34:22Z"
       },
@@ -703,14 +703,14 @@
         },
         "name": "Superliga",
         "code": "DSU",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 172,
           "startDate": "2018-07-13",
           "endDate": "2019-03-17",
           "currentMatchday": 14,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T21:39:53Z"
@@ -722,15 +722,15 @@
           "name": "Denmark"
         },
         "name": "DBU Pokalen",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 173,
           "startDate": "2018-08-07",
           "endDate": "2018-08-15",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-10T21:46:02Z"
@@ -742,15 +742,15 @@
           "name": "Ecuador"
         },
         "name": "Copa Pilsener Serie A",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 55,
           "startDate": "2018-02-17",
           "endDate": "2018-12-09",
           "currentMatchday": 16,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-23T22:06:48Z"
@@ -763,14 +763,14 @@
         },
         "name": "FA Cup",
         "code": "FAC",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 207,
           "startDate": "2018-08-10",
           "endDate": "2018-08-27",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-24T23:46:27Z"
@@ -783,14 +783,14 @@
         },
         "name": "League One",
         "code": "EL1",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 152,
           "startDate": "2018-08-04",
           "endDate": "2019-05-04",
           "currentMatchday": 15,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 10,
         "lastUpdated": "2018-10-24T20:45:02Z"
@@ -803,14 +803,14 @@
         },
         "name": "Championship",
         "code": "ELC",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_ONE",
         "currentSeason": {
           "id": 154,
           "startDate": "2018-08-03",
           "endDate": "2019-05-05",
           "currentMatchday": 15,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-24T23:39:47Z"
@@ -822,15 +822,15 @@
           "name": "England"
         },
         "name": "FA Community Shield",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 60,
           "startDate": "2018-08-05",
           "endDate": "2018-08-05",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:05:10Z"
@@ -843,14 +843,14 @@
         },
         "name": "Premier League",
         "code": "PL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_ONE",
         "currentSeason": {
           "id": 151,
           "startDate": "2018-08-10",
           "endDate": "2019-05-12",
           "currentMatchday": 10,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 26,
         "lastUpdated": "2018-10-26T00:00:18Z"
@@ -862,15 +862,15 @@
           "name": "England"
         },
         "name": "National League",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 174,
           "startDate": "2018-08-04",
           "endDate": "2019-04-27",
           "currentMatchday": 17,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-14T10:45:03Z"
@@ -883,14 +883,14 @@
         },
         "name": "League Two",
         "code": "EL2",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 153,
           "startDate": "2018-08-04",
           "endDate": "2019-05-04",
           "currentMatchday": 15,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-24T20:45:02Z"
@@ -903,14 +903,14 @@
         },
         "name": "Football League Cup",
         "code": "FLC",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 176,
           "startDate": "2018-08-14",
           "endDate": "2018-08-29",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-03T20:55:02Z"
@@ -922,15 +922,15 @@
           "name": "Estonia"
         },
         "name": "Meistriliiga",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 61,
           "startDate": "2018-03-03",
           "endDate": "2018-11-10",
           "currentMatchday": 34,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-24T06:50:02Z"
@@ -943,14 +943,14 @@
         },
         "name": "UEFA Champions League",
         "code": "CL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_ONE",
         "currentSeason": {
           "id": 175,
           "startDate": "2018-06-26",
           "endDate": "2019-06-01",
           "currentMatchday": 3,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 19,
         "lastUpdated": "2018-10-24T23:15:02Z"
@@ -963,14 +963,14 @@
         },
         "name": "UEFA Europa League",
         "code": "EL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 293,
           "startDate": "2018-06-26",
           "endDate": "2019-05-29",
           "currentMatchday": 3,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-25T22:59:27Z"
@@ -983,7 +983,7 @@
         },
         "name": "European Championship",
         "code": "EC",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_ONE",
         "currentSeason": {
           "id": 20,
@@ -1008,15 +1008,15 @@
           "name": "Europe"
         },
         "name": "UEFA Women's EURO",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 62,
           "startDate": "2017-07-16",
           "endDate": "2017-08-06",
           "currentMatchday": 3,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:06:08Z"
@@ -1028,15 +1028,15 @@
           "name": "Europe"
         },
         "name": "WC Qualification",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 8,
           "startDate": "2016-09-04",
           "endDate": "2017-11-14",
           "currentMatchday": 10,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:06:41Z"
@@ -1048,15 +1048,15 @@
           "name": "Finland"
         },
         "name": "Suomen Cup",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 63,
           "startDate": "2018-01-19",
           "endDate": "2018-05-12",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:07:27Z"
@@ -1069,14 +1069,14 @@
         },
         "name": "Veikkausliiga",
         "code": "VEI",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 33,
           "startDate": "2018-04-07",
           "endDate": "2018-10-27",
           "currentMatchday": 33,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-21T17:25:55Z"
@@ -1088,15 +1088,15 @@
           "name": "France"
         },
         "name": "Trophée des Champions",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 206,
           "startDate": "2018-08-04",
           "endDate": "2018-08-04",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:08:21Z"
@@ -1108,15 +1108,15 @@
           "name": "France"
         },
         "name": "Playoffs 2/3",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 212,
           "startDate": "2018-05-22",
           "endDate": "2018-05-27",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-09-25T15:07:37Z"
@@ -1129,14 +1129,14 @@
         },
         "name": "Ligue 2",
         "code": "FL2",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 210,
           "startDate": "2018-07-27",
           "endDate": "2019-05-17",
           "currentMatchday": 12,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 21,
         "lastUpdated": "2018-10-22T23:24:53Z"
@@ -1148,15 +1148,15 @@
           "name": "France"
         },
         "name": "Coupe de France",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 147,
           "startDate": "2017-11-10",
           "endDate": "2018-05-08",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:08:30Z"
@@ -1168,15 +1168,15 @@
           "name": "France"
         },
         "name": "Coupe de la Ligue",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 284,
           "startDate": "2018-08-14",
           "endDate": "2018-08-28",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-08-28T23:03:53Z"
@@ -1188,15 +1188,15 @@
           "name": "France"
         },
         "name": "Playoffs 1/2",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 211,
           "startDate": "2018-05-23",
           "endDate": "2018-05-27",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-07-12T14:32:17Z"
@@ -1209,14 +1209,14 @@
         },
         "name": "Ligue 1",
         "code": "FL1",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_ONE",
         "currentSeason": {
           "id": 177,
           "startDate": "2018-08-10",
           "endDate": "2019-05-25",
           "currentMatchday": 11,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 8,
         "lastUpdated": "2018-10-26T00:00:18Z"
@@ -1229,14 +1229,14 @@
         },
         "name": "3. Liga",
         "code": "BL3",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 150,
           "startDate": "2018-07-27",
           "endDate": "2019-05-18",
           "currentMatchday": 13,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 6,
         "lastUpdated": "2018-10-21T17:42:15Z"
@@ -1249,14 +1249,14 @@
         },
         "name": "2. Bundesliga",
         "code": "BL2",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 157,
           "startDate": "2018-08-03",
           "endDate": "2019-05-19",
           "currentMatchday": 11,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 23,
         "lastUpdated": "2018-10-26T00:00:18Z"
@@ -1268,8 +1268,8 @@
           "name": "Germany"
         },
         "name": "Frauen Bundesliga",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 142,
@@ -1279,9 +1279,9 @@
           "winner": {
             "id": 7522,
             "name": "VfL Wolfsburg",
-            "shortName": null,
-            "tla": null,
-            "crestUrl": null
+            "shortName": None,
+            "tla": None,
+            "crestUrl": None
           }
         },
         "numberOfAvailableSeasons": 1,
@@ -1295,14 +1295,14 @@
         },
         "name": "Regionalliga",
         "code": "REG",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 178,
           "startDate": "2018-07-12",
           "endDate": "2019-05-18",
           "currentMatchday": 15,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T01:10:10Z"
@@ -1314,15 +1314,15 @@
           "name": "Germany"
         },
         "name": "DFL Super Cup",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 158,
           "startDate": "2018-08-12",
           "endDate": "2018-08-12",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:10:19Z"
@@ -1335,14 +1335,14 @@
         },
         "name": "Bundesliga",
         "code": "BL1",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_ONE",
         "currentSeason": {
           "id": 155,
           "startDate": "2018-08-24",
           "endDate": "2019-05-18",
           "currentMatchday": 9,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 23,
         "lastUpdated": "2018-10-26T00:00:18Z"
@@ -1355,14 +1355,14 @@
         },
         "name": "DFB-Pokal",
         "code": "DFB",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 12,
           "startDate": "2018-08-17",
           "endDate": "2018-08-20",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-08-23T15:47:39Z"
@@ -1375,14 +1375,14 @@
         },
         "name": "Super League",
         "code": "GSL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 299,
           "startDate": "2018-08-25",
           "endDate": "2019-05-05",
           "currentMatchday": 8,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T20:39:53Z"
@@ -1394,15 +1394,15 @@
           "name": "Greece"
         },
         "name": "Greek Cup",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 140,
           "startDate": "2017-08-20",
           "endDate": "2018-05-12",
           "currentMatchday": 3,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:10:49Z"
@@ -1415,14 +1415,14 @@
         },
         "name": "NB I",
         "code": "HNB",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 179,
           "startDate": "2018-07-21",
           "endDate": "2019-05-19",
           "currentMatchday": 12,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-20T21:23:38Z"
@@ -1434,15 +1434,15 @@
           "name": "Hungary"
         },
         "name": "Magyar Kupa",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 297,
           "startDate": "2019-09-22",
           "endDate": "2019-05-01",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-09-24T15:10:06Z"
@@ -1454,15 +1454,15 @@
           "name": "Iceland"
         },
         "name": "Úrvalsdeild",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 136,
           "startDate": "2018-04-27",
           "endDate": "2018-09-29",
           "currentMatchday": 22,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-09-30T07:05:12Z"
@@ -1474,15 +1474,15 @@
           "name": "India"
         },
         "name": "I-League",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 135,
           "startDate": "2017-11-25",
           "endDate": "2018-03-08",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:13:45Z"
@@ -1494,15 +1494,15 @@
           "name": "Israel"
         },
         "name": "Ligat ha'Al",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 205,
           "startDate": "2018-08-25",
           "endDate": "2019-03-09",
           "currentMatchday": 8,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-23T03:45:01Z"
@@ -1514,15 +1514,15 @@
           "name": "Italy"
         },
         "name": "Supercoppa",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 159,
           "startDate": "2019-01-12",
           "endDate": "2019-01-12",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:14:07Z"
@@ -1535,14 +1535,14 @@
         },
         "name": "Serie B",
         "code": "SB",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 294,
           "startDate": "2018-08-24",
           "endDate": "2019-05-11",
           "currentMatchday": 9,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 14,
         "lastUpdated": "2018-10-23T20:55:01Z"
@@ -1555,14 +1555,14 @@
         },
         "name": "Coppa Italia",
         "code": "CIT",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 285,
           "startDate": "2018-07-28",
           "endDate": "2019-01-13",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-08-23T15:52:02Z"
@@ -1575,14 +1575,14 @@
         },
         "name": "Serie A",
         "code": "SA",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_ONE",
         "currentSeason": {
           "id": 290,
           "startDate": "2018-08-18",
           "endDate": "2019-05-26",
           "currentMatchday": 10,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 14,
         "lastUpdated": "2018-10-26T00:00:18Z"
@@ -1594,15 +1594,15 @@
           "name": "Italy"
         },
         "name": "Serie C",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 132,
           "startDate": "2017-08-26",
           "endDate": "2018-06-16",
           "currentMatchday": 38,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-26T00:00:18Z"
@@ -1614,15 +1614,15 @@
           "name": "Japan"
         },
         "name": "Super Cup",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 129,
           "startDate": "2018-02-10",
           "endDate": "2018-02-10",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:15:43Z"
@@ -1634,15 +1634,15 @@
           "name": "Japan"
         },
         "name": "J. League Division 2",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 126,
           "startDate": "2018-02-25",
           "endDate": "2018-11-16",
           "currentMatchday": 39,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-21T15:53:35Z"
@@ -1654,15 +1654,15 @@
           "name": "Japan"
         },
         "name": "J.League Cup",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 127,
           "startDate": "2018-03-07",
           "endDate": "2018-09-09",
           "currentMatchday": 6,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-14T15:29:44Z"
@@ -1675,14 +1675,14 @@
         },
         "name": "J. League",
         "code": "JJL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 128,
           "startDate": "2018-02-23",
           "endDate": "2018-12-01",
           "currentMatchday": 18,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-21T11:39:54Z"
@@ -1694,15 +1694,15 @@
           "name": "Latvia"
         },
         "name": "Virslīga",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 125,
           "startDate": "2018-03-31",
           "endDate": "2018-11-10",
           "currentMatchday": 26,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-21T05:55:11Z"
@@ -1714,15 +1714,15 @@
           "name": "Lithuania"
         },
         "name": "A Lyga",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 124,
           "startDate": "2018-02-24",
           "endDate": "2018-10-30",
           "currentMatchday": 28,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-25T16:35:01Z"
@@ -1734,15 +1734,15 @@
           "name": "Malta"
         },
         "name": "Premier League",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 160,
           "startDate": "2018-08-17",
           "endDate": "2019-04-25",
           "currentMatchday": 8,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-26T00:00:18Z"
@@ -1754,15 +1754,15 @@
           "name": "Mexico"
         },
         "name": "SuperCopa MX",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 121,
           "startDate": "2018-07-15",
           "endDate": "2018-07-15",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:17:16Z"
@@ -1775,14 +1775,14 @@
         },
         "name": "Liga MX",
         "code": "LMX",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 186,
           "startDate": "2018-07-21",
           "endDate": "2018-11-25",
           "currentMatchday": 14,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-23T03:45:01Z"
@@ -1794,15 +1794,15 @@
           "name": "Mexico"
         },
         "name": "Copa MX",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 187,
           "startDate": "2018-07-25",
           "endDate": "2018-09-06",
           "currentMatchday": 6,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-25T14:37:45Z"
@@ -1815,14 +1815,14 @@
         },
         "name": "KNVB Beker",
         "code": "KNV",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 181,
           "startDate": "2018-08-18",
           "endDate": "2018-08-25",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-09-27T22:31:18Z"
@@ -1835,14 +1835,14 @@
         },
         "name": "Jupiler League",
         "code": "DJL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 180,
           "startDate": "2018-08-17",
           "endDate": "2019-05-03",
           "currentMatchday": 11,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T22:39:53Z"
@@ -1854,15 +1854,15 @@
           "name": "Netherlands"
         },
         "name": "Johan Cruijff Schaal",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 182,
           "startDate": "2018-08-04",
           "endDate": "2018-08-04",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:18:23Z"
@@ -1875,14 +1875,14 @@
         },
         "name": "Eredivisie",
         "code": "DED",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_ONE",
         "currentSeason": {
           "id": 156,
           "startDate": "2018-08-10",
           "endDate": "2019-05-12",
           "currentMatchday": 10,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 9,
         "lastUpdated": "2018-10-25T19:30:05Z"
@@ -1894,15 +1894,15 @@
           "name": "Northern Ireland"
         },
         "name": "League Cup",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 203,
           "startDate": "2018-08-04",
           "endDate": "2018-08-28",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-10T22:05:00Z"
@@ -1914,15 +1914,15 @@
           "name": "Northern Ireland"
         },
         "name": "Premiership",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 204,
           "startDate": "2018-08-04",
           "endDate": "2019-03-23",
           "currentMatchday": 13,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-20T20:55:03Z"
@@ -1934,15 +1934,15 @@
           "name": "Norway"
         },
         "name": "Playoffs 1/2",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 112,
           "startDate": "2017-11-29",
           "endDate": "2017-12-02",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:20:23Z"
@@ -1954,15 +1954,15 @@
           "name": "Norway"
         },
         "name": "1. divisjon",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 113,
           "startDate": "2018-04-02",
           "endDate": "2018-11-11",
           "currentMatchday": 27,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-24T20:40:02Z"
@@ -1975,14 +1975,14 @@
         },
         "name": "Tippeligaen",
         "code": "TIP",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 114,
           "startDate": "2018-03-11",
           "endDate": "2018-11-25",
           "currentMatchday": 27,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-22T16:35:08Z"
@@ -1994,15 +1994,15 @@
           "name": "Oceania"
         },
         "name": "WC Qualification",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 111,
           "startDate": "2015-08-31",
           "endDate": "2017-09-05",
           "currentMatchday": 6,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:20:43Z"
@@ -2014,15 +2014,15 @@
           "name": "Panama"
         },
         "name": "Liga Panameña de Fútbol",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 110,
           "startDate": "2017-07-15",
           "endDate": "2018-05-20",
           "currentMatchday": 18,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:21:02Z"
@@ -2035,14 +2035,14 @@
         },
         "name": "Primera División",
         "code": "PPD",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 109,
           "startDate": "2018-02-03",
           "endDate": "2018-11-25",
           "currentMatchday": 9,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-26T04:14:08Z"
@@ -2054,15 +2054,15 @@
           "name": "Poland"
         },
         "name": "Superpuchar Polski",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 107,
           "startDate": "2018-07-14",
           "endDate": "2018-07-14",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:21:44Z"
@@ -2074,15 +2074,15 @@
           "name": "Poland"
         },
         "name": "Puchar Polski",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 198,
           "startDate": "2018-08-07",
           "endDate": "2018-09-25",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-03T20:48:51Z"
@@ -2094,15 +2094,15 @@
           "name": "Portugal"
         },
         "name": "Supertaça Cândido de Oliveira",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 104,
           "startDate": "2018-08-04",
           "endDate": "2018-08-04",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:22:37Z"
@@ -2114,15 +2114,15 @@
           "name": "Portugal"
         },
         "name": "Taça de Portugal",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 105,
           "startDate": "2017-09-02",
           "endDate": "2018-05-20",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:22:53Z"
@@ -2135,14 +2135,14 @@
         },
         "name": "Primeira Liga",
         "code": "PPL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_ONE",
         "currentSeason": {
           "id": 183,
           "startDate": "2018-08-10",
           "endDate": "2019-05-19",
           "currentMatchday": 8,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 8,
         "lastUpdated": "2018-10-08T22:15:08Z"
@@ -2154,15 +2154,15 @@
           "name": "Portugal"
         },
         "name": "Liga2 Cabovisão",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 184,
           "startDate": "2018-08-11",
           "endDate": "2019-05-19",
           "currentMatchday": 7,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T13:50:01Z"
@@ -2174,15 +2174,15 @@
           "name": "Republic of Ireland"
         },
         "name": "Premier Division",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 101,
           "startDate": "2018-02-16",
           "endDate": "2018-10-26",
           "currentMatchday": 36,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-23T23:25:01Z"
@@ -2194,15 +2194,15 @@
           "name": "Romania"
         },
         "name": "Supercupa României",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 202,
           "startDate": "2018-07-14",
           "endDate": "2018-07-14",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:23:54Z"
@@ -2215,14 +2215,14 @@
         },
         "name": "Liga I",
         "code": "RL1",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 185,
           "startDate": "2018-07-20",
           "endDate": "2019-03-02",
           "currentMatchday": 13,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T22:39:53Z"
@@ -2234,15 +2234,15 @@
           "name": "Romania"
         },
         "name": "Liga II",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 98,
           "startDate": "2017-08-04",
           "endDate": "2018-06-13",
           "currentMatchday": 38,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:23:34Z"
@@ -2254,15 +2254,15 @@
           "name": "Russia"
         },
         "name": "Playoffs 1/2",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 96,
           "startDate": "2018-05-17",
           "endDate": "2018-05-20",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:24:32Z"
@@ -2275,14 +2275,14 @@
         },
         "name": "RFPL",
         "code": "RFPL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 201,
           "startDate": "2018-07-28",
           "endDate": "2019-05-26",
           "currentMatchday": 12,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T16:40:08Z"
@@ -2294,15 +2294,15 @@
           "name": "Russia"
         },
         "name": "Russian Super Cup",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 199,
           "startDate": "2018-07-27",
           "endDate": "2018-07-27",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:24:42Z"
@@ -2314,15 +2314,15 @@
           "name": "Russia"
         },
         "name": "FNL",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 200,
           "startDate": "2018-07-17",
           "endDate": "2019-05-25",
           "currentMatchday": 18,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-25T16:25:01Z"
@@ -2334,15 +2334,15 @@
           "name": "Russia"
         },
         "name": "Russian Cup",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 287,
           "startDate": "2018-07-21",
           "endDate": "2018-08-22",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-25T23:38:47Z"
@@ -2354,15 +2354,15 @@
           "name": "Scotland"
         },
         "name": "Playoffs 2/3",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 92,
           "startDate": "2018-05-02",
           "endDate": "2018-05-13",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:25:54Z"
@@ -2374,15 +2374,15 @@
           "name": "Scotland"
         },
         "name": "Scottish Cup",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 288,
           "startDate": "2018-08-11",
           "endDate": "2018-09-01",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-09-30T19:45:11Z"
@@ -2395,14 +2395,14 @@
         },
         "name": "Premier League",
         "code": "SPL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 196,
           "startDate": "2018-08-04",
           "endDate": "2019-04-06",
           "currentMatchday": 10,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-24T20:50:02Z"
@@ -2414,15 +2414,15 @@
           "name": "Scotland"
         },
         "name": "Championship",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 197,
           "startDate": "2018-08-04",
           "endDate": "2019-05-04",
           "currentMatchday": 10,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-20T19:42:12Z"
@@ -2434,15 +2434,15 @@
           "name": "South Africa"
         },
         "name": "ABSA Premiership",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 289,
           "startDate": "2018-08-04",
           "endDate": "2019-08-11",
           "currentMatchday": 9,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-24T22:09:47Z"
@@ -2454,15 +2454,15 @@
           "name": "South America"
         },
         "name": "WC Qualification",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 88,
           "startDate": "2015-10-08",
           "endDate": "2017-10-11",
           "currentMatchday": 18,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:27:01Z"
@@ -2474,15 +2474,15 @@
           "name": "South America"
         },
         "name": "Copa America",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 85,
           "startDate": "2019-06-30",
           "endDate": "2019-06-06",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:26:43Z"
@@ -2494,15 +2494,15 @@
           "name": "South America"
         },
         "name": "Copa Sudamericana",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 87,
           "startDate": "2018-02-13",
           "endDate": "2018-10-03",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-26T04:14:08Z"
@@ -2514,15 +2514,15 @@
           "name": "Spain"
         },
         "name": "Supercopa de España",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 83,
           "startDate": "2018-08-12",
           "endDate": "2018-08-14",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:27:12Z"
@@ -2535,14 +2535,14 @@
         },
         "name": "Copa del Rey",
         "code": "CDR",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 291,
           "startDate": "2018-09-05",
           "endDate": "2018-09-13",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-18T23:39:49Z"
@@ -2555,14 +2555,14 @@
         },
         "name": "Segunda División",
         "code": "SD",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 286,
           "startDate": "2018-08-17",
           "endDate": "2019-06-09",
           "currentMatchday": 11,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 7,
         "lastUpdated": "2018-10-22T16:40:08Z"
@@ -2575,14 +2575,14 @@
         },
         "name": "Primera Division",
         "code": "PD",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_ONE",
         "currentSeason": {
           "id": 281,
           "startDate": "2018-08-17",
           "endDate": "2019-05-26",
           "currentMatchday": 10,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 26,
         "lastUpdated": "2018-10-26T00:00:18Z"
@@ -2594,15 +2594,15 @@
           "name": "Sweden"
         },
         "name": "Playoffs 2/3",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 79,
           "startDate": "2017-11-08",
           "endDate": "2017-11-11",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:28:43Z"
@@ -2614,15 +2614,15 @@
           "name": "Sweden"
         },
         "name": "Playoffs 1/2",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 80,
           "startDate": "2017-11-15",
           "endDate": "2017-11-19",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:28:54Z"
@@ -2635,14 +2635,14 @@
         },
         "name": "Allsvenskan",
         "code": "ALL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 77,
           "startDate": "2018-04-01",
           "endDate": "2018-11-11",
           "currentMatchday": 27,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-26T00:00:18Z"
@@ -2654,15 +2654,15 @@
           "name": "Sweden"
         },
         "name": "Superettan",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 78,
           "startDate": "2018-03-31",
           "endDate": "2018-11-10",
           "currentMatchday": 28,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-24T13:25:00Z"
@@ -2674,15 +2674,15 @@
           "name": "Switzerland"
         },
         "name": "Schweizer Pokal",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 194,
           "startDate": "2018-08-18",
           "endDate": "2018-08-19",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-09-16T20:42:26Z"
@@ -2695,14 +2695,14 @@
         },
         "name": "Super League",
         "code": "SSL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 195,
           "startDate": "2018-07-21",
           "endDate": "2019-05-25",
           "currentMatchday": 12,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T16:35:08Z"
@@ -2714,15 +2714,15 @@
           "name": "Turkey"
         },
         "name": "1. Lig",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 193,
           "startDate": "2018-08-10",
           "endDate": "2019-05-18",
           "currentMatchday": 10,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T19:59:13Z"
@@ -2734,15 +2734,15 @@
           "name": "Turkey"
         },
         "name": "TFF Süper Kupa",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 73,
           "startDate": "2017-08-06",
           "endDate": "2017-08-06",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-05T00:30:33Z"
@@ -2755,14 +2755,14 @@
         },
         "name": "Süper Lig",
         "code": "TSL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 192,
           "startDate": "2018-08-10",
           "endDate": "2019-05-26",
           "currentMatchday": 10,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T21:39:53Z"
@@ -2774,15 +2774,15 @@
           "name": "Ukraine"
         },
         "name": "Superkubok Ukrainy",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 191,
           "startDate": "2018-07-21",
           "endDate": "2018-07-21",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-06-05T00:30:59Z"
@@ -2795,14 +2795,14 @@
         },
         "name": "Premier Liha",
         "code": "UPL",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_THREE",
         "currentSeason": {
           "id": 189,
           "startDate": "2018-07-22",
           "endDate": "2018-10-06",
           "currentMatchday": 11,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-22T16:35:08Z"
@@ -2814,15 +2814,15 @@
           "name": "Ukraine"
         },
         "name": "Kubok Ukrainy",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 190,
           "startDate": "2018-07-17",
           "endDate": "2018-08-22",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-09-27T15:15:05Z"
@@ -2834,15 +2834,15 @@
           "name": "Ukraine"
         },
         "name": "Playoffs 1/2",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 70,
           "startDate": "2018-05-23",
           "endDate": "2018-05-27",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-06-02T14:03:07Z"
@@ -2855,14 +2855,14 @@
         },
         "name": "MLS",
         "code": "MLS",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_TWO",
         "currentSeason": {
           "id": 292,
           "startDate": "2018-03-03",
           "endDate": "2018-10-28",
-          "currentMatchday": null,
-          "winner": null
+          "currentMatchday": None,
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-22T01:40:08Z"
@@ -2874,15 +2874,15 @@
           "name": "Uruguay"
         },
         "name": "Primera División",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 67,
           "startDate": "2018-02-03",
           "endDate": "2018-10-28",
           "currentMatchday": 14,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-21T23:03:48Z"
@@ -2894,15 +2894,15 @@
           "name": "Venezuela"
         },
         "name": "Primera División",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 66,
           "startDate": "2018-01-27",
           "endDate": "2018-11-04",
           "currentMatchday": 17,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-22T00:30:08Z"
@@ -2914,15 +2914,15 @@
           "name": "Vietnam"
         },
         "name": "V-League",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 65,
           "startDate": "2018-03-10",
           "endDate": "2018-10-06",
           "currentMatchday": 26,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 1,
         "lastUpdated": "2018-10-08T14:27:29Z"
@@ -2934,15 +2934,15 @@
           "name": "Wales"
         },
         "name": "Welsh Premier League",
-        "code": null,
-        "emblemUrl": null,
+        "code": None,
+        "emblemUrl": None,
         "plan": "TIER_FOUR",
         "currentSeason": {
           "id": 188,
           "startDate": "2018-08-10",
           "endDate": "2019-01-12",
           "currentMatchday": 12,
-          "winner": null
+          "winner": None
         },
         "numberOfAvailableSeasons": 2,
         "lastUpdated": "2018-10-21T06:10:13Z"
@@ -2955,7 +2955,7 @@
         },
         "name": "FIFA World Cup",
         "code": "WC",
-        "emblemUrl": null,
+        "emblemUrl": None,
         "plan": "TIER_ONE",
         "currentSeason": {
           "id": 1,
@@ -2983,14 +2983,14 @@
     },
     "name": "Premier League",
     "code": "PL",
-    "emblemUrl": null,
+    "emblemUrl": None,
     "plan": "TIER_ONE",
     "currentSeason": {
       "id": 151,
       "startDate": "2018-08-10",
       "endDate": "2019-05-12",
       "currentMatchday": 10,
-      "winner": null
+      "winner": None
     },
     "seasons": [
       {
@@ -2998,7 +2998,7 @@
         "startDate": "2018-08-10",
         "endDate": "2019-05-12",
         "currentMatchday": 10,
-        "winner": null
+        "winner": None
       },
       {
         "id": 23,
@@ -3017,7 +3017,7 @@
         "id": 256,
         "startDate": "2016-08-13",
         "endDate": "2017-05-21",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 61,
           "name": "Chelsea FC",
@@ -3030,7 +3030,7 @@
         "id": 257,
         "startDate": "2015-08-08",
         "endDate": "2016-05-17",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 338,
           "name": "Leicester City FC",
@@ -3043,7 +3043,7 @@
         "id": 258,
         "startDate": "2014-08-16",
         "endDate": "2015-05-24",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 61,
           "name": "Chelsea FC",
@@ -3056,7 +3056,7 @@
         "id": 259,
         "startDate": "2013-08-17",
         "endDate": "2014-05-11",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 65,
           "name": "Manchester City FC",
@@ -3069,7 +3069,7 @@
         "id": 260,
         "startDate": "2012-08-18",
         "endDate": "2013-05-19",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 66,
           "name": "Manchester United FC",
@@ -3082,7 +3082,7 @@
         "id": 261,
         "startDate": "2011-08-13",
         "endDate": "2012-05-13",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 65,
           "name": "Manchester City FC",
@@ -3095,7 +3095,7 @@
         "id": 262,
         "startDate": "2010-08-14",
         "endDate": "2011-05-22",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 66,
           "name": "Manchester United FC",
@@ -3108,7 +3108,7 @@
         "id": 263,
         "startDate": "2009-08-15",
         "endDate": "2010-05-09",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 61,
           "name": "Chelsea FC",
@@ -3121,7 +3121,7 @@
         "id": 264,
         "startDate": "2008-08-16",
         "endDate": "2009-05-24",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 66,
           "name": "Manchester United FC",
@@ -3134,7 +3134,7 @@
         "id": 265,
         "startDate": "2007-08-11",
         "endDate": "2008-05-11",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 66,
           "name": "Manchester United FC",
@@ -3147,7 +3147,7 @@
         "id": 266,
         "startDate": "2006-08-19",
         "endDate": "2007-05-13",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 66,
           "name": "Manchester United FC",
@@ -3160,7 +3160,7 @@
         "id": 267,
         "startDate": "2005-08-13",
         "endDate": "2006-05-07",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 61,
           "name": "Chelsea FC",
@@ -3173,7 +3173,7 @@
         "id": 268,
         "startDate": "2004-08-14",
         "endDate": "2005-05-15",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 61,
           "name": "Chelsea FC",
@@ -3186,7 +3186,7 @@
         "id": 269,
         "startDate": "2003-08-16",
         "endDate": "2004-05-15",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 57,
           "name": "Arsenal FC",
@@ -3199,7 +3199,7 @@
         "id": 270,
         "startDate": "2002-08-17",
         "endDate": "2003-05-11",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 66,
           "name": "Manchester United FC",
@@ -3212,7 +3212,7 @@
         "id": 271,
         "startDate": "2001-08-18",
         "endDate": "2002-05-11",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 57,
           "name": "Arsenal FC",
@@ -3225,7 +3225,7 @@
         "id": 272,
         "startDate": "2000-08-19",
         "endDate": "2001-05-19",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 66,
           "name": "Manchester United FC",
@@ -3238,7 +3238,7 @@
         "id": 273,
         "startDate": "1999-08-07",
         "endDate": "2000-05-14",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 66,
           "name": "Manchester United FC",
@@ -3251,7 +3251,7 @@
         "id": 274,
         "startDate": "1998-08-15",
         "endDate": "1999-05-16",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 66,
           "name": "Manchester United FC",
@@ -3264,7 +3264,7 @@
         "id": 275,
         "startDate": "1997-08-09",
         "endDate": "1998-05-10",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 57,
           "name": "Arsenal FC",
@@ -3277,7 +3277,7 @@
         "id": 276,
         "startDate": "1996-08-17",
         "endDate": "1997-05-11",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 66,
           "name": "Manchester United FC",
@@ -3290,7 +3290,7 @@
         "id": 277,
         "startDate": "1995-08-19",
         "endDate": "1996-05-04",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 66,
           "name": "Manchester United FC",
@@ -3303,20 +3303,20 @@
         "id": 254,
         "startDate": "1994-08-20",
         "endDate": "1995-05-14",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 59,
           "name": "Blackburn Rovers FC",
           "shortName": "Blackburn Rov",
           "tla": "BBR",
-          "crestUrl": null
+          "crestUrl": None
         }
       },
       {
         "id": 255,
         "startDate": "1993-08-14",
         "endDate": "1994-05-08",
-        "currentMatchday": null,
+        "currentMatchday": None,
         "winner": {
           "id": 66,
           "name": "Manchester United FC",
@@ -3347,7 +3347,7 @@
       "startDate": "2018-08-10",
       "endDate": "2019-05-12",
       "currentMatchday": 10,
-      "winner": null
+      "winner": None
     },
     "teams": [
       {
@@ -3382,7 +3382,7 @@
         "address": "Fulham Road London SW6 1HS",
         "phone": "+44 (0871) 9841955",
         "website": "http://www.chelseafc.com",
-        "email": null,
+        "email": None,
         "founded": 1905,
         "clubColors": "Royal Blue / White",
         "venue": "Stamford Bridge",
@@ -3494,7 +3494,7 @@
         "tla": "NEW",
         "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/56/Newcastle_United_Logo.svg",
         "address": "Sports Direct Arena Newcastle upon Tyne NE1 4ST",
-        "phone": null,
+        "phone": None,
         "website": "http://www.nufc.co.uk",
         "email": "admin@nufc.co.uk",
         "founded": 1881,
@@ -3572,7 +3572,7 @@
         "address": "The Walkers Stadium, Filbert Way Leicester LE2 7FL",
         "phone": "+44 (0844) 8156000",
         "website": "http://www.lcfc.com",
-        "email": null,
+        "email": None,
         "founded": 1884,
         "clubColors": "Royal Blue / White",
         "venue": "King Power Stadium",
@@ -3589,7 +3589,7 @@
         "tla": "SOT",
         "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c9/FC_Southampton.svg",
         "address": "Britannia Road Southampton SO14 5FP",
-        "phone": null,
+        "phone": None,
         "website": "http://www.saintsfc.co.uk",
         "email": "sfc@saintsfc.co.uk",
         "founded": 1885,
@@ -3608,7 +3608,7 @@
         "tla": "WAT",
         "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/Watford.svg",
         "address": "Vicarage Road Watford WD18 0ER",
-        "phone": null,
+        "phone": None,
         "website": "http://www.watfordfc.com",
         "email": "yourvoice@watfordfc.com",
         "founded": 1881,
@@ -3861,7 +3861,7 @@
         "dateOfBirth": "1985-09-10T00:00:00Z",
         "countryOfBirth": "France",
         "nationality": "France",
-        "shirtNumber": null,
+        "shirtNumber": None,
         "role": "PLAYER"
       },
       {
@@ -3901,7 +3901,7 @@
         "dateOfBirth": "1992-02-08T00:00:00Z",
         "countryOfBirth": "England",
         "nationality": "England",
-        "shirtNumber": null,
+        "shirtNumber": None,
         "role": "PLAYER"
       },
       {
@@ -3971,7 +3971,7 @@
         "dateOfBirth": "1997-12-11T00:00:00Z",
         "countryOfBirth": "Greece",
         "nationality": "Greece",
-        "shirtNumber": null,
+        "shirtNumber": None,
         "role": "PLAYER"
       },
       {
@@ -4021,7 +4021,7 @@
         "dateOfBirth": "1999-05-30T00:00:00Z",
         "countryOfBirth": "England",
         "nationality": "England",
-        "shirtNumber": null,
+        "shirtNumber": None,
         "role": "PLAYER"
       },
       {
@@ -4037,21 +4037,21 @@
       {
         "id": 11616,
         "name": "Unai Emery",
-        "position": null,
+        "position": None,
         "dateOfBirth": "1971-11-03T00:00:00Z",
         "countryOfBirth": "Spain",
         "nationality": "Spain",
-        "shirtNumber": null,
+        "shirtNumber": None,
         "role": "COACH"
       },
       {
         "id": 11617,
         "name": "Steve Bould",
-        "position": null,
+        "position": None,
         "dateOfBirth": "1962-11-16T00:00:00Z",
         "countryOfBirth": "England",
         "nationality": "England",
-        "shirtNumber": null,
+        "shirtNumber": None,
         "role": "ASSISTANT_COACH"
       },
       {
@@ -4118,12 +4118,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4138,22 +4138,22 @@
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11611,
             "name": "Scott Ledger",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11504,
             "name": "Simon Long",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11580,
             "name": "Anthony Taylor",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4183,12 +4183,12 @@
             "awayTeam": 2
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4203,22 +4203,22 @@
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11530,
             "name": "Lee Betts",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11547,
             "name": "Stephen Child",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11520,
             "name": "Paul Tierney",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4248,12 +4248,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4268,22 +4268,22 @@
           {
             "id": 11575,
             "name": "Mike Dean",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11495,
             "name": "Ian Hussin",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11431,
             "name": "Daniel Robathan",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11446,
             "name": "Robert Jones",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4313,12 +4313,12 @@
             "awayTeam": 2
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4333,22 +4333,22 @@
           {
             "id": 11443,
             "name": "Chris Kavanagh",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11552,
             "name": "Peter Kirkup",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11531,
             "name": "Marc Perry",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11605,
             "name": "Michael Oliver",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4378,12 +4378,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4398,22 +4398,22 @@
           {
             "id": 11567,
             "name": "Jonathan Moss",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11480,
             "name": "Eddie Smart",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11568,
             "name": "Andrew Halliday",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11556,
             "name": "David Coote",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4443,12 +4443,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4463,22 +4463,22 @@
           {
             "id": 11487,
             "name": "Kevin Friend",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11444,
             "name": "Matthew Wilkes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11521,
             "name": "Mark Scholes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11503,
             "name": "Graham Scott",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4508,12 +4508,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4528,22 +4528,22 @@
           {
             "id": 11585,
             "name": "Craig Pawson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11586,
             "name": "Richard West",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11544,
             "name": "Simon Beck",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11430,
             "name": "Simon Hooper",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4573,12 +4573,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4593,22 +4593,22 @@
           {
             "id": 11580,
             "name": "Anthony Taylor",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11581,
             "name": "Gary Beswick",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11615,
             "name": "Adam Nunn",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11520,
             "name": "Paul Tierney",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4638,12 +4638,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4658,22 +4658,22 @@
           {
             "id": 11503,
             "name": "Graham Scott",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11606,
             "name": "Constantine Hatzidakis",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11438,
             "name": "Dan Cook",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11436,
             "name": "Lee Probert",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4703,12 +4703,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4723,22 +4723,22 @@
           {
             "id": 11605,
             "name": "Michael Oliver",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11488,
             "name": "Simon Bennett",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11564,
             "name": "Stuart Burt",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4768,12 +4768,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4788,22 +4788,22 @@
           {
             "id": 11585,
             "name": "Craig Pawson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11480,
             "name": "Eddie Smart",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11437,
             "name": "Andy Garratt",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11436,
             "name": "Lee Probert",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4833,12 +4833,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4853,22 +4853,22 @@
           {
             "id": 11580,
             "name": "Anthony Taylor",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11581,
             "name": "Gary Beswick",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11615,
             "name": "Adam Nunn",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11430,
             "name": "Simon Hooper",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4898,12 +4898,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4918,22 +4918,22 @@
           {
             "id": 11479,
             "name": "Lee Mason",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11576,
             "name": "Darren Cann",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11505,
             "name": "Derek Eaton",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -4963,12 +4963,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -4983,22 +4983,22 @@
           {
             "id": 11575,
             "name": "Mike Dean",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11495,
             "name": "Ian Hussin",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11521,
             "name": "Mark Scholes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11503,
             "name": "Graham Scott",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5028,12 +5028,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5048,22 +5048,22 @@
           {
             "id": 11494,
             "name": "Stuart Attwell",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11570,
             "name": "Harry Lennard",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11424,
             "name": "Neil Davies",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11487,
             "name": "Kevin Friend",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5093,12 +5093,12 @@
             "awayTeam": 2
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5113,22 +5113,22 @@
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11530,
             "name": "Lee Betts",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11547,
             "name": "Stephen Child",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11567,
             "name": "Jonathan Moss",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5158,12 +5158,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5178,22 +5178,22 @@
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11504,
             "name": "Simon Long",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11586,
             "name": "Richard West",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11479,
             "name": "Lee Mason",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5223,12 +5223,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5243,22 +5243,22 @@
           {
             "id": 11520,
             "name": "Paul Tierney",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11595,
             "name": "Adrian Holmes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11496,
             "name": "Mick McDonough",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11443,
             "name": "Chris Kavanagh",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5288,12 +5288,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5308,22 +5308,22 @@
           {
             "id": 11487,
             "name": "Kevin Friend",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11564,
             "name": "Stuart Burt",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11444,
             "name": "Matthew Wilkes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11503,
             "name": "Graham Scott",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5353,12 +5353,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5373,22 +5373,22 @@
           {
             "id": 11605,
             "name": "Michael Oliver",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11488,
             "name": "Simon Bennett",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11611,
             "name": "Scott Ledger",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11443,
             "name": "Chris Kavanagh",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5418,12 +5418,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5438,22 +5438,22 @@
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11547,
             "name": "Stephen Child",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11606,
             "name": "Constantine Hatzidakis",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11494,
             "name": "Stuart Attwell",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5483,12 +5483,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5503,22 +5503,22 @@
           {
             "id": 11503,
             "name": "Graham Scott",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11611,
             "name": "Scott Ledger",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11496,
             "name": "Mick McDonough",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11487,
             "name": "Kevin Friend",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5548,12 +5548,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5568,22 +5568,22 @@
           {
             "id": 11605,
             "name": "Michael Oliver",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11488,
             "name": "Simon Bennett",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11564,
             "name": "Stuart Burt",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11287,
             "name": "Oliver Langford",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5613,12 +5613,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5633,22 +5633,22 @@
           {
             "id": 11567,
             "name": "Jonathan Moss",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11570,
             "name": "Harry Lennard",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11568,
             "name": "Andrew Halliday",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11556,
             "name": "David Coote",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5678,12 +5678,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5698,22 +5698,22 @@
           {
             "id": 11436,
             "name": "Lee Probert",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11437,
             "name": "Andy Garratt",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11431,
             "name": "Daniel Robathan",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5743,12 +5743,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5763,22 +5763,22 @@
           {
             "id": 11443,
             "name": "Chris Kavanagh",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11530,
             "name": "Lee Betts",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11504,
             "name": "Simon Long",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11585,
             "name": "Craig Pawson",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5808,12 +5808,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5828,22 +5828,22 @@
           {
             "id": 11580,
             "name": "Anthony Taylor",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11581,
             "name": "Gary Beswick",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11615,
             "name": "Adam Nunn",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11494,
             "name": "Stuart Attwell",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5873,12 +5873,12 @@
             "awayTeam": 2
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5893,22 +5893,22 @@
           {
             "id": 11556,
             "name": "David Coote",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11552,
             "name": "Peter Kirkup",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 14629,
             "name": "Matthew Perry",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -5938,12 +5938,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -5958,22 +5958,22 @@
           {
             "id": 11520,
             "name": "Paul Tierney",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11495,
             "name": "Ian Hussin",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11576,
             "name": "Darren Cann",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6003,12 +6003,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6023,22 +6023,22 @@
           {
             "id": 11585,
             "name": "Craig Pawson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11480,
             "name": "Eddie Smart",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11586,
             "name": "Richard West",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11567,
             "name": "Jonathan Moss",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6068,12 +6068,12 @@
             "awayTeam": 2
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6088,22 +6088,22 @@
           {
             "id": 11520,
             "name": "Paul Tierney",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11576,
             "name": "Darren Cann",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11595,
             "name": "Adrian Holmes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6133,12 +6133,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6153,22 +6153,22 @@
           {
             "id": 11479,
             "name": "Lee Mason",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11444,
             "name": "Matthew Wilkes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11531,
             "name": "Marc Perry",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11556,
             "name": "David Coote",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6198,12 +6198,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6218,22 +6218,22 @@
           {
             "id": 11494,
             "name": "Stuart Attwell",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11480,
             "name": "Eddie Smart",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11521,
             "name": "Mark Scholes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11567,
             "name": "Jonathan Moss",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6263,12 +6263,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6283,22 +6283,22 @@
           {
             "id": 11443,
             "name": "Chris Kavanagh",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11504,
             "name": "Simon Long",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11445,
             "name": "Sian Massey-Ellis",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11290,
             "name": "Steve Martin",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6328,12 +6328,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6348,22 +6348,22 @@
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11530,
             "name": "Lee Betts",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11552,
             "name": "Peter Kirkup",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11423,
             "name": "Andy Madley",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6393,12 +6393,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6413,22 +6413,22 @@
           {
             "id": 11436,
             "name": "Lee Probert",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11544,
             "name": "Simon Beck",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11437,
             "name": "Andy Garratt",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11378,
             "name": "Tony Harrington",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6458,12 +6458,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6478,22 +6478,22 @@
           {
             "id": 11487,
             "name": "Kevin Friend",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11488,
             "name": "Simon Bennett",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11505,
             "name": "Derek Eaton",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11585,
             "name": "Craig Pawson",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6523,12 +6523,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6543,22 +6543,22 @@
           {
             "id": 11580,
             "name": "Anthony Taylor",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11581,
             "name": "Gary Beswick",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11615,
             "name": "Adam Nunn",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11556,
             "name": "David Coote",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6588,12 +6588,12 @@
             "awayTeam": 2
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6608,22 +6608,22 @@
           {
             "id": 11567,
             "name": "Jonathan Moss",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11570,
             "name": "Harry Lennard",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11568,
             "name": "Andrew Halliday",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11605,
             "name": "Michael Oliver",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6653,12 +6653,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6673,22 +6673,22 @@
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11611,
             "name": "Scott Ledger",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11438,
             "name": "Dan Cook",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6718,12 +6718,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6738,22 +6738,22 @@
           {
             "id": 11605,
             "name": "Michael Oliver",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11564,
             "name": "Stuart Burt",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11488,
             "name": "Simon Bennett",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11487,
             "name": "Kevin Friend",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6783,12 +6783,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6803,22 +6803,22 @@
           {
             "id": 11494,
             "name": "Stuart Attwell",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11606,
             "name": "Constantine Hatzidakis",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11586,
             "name": "Richard West",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6848,12 +6848,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6868,22 +6868,22 @@
           {
             "id": 11436,
             "name": "Lee Probert",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11544,
             "name": "Simon Beck",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11595,
             "name": "Adrian Holmes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11556,
             "name": "David Coote",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6913,12 +6913,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6933,22 +6933,22 @@
           {
             "id": 11567,
             "name": "Jonathan Moss",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11570,
             "name": "Harry Lennard",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11568,
             "name": "Andrew Halliday",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11396,
             "name": "Tim Robinson",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -6978,12 +6978,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -6998,27 +6998,27 @@
           {
             "id": 11503,
             "name": "Graham Scott",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11504,
             "name": "Simon Long",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11424,
             "name": "Neil Davies",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11479,
             "name": "Lee Mason",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -7048,12 +7048,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7068,22 +7068,22 @@
           {
             "id": 11585,
             "name": "Craig Pawson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11530,
             "name": "Lee Betts",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11495,
             "name": "Ian Hussin",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11430,
             "name": "Simon Hooper",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -7113,12 +7113,12 @@
             "awayTeam": 2
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7133,22 +7133,22 @@
           {
             "id": 11575,
             "name": "Mike Dean",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11576,
             "name": "Darren Cann",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11431,
             "name": "Daniel Robathan",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11520,
             "name": "Paul Tierney",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -7178,12 +7178,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7198,22 +7198,22 @@
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11611,
             "name": "Scott Ledger",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11496,
             "name": "Mick McDonough",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11494,
             "name": "Stuart Attwell",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -7243,12 +7243,12 @@
             "awayTeam": 2
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7263,22 +7263,22 @@
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11547,
             "name": "Stephen Child",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11552,
             "name": "Peter Kirkup",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11556,
             "name": "David Coote",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -7308,12 +7308,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7328,22 +7328,22 @@
           {
             "id": 11580,
             "name": "Anthony Taylor",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11581,
             "name": "Gary Beswick",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11615,
             "name": "Adam Nunn",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11503,
             "name": "Graham Scott",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -7373,12 +7373,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7417,12 +7417,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7461,12 +7461,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7505,12 +7505,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7549,12 +7549,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7593,12 +7593,12 @@
             "awayTeam": 3
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7637,12 +7637,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7681,12 +7681,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7725,12 +7725,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7769,12 +7769,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7813,12 +7813,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7833,22 +7833,22 @@
           {
             "id": 11605,
             "name": "Michael Oliver",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11564,
             "name": "Stuart Burt",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11488,
             "name": "Simon Bennett",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11520,
             "name": "Paul Tierney",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -7878,12 +7878,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7898,22 +7898,22 @@
           {
             "id": 11494,
             "name": "Stuart Attwell",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11606,
             "name": "Constantine Hatzidakis",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11552,
             "name": "Peter Kirkup",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11446,
             "name": "Robert Jones",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -7943,12 +7943,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -7963,22 +7963,22 @@
           {
             "id": 11479,
             "name": "Lee Mason",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11444,
             "name": "Matthew Wilkes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11496,
             "name": "Mick McDonough",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11287,
             "name": "Oliver Langford",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8008,12 +8008,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8028,22 +8028,22 @@
           {
             "id": 11430,
             "name": "Simon Hooper",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11586,
             "name": "Richard West",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11438,
             "name": "Dan Cook",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11575,
             "name": "Mike Dean",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8073,12 +8073,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8093,22 +8093,22 @@
           {
             "id": 11580,
             "name": "Anthony Taylor",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11581,
             "name": "Gary Beswick",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11424,
             "name": "Neil Davies",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8138,12 +8138,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8158,22 +8158,22 @@
           {
             "id": 11543,
             "name": "Roger East",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11544,
             "name": "Simon Beck",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11437,
             "name": "Andy Garratt",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11472,
             "name": "Jeremy Simpson",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8203,12 +8203,12 @@
             "awayTeam": 2
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8223,22 +8223,22 @@
           {
             "id": 11585,
             "name": "Craig Pawson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11495,
             "name": "Ian Hussin",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11568,
             "name": "Andrew Halliday",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11309,
             "name": "Peter Bankes",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8268,12 +8268,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8288,22 +8288,22 @@
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11611,
             "name": "Scott Ledger",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11504,
             "name": "Simon Long",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11443,
             "name": "Chris Kavanagh",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8333,12 +8333,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8353,22 +8353,22 @@
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11547,
             "name": "Stephen Child",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11530,
             "name": "Lee Betts",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11556,
             "name": "David Coote",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8398,12 +8398,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8418,22 +8418,22 @@
           {
             "id": 11575,
             "name": "Mike Dean",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11431,
             "name": "Daniel Robathan",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11521,
             "name": "Mark Scholes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11487,
             "name": "Kevin Friend",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8463,12 +8463,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8483,22 +8483,22 @@
           {
             "id": 11487,
             "name": "Kevin Friend",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11444,
             "name": "Matthew Wilkes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11544,
             "name": "Simon Beck",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11430,
             "name": "Simon Hooper",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8528,12 +8528,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8548,22 +8548,22 @@
           {
             "id": 11575,
             "name": "Mike Dean",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11576,
             "name": "Darren Cann",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11431,
             "name": "Daniel Robathan",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11520,
             "name": "Paul Tierney",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8593,12 +8593,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8613,22 +8613,22 @@
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11611,
             "name": "Scott Ledger",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11504,
             "name": "Simon Long",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11479,
             "name": "Lee Mason",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8658,12 +8658,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8678,22 +8678,22 @@
           {
             "id": 11443,
             "name": "Chris Kavanagh",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11438,
             "name": "Dan Cook",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11445,
             "name": "Sian Massey-Ellis",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8723,12 +8723,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8743,22 +8743,22 @@
           {
             "id": 11605,
             "name": "Michael Oliver",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11564,
             "name": "Stuart Burt",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11488,
             "name": "Simon Bennett",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11543,
             "name": "Roger East",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8788,12 +8788,12 @@
             "awayTeam": 3
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8808,22 +8808,22 @@
           {
             "id": 11567,
             "name": "Jonathan Moss",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11480,
             "name": "Eddie Smart",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11531,
             "name": "Marc Perry",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11430,
             "name": "Simon Hooper",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8853,12 +8853,12 @@
             "awayTeam": 2
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8873,22 +8873,22 @@
           {
             "id": 11580,
             "name": "Anthony Taylor",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11581,
             "name": "Gary Beswick",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11615,
             "name": "Adam Nunn",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11494,
             "name": "Stuart Attwell",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8918,12 +8918,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -8938,22 +8938,22 @@
           {
             "id": 11520,
             "name": "Paul Tierney",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11595,
             "name": "Adrian Holmes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11496,
             "name": "Mick McDonough",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11575,
             "name": "Mike Dean",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -8983,12 +8983,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9003,22 +9003,22 @@
           {
             "id": 11585,
             "name": "Craig Pawson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11495,
             "name": "Ian Hussin",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11586,
             "name": "Richard West",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11543,
             "name": "Roger East",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -9048,12 +9048,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9068,22 +9068,22 @@
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11547,
             "name": "Stephen Child",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11530,
             "name": "Lee Betts",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11494,
             "name": "Stuart Attwell",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -9113,12 +9113,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9133,22 +9133,22 @@
           {
             "id": 11575,
             "name": "Mike Dean",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11495,
             "name": "Ian Hussin",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11576,
             "name": "Darren Cann",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11585,
             "name": "Craig Pawson",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -9178,12 +9178,12 @@
             "awayTeam": 2
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9198,22 +9198,22 @@
           {
             "id": 11479,
             "name": "Lee Mason",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11531,
             "name": "Marc Perry",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11424,
             "name": "Neil Davies",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11327,
             "name": "John Brooks",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -9243,12 +9243,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9263,22 +9263,22 @@
           {
             "id": 11567,
             "name": "Jonathan Moss",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11480,
             "name": "Eddie Smart",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11568,
             "name": "Andrew Halliday",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11443,
             "name": "Chris Kavanagh",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -9308,12 +9308,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9328,22 +9328,22 @@
           {
             "id": 11610,
             "name": "Andre Marriner",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11504,
             "name": "Simon Long",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11586,
             "name": "Richard West",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11378,
             "name": "Tony Harrington",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -9373,12 +9373,12 @@
             "awayTeam": 2
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9393,22 +9393,22 @@
           {
             "id": 11487,
             "name": "Kevin Friend",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11444,
             "name": "Matthew Wilkes",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11505,
             "name": "Derek Eaton",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11387,
             "name": "Andrew Davies",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -9438,12 +9438,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9458,22 +9458,22 @@
           {
             "id": 11551,
             "name": "Martin Atkinson",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11547,
             "name": "Stephen Child",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11552,
             "name": "Peter Kirkup",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11556,
             "name": "David Coote",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -9503,12 +9503,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9523,22 +9523,22 @@
           {
             "id": 11436,
             "name": "Lee Probert",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11544,
             "name": "Simon Beck",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11437,
             "name": "Andy Garratt",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11494,
             "name": "Stuart Attwell",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -9568,12 +9568,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9588,22 +9588,22 @@
           {
             "id": 11605,
             "name": "Michael Oliver",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11564,
             "name": "Stuart Burt",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11488,
             "name": "Simon Bennett",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11430,
             "name": "Simon Hooper",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -9633,12 +9633,12 @@
             "awayTeam": 0
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9653,22 +9653,22 @@
           {
             "id": 11580,
             "name": "Anthony Taylor",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11581,
             "name": "Gary Beswick",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11615,
             "name": "Adam Nunn",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11430,
             "name": "Simon Hooper",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -9698,12 +9698,12 @@
             "awayTeam": 1
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9718,22 +9718,22 @@
           {
             "id": 11443,
             "name": "Chris Kavanagh",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11438,
             "name": "Dan Cook",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11445,
             "name": "Sian Massey-Ellis",
-            "nationality": null
+            "nationality": None
           },
           {
             "id": 11567,
             "name": "Jonathan Moss",
-            "nationality": null
+            "nationality": None
           }
         ]
       },
@@ -9752,23 +9752,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-26T00:00:18Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9796,23 +9796,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-26T00:00:18Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9840,23 +9840,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-26T00:00:18Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9884,23 +9884,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-26T00:00:18Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9928,23 +9928,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-26T00:00:18Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -9972,23 +9972,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-26T00:00:18Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10016,23 +10016,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10060,23 +10060,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10104,23 +10104,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10148,23 +10148,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10192,23 +10192,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10236,23 +10236,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10280,23 +10280,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10324,23 +10324,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10368,23 +10368,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10412,23 +10412,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10456,23 +10456,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10500,23 +10500,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10544,23 +10544,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10588,23 +10588,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10632,23 +10632,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10676,23 +10676,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10720,23 +10720,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10764,23 +10764,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10808,23 +10808,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10852,23 +10852,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10896,23 +10896,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10940,23 +10940,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -10984,23 +10984,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11028,23 +11028,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11072,23 +11072,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11116,23 +11116,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11160,23 +11160,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11204,23 +11204,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11248,23 +11248,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11292,23 +11292,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11336,23 +11336,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11380,23 +11380,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11424,23 +11424,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11468,23 +11468,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11512,23 +11512,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11556,23 +11556,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11600,23 +11600,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11644,23 +11644,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11688,23 +11688,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11732,23 +11732,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11776,23 +11776,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11820,23 +11820,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11864,23 +11864,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11908,23 +11908,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11952,23 +11952,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:38Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -11996,23 +11996,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12040,23 +12040,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12084,23 +12084,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12128,23 +12128,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12172,23 +12172,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12216,23 +12216,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12260,23 +12260,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12304,23 +12304,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12348,23 +12348,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12392,23 +12392,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12436,23 +12436,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12480,23 +12480,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12524,23 +12524,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12568,23 +12568,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12612,23 +12612,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12656,23 +12656,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12700,23 +12700,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12744,23 +12744,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12788,23 +12788,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12832,23 +12832,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12876,23 +12876,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12920,23 +12920,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -12964,23 +12964,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13008,23 +13008,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13052,23 +13052,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13096,23 +13096,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13140,23 +13140,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13184,23 +13184,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13228,23 +13228,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13272,23 +13272,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13316,23 +13316,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13360,23 +13360,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13404,23 +13404,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13448,23 +13448,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13492,23 +13492,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13536,23 +13536,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13580,23 +13580,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13624,23 +13624,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13668,23 +13668,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13712,23 +13712,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13756,23 +13756,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13800,23 +13800,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13844,23 +13844,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13888,23 +13888,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13932,23 +13932,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -13976,23 +13976,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14020,23 +14020,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14064,23 +14064,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14108,23 +14108,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14152,23 +14152,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14196,23 +14196,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14240,23 +14240,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14284,23 +14284,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14328,23 +14328,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14372,23 +14372,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14416,23 +14416,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14460,23 +14460,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14504,23 +14504,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14548,23 +14548,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14592,23 +14592,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14636,23 +14636,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14680,23 +14680,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14724,23 +14724,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14768,23 +14768,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14812,23 +14812,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14856,23 +14856,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14900,23 +14900,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14944,23 +14944,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -14988,23 +14988,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15032,23 +15032,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15076,23 +15076,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15120,23 +15120,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15164,23 +15164,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15208,23 +15208,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15252,23 +15252,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15296,23 +15296,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15340,23 +15340,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15384,23 +15384,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15428,23 +15428,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15472,23 +15472,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15516,23 +15516,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15560,23 +15560,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15604,23 +15604,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15648,23 +15648,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15692,23 +15692,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15736,23 +15736,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15780,23 +15780,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15824,23 +15824,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15868,23 +15868,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15912,23 +15912,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -15956,23 +15956,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16000,23 +16000,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16044,23 +16044,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16088,23 +16088,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16132,23 +16132,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16176,23 +16176,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16220,23 +16220,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16264,23 +16264,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16308,23 +16308,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16352,23 +16352,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16396,23 +16396,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16440,23 +16440,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16484,23 +16484,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16528,23 +16528,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16572,23 +16572,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16616,23 +16616,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16660,23 +16660,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16704,23 +16704,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16748,23 +16748,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16792,23 +16792,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16836,23 +16836,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16880,23 +16880,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16924,23 +16924,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -16968,23 +16968,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17012,23 +17012,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17056,23 +17056,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17100,23 +17100,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17144,23 +17144,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17188,23 +17188,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17232,23 +17232,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17276,23 +17276,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17320,23 +17320,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17364,23 +17364,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17408,23 +17408,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17452,23 +17452,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17496,23 +17496,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17540,23 +17540,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17584,23 +17584,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17628,23 +17628,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17672,23 +17672,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17716,23 +17716,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17760,23 +17760,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17804,23 +17804,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17848,23 +17848,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17892,23 +17892,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17936,23 +17936,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -17980,23 +17980,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18024,23 +18024,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18068,23 +18068,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18112,23 +18112,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18156,23 +18156,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18200,23 +18200,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18244,23 +18244,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18288,23 +18288,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18332,23 +18332,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18376,23 +18376,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18420,23 +18420,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18464,23 +18464,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18508,23 +18508,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18552,23 +18552,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18596,23 +18596,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18640,23 +18640,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18684,23 +18684,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18728,23 +18728,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18772,23 +18772,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18816,23 +18816,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18860,23 +18860,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18904,23 +18904,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18948,23 +18948,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -18992,23 +18992,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19036,23 +19036,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19080,23 +19080,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19124,23 +19124,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19168,23 +19168,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19212,23 +19212,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19256,23 +19256,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19300,23 +19300,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19344,23 +19344,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19388,23 +19388,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19432,23 +19432,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19476,23 +19476,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19520,23 +19520,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19564,23 +19564,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19608,23 +19608,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19652,23 +19652,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19696,23 +19696,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19740,23 +19740,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19784,23 +19784,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19828,23 +19828,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19872,23 +19872,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19916,23 +19916,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -19960,23 +19960,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20004,23 +20004,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20048,23 +20048,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20092,23 +20092,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20136,23 +20136,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20180,23 +20180,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20224,23 +20224,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20268,23 +20268,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20312,23 +20312,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20356,23 +20356,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20400,23 +20400,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20444,23 +20444,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20488,23 +20488,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20532,23 +20532,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20576,23 +20576,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20620,23 +20620,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20664,23 +20664,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20708,23 +20708,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20752,23 +20752,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20796,23 +20796,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20840,23 +20840,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20884,23 +20884,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20928,23 +20928,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -20972,23 +20972,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21016,23 +21016,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21060,23 +21060,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21104,23 +21104,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21148,23 +21148,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21192,23 +21192,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21236,23 +21236,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21280,23 +21280,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21324,23 +21324,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21368,23 +21368,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21412,23 +21412,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21456,23 +21456,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21500,23 +21500,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21544,23 +21544,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21588,23 +21588,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21632,23 +21632,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21676,23 +21676,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21720,23 +21720,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21764,23 +21764,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21808,23 +21808,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21852,23 +21852,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21896,23 +21896,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21940,23 +21940,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -21984,23 +21984,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -22028,23 +22028,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -22072,23 +22072,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -22116,23 +22116,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -22160,23 +22160,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -22204,23 +22204,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -22248,23 +22248,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -22292,23 +22292,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -22336,23 +22336,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -22380,23 +22380,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -22424,23 +22424,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -22468,23 +22468,23 @@
         "group": "Regular Season",
         "lastUpdated": "2018-10-22T10:02:39Z",
         "score": {
-          "winner": null,
+          "winner": None,
           "duration": "REGULAR",
           "fullTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "halfTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "extraTime": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           },
           "penalties": {
-            "homeTeam": null,
-            "awayTeam": null
+            "homeTeam": None,
+            "awayTeam": None
           }
         },
         "homeTeam": {
@@ -22525,7 +22525,7 @@
         "startDate": "2018-08-10",
         "endDate": "2019-05-12",
         "currentMatchday": 10,
-        "winner": null
+        "winner": None
       },
       "utcDate": "2018-08-10T19:00:00Z",
       "status": "FINISHED",
@@ -22546,12 +22546,12 @@
           "awayTeam": 0
         },
         "extraTime": {
-          "homeTeam": null,
-          "awayTeam": null
+          "homeTeam": None,
+          "awayTeam": None
         },
         "penalties": {
-          "homeTeam": null,
-          "awayTeam": null
+          "homeTeam": None,
+          "awayTeam": None
         }
       },
       "homeTeam": {
@@ -22566,22 +22566,22 @@
         {
           "id": 11610,
           "name": "Andre Marriner",
-          "nationality": null
+          "nationality": None
         },
         {
           "id": 11611,
           "name": "Scott Ledger",
-          "nationality": null
+          "nationality": None
         },
         {
           "id": 11504,
           "name": "Simon Long",
-          "nationality": null
+          "nationality": None
         },
         {
           "id": 11580,
           "name": "Anthony Taylor",
-          "nationality": null
+          "nationality": None
         }
       ]
     }
@@ -22607,7 +22607,7 @@
       "startDate": "2018-08-10",
       "endDate": "2019-05-12",
       "currentMatchday": 10,
-      "winner": null
+      "winner": None
     },
     "scorers": [
       {
@@ -22615,7 +22615,7 @@
           "id": 3653,
           "name": "Eden Hazard",
           "firstName": "Eden",
-          "lastName": null,
+          "lastName": None,
           "dateOfBirth": "1991-01-07",
           "countryOfBirth": "Belgium",
           "nationality": "Belgium",
@@ -22634,7 +22634,7 @@
           "id": 7891,
           "name": "Sergio Agüero",
           "firstName": "Sergio Leonel",
-          "lastName": null,
+          "lastName": None,
           "dateOfBirth": "1988-06-02",
           "countryOfBirth": "Argentina",
           "nationality": "Argentina",
@@ -22653,7 +22653,7 @@
           "id": 7801,
           "name": "Pierre-Emerick Aubameyang",
           "firstName": "Pierre-Emerick Emiliano François",
-          "lastName": null,
+          "lastName": None,
           "dateOfBirth": "1989-06-18",
           "countryOfBirth": "France",
           "nationality": "Gabon",
@@ -22672,7 +22672,7 @@
           "id": 3445,
           "name": "Aleksandar Mitrović",
           "firstName": "Aleksandar",
-          "lastName": null,
+          "lastName": None,
           "dateOfBirth": "1994-09-16",
           "countryOfBirth": "Serbia",
           "nationality": "Serbia",
@@ -22691,7 +22691,7 @@
           "id": 8004,
           "name": "Harry Kane",
           "firstName": "Harry",
-          "lastName": null,
+          "lastName": None,
           "dateOfBirth": "1993-07-28",
           "countryOfBirth": "England",
           "nationality": "England",
@@ -22710,7 +22710,7 @@
           "id": 8286,
           "name": "Glenn Murray",
           "firstName": "Glenn",
-          "lastName": null,
+          "lastName": None,
           "dateOfBirth": "1983-09-25",
           "countryOfBirth": "England",
           "nationality": "England",
@@ -22729,12 +22729,12 @@
           "id": 8120,
           "name": "Roberto Pereyra",
           "firstName": "Roberto Maxmiliano",
-          "lastName": null,
+          "lastName": None,
           "dateOfBirth": "1991-01-07",
           "countryOfBirth": "Argentina",
           "nationality": "Argentina",
           "position": "Midfielder",
-          "shirtNumber": null,
+          "shirtNumber": None,
           "lastUpdated": "2018-10-25T05:34:13Z"
         },
         "team": {
@@ -22748,12 +22748,12 @@
           "id": 8133,
           "name": "Richarlison",
           "firstName": "Richarlison",
-          "lastName": null,
+          "lastName": None,
           "dateOfBirth": "1997-05-10",
           "countryOfBirth": "Brazil",
           "nationality": "Brazil",
           "position": "Attacker",
-          "shirtNumber": null,
+          "shirtNumber": None,
           "lastUpdated": "2018-10-25T05:34:13Z"
         },
         "team": {
@@ -22767,7 +22767,7 @@
           "id": 3754,
           "name": "Mohamed Salah",
           "firstName": "Mohamed Salah",
-          "lastName": null,
+          "lastName": None,
           "dateOfBirth": "1992-06-15",
           "countryOfBirth": "Egypt",
           "nationality": "Egypt",
@@ -22786,7 +22786,7 @@
           "id": 3626,
           "name": "Sadio Mané",
           "firstName": "Sadio",
-          "lastName": null,
+          "lastName": None,
           "dateOfBirth": "1992-04-10",
           "countryOfBirth": "Senegal",
           "nationality": "Senegal",
@@ -22820,13 +22820,13 @@
       "startDate": "2018-08-10",
       "endDate": "2019-05-12",
       "currentMatchday": 10,
-      "winner": null
+      "winner": None
     },
     "standings": [
       {
         "stage": "REGULAR_SEASON",
         "type": "TOTAL",
-        "group": null,
+        "group": None,
         "table": [
           {
             "position": 1,
@@ -23153,7 +23153,7 @@
       {
         "stage": "REGULAR_SEASON",
         "type": "HOME",
-        "group": null,
+        "group": None,
         "table": [
           {
             "position": 1,
@@ -23480,7 +23480,7 @@
       {
         "stage": "REGULAR_SEASON",
         "type": "AWAY",
-        "group": null,
+        "group": None,
         "table": [
           {
             "position": 1,
@@ -23814,7 +23814,7 @@
         "id": 2000,
         "name": "Afghanistan",
         "countryCode": "AFG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -23822,7 +23822,7 @@
         "id": 2001,
         "name": "Africa",
         "countryCode": "AFR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -23830,7 +23830,7 @@
         "id": 2002,
         "name": "Albania",
         "countryCode": "ALB",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -23838,7 +23838,7 @@
         "id": 2003,
         "name": "Alderney",
         "countryCode": "ALD",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -23846,7 +23846,7 @@
         "id": 2004,
         "name": "Algeria",
         "countryCode": "ALG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -23854,7 +23854,7 @@
         "id": 2005,
         "name": "American Samoa",
         "countryCode": "ASM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -23862,7 +23862,7 @@
         "id": 2006,
         "name": "Andorra",
         "countryCode": "AND",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -23870,7 +23870,7 @@
         "id": 2007,
         "name": "Angola",
         "countryCode": "ANG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -23878,7 +23878,7 @@
         "id": 2008,
         "name": "Anguilla",
         "countryCode": "AIA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -23886,7 +23886,7 @@
         "id": 2009,
         "name": "Antigua and Barbuda",
         "countryCode": "ATG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -23894,7 +23894,7 @@
         "id": 2010,
         "name": "Arameans Suryoye",
         "countryCode": "ARS",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -23902,7 +23902,7 @@
         "id": 2011,
         "name": "Argentina",
         "countryCode": "ARG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2220,
         "parentArea": "South America"
       },
@@ -23910,7 +23910,7 @@
         "id": 2012,
         "name": "Armenia",
         "countryCode": "ARM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -23918,7 +23918,7 @@
         "id": 2013,
         "name": "Aruba",
         "countryCode": "ABW",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -23926,7 +23926,7 @@
         "id": 2014,
         "name": "Asia",
         "countryCode": "ASI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -23934,7 +23934,7 @@
         "id": 2015,
         "name": "Australia",
         "countryCode": "AUS",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -23950,7 +23950,7 @@
         "id": 2017,
         "name": "Azerbaijan",
         "countryCode": "AZE",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -23958,7 +23958,7 @@
         "id": 2018,
         "name": "Bahamas",
         "countryCode": "BHS",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -23966,7 +23966,7 @@
         "id": 2019,
         "name": "Bahrain",
         "countryCode": "BHR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -23974,7 +23974,7 @@
         "id": 2020,
         "name": "Bangladesh",
         "countryCode": "BAN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -23982,7 +23982,7 @@
         "id": 2021,
         "name": "Barbados",
         "countryCode": "BRB",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -23990,7 +23990,7 @@
         "id": 2022,
         "name": "Belarus",
         "countryCode": "BLR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24006,7 +24006,7 @@
         "id": 2024,
         "name": "Belize",
         "countryCode": "BLZ",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24014,7 +24014,7 @@
         "id": 2025,
         "name": "Benin",
         "countryCode": "BEN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24022,7 +24022,7 @@
         "id": 2026,
         "name": "Bermuda",
         "countryCode": "BMU",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24030,7 +24030,7 @@
         "id": 2027,
         "name": "Bhutan",
         "countryCode": "BHU",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24038,7 +24038,7 @@
         "id": 2028,
         "name": "Bolivia",
         "countryCode": "BOL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2220,
         "parentArea": "South America"
       },
@@ -24046,7 +24046,7 @@
         "id": 2029,
         "name": "Bonaire",
         "countryCode": "BON",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24062,7 +24062,7 @@
         "id": 2031,
         "name": "Botswana",
         "countryCode": "BOT",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24070,7 +24070,7 @@
         "id": 2032,
         "name": "Brazil",
         "countryCode": "BRA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2220,
         "parentArea": "South America"
       },
@@ -24078,7 +24078,7 @@
         "id": 2033,
         "name": "British Virgin Islands",
         "countryCode": "BVI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24086,7 +24086,7 @@
         "id": 2034,
         "name": "Brunei Darussalam",
         "countryCode": "BRU",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24102,7 +24102,7 @@
         "id": 2036,
         "name": "Burkina Faso",
         "countryCode": "BFA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24110,7 +24110,7 @@
         "id": 2037,
         "name": "Burundi",
         "countryCode": "BDI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24118,7 +24118,7 @@
         "id": 2038,
         "name": "Cambodia",
         "countryCode": "CAM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24126,7 +24126,7 @@
         "id": 2039,
         "name": "Cameroon",
         "countryCode": "CMR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24134,7 +24134,7 @@
         "id": 2040,
         "name": "Canada",
         "countryCode": "CAN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24142,7 +24142,7 @@
         "id": 2041,
         "name": "Cape Verde Islands",
         "countryCode": "CPV",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24150,7 +24150,7 @@
         "id": 2042,
         "name": "Cayman Islands",
         "countryCode": "CYM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24158,7 +24158,7 @@
         "id": 2043,
         "name": "Central African Republic",
         "countryCode": "CTA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24166,7 +24166,7 @@
         "id": 2044,
         "name": "Chad",
         "countryCode": "CHA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24174,7 +24174,7 @@
         "id": 2045,
         "name": "Chile",
         "countryCode": "CHL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2220,
         "parentArea": "South America"
       },
@@ -24182,7 +24182,7 @@
         "id": 2046,
         "name": "China PR",
         "countryCode": "CHN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24190,7 +24190,7 @@
         "id": 2047,
         "name": "Chinese Taipei",
         "countryCode": "TPE",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24198,7 +24198,7 @@
         "id": 2048,
         "name": "CIS",
         "countryCode": "CIS",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24206,7 +24206,7 @@
         "id": 2049,
         "name": "Colombia",
         "countryCode": "COL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2220,
         "parentArea": "South America"
       },
@@ -24214,7 +24214,7 @@
         "id": 2050,
         "name": "Comoros",
         "countryCode": "CMO",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24222,7 +24222,7 @@
         "id": 2051,
         "name": "Congo",
         "countryCode": "CGO",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24230,7 +24230,7 @@
         "id": 2052,
         "name": "Congo DR",
         "countryCode": "COD",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24238,7 +24238,7 @@
         "id": 2053,
         "name": "Cook Islands",
         "countryCode": "COK",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -24246,7 +24246,7 @@
         "id": 2054,
         "name": "Corsica",
         "countryCode": "COR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24254,7 +24254,7 @@
         "id": 2055,
         "name": "Costa Rica",
         "countryCode": "CRI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24262,7 +24262,7 @@
         "id": 2056,
         "name": "Côte d’Ivoire",
         "countryCode": "CIV",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24270,7 +24270,7 @@
         "id": 2057,
         "name": "Crimea",
         "countryCode": "ARC",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24286,7 +24286,7 @@
         "id": 2059,
         "name": "Cuba",
         "countryCode": "CUB",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24294,7 +24294,7 @@
         "id": 2060,
         "name": "Curaçao",
         "countryCode": "ANT",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24302,7 +24302,7 @@
         "id": 2061,
         "name": "Cyprus",
         "countryCode": "CYP",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24326,7 +24326,7 @@
         "id": 2064,
         "name": "Darfur",
         "countryCode": "DAR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -24342,7 +24342,7 @@
         "id": 2066,
         "name": "Djibouti",
         "countryCode": "DJI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24350,7 +24350,7 @@
         "id": 2067,
         "name": "Dominica",
         "countryCode": "DMA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24358,7 +24358,7 @@
         "id": 2068,
         "name": "Dominican Republic",
         "countryCode": "DOM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24366,7 +24366,7 @@
         "id": 2069,
         "name": "Ecuador",
         "countryCode": "ECU",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2220,
         "parentArea": "South America"
       },
@@ -24374,7 +24374,7 @@
         "id": 2070,
         "name": "Egypt",
         "countryCode": "EGY",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24382,7 +24382,7 @@
         "id": 2071,
         "name": "El Salvador",
         "countryCode": "SLV",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24390,7 +24390,7 @@
         "id": 2072,
         "name": "England",
         "countryCode": "ENG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24398,7 +24398,7 @@
         "id": 2073,
         "name": "Equatorial Guinea",
         "countryCode": "EQG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24406,7 +24406,7 @@
         "id": 2074,
         "name": "Eritrea",
         "countryCode": "ERI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24422,7 +24422,7 @@
         "id": 2076,
         "name": "Ethiopia",
         "countryCode": "ETH",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24430,7 +24430,7 @@
         "id": 2077,
         "name": "Europe",
         "countryCode": "EUR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -24438,7 +24438,7 @@
         "id": 2078,
         "name": "Faroe Islands",
         "countryCode": "FRO",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24446,7 +24446,7 @@
         "id": 2079,
         "name": "Fiji",
         "countryCode": "FJI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -24462,7 +24462,7 @@
         "id": 2081,
         "name": "France",
         "countryCode": "FRA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24470,7 +24470,7 @@
         "id": 2082,
         "name": "French Guiana",
         "countryCode": "FGU",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24478,7 +24478,7 @@
         "id": 2083,
         "name": "FYR Macedonia",
         "countryCode": "MKD",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24486,7 +24486,7 @@
         "id": 2084,
         "name": "Gabon",
         "countryCode": "GAB",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24494,7 +24494,7 @@
         "id": 2085,
         "name": "Gambia",
         "countryCode": "GAM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24502,7 +24502,7 @@
         "id": 2086,
         "name": "GDR",
         "countryCode": "GDR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24510,7 +24510,7 @@
         "id": 2087,
         "name": "Georgia",
         "countryCode": "GEO",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24518,7 +24518,7 @@
         "id": 2088,
         "name": "Germany",
         "countryCode": "DEU",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24526,7 +24526,7 @@
         "id": 2089,
         "name": "Ghana",
         "countryCode": "GHA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24534,7 +24534,7 @@
         "id": 2090,
         "name": "Gibraltar",
         "countryCode": "GIB",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24542,7 +24542,7 @@
         "id": 2091,
         "name": "Gozo",
         "countryCode": "GOZ",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24550,7 +24550,7 @@
         "id": 2092,
         "name": "Great Britain",
         "countryCode": "GBR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24566,7 +24566,7 @@
         "id": 2094,
         "name": "Greenland",
         "countryCode": "GEE",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24574,7 +24574,7 @@
         "id": 2095,
         "name": "Grenada",
         "countryCode": "GRD",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24582,7 +24582,7 @@
         "id": 2096,
         "name": "Guadeloupe",
         "countryCode": "GDL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24590,7 +24590,7 @@
         "id": 2097,
         "name": "Guam",
         "countryCode": "GUM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24598,7 +24598,7 @@
         "id": 2098,
         "name": "Guatemala",
         "countryCode": "GTM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24606,7 +24606,7 @@
         "id": 2099,
         "name": "Guernsey",
         "countryCode": "GGY",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24614,7 +24614,7 @@
         "id": 2100,
         "name": "Guinea",
         "countryCode": "GUI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24622,7 +24622,7 @@
         "id": 2101,
         "name": "Guinea-Bissau",
         "countryCode": "GNB",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24630,7 +24630,7 @@
         "id": 2102,
         "name": "Guyana",
         "countryCode": "GUY",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24638,7 +24638,7 @@
         "id": 2103,
         "name": "Haiti",
         "countryCode": "HTI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24646,7 +24646,7 @@
         "id": 2104,
         "name": "Honduras",
         "countryCode": "HND",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24654,7 +24654,7 @@
         "id": 2105,
         "name": "Hong Kong",
         "countryCode": "HKG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24678,7 +24678,7 @@
         "id": 2108,
         "name": "India",
         "countryCode": "IND",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24686,7 +24686,7 @@
         "id": 2109,
         "name": "Indonesia",
         "countryCode": "IDN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24694,7 +24694,7 @@
         "id": 2110,
         "name": "Iran",
         "countryCode": "IRN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24702,7 +24702,7 @@
         "id": 2111,
         "name": "Iraq",
         "countryCode": "IRQ",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24710,7 +24710,7 @@
         "id": 2112,
         "name": "Isle of Man",
         "countryCode": "IOM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24726,7 +24726,7 @@
         "id": 2114,
         "name": "Italy",
         "countryCode": "ITA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24734,7 +24734,7 @@
         "id": 2115,
         "name": "Jamaica",
         "countryCode": "JAM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24742,7 +24742,7 @@
         "id": 2116,
         "name": "Japan",
         "countryCode": "JPN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24750,7 +24750,7 @@
         "id": 2117,
         "name": "Jersey",
         "countryCode": "JER",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24758,7 +24758,7 @@
         "id": 2118,
         "name": "Jordan",
         "countryCode": "JOR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24766,7 +24766,7 @@
         "id": 2119,
         "name": "Kazakhstan",
         "countryCode": "KAZ",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24774,7 +24774,7 @@
         "id": 2120,
         "name": "Kenya",
         "countryCode": "KEN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24782,7 +24782,7 @@
         "id": 2121,
         "name": "Kiribati",
         "countryCode": "KIR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -24790,7 +24790,7 @@
         "id": 2122,
         "name": "Korea DPR",
         "countryCode": "PRK",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24798,7 +24798,7 @@
         "id": 2123,
         "name": "Korea Republic",
         "countryCode": "KOR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24806,7 +24806,7 @@
         "id": 2124,
         "name": "Kosovo",
         "countryCode": "KSV",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24814,7 +24814,7 @@
         "id": 2125,
         "name": "Kurdistan",
         "countryCode": "KUR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24822,7 +24822,7 @@
         "id": 2126,
         "name": "Kuwait",
         "countryCode": "KUW",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24830,7 +24830,7 @@
         "id": 2127,
         "name": "Kyrgyzstan",
         "countryCode": "KGZ",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24838,7 +24838,7 @@
         "id": 2128,
         "name": "Laos",
         "countryCode": "LAO",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24854,7 +24854,7 @@
         "id": 2130,
         "name": "Lebanon",
         "countryCode": "LIB",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24862,7 +24862,7 @@
         "id": 2131,
         "name": "Lesotho",
         "countryCode": "LES",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24870,7 +24870,7 @@
         "id": 2132,
         "name": "Liberia",
         "countryCode": "LBR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24878,7 +24878,7 @@
         "id": 2133,
         "name": "Libya",
         "countryCode": "LBY",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24886,7 +24886,7 @@
         "id": 2134,
         "name": "Liechtenstein",
         "countryCode": "LIE",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24902,7 +24902,7 @@
         "id": 2136,
         "name": "Luxembourg",
         "countryCode": "LUX",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -24910,7 +24910,7 @@
         "id": 2137,
         "name": "Macao",
         "countryCode": "MAC",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24918,7 +24918,7 @@
         "id": 2138,
         "name": "Madagascar",
         "countryCode": "MAD",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24926,7 +24926,7 @@
         "id": 2139,
         "name": "Malawi",
         "countryCode": "MWI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24934,7 +24934,7 @@
         "id": 2140,
         "name": "Malaysia",
         "countryCode": "MAS",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24942,7 +24942,7 @@
         "id": 2141,
         "name": "Maldives",
         "countryCode": "MDV",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -24950,7 +24950,7 @@
         "id": 2142,
         "name": "Mali",
         "countryCode": "MLI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24966,7 +24966,7 @@
         "id": 2144,
         "name": "Marshall Islands",
         "countryCode": "MSI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -24974,7 +24974,7 @@
         "id": 2145,
         "name": "Martinique",
         "countryCode": "MTQ",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -24982,7 +24982,7 @@
         "id": 2146,
         "name": "Mauritania",
         "countryCode": "MTN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24990,7 +24990,7 @@
         "id": 2147,
         "name": "Mauritius",
         "countryCode": "MRI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -24998,7 +24998,7 @@
         "id": 2148,
         "name": "Mayotte",
         "countryCode": "MYT",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25006,7 +25006,7 @@
         "id": 2149,
         "name": "Mexico",
         "countryCode": "MEX",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25014,7 +25014,7 @@
         "id": 2150,
         "name": "Micronesia",
         "countryCode": "MIC",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25022,7 +25022,7 @@
         "id": 2151,
         "name": "Moldova",
         "countryCode": "MHL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25030,7 +25030,7 @@
         "id": 2152,
         "name": "Monaco",
         "countryCode": "MCO",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25038,7 +25038,7 @@
         "id": 2153,
         "name": "Mongolia",
         "countryCode": "MGL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25046,7 +25046,7 @@
         "id": 2154,
         "name": "Montenegro",
         "countryCode": "MNE",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25054,7 +25054,7 @@
         "id": 2155,
         "name": "Montserrat",
         "countryCode": "MSR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25062,7 +25062,7 @@
         "id": 2156,
         "name": "Morocco",
         "countryCode": "MAR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25070,7 +25070,7 @@
         "id": 2157,
         "name": "Mozambique",
         "countryCode": "MOZ",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25078,7 +25078,7 @@
         "id": 2158,
         "name": "Myanmar",
         "countryCode": "MYA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25086,7 +25086,7 @@
         "id": 2159,
         "name": "N/C America",
         "countryCode": "NCA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25094,7 +25094,7 @@
         "id": 2160,
         "name": "Namibia",
         "countryCode": "NAM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25102,7 +25102,7 @@
         "id": 2161,
         "name": "Nauru",
         "countryCode": "NAU",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25110,7 +25110,7 @@
         "id": 2162,
         "name": "Nepal",
         "countryCode": "NEP",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25126,7 +25126,7 @@
         "id": 2164,
         "name": "New Caledonia",
         "countryCode": "NCL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25134,7 +25134,7 @@
         "id": 2165,
         "name": "New Zealand",
         "countryCode": "NZL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25142,7 +25142,7 @@
         "id": 2166,
         "name": "NF-Board",
         "countryCode": "NFB",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25150,7 +25150,7 @@
         "id": 2167,
         "name": "Nicaragua",
         "countryCode": "NIC",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25158,7 +25158,7 @@
         "id": 2168,
         "name": "Niger",
         "countryCode": "NIG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25166,7 +25166,7 @@
         "id": 2169,
         "name": "Nigeria",
         "countryCode": "NGA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25174,7 +25174,7 @@
         "id": 2170,
         "name": "Niue",
         "countryCode": "NIU",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25190,7 +25190,7 @@
         "id": 2172,
         "name": "Northern Mariana Islands",
         "countryCode": "NMI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25206,7 +25206,7 @@
         "id": 2174,
         "name": "Occitania",
         "countryCode": "OCC",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25214,7 +25214,7 @@
         "id": 2175,
         "name": "Oceania",
         "countryCode": "OCE",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25222,7 +25222,7 @@
         "id": 2176,
         "name": "Oman",
         "countryCode": "OMA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25230,7 +25230,7 @@
         "id": 2177,
         "name": "Padania",
         "countryCode": "PAD",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25238,7 +25238,7 @@
         "id": 2178,
         "name": "Pakistan",
         "countryCode": "PAK",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25246,7 +25246,7 @@
         "id": 2179,
         "name": "Palau",
         "countryCode": "PLA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25254,7 +25254,7 @@
         "id": 2180,
         "name": "Palestine",
         "countryCode": "PAL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25262,7 +25262,7 @@
         "id": 2181,
         "name": "Panama",
         "countryCode": "PAN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25270,7 +25270,7 @@
         "id": 2182,
         "name": "Papua New Guinea",
         "countryCode": "PNG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25278,7 +25278,7 @@
         "id": 2183,
         "name": "Paraguay",
         "countryCode": "PRY",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2220,
         "parentArea": "South America"
       },
@@ -25286,7 +25286,7 @@
         "id": 2184,
         "name": "Peru",
         "countryCode": "PER",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2220,
         "parentArea": "South America"
       },
@@ -25294,7 +25294,7 @@
         "id": 2185,
         "name": "Philippines",
         "countryCode": "PHI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25318,7 +25318,7 @@
         "id": 2188,
         "name": "Provence",
         "countryCode": "PRO",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25326,7 +25326,7 @@
         "id": 2189,
         "name": "Puerto Rico",
         "countryCode": "PRI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25334,7 +25334,7 @@
         "id": 2190,
         "name": "Qatar",
         "countryCode": "QAT",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25342,7 +25342,7 @@
         "id": 2191,
         "name": "Raetia",
         "countryCode": "RAE",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25358,7 +25358,7 @@
         "id": 2193,
         "name": "Reunion",
         "countryCode": "REU",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25382,7 +25382,7 @@
         "id": 2196,
         "name": "Rwanda",
         "countryCode": "RWA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25390,7 +25390,7 @@
         "id": 2197,
         "name": "Saint Martin",
         "countryCode": "SMT",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25398,7 +25398,7 @@
         "id": 2198,
         "name": "Saint Pierre and Miquelon",
         "countryCode": "SPM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25406,7 +25406,7 @@
         "id": 2199,
         "name": "Samoa",
         "countryCode": "WSM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25414,7 +25414,7 @@
         "id": 2200,
         "name": "San Marino",
         "countryCode": "SMR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25422,7 +25422,7 @@
         "id": 2201,
         "name": "São Tomé e Príncipe",
         "countryCode": "STP",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25430,7 +25430,7 @@
         "id": 2202,
         "name": "Sápmi",
         "countryCode": "SAP",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25438,7 +25438,7 @@
         "id": 2203,
         "name": "Saudi Arabia",
         "countryCode": "KSA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25454,7 +25454,7 @@
         "id": 2205,
         "name": "Senegal",
         "countryCode": "SEN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25462,7 +25462,7 @@
         "id": 2206,
         "name": "Serbia",
         "countryCode": "SER",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25470,7 +25470,7 @@
         "id": 2207,
         "name": "Serbia and Montenegro",
         "countryCode": "SCG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25478,7 +25478,7 @@
         "id": 2208,
         "name": "Seychelles",
         "countryCode": "SEY",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25494,7 +25494,7 @@
         "id": 2210,
         "name": "Sierra Leone",
         "countryCode": "SLE",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25502,7 +25502,7 @@
         "id": 2211,
         "name": "Singapore",
         "countryCode": "SIN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25510,7 +25510,7 @@
         "id": 2212,
         "name": "Sint Eustatius",
         "countryCode": "SEU",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25518,7 +25518,7 @@
         "id": 2213,
         "name": "Sint Maarten",
         "countryCode": "SMA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25526,7 +25526,7 @@
         "id": 2214,
         "name": "Slovakia",
         "countryCode": "SVK",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25534,7 +25534,7 @@
         "id": 2215,
         "name": "Slovenia",
         "countryCode": "SVN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25542,7 +25542,7 @@
         "id": 2216,
         "name": "Solomon Islands",
         "countryCode": "SLB",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25550,7 +25550,7 @@
         "id": 2217,
         "name": "Somalia",
         "countryCode": "SOM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25558,7 +25558,7 @@
         "id": 2218,
         "name": "Somaliland",
         "countryCode": "SOL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25566,7 +25566,7 @@
         "id": 2219,
         "name": "South Africa",
         "countryCode": "RSA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25574,7 +25574,7 @@
         "id": 2220,
         "name": "South America",
         "countryCode": "SAM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25582,7 +25582,7 @@
         "id": 2221,
         "name": "South Sudan",
         "countryCode": "SSD",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25590,7 +25590,7 @@
         "id": 2222,
         "name": "Southern Cameroon",
         "countryCode": "SCM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25598,7 +25598,7 @@
         "id": 2223,
         "name": "Soviet Union",
         "countryCode": "SOV",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25606,7 +25606,7 @@
         "id": 2224,
         "name": "Spain",
         "countryCode": "ESP",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25614,7 +25614,7 @@
         "id": 2225,
         "name": "Sri Lanka",
         "countryCode": "SRI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25622,7 +25622,7 @@
         "id": 2226,
         "name": "St. Helena",
         "countryCode": "STH",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25630,7 +25630,7 @@
         "id": 2227,
         "name": "St. Kitts and Nevis",
         "countryCode": "SKN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25638,7 +25638,7 @@
         "id": 2228,
         "name": "St. Lucia",
         "countryCode": "STL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25646,7 +25646,7 @@
         "id": 2229,
         "name": "St. Vincent and the Grenadines",
         "countryCode": "SVG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25654,7 +25654,7 @@
         "id": 2230,
         "name": "Sudan",
         "countryCode": "SUD",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25662,7 +25662,7 @@
         "id": 2231,
         "name": "Suriname",
         "countryCode": "SUR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25670,7 +25670,7 @@
         "id": 2232,
         "name": "Swaziland",
         "countryCode": "SWZ",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25694,7 +25694,7 @@
         "id": 2235,
         "name": "Syria",
         "countryCode": "SYR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25702,7 +25702,7 @@
         "id": 2236,
         "name": "Tahiti",
         "countryCode": "TAH",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25710,7 +25710,7 @@
         "id": 2237,
         "name": "Tajikistan",
         "countryCode": "TJK",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25718,7 +25718,7 @@
         "id": 2238,
         "name": "Tamil Eelam",
         "countryCode": "TEL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25726,7 +25726,7 @@
         "id": 2239,
         "name": "Tanzania",
         "countryCode": "TAN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25734,7 +25734,7 @@
         "id": 2240,
         "name": "Thailand",
         "countryCode": "THA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25742,7 +25742,7 @@
         "id": 2241,
         "name": "Timor-Leste",
         "countryCode": "EAT",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25750,7 +25750,7 @@
         "id": 2242,
         "name": "Togo",
         "countryCode": "TOG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25758,7 +25758,7 @@
         "id": 2243,
         "name": "Tonga",
         "countryCode": "TON",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25766,7 +25766,7 @@
         "id": 2244,
         "name": "TR Northern Cyprus",
         "countryCode": "NCY",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25774,7 +25774,7 @@
         "id": 2245,
         "name": "Trinidad and Tobago",
         "countryCode": "TTO",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25782,7 +25782,7 @@
         "id": 2246,
         "name": "Tunisia",
         "countryCode": "TUN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25798,7 +25798,7 @@
         "id": 2248,
         "name": "Turkmenistan",
         "countryCode": "TKM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25806,7 +25806,7 @@
         "id": 2249,
         "name": "Turks and Caicos Islands",
         "countryCode": "TCA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25814,7 +25814,7 @@
         "id": 2250,
         "name": "Tuvalu",
         "countryCode": "TVL",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25822,7 +25822,7 @@
         "id": 2251,
         "name": "Two Sicilies",
         "countryCode": "TSI",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25830,7 +25830,7 @@
         "id": 2252,
         "name": "Uganda",
         "countryCode": "UGA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25846,7 +25846,7 @@
         "id": 2254,
         "name": "United Arab Emirates",
         "countryCode": "UAE",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25854,7 +25854,7 @@
         "id": 2255,
         "name": "United Kingdom",
         "countryCode": "UK",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25862,7 +25862,7 @@
         "id": 2256,
         "name": "United States",
         "countryCode": "USA",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25870,7 +25870,7 @@
         "id": 2257,
         "name": "Uruguay",
         "countryCode": "URY",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2220,
         "parentArea": "South America"
       },
@@ -25878,7 +25878,7 @@
         "id": 2258,
         "name": "US Virgin Islands",
         "countryCode": "USV",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2159,
         "parentArea": "N/C America"
       },
@@ -25886,7 +25886,7 @@
         "id": 2259,
         "name": "Uzbekistan",
         "countryCode": "UZB",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25894,7 +25894,7 @@
         "id": 2260,
         "name": "Vanuatu",
         "countryCode": "VUT",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2175,
         "parentArea": "Oceania"
       },
@@ -25902,7 +25902,7 @@
         "id": 2261,
         "name": "Vatican City",
         "countryCode": "VAC",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25910,7 +25910,7 @@
         "id": 2262,
         "name": "Venezuela",
         "countryCode": "VEN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2220,
         "parentArea": "South America"
       },
@@ -25918,7 +25918,7 @@
         "id": 2263,
         "name": "Vietnam",
         "countryCode": "VIE",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25934,7 +25934,7 @@
         "id": 2265,
         "name": "West Indies",
         "countryCode": "WIN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2267,
         "parentArea": "World"
       },
@@ -25942,7 +25942,7 @@
         "id": 2266,
         "name": "Western Sahara",
         "countryCode": "WSR",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25950,15 +25950,15 @@
         "id": 2267,
         "name": "World",
         "countryCode": "INT",
-        "ensignUrl": null,
-        "parentAreaId": null,
-        "parentArea": null
+        "ensignUrl": None,
+        "parentAreaId": None,
+        "parentArea": None
       },
       {
         "id": 2268,
         "name": "Yemen",
         "countryCode": "YEM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2014,
         "parentArea": "Asia"
       },
@@ -25966,7 +25966,7 @@
         "id": 2269,
         "name": "Yugoslavia",
         "countryCode": "YUG",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2077,
         "parentArea": "Europe"
       },
@@ -25974,7 +25974,7 @@
         "id": 2270,
         "name": "Zambia",
         "countryCode": "ZAM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25982,7 +25982,7 @@
         "id": 2271,
         "name": "Zanzibar",
         "countryCode": "ZAN",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       },
@@ -25990,7 +25990,7 @@
         "id": 2272,
         "name": "Zimbabwe",
         "countryCode": "ZIM",
-        "ensignUrl": null,
+        "ensignUrl": None,
         "parentAreaId": 2001,
         "parentArea": "Africa"
       }
@@ -26000,7 +26000,7 @@
     "id": 2000,
     "name": "Afghanistan",
     "countryCode": "AFG",
-    "ensignUrl": null,
+    "ensignUrl": None,
     "parentAreaId": 2014,
     "parentArea": "Asia",
     "childAreas": []
@@ -26009,7 +26009,7 @@
     "id": 1,
     "name": "Illarramendi",
     "firstName": "Asier",
-    "lastName": null,
+    "lastName": None,
     "dateOfBirth": "1990-03-08",
     "countryOfBirth": "Spain",
     "nationality": "Spain",
