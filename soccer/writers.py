@@ -9,9 +9,7 @@ from itertools import groupby
 from collections import namedtuple
 from dateutil.relativedelta import relativedelta
 from dateutil import parser
-
-from leagueids import LEAGUE_IDS
-from leagueproperties import LEAGUE_PROPERTIES
+from soccer.leagueproperties import LEAGUE_PROPERTIES
 
 
 
@@ -86,11 +84,12 @@ class Stdout(BaseWriter):
         Write the secondary informations, i.e. metadata in regards to the requested data, such as
         filters and count of the returned records
         """
-        click.secho("COUNT: {count}".format(_dict), fg=self.colors.INFO, bold=True)
-        click.secho("FILTERS: {}", fg=self.colors.INFO, bold=True)
-        for key, value in _dict["filters"].items():
-            click.secho("\t{key} : {value}".format(key=key, value=value), fg=self.colors.INFO)
-
+        info = ''
+        info += "COUNT: {count}\n".format(**_dict) if 'count' in _dict.keys() else ''
+        if 'filters' in _dict.keys():
+            info += "FILTERS: \n"
+            for key, value in _dict["filters"].items():
+                info += "\t\t{key} : {value}\n".format(key=key, value=value)
 
     def write_areas(self, areas_dict):
         """
@@ -102,12 +101,15 @@ class Stdout(BaseWriter):
         id  name country-code parent-id parent-area
         """
         self.write_misc(areas_dict)
-        click.secho("%-10d %-25s  %-10s     %-10s  %-25s" %
+        click.secho("%-10s %-25s  %-10s     %-10s  %-25s" %
                     ("ID.", "NAME", "COUNTRY-CODE", "PARENT-ID", "PARENT-AREA"), bold=True, fg=self.colors.TOPIC)
         fmt = (u"{id:<10} {name:<25} {countryCode:<10} {parentAreaId:<10}"
                u" {parentArea:<25}")
-        for area in areas_dict["areas"]:
-            click.secho(fmt.format(area), fg=self.colors.CONT)
+        if 'areas' not in areas_dict.keys():
+            click.secho(fmt.format(**areas_dict), fg=self.colors.CONT)
+        else:
+            for area in areas_dict["areas"]:
+                click.secho(fmt.format(**area), fg=self.colors.CONT)
 
     def write_player(self, player):
         """
@@ -119,7 +121,7 @@ class Stdout(BaseWriter):
                u"{nationality:<20} {age:<5}")
         click.echo(fmt.format(player), fg=self.colors.CONT)
 
-    def write_players(self, player_dict):  #review the gets
+    def write_players(self, player_dict):  # review the gets
         """
         :param player_dict:
         :return:
@@ -156,7 +158,7 @@ class Stdout(BaseWriter):
                 fmt2.format(season, fg=self.colors.CONT)
 
 
-    def write_Competitions(self, comps):
+    def write_competitions(self, comps):
         """
         :param comps:
         :return:
@@ -181,7 +183,7 @@ class Stdout(BaseWriter):
             for player in team['squad']:
                 self.write_player(player)
 
-    def write_teams(self, teams_dict):  # i dont know? should we add stages here
+    def write_teams(self, teams_dict):  # 000i dont know? should we add stages here
         """
         :param teams_dict:
         :return:
@@ -328,7 +330,7 @@ class Stdout(BaseWriter):
         This will write matches and their scores for fixtures, scheduled, and live matches
         in the case where we have a single match instance parsed in as the matches_dict
         , this function will write more detailed informatiion regarding the match  including
-        the goaals, scorers and time of the goal, as well as substitutions and the time that
+        the goals, scorers and time of the goal, as well as substitutions and the time that
         they happened
         """
         # determining if its a single match instance
@@ -338,7 +340,7 @@ class Stdout(BaseWriter):
                   ("DATE&TIME", "MIN'", "HOME TEAM", "SCORE", "SCORE", "AWAY TEAM")
         if 'count' not in matches_dicts.keys():
             click.secho(header1, fg=self.colors.TOPIC)
-            self.write_match(matches_dicts, full=True)
+            self.write_match(matches_dicts, full=True, use_12_hour_format=time)
         else:
             click.secho(header + header1, fg=self.colors.TOPIC)
             for match in matches_dicts['matches']:
@@ -391,7 +393,7 @@ class Stdout(BaseWriter):
             utc_datetime = datetime.datetime(today_utc.year, today_utc.month, today_utc.day,
                                              utc_time.hour, utc_time.minute)
         else:
-            utc_datetime = datetime.datetime.strptime(time_str, "%Y-%m-%dT%H:%M:%SZ")
+            utc_datetime = datetime.datetime.strptime(time_str, "%Y-%m-%sT%H:%M:%SZ")
             
         local_time = utc_datetime - utc_local_diff
 
@@ -400,9 +402,9 @@ class Stdout(BaseWriter):
             # use to calculate age of squad members, or teams
         
         if use_12_hour_format:
-            date_format = "%I:%M %p" if not show_datetime else "%a %d, %I:%M %p"
+            date_format = "%I:%M %p" if not show_datetime else "%a %s, %I:%M %p"
         else:
-            date_format = "%H:%M" if not show_datetime else "%a %d, %H:%M"
+            date_format = "%H:%M" if not show_datetime else "%a %s, %H:%M"
             
         return datetime.datetime.strftime(local_time, date_format)
 

@@ -23806,7 +23806,7 @@
       }
     ]
   },
-  "many-areas": {
+  "many_areas": {
     "count": 273,
     "filters": {},
     "areas": [
