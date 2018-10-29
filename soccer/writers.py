@@ -89,7 +89,8 @@ class Stdout(BaseWriter):
         if 'filters' in _dict.keys():
             info += "FILTERS: \n"
             for key, value in _dict["filters"].items():
-                info += "\t\t{key} : {value}\n".format(key=key, value=value)
+                info += "\t\t{key} : {value}\n".format(key=key, value=value)       
+        click.secho(info, fg=self.colors.INFO, bold=True)
 
     def write_areas(self, areas_dict):
         """
@@ -103,8 +104,8 @@ class Stdout(BaseWriter):
         self.write_misc(areas_dict)
         click.secho("%-10s %-25s  %-10s     %-10s  %-25s" %
                     ("ID.", "NAME", "COUNTRY-CODE", "PARENT-ID", "PARENT-AREA"), bold=True, fg=self.colors.TOPIC)
-        fmt = (u"{id:<10} {name:<25} {countryCode:<10} {parentAreaId:<10}"
-               u" {parentArea:<25}")
+        fmt = (u"{id!s:<10} {name!s:<25} {countryCode!s:<10} {parentAreaId!s:<10}"
+               u" {parentArea!s:<25}")
         if 'areas' not in areas_dict.keys():
             click.secho(fmt.format(**areas_dict), fg=self.colors.CONT)
         else:
@@ -117,9 +118,9 @@ class Stdout(BaseWriter):
         :return:
         """
         player['age'] = Stdout.convert_utc_to_local_time(player['dateOfBirth'], time_diff=True)
-        fmt = (u"{id:<5} {shirtNumber:<5} {name:<25} {role:<10} {position:<15} "
-               u"{nationality:<20} {age:<5}")
-        click.echo(fmt.format(player), fg=self.colors.CONT)
+        fmt = (u"{id!s:<5} {shirtNumber!s:<5} {name!s:<25} {role!s:<10} {position!s:<15} "
+               u"{nationality!s:<20} {age!s:<5}")
+        click.echo(fmt.format(**player), fg=self.colors.CONT)
 
     def write_players(self, player_dict):  # review the gets
         """
@@ -134,7 +135,7 @@ class Stdout(BaseWriter):
 
         click.secho("AREA: {area}\n"
                     "TEAM NAME : {name}".format(area=area, name=name))
-        click.secho("%-5d %-5d %-25s %-10s %-15s %-20s %-5s" %
+        click.secho("%-5s %-5s %-25s %-10s %-15s %-20s %-5s" %
                     ("ID.", "S.NO", "NAME", "ROLE", "POSITION", "NATIONALITY", "AGE"),
                     fg=self.colors.TOPIC, bold=True)
         for player in player_dict["squad"]:
@@ -147,12 +148,12 @@ class Stdout(BaseWriter):
         """
         comp['area'] = comp['area']['name']
         comp['season'] = Stdout.parse_season(comp['currentSeson']['startDate'], comp['currentSeason']['endDate'])
-        fmt = (u"{id:<5} {area:<15} {name:<30} {code:<5} {plan:<10} {season:<10}")
-        fmt.format(comp, fg=self.colors.TOPIC)
+        fmt = (u"{id!s:<5} {area!s:<15} {name!s:<30} {code!s:<5} {plan!s:<10} {season!s:<10}")
+        click.secho(fmt.format(**comp), fg=self.colors.TOPIC)
         if full:
             click.secho("\tSeasons: ", fg=self.colors.TOPIC)
-            click.secho("\t\t %-5d  %-15s  %-5s  %-30s" % ("ID.", "SEASON", "MATCHDAY", 'WINNER'), fg=self.colors.TOPIC)
-            fmt2 = u"{id:<5}   {season:<10}   {currentMatchday:<5}  {winner:<30}"
+            click.secho("\t\t %-5s  %-15s  %-5s  %-30s" % ("ID.", "SEASON", "MATCHDAY", 'WINNER'), fg=self.colors.TOPIC)
+            fmt2 = u"{id!s:<5}   {season!s:<10}   {currentMatchday!s:<5}  {winner!s:<30}"
             for season in comp['seasons']:
                 season['season'] = Stdout.parse_season(season['startDate'], season['endDate'])
                 fmt2.format(season, fg=self.colors.CONT)
@@ -164,7 +165,7 @@ class Stdout(BaseWriter):
         :return:
         """
         self.write_misc(comps)
-        click.secho("%-5d  %-15s  %-30s %-5s  %-10s  %-10s" %
+        click.secho("%-5s  %-15s  %-30s %-5s  %-10s  %-10s" %
                     ("ID.", "AREA", "LEAGUE/COMPETITION", "CODE", "PLAN", "SEASON")
                     , fg=self.colors.TOPIC, bold=True)
         for competition in comps:
@@ -176,8 +177,8 @@ class Stdout(BaseWriter):
         :return:
         """
         team['area'] = team['area']['name']
-        fmt = u"{id:<5} {area:<10} {name:<30}  {website:<20} {founded:<5} {venue}"
-        click.secho(fmt.format(team), fg=self.colors.CONT)
+        fmt = u"{id!s:<5} {area!s:<10} {name!s:<30}  {website!s:<20} {founded!s:<5} {venue}"
+        click.secho(fmt.format(**team), fg=self.colors.CONT)
         if full:
             click.secho('SQUAD: ', fg=self.colors.TOPIC)
             for player in team['squad']:
@@ -189,7 +190,7 @@ class Stdout(BaseWriter):
         :return:
         """
         if "teams" not in teams_dict.keys():
-            self.write(teams_dict, full=True)
+            self.write_team(teams_dict, full=True)
         self.write_misc(teams_dict)
         click.secho("COMPETITION: \n\tname:{competition}\n\tPLAN: {plan}".format(teams_dict['competition']),
                     fg=self.colors.INFO)
@@ -209,12 +210,12 @@ class Stdout(BaseWriter):
         click.secho("SEASON: {}".format(Stdout.parse_season(scorers_dict['season']['startDate'],
                                                             scorers_dict['season']['endDate'])))
         click.echo()
-        click.secho("%-5s %-25s %-25s %-15s %-3d %-15s %-3s" %
+        click.secho("%-5s %-25s %-25s %-15s %-3s %-15s %-3s" %
                     ("ID", "NAME", "NATIONALITY", "POSITION", "s.NO", "TEAM", "GOALS"),
                     fg=self.colors.TOPIC, bold=True)
         for _dict in scorers_dict['scorers']:
-            res_string = u"{id:<5} {name:<25} {nationality:<25} {position:<15} {shirtNumber:<3}".format(_dict['player'])
-            res_string += u"{name:<15}".format(_dict['team']) + u"{numberOfGoals:<3}".format(_dict)
+            res_string = u"{id!s:<5} {name!s:<25} {nationality!s:<25} {position!s:<15} {shirtNumber!s:<3}".format(_dict['player'])
+            res_string += u"{name!s:<15}".format(_dict['team']) + u"{numberOfGoals!s:<3}".format(_dict)
             click.secho(res_string, fg=self.colors.CONT)
 
     def write_standings(self, league_dict):
@@ -267,7 +268,7 @@ class Stdout(BaseWriter):
 
         """
         if full:
-            fmt = u"{{date:<15}({min:<3}) {hometeam:<30} {hscore:<2}  -  {ascore:<2} {awayteam}:<30}"
+            fmt = u"{{date!s:<15}({min!s:<3}) {hometeam!s:<30} {hscore!s:<2}  -  {ascore!s:<2} {awayteam}!s:<30}"
             click.secho(fmt.format(
                 date=Stdout.convert_utc_to_local_time(match['utcDate'], use_12_hour_format=use_12_hour_format,
                                                       show_datetime=True),
@@ -278,9 +279,9 @@ class Stdout(BaseWriter):
                 ascore=match['score']['fullTime']['awayTeam']
             ))
             recs = self.aggregate_match_data(match['bookings'], match['substitutions'], match['goals'])
-            goals_fmt = u"{minute:<3}[GOAl]({team:<20}) {scorer}({assist})"
-            card_fmt = u"{minute:<3}[CARD]({team:<20}) {player}"
-            sub_fmt = u"{minute:<3}[SUB]({team:<20}) "
+            goals_fmt = u"{minute!s:<3}[GOAl]({team!s:<20}) {scorer}({assist})"
+            card_fmt = u"{minute!s:<3}[CARD]({team!s:<20}) {player}"
+            sub_fmt = u"{minute!s:<3}[SUB]({team!s:<20}) "
             sub_fmt1 = u"\t\t<=={playerIn}"
             sub_fmt2 = u"\t\t==>{playerOut}"
             for rec in recs:
@@ -308,7 +309,7 @@ class Stdout(BaseWriter):
                         assist=rec['assist']['name']
                     ), fg='red')
             return
-        fmt = u"{id:<10} {date:<15}({min:<3}) {hometeam:<30} {hscore:<2}  -  {ascore:<2} {awayteam}:<30}"
+        fmt = u"{id!s:<10} {date!s:<15}({min!s:<3}) {hometeam!s:<30} {hscore!s:<2}  -  {ascore!s:<2} {awayteam}!s:<30}"
         click.secho(fmt.format(
             id=match['id'],
             date=Stdout.convert_utc_to_local_time(match['utcDate'], use_12_hour_format=use_12_hour_format,
@@ -335,8 +336,8 @@ class Stdout(BaseWriter):
         """
         # determining if its a single match instance
         self.write_misc(matches_dicts)
-        header = '%-10d  ' % "ID."
-        header1 = "%-20s(%-3d') %-30s %-2d   -  %-2d %-30s" % \
+        header = '%-10s  ' % "ID."
+        header1 = "%-20s(%-3s') %-30s %-2s   -  %-2s %-30s" % \
                   ("DATE&TIME", "MIN'", "HOME TEAM", "SCORE", "SCORE", "AWAY TEAM")
         if 'count' not in matches_dicts.keys():
             click.secho(header1, fg=self.colors.TOPIC)
@@ -352,7 +353,7 @@ class Stdout(BaseWriter):
                     respective positions
         :param league: The league code
         """
-        click.secho("%-6s %-30s  %-5s %-3d %-3d %-3d  %-5s %-5s %-5s %-5s" %
+        click.secho("%-6s %-30s  %-5s %-3s %-3s %-3s  %-5s %-5s %-5s %-5s" %
                     ("POS", "CLUB", "PLAYED", "W", "D", "L", "G.F.", "G.A.", "G.D.", "POINTS"))
         for team in table:
             if team["goalDifference"] >= 0:
@@ -365,9 +366,9 @@ class Stdout(BaseWriter):
             el_upper, el_lower = LEAGUE_PROPERTIES[league]["el"]
             rl_upper, rl_lower = LEAGUE_PROPERTIES[league]["rl"]
 
-            team_str = (u"{position:<7} {teamName:<33} {playedGames:<5} {won:<3} {draw:<3}"
-                        u"{lost:<3} {goalsFor:<5} {goalsAgainst:<5}"
-                        u" {goalDifference:<5} {points}").format(**team)
+            team_str = (u"{position!s:<7} {teamName!s:<33} {playedGames!s:<5} {won!s:<3} {draw!s:<3}"
+                        u"{lost!s:<3} {goalsFor!s:<5} {goalsAgainst!s:<5}"
+                        u" {goalDifference!s:<5} {points}").format(**team)
             if cl_upper <= team["position"] <= cl_lower:
                 click.secho(team_str, bold=True, fg=self.colors.CL_POSITION)
             elif el_upper <= team["position"] <= el_lower:
