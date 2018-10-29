@@ -20,7 +20,6 @@ class StdoutWriterTests(unittest.TestCase):
         pass
 
     def test_single_area_write(self, mecho):
-        import pdb;pdb.set_trace()
         single_area = data['single_area']
         self.writer.write_areas(single_area)
         self.assertTrue(mecho.called)
@@ -29,6 +28,36 @@ class StdoutWriterTests(unittest.TestCase):
         many_areas = data['many_areas']
         self.writer.write_areas(many_areas)
         self.assertTrue(mecho.called)
+
+    def test_write_player(self, mecho):
+        player =  data['single_player']
+        self.writer.write_player(player)
+        self.assertTrue(mecho.called)
+
+    def test_write_team(self, mecho):
+        # Test single team
+        team = data['single_team']
+        self.writer.write_team(team)
+        self.assertTrue(mecho.called)
+        self.assertEqual(mecho.call_count, 1)
+
+    def test_write_single_team_with_fullness(self, mecho):
+        team = data['single_team']
+        self.writer.write_team(team, full=True)
+        self.assertTrue(mecho.called)
+        self.assertEqual(mecho.call_count, 33)
+
+    def test_writer_many_teams_with_single_team_instance(self, mecho):
+        team = data['single_team']
+        self.writer.write_teams(team)
+        self.assertEqual(mecho.call_count, 33)
+
+    def test_writer_many_teams(self, mecho):
+        # now for many teams
+        teams = data['many_teams']
+        self.writer.write_teams(teams)
+        self.assertEqual(mecho.call_count, len(teams['teams']) + 1)
+
 
 
 if __name__ == '__main__':

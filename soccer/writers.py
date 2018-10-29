@@ -89,7 +89,12 @@ class Stdout(BaseWriter):
         if 'filters' in _dict.keys():
             info += "FILTERS: \n"
             for key, value in _dict["filters"].items():
-                info += "\t\t{key} : {value}\n".format(key=key, value=value)       
+                info += "\t\t{key} : {value}\n".format(key=key, value=value)
+        if 'competition' in _dict.keys():
+            info += 'COMPETITION: \n\tname:{name}\n\tCODE: {code}\n'.format(**_dict['competition'])
+        if 'season' in _dict.keys():
+            info += "SEASON: {}\n".format(Stdout.parse_season(_dict['season']['startDate'],
+                                                            _dict['season']['endDate']))
         click.secho(info, fg=self.colors.INFO, bold=True)
 
     def write_areas(self, areas_dict):
@@ -117,28 +122,25 @@ class Stdout(BaseWriter):
         :param player: a single player record
         :return:
         """
-        player['age'] = Stdout.convert_utc_to_local_time(player['dateOfBirth'], time_diff=True)
+        if not player.get('role'):
+            player['role'] = 'N/A'
+        try:
+            if not player.get('dateOfBirth'):
+                player['age'] = Stdout.convert_utc_to_local_time(player['dateOfBirth'], time_diff=True)
+            else:
+                player['age'] = 'N/A'
+        except KeyError:
+            import pdb; pdb.set_trace()
         fmt = (u"{id!s:<5} {shirtNumber!s:<5} {name!s:<25} {role!s:<10} {position!s:<15} "
                u"{nationality!s:<20} {age!s:<5}")
-        click.echo(fmt.format(**player), fg=self.colors.CONT)
+        click.secho(fmt.format(**player), fg=self.colors.CONT)
 
-    def write_players(self, player_dict):  # review the gets
-        """
-        :param player_dict:
-        :return:
-        Write players would only be invoked for a single known team
-        """
-        area = player_dict.get('area').get('name')
-        name = player_dict.get('name')
-        if not player_dict.get('squad'):
-            player_dict['squad'] = [player_dict]
-
-        click.secho("AREA: {area}\n"
-                    "TEAM NAME : {name}".format(area=area, name=name))
+    def write_players(self, squad):
+        squad = list(squad)
         click.secho("%-5s %-5s %-25s %-10s %-15s %-20s %-5s" %
                     ("ID.", "S.NO", "NAME", "ROLE", "POSITION", "NATIONALITY", "AGE"),
                     fg=self.colors.TOPIC, bold=True)
-        for player in player_dict["squad"]:
+        for player in squad:
             self.write_player(player)
 
     def write_competition(self, comp, full=False):
@@ -166,23 +168,22 @@ class Stdout(BaseWriter):
         """
         self.write_misc(comps)
         click.secho("%-5s  %-15s  %-30s %-5s  %-10s  %-10s" %
-                    ("ID.", "AREA", "LEAGUE/COMPETITION", "CODE", "PLAN", "SEASON")
+                    ("ID.", "AREA", "COMPETITION", "CODE", "PLAN", "SEASON")
                     , fg=self.colors.TOPIC, bold=True)
         for competition in comps:
             self.write_competition(competition)
 
-    def write_team(self, team, full=False):
+    def write_team(self, team, full=False): # can add a list of active competitions
         """
         :param team:
         :return:
         """
-        team['area'] = team['area']['name']
-        fmt = u"{id!s:<5} {area!s:<10} {name!s:<30}  {website!s:<20} {founded!s:<5} {venue}"
+        team['areaName'] = team['area']['name']
+        fmt = u"{id!s:<5} {areaName!s:<10} {name!s:<30}  {website!s:<20} {founded!s:<5} {venue}"
         click.secho(fmt.format(**team), fg=self.colors.CONT)
         if full:
             click.secho('SQUAD: ', fg=self.colors.TOPIC)
-            for player in team['squad']:
-                self.write_player(player)
+            self.write_players(team['squad'])
 
     def write_teams(self, teams_dict):  # 000i dont know? should we add stages here
         """
@@ -191,11 +192,8 @@ class Stdout(BaseWriter):
         """
         if "teams" not in teams_dict.keys():
             self.write_team(teams_dict, full=True)
+            return
         self.write_misc(teams_dict)
-        click.secho("COMPETITION: \n\tname:{competition}\n\tPLAN: {plan}".format(teams_dict['competition']),
-                    fg=self.colors.INFO)
-        click.secho("SEASON: {}".format(Stdout.parse_season(teams_dict['season']['startDate'],
-                                                            teams_dict['season']['endDate'])))
         for team in teams_dict['teams']:
             self.write_team(team)
 
@@ -222,9 +220,9 @@ class Stdout(BaseWriter):
         """
         :param league_dict:
         :return:
-        structure the standings in a more easily huma readable format, metadata on relegation,
+        structure the standings in a more easily human readable format, metadata on relegation,
         promotion to both higher leagues and to participate in cups may not apply to all leagues
-        but to only whose such information is known and is easily attainable
+        but to only those whose such information is known and is easily attainable
         """
         self.write_misc(league_dict)
         click.secho("COMPETITION: \n\tname:{competition}\n\tPLAN: {plan}".format(league_dict['competition']),
@@ -379,7 +377,7 @@ class Stdout(BaseWriter):
                 click.secho(team_str, fg=self.colors.POSITION)
 
     @staticmethod
-    def convert_utc_to_local_time(time_str, use_12_hour_format, show_datetime=False, time_diff=False):
+    def convert_utc_to_local_time(time_str, use_12_hour_format=False, show_datetime=False, time_diff=False):
         """Converts the API UTC time string to the local user time.
         :param time_diff: gets the the time difference in years from time_str to now"""
         if not (time_str.endswith(" UTC") or time_str.endswith("Z")):
@@ -387,7 +385,7 @@ class Stdout(BaseWriter):
 
         today_utc = datetime.datetime.utcnow()
         utc_local_diff = today_utc - datetime.datetime.now()
-        
+
         if time_str.endswith(" UTC"):
             time_str, _ = time_str.split(" UTC")
             utc_time = datetime.datetime.strptime(time_str, "%I:%M %p")
@@ -395,18 +393,18 @@ class Stdout(BaseWriter):
                                              utc_time.hour, utc_time.minute)
         else:
             utc_datetime = datetime.datetime.strptime(time_str, "%Y-%m-%sT%H:%M:%SZ")
-            
+
         local_time = utc_datetime - utc_local_diff
 
         if time_diff:
             return relativedelta(today_utc,utc_datetime).years
             # use to calculate age of squad members, or teams
-        
+
         if use_12_hour_format:
             date_format = "%I:%M %p" if not show_datetime else "%a %s, %I:%M %p"
         else:
             date_format = "%H:%M" if not show_datetime else "%a %s, %H:%M"
-            
+
         return datetime.datetime.strftime(local_time, date_format)
 
     @staticmethod
