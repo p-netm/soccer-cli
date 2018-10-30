@@ -102,7 +102,7 @@ def main(ctx, apikey):
 @click.pass_context
 def competitions(ctx, competition_id, areas, plan, output_format, output_file):
     """Competitions Resource Endpoint"""
-    url = 'competitions/{}'.format(competition_id) if competition_id else 'competitions/'
+    url = 'competitions/{}/'.format(competition_id) if competition_id else 'competitions/'
     payload = create_payload(areas=areas, plan=plan)
     if ctx.invoked_subcommand is None:
         # dealing with the resource only, no subresources, add id
@@ -172,22 +172,24 @@ def scorers(ctx, limit, output_format, output_file):
 @click.pass_context
 def players(ctx, player_id, matches, date_from, date_to, competitions, status, limit, output_format, output_file):
     """Players Resource Endpoint"""
-    url = 'players/{}'.format(player_id) if player_id else ''
+    url = 'players/{}/'.format(player_id) if player_id else ''
     if not url:
         click.secho("Please provide a specific player's id", fg='red', bold=True)
         raise click.Abort()
+    writer = get_writer(output_format, output_file)
+    writer_func = writer.write_player
     url += 'matches' if matches else ''
     payload = {}
     if matches:
         payload = create_payload(date_from=date_from, date_to=date_to, competitions=competitions, status=status,
                                  limit=limit)
+        writer_func = writer.write_matches
     if any([limit, status, competitions, date_to, date_from]) and not matches:
         click.secho('seems like you forgot to provide the --matches flag, you need that,'
                     'to be able to add filters', fg='red')
         raise click.Abort()
     response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
-    writer = get_writer(output_format, output_file)
-    writer.write_players(response)
+    writer_func(response)
     return
 
 
@@ -207,7 +209,7 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
 @click.pass_context
 def matches(ctx, match_id, date_from, date_to, status, competitions, use12hour, output_format, output_file):
     """Matches Resource Endpoint"""
-    url = 'matches/{}'.format(match_id) if match_id else 'matches'
+    url = 'matches/{}/'.format(match_id) if match_id else 'matches'
     payload = create_payload(date_from=date_from, date_to=date_to, competitions=competitions, status=status)
     response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
     writer = get_writer(output_format, output_file)
@@ -222,7 +224,7 @@ def matches(ctx, match_id, date_from, date_to, status, competitions, use12hour, 
 @click.pass_context
 def areas(ctx, area_id, output_format, output_file):
     """Areas Resource Endpoint"""
-    url = 'areas/{}'.format(area_id) if area_id else 'areas'
+    url = 'areas/{}/'.format(area_id) if area_id else 'areas'
     response = request_handler.get(url, headers=ctx.obj['headers'])
     writer = get_writer(output_format, output_file)
     writer.write_areas(response)
@@ -247,18 +249,20 @@ def areas(ctx, area_id, output_format, output_file):
 @click.pass_context
 def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to, output_format, output_file):
     """Teams Resource Endpoint"""
-    url = 'teams/{}'.format(team_id) if team_id else 'teams/'
+    url = 'teams/{}/'.format(team_id) if team_id else 'teams/'
     url += 'matches' if matches else ''
+    writer = get_writer(output_format, output_file)
+    writer_func = writer.write_teams
     payload = {}
     if matches:
         payload = create_payload(date_from=date_from, date_to=date_to, venue=venue, status=status, limit=limit)
+        writer_func = writer.write_matches
     if any([venue, status, limit, date_from, date_to]) and not matches:
         click.secho('seems like you forgot to provide the --matches flag, you need that'
                     ' to be able to add filters', fg='red')
         raise click.Abort()
     response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
-    writer = get_writer(output_format, output_file)
-    writer.write_teams(response)
+    writer_func(response)
     return
 
 competitions.add_command(Teams)

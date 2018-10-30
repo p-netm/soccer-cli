@@ -36,4 +36,5 @@ class RequestHandler(object):
             raise APIErrorException('This has nothing to do with you. {}'.format(req.json()['message']))
 
     def get(self, url, **kwargs):
+        print(url)
         return self._get(url, **kwargs)

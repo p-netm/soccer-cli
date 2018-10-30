@@ -93,6 +93,7 @@ class Stdout(BaseWriter):
         if 'competition' in _dict.keys():
             info += 'COMPETITION: \n\tname:{name}\n\tCODE: {code}\n'.format(**_dict['competition'])
         if 'season' in _dict.keys():
+            # import pdb; pdb.set_trace()
             info += "SEASON: {}\n".format(Stdout.parse_season(_dict['season']['startDate'],
                                                             _dict['season']['endDate']))
         click.secho(info, fg=self.colors.INFO, bold=True)
@@ -148,30 +149,32 @@ class Stdout(BaseWriter):
         :param comp:
         :return:
         """
-        comp['area'] = comp['area']['name']
-        comp['season'] = Stdout.parse_season(comp['currentSeson']['startDate'], comp['currentSeason']['endDate'])
-        fmt = (u"{id!s:<5} {area!s:<15} {name!s:<30} {code!s:<5} {plan!s:<10} {season!s:<10}")
+        comp['areaName'] = comp['area']['name']
+        comp['_season'] = Stdout.parse_season(comp['currentSeason']['startDate'], comp['currentSeason']['endDate'])
+        fmt = (u"{id!s:<5} {areaName!s:<15} {name!s:<30} {code!s:<5} {plan!s:<10} {_season!s:<10}")
         click.secho(fmt.format(**comp), fg=self.colors.TOPIC)
         if full:
             click.secho("\tSeasons: ", fg=self.colors.TOPIC)
             click.secho("\t\t %-5s  %-15s  %-5s  %-30s" % ("ID.", "SEASON", "MATCHDAY", 'WINNER'), fg=self.colors.TOPIC)
-            fmt2 = u"{id!s:<5}   {season!s:<10}   {currentMatchday!s:<5}  {winner!s:<30}"
+            fmt2 = u"\t\t{id!s:<5}   {season!s:<10}   {currentMatchday!s:<5}  {winner!s:<30}"
             for season in comp['seasons']:
                 season['season'] = Stdout.parse_season(season['startDate'], season['endDate'])
-                fmt2.format(season, fg=self.colors.CONT)
-
+                click.secho(fmt2.format(**season), fg=self.colors.CONT)
 
     def write_competitions(self, comps):
         """
         :param comps:
         :return:
         """
-        self.write_misc(comps)
         click.secho("%-5s  %-15s  %-30s %-5s  %-10s  %-10s" %
                     ("ID.", "AREA", "COMPETITION", "CODE", "PLAN", "SEASON")
                     , fg=self.colors.TOPIC, bold=True)
-        for competition in comps:
-            self.write_competition(competition)
+        if 'competitions' in comps:
+            self.write_misc(comps)
+            for competition in comps:
+                self.write_competition(competition)
+        else:
+            self.write_competition(comps)
 
     def write_team(self, team, full=False): # can add a list of active competitions
         """
@@ -203,17 +206,12 @@ class Stdout(BaseWriter):
         :return:
         """
         self.write_misc(scorers_dict)
-        click.secho("COMPETITION: \n\tname:{competition}\n\tPLAN: {plan}".format(scorers_dict['competition']),
-                    fg=self.colors.INFO)
-        click.secho("SEASON: {}".format(Stdout.parse_season(scorers_dict['season']['startDate'],
-                                                            scorers_dict['season']['endDate'])))
-        click.echo()
         click.secho("%-5s %-25s %-25s %-15s %-3s %-15s %-3s" %
                     ("ID", "NAME", "NATIONALITY", "POSITION", "s.NO", "TEAM", "GOALS"),
                     fg=self.colors.TOPIC, bold=True)
         for _dict in scorers_dict['scorers']:
-            res_string = u"{id!s:<5} {name!s:<25} {nationality!s:<25} {position!s:<15} {shirtNumber!s:<3}".format(_dict['player'])
-            res_string += u"{name!s:<15}".format(_dict['team']) + u"{numberOfGoals!s:<3}".format(_dict)
+            res_string = u"{id!s:<5} {name!s:<25} {nationality!s:<25} {position!s:<15} {shirtNumber!s:<3}".format(**_dict['player'])
+            res_string += u"{name!s:<15}".format(**_dict['team']) + u"{numberOfGoals!s:<3}".format(**_dict)
             click.secho(res_string, fg=self.colors.CONT)
 
     def write_standings(self, league_dict):
@@ -222,21 +220,16 @@ class Stdout(BaseWriter):
         :return:
         structure the standings in a more easily human readable format, metadata on relegation,
         promotion to both higher leagues and to participate in cups may not apply to all leagues
-        but to only those whose such information is known and is easily attainable
+        but to only those whose such information is known and/or is easily attainable
         """
         self.write_misc(league_dict)
-        click.secho("COMPETITION: \n\tname:{competition}\n\tPLAN: {plan}".format(league_dict['competition']),
-                    fg=self.colors.INFO)
-        click.secho("SEASON: {}".format(Stdout.parse_season(league_dict['season']['startDate'],
-                                                            league_dict['season']['endDate'])))
-        # use a default filter of total and use that to curate the standing objects that you
-        # require then for each such object you can run the echo code below
         standings_list = league_dict['standings']
+        # see if the was a standingType that was specifically requested
         res = league_dict['filters'].get('standingType')
-        type = res if res else 'TOTAL'
+        standing_type = res if res else 'TOTAL'
         for _dict in standings_list:
-            if _dict['type'] == type:
-                click.secho('STAGE: {stage}'.format(_dict), fg=self.colors.INFO)
+            if _dict['type'] == standing_type:
+                click.secho('STAGE: {stage}'.format(**_dict), fg=self.colors.INFO)
                 self.standings(_dict['table'], league_dict['competition']['code'])
 
     def aggregate_match_data(self, bookings, substitutions, goals):
@@ -265,8 +258,9 @@ class Stdout(BaseWriter):
             minute' [GOAL] scorer(assist)
 
         """
+        match = match['match'] if 'match' in match.keys() else match
         if full:
-            fmt = u"{{date!s:<15}({min!s:<3}) {hometeam!s:<30} {hscore!s:<2}  -  {ascore!s:<2} {awayteam}!s:<30}"
+            fmt = u"{date!s:<15}({min!s:<3}) {hometeam!s:<30} {hscore!s:<2}  -  {ascore!s:<2} {awayteam!s:<30}"
             click.secho(fmt.format(
                 date=Stdout.convert_utc_to_local_time(match['utcDate'], use_12_hour_format=use_12_hour_format,
                                                       show_datetime=True),
@@ -276,7 +270,14 @@ class Stdout(BaseWriter):
                 hscore=match['score']['fullTime']['homeTeam'],
                 ascore=match['score']['fullTime']['awayTeam']
             ))
-            recs = self.aggregate_match_data(match['bookings'], match['substitutions'], match['goals'])
+            bookings = match['bookings'] if match.get('bookings') else []
+            substitutions = match['substitutions'] if  match.get('substitutions') else []
+            goals = match['goals'] if match.get('goals') else []
+            info = 'information regardings: '
+            info  += 'Bookings' if not len(bookings) else ''
+            info += ', Substitutions' if not len(substitutions) else ''
+            info += ', goals' if not len(goals) else ''
+            recs = self.aggregate_match_data(bookings, substitutions, goals)
             goals_fmt = u"{minute!s:<3}[GOAl]({team!s:<20}) {scorer}({assist})"
             card_fmt = u"{minute!s:<3}[CARD]({team!s:<20}) {player}"
             sub_fmt = u"{minute!s:<3}[SUB]({team!s:<20}) "
@@ -301,17 +302,18 @@ class Stdout(BaseWriter):
                     ), fg=color)
                 else:
                     click.secho(goals_fmt.format(
-                        miinute=rec['minute'],
+                        minute=rec['minute'],
                         team=rec['team']['name'],
                         scorer=rec['scorer']['name'],
-                        assist=rec['assist']['name']
+                        assist=rec['assist']['name'] if rec['assist'] else ''
                     ), fg='red')
+            click.secho(info, fg='yellow')
             return
-        fmt = u"{id!s:<10} {date!s:<15}({min!s:<3}) {hometeam!s:<30} {hscore!s:<2}  -  {ascore!s:<2} {awayteam}!s:<30}"
+        fmt = u"{mid!s:<10} {date!s:<15}({min!s:<3}) {hometeam!s:<30} {hscore!s:<2}  -  {ascore!s:<2} {awayteam!s:<30}"
         click.secho(fmt.format(
-            id=match['id'],
+            mid=match['id'],
             date=Stdout.convert_utc_to_local_time(match['utcDate'], use_12_hour_format=use_12_hour_format,
-                                                  show_datetime=True),
+                                                show_datetime=True),
             min=match['score']['duration'],
             hometeam=match['homeTeam']['name'],
             awayteam=match['awayTeam']['name'],
@@ -319,16 +321,17 @@ class Stdout(BaseWriter):
             ascore=match['score']['fullTime']['awayTeam']
         ))
 
-    def write_matches(self, matches_dicts, time):
+    def write_matches(self, matches_dicts, use_12_hour_format=False):
         """
         :param matches_dicts: A dictionary containing match response data from the Api
                         as can be obtained from the urls
                         api-football-data.org/v2/matches
                         api-football-data.org/v2/competitions/<id>/matches
-        :param time: Boolean flag to dictate if to use 24 hour format to echo time
+        :param time: Boolean flag to dictate if to use 12 hour format to echo time
+        
         This will write matches and their scores for fixtures, scheduled, and live matches
         in the case where we have a single match instance parsed in as the matches_dict
-        , this function will write more detailed informatiion regarding the match  including
+        , this function will write more detailed information regarding the match  including
         the goals, scorers and time of the goal, as well as substitutions and the time that
         they happened
         """
@@ -339,7 +342,7 @@ class Stdout(BaseWriter):
                   ("DATE&TIME", "MIN'", "HOME TEAM", "SCORE", "SCORE", "AWAY TEAM")
         if 'count' not in matches_dicts.keys():
             click.secho(header1, fg=self.colors.TOPIC)
-            self.write_match(matches_dicts, full=True, use_12_hour_format=time)
+            self.write_match(matches_dicts, full=True, use_12_hour_format=use_12_hour_format)
         else:
             click.secho(header + header1, fg=self.colors.TOPIC)
             for match in matches_dicts['matches']:
@@ -351,6 +354,7 @@ class Stdout(BaseWriter):
                     respective positions
         :param league: The league code
         """
+        league = league if league in LEAGUE_PROPERTIES.keys() else 'default'
         click.secho("%-6s %-30s  %-5s %-3s %-3s %-3s  %-5s %-5s %-5s %-5s" %
                     ("POS", "CLUB", "PLAYED", "W", "D", "L", "G.F.", "G.A.", "G.D.", "POINTS"))
         for team in table:
@@ -377,28 +381,28 @@ class Stdout(BaseWriter):
                 click.secho(team_str, fg=self.colors.POSITION)
 
     @staticmethod
+    def time_difference(time_str):
+        """Get the datetime timezone aware difference in years between two dates"""
+        start = parser.parse(time_str)
+        if start.tzinfo:
+            today = datetime.datetime.now(datetime.timezone.utc)
+        else:
+            today = datetime.datetime.now()
+        diff = relativedelta(start, today).years
+        return abs(diff)
+
+    @staticmethod
     def convert_utc_to_local_time(time_str, use_12_hour_format=False, show_datetime=False, time_diff=False):
         """Converts the API UTC time string to the local user time.
         :param time_diff: gets the the time difference in years from time_str to now"""
-        if not (time_str.endswith(" UTC") or time_str.endswith("Z")):
-           return time_str
-
         today_utc = datetime.datetime.utcnow()
         utc_local_diff = today_utc - datetime.datetime.now()
 
-        if time_str.endswith(" UTC"):
-            time_str, _ = time_str.split(" UTC")
-            utc_time = datetime.datetime.strptime(time_str, "%I:%M %p")
-            utc_datetime = datetime.datetime(today_utc.year, today_utc.month, today_utc.day,
-                                             utc_time.hour, utc_time.minute)
-        else:
-            utc_datetime = datetime.datetime.strptime(time_str, "%Y-%m-%sT%H:%M:%SZ")
-
+        utc_datetime = parser.parse(time_str)
         local_time = utc_datetime - utc_local_diff
 
         if time_diff:
-            return relativedelta(today_utc,utc_datetime).years
-            # use to calculate age of squad members, or teams
+            return Stdout.time_difference(time_str)
 
         if use_12_hour_format:
             date_format = "%I:%M %p" if not show_datetime else "%a %s, %I:%M %p"
@@ -415,7 +419,9 @@ class Stdout(BaseWriter):
         """
         start_year = parser.parse(start_date).year
         end_year = parser.parse(end_date).year
-        return '{}/{}'.format(start_date, end_date)
+        if end_year < start_year:
+            end_year, start_year = start_year, end_year
+        return '{}/{}'.format(start_year, end_year)
 
 
 class Json(BaseWriter):

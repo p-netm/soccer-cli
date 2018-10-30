@@ -4078,18425 +4078,3302 @@ data = {
     "lastUpdated": "2018-10-15T15:08:14Z"
   },
   "many_matches": {
-    "count": 380,
-    "filters": {},
-    "competition": {
-      "id": 2021,
-      "area": {
-        "id": 2072,
-        "name": "England"
-      },
-      "name": "Premier League",
-      "code": "PL",
-      "plan": "TIER_ONE",
-      "lastUpdated": "2018-10-26T00:00:18Z"
+    "count": 6,
+    "filters": {
+        "dateFrom": "2018-08-23",
+        "dateTo": "2018-08-23"
     },
     "matches": [
-      {
-        "id": 233028,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-10T19:00:00Z",
-        "status": "FINISHED",
-        "matchday": 1,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": [
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          },
-          {
-            "id": 11611,
-            "name": "Scott Ledger",
-            "nationality": None
-          },
-          {
-            "id": 11504,
-            "name": "Simon Long",
-            "nationality": None
-          },
-          {
-            "id": 11580,
-            "name": "Anthony Taylor",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233026,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-11T11:30:00Z",
-        "status": "FINISHED",
-        "matchday": 1,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": [
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          },
-          {
-            "id": 11530,
-            "name": "Lee Betts",
-            "nationality": None
-          },
-          {
-            "id": 11547,
-            "name": "Stephen Child",
-            "nationality": None
-          },
-          {
-            "id": 11520,
-            "name": "Paul Tierney",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233024,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-11T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 1,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": [
-          {
-            "id": 11575,
-            "name": "Mike Dean",
-            "nationality": None
-          },
-          {
-            "id": 11495,
-            "name": "Ian Hussin",
-            "nationality": None
-          },
-          {
-            "id": 11431,
-            "name": "Daniel Robathan",
-            "nationality": None
-          },
-          {
-            "id": 11446,
-            "name": "Robert Jones",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233029,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-11T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 1,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 3
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": [
-          {
-            "id": 11443,
-            "name": "Chris Kavanagh",
-            "nationality": None
-          },
-          {
-            "id": 11552,
-            "name": "Peter Kirkup",
-            "nationality": None
-          },
-          {
-            "id": 11531,
-            "name": "Marc Perry",
-            "nationality": None
-          },
-          {
-            "id": 11605,
-            "name": "Michael Oliver",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233031,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-11T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 1,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": [
-          {
-            "id": 11567,
-            "name": "Jonathan Moss",
-            "nationality": None
-          },
-          {
-            "id": 11480,
-            "name": "Eddie Smart",
-            "nationality": None
-          },
-          {
-            "id": 11568,
-            "name": "Andrew Halliday",
-            "nationality": None
-          },
-          {
-            "id": 11556,
-            "name": "David Coote",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233032,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-11T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 1,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": [
-          {
-            "id": 11487,
-            "name": "Kevin Friend",
-            "nationality": None
-          },
-          {
-            "id": 11444,
-            "name": "Matthew Wilkes",
-            "nationality": None
-          },
-          {
-            "id": 11521,
-            "name": "Mark Scholes",
-            "nationality": None
-          },
-          {
-            "id": 11503,
-            "name": "Graham Scott",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233023,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-11T16:30:00Z",
-        "status": "FINISHED",
-        "matchday": 1,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": [
-          {
-            "id": 11585,
-            "name": "Craig Pawson",
-            "nationality": None
-          },
-          {
-            "id": 11586,
-            "name": "Richard West",
-            "nationality": None
-          },
-          {
-            "id": 11544,
-            "name": "Simon Beck",
-            "nationality": None
-          },
-          {
-            "id": 11430,
-            "name": "Simon Hooper",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233025,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-12T12:30:00Z",
-        "status": "FINISHED",
-        "matchday": 1,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 4,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": [
-          {
-            "id": 11580,
-            "name": "Anthony Taylor",
-            "nationality": None
-          },
-          {
-            "id": 11581,
-            "name": "Gary Beswick",
-            "nationality": None
-          },
-          {
-            "id": 11615,
-            "name": "Adam Nunn",
-            "nationality": None
-          },
-          {
-            "id": 11520,
-            "name": "Paul Tierney",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233030,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-12T12:30:00Z",
-        "status": "FINISHED",
-        "matchday": 1,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": [
-          {
-            "id": 11503,
-            "name": "Graham Scott",
-            "nationality": None
-          },
-          {
-            "id": 11606,
-            "name": "Constantine Hatzidakis",
-            "nationality": None
-          },
-          {
-            "id": 11438,
-            "name": "Dan Cook",
-            "nationality": None
-          },
-          {
-            "id": 11436,
-            "name": "Lee Probert",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233027,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-12T15:00:00Z",
-        "status": "FINISHED",
-        "matchday": 1,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": [
-          {
-            "id": 11605,
-            "name": "Michael Oliver",
-            "nationality": None
-          },
-          {
-            "id": 11488,
-            "name": "Simon Bennett",
-            "nationality": None
-          },
-          {
-            "id": 11564,
-            "name": "Stuart Burt",
-            "nationality": None
-          },
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233039,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-18T11:30:00Z",
-        "status": "FINISHED",
-        "matchday": 2,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": [
-          {
-            "id": 11585,
-            "name": "Craig Pawson",
-            "nationality": None
-          },
-          {
-            "id": 11480,
-            "name": "Eddie Smart",
-            "nationality": None
-          },
-          {
-            "id": 11437,
-            "name": "Andy Garratt",
-            "nationality": None
-          },
-          {
-            "id": 11436,
-            "name": "Lee Probert",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233035,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-18T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 2,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 3,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": [
-          {
-            "id": 11580,
-            "name": "Anthony Taylor",
-            "nationality": None
-          },
-          {
-            "id": 11581,
-            "name": "Gary Beswick",
-            "nationality": None
-          },
-          {
-            "id": 11615,
-            "name": "Adam Nunn",
-            "nationality": None
-          },
-          {
-            "id": 11430,
-            "name": "Simon Hooper",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233036,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-18T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 2,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": [
-          {
-            "id": 11479,
-            "name": "Lee Mason",
-            "nationality": None
-          },
-          {
-            "id": 11576,
-            "name": "Darren Cann",
-            "nationality": None
-          },
-          {
-            "id": 11505,
-            "name": "Derek Eaton",
-            "nationality": None
-          },
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233037,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-18T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 2,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": [
-          {
-            "id": 11575,
-            "name": "Mike Dean",
-            "nationality": None
-          },
-          {
-            "id": 11495,
-            "name": "Ian Hussin",
-            "nationality": None
-          },
-          {
-            "id": 11521,
-            "name": "Mark Scholes",
-            "nationality": None
-          },
-          {
-            "id": 11503,
-            "name": "Graham Scott",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233040,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-18T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 2,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": [
-          {
-            "id": 11494,
-            "name": "Stuart Attwell",
-            "nationality": None
-          },
-          {
-            "id": 11570,
-            "name": "Harry Lennard",
-            "nationality": None
-          },
-          {
-            "id": 11424,
-            "name": "Neil Davies",
-            "nationality": None
-          },
-          {
-            "id": 11487,
-            "name": "Kevin Friend",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233034,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-18T16:30:00Z",
-        "status": "FINISHED",
-        "matchday": 2,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 3,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 2,
-            "awayTeam": 2
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": [
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          },
-          {
-            "id": 11530,
-            "name": "Lee Betts",
-            "nationality": None
-          },
-          {
-            "id": 11547,
-            "name": "Stephen Child",
-            "nationality": None
-          },
-          {
-            "id": 11567,
-            "name": "Jonathan Moss",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233033,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-19T12:30:00Z",
-        "status": "FINISHED",
-        "matchday": 2,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 6,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 3,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": [
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          },
-          {
-            "id": 11504,
-            "name": "Simon Long",
-            "nationality": None
-          },
-          {
-            "id": 11586,
-            "name": "Richard West",
-            "nationality": None
-          },
-          {
-            "id": 11479,
-            "name": "Lee Mason",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233038,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-19T12:30:00Z",
-        "status": "FINISHED",
-        "matchday": 2,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 3
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": [
-          {
-            "id": 11520,
-            "name": "Paul Tierney",
-            "nationality": None
-          },
-          {
-            "id": 11595,
-            "name": "Adrian Holmes",
-            "nationality": None
-          },
-          {
-            "id": 11496,
-            "name": "Mick McDonough",
-            "nationality": None
-          },
-          {
-            "id": 11443,
-            "name": "Chris Kavanagh",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233042,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-19T15:00:00Z",
-        "status": "FINISHED",
-        "matchday": 2,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 3,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 3,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": [
-          {
-            "id": 11487,
-            "name": "Kevin Friend",
-            "nationality": None
-          },
-          {
-            "id": 11564,
-            "name": "Stuart Burt",
-            "nationality": None
-          },
-          {
-            "id": 11444,
-            "name": "Matthew Wilkes",
-            "nationality": None
-          },
-          {
-            "id": 11503,
-            "name": "Graham Scott",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233041,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-20T19:00:00Z",
-        "status": "FINISHED",
-        "matchday": 2,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": [
-          {
-            "id": 11605,
-            "name": "Michael Oliver",
-            "nationality": None
-          },
-          {
-            "id": 11488,
-            "name": "Simon Bennett",
-            "nationality": None
-          },
-          {
-            "id": 11611,
-            "name": "Scott Ledger",
-            "nationality": None
-          },
-          {
-            "id": 11443,
-            "name": "Chris Kavanagh",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233043,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-25T11:30:00Z",
-        "status": "FINISHED",
-        "matchday": 3,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": [
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          },
-          {
-            "id": 11547,
-            "name": "Stephen Child",
-            "nationality": None
-          },
-          {
-            "id": 11606,
-            "name": "Constantine Hatzidakis",
-            "nationality": None
-          },
-          {
-            "id": 11494,
-            "name": "Stuart Attwell",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233047,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-25T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 3,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 3,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": [
-          {
-            "id": 11503,
-            "name": "Graham Scott",
-            "nationality": None
-          },
-          {
-            "id": 11611,
-            "name": "Scott Ledger",
-            "nationality": None
-          },
-          {
-            "id": 11496,
-            "name": "Mick McDonough",
-            "nationality": None
-          },
-          {
-            "id": 11487,
-            "name": "Kevin Friend",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233049,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-25T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 3,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": [
-          {
-            "id": 11605,
-            "name": "Michael Oliver",
-            "nationality": None
-          },
-          {
-            "id": 11488,
-            "name": "Simon Bennett",
-            "nationality": None
-          },
-          {
-            "id": 11564,
-            "name": "Stuart Burt",
-            "nationality": None
-          },
-          {
-            "id": 11287,
-            "name": "Oliver Langford",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233050,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-25T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 3,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": [
-          {
-            "id": 11567,
-            "name": "Jonathan Moss",
-            "nationality": None
-          },
-          {
-            "id": 11570,
-            "name": "Harry Lennard",
-            "nationality": None
-          },
-          {
-            "id": 11568,
-            "name": "Andrew Halliday",
-            "nationality": None
-          },
-          {
-            "id": 11556,
-            "name": "David Coote",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233052,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-25T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 3,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": [
-          {
-            "id": 11436,
-            "name": "Lee Probert",
-            "nationality": None
-          },
-          {
-            "id": 11437,
-            "name": "Andy Garratt",
-            "nationality": None
-          },
-          {
-            "id": 11431,
-            "name": "Daniel Robathan",
-            "nationality": None
-          },
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233045,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-25T16:30:00Z",
-        "status": "FINISHED",
-        "matchday": 3,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": [
-          {
-            "id": 11443,
-            "name": "Chris Kavanagh",
-            "nationality": None
-          },
-          {
-            "id": 11530,
-            "name": "Lee Betts",
-            "nationality": None
-          },
-          {
-            "id": 11504,
-            "name": "Simon Long",
-            "nationality": None
-          },
-          {
-            "id": 11585,
-            "name": "Craig Pawson",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233051,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-26T12:30:00Z",
-        "status": "FINISHED",
-        "matchday": 3,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": [
-          {
-            "id": 11580,
-            "name": "Anthony Taylor",
-            "nationality": None
-          },
-          {
-            "id": 11581,
-            "name": "Gary Beswick",
-            "nationality": None
-          },
-          {
-            "id": 11615,
-            "name": "Adam Nunn",
-            "nationality": None
-          },
-          {
-            "id": 11494,
-            "name": "Stuart Attwell",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233044,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-26T15:00:00Z",
-        "status": "FINISHED",
-        "matchday": 3,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 4,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 3,
-            "awayTeam": 2
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": [
-          {
-            "id": 11556,
-            "name": "David Coote",
-            "nationality": None
-          },
-          {
-            "id": 11552,
-            "name": "Peter Kirkup",
-            "nationality": None
-          },
-          {
-            "id": 14629,
-            "name": "Matthew Perry",
-            "nationality": None
-          },
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233046,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-26T15:00:00Z",
-        "status": "FINISHED",
-        "matchday": 3,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": [
-          {
-            "id": 11520,
-            "name": "Paul Tierney",
-            "nationality": None
-          },
-          {
-            "id": 11495,
-            "name": "Ian Hussin",
-            "nationality": None
-          },
-          {
-            "id": 11576,
-            "name": "Darren Cann",
-            "nationality": None
-          },
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233048,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-08-27T19:00:00Z",
-        "status": "FINISHED",
-        "matchday": 3,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 3
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": [
-          {
-            "id": 11585,
-            "name": "Craig Pawson",
-            "nationality": None
-          },
-          {
-            "id": 11480,
-            "name": "Eddie Smart",
-            "nationality": None
-          },
-          {
-            "id": 11586,
-            "name": "Richard West",
-            "nationality": None
-          },
-          {
-            "id": 11567,
-            "name": "Jonathan Moss",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233056,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-01T11:30:00Z",
-        "status": "FINISHED",
-        "matchday": 4,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": [
-          {
-            "id": 11520,
-            "name": "Paul Tierney",
-            "nationality": None
-          },
-          {
-            "id": 11576,
-            "name": "Darren Cann",
-            "nationality": None
-          },
-          {
-            "id": 11595,
-            "name": "Adrian Holmes",
-            "nationality": None
-          },
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233054,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-01T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 4,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": [
-          {
-            "id": 11479,
-            "name": "Lee Mason",
-            "nationality": None
-          },
-          {
-            "id": 11444,
-            "name": "Matthew Wilkes",
-            "nationality": None
-          },
-          {
-            "id": 11531,
-            "name": "Marc Perry",
-            "nationality": None
-          },
-          {
-            "id": 11556,
-            "name": "David Coote",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233055,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-01T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 4,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": [
-          {
-            "id": 11494,
-            "name": "Stuart Attwell",
-            "nationality": None
-          },
-          {
-            "id": 11480,
-            "name": "Eddie Smart",
-            "nationality": None
-          },
-          {
-            "id": 11521,
-            "name": "Mark Scholes",
-            "nationality": None
-          },
-          {
-            "id": 11567,
-            "name": "Jonathan Moss",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233059,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-01T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 4,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": [
-          {
-            "id": 11443,
-            "name": "Chris Kavanagh",
-            "nationality": None
-          },
-          {
-            "id": 11504,
-            "name": "Simon Long",
-            "nationality": None
-          },
-          {
-            "id": 11445,
-            "name": "Sian Massey-Ellis",
-            "nationality": None
-          },
-          {
-            "id": 11290,
-            "name": "Steve Martin",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233060,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-01T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 4,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": [
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          },
-          {
-            "id": 11530,
-            "name": "Lee Betts",
-            "nationality": None
-          },
-          {
-            "id": 11552,
-            "name": "Peter Kirkup",
-            "nationality": None
-          },
-          {
-            "id": 11423,
-            "name": "Andy Madley",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233061,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-01T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 4,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": [
-          {
-            "id": 11436,
-            "name": "Lee Probert",
-            "nationality": None
-          },
-          {
-            "id": 11544,
-            "name": "Simon Beck",
-            "nationality": None
-          },
-          {
-            "id": 11437,
-            "name": "Andy Garratt",
-            "nationality": None
-          },
-          {
-            "id": 11378,
-            "name": "Tony Harrington",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233053,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-01T16:30:00Z",
-        "status": "FINISHED",
-        "matchday": 4,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": [
-          {
-            "id": 11487,
-            "name": "Kevin Friend",
-            "nationality": None
-          },
-          {
-            "id": 11488,
-            "name": "Simon Bennett",
-            "nationality": None
-          },
-          {
-            "id": 11505,
-            "name": "Derek Eaton",
-            "nationality": None
-          },
-          {
-            "id": 11585,
-            "name": "Craig Pawson",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233058,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-02T12:30:00Z",
-        "status": "FINISHED",
-        "matchday": 4,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 3
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": [
-          {
-            "id": 11580,
-            "name": "Anthony Taylor",
-            "nationality": None
-          },
-          {
-            "id": 11581,
-            "name": "Gary Beswick",
-            "nationality": None
-          },
-          {
-            "id": 11615,
-            "name": "Adam Nunn",
-            "nationality": None
-          },
-          {
-            "id": 11556,
-            "name": "David Coote",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233057,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-02T15:00:00Z",
-        "status": "FINISHED",
-        "matchday": 4,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": [
-          {
-            "id": 11567,
-            "name": "Jonathan Moss",
-            "nationality": None
-          },
-          {
-            "id": 11570,
-            "name": "Harry Lennard",
-            "nationality": None
-          },
-          {
-            "id": 11568,
-            "name": "Andrew Halliday",
-            "nationality": None
-          },
-          {
-            "id": 11605,
-            "name": "Michael Oliver",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233062,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-02T15:00:00Z",
-        "status": "FINISHED",
-        "matchday": 4,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": [
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          },
-          {
-            "id": 11611,
-            "name": "Scott Ledger",
-            "nationality": None
-          },
-          {
-            "id": 11438,
-            "name": "Dan Cook",
-            "nationality": None
-          },
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233067,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-15T11:30:00Z",
-        "status": "FINISHED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": [
-          {
-            "id": 11605,
-            "name": "Michael Oliver",
-            "nationality": None
-          },
-          {
-            "id": 11564,
-            "name": "Stuart Burt",
-            "nationality": None
-          },
-          {
-            "id": 11488,
-            "name": "Simon Bennett",
-            "nationality": None
-          },
-          {
-            "id": 11487,
-            "name": "Kevin Friend",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233064,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-15T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 3,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": [
-          {
-            "id": 11494,
-            "name": "Stuart Attwell",
-            "nationality": None
-          },
-          {
-            "id": 11606,
-            "name": "Constantine Hatzidakis",
-            "nationality": None
-          },
-          {
-            "id": 11586,
-            "name": "Richard West",
-            "nationality": None
-          },
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233065,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-15T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": [
-          {
-            "id": 11436,
-            "name": "Lee Probert",
-            "nationality": None
-          },
-          {
-            "id": 11544,
-            "name": "Simon Beck",
-            "nationality": None
-          },
-          {
-            "id": 11595,
-            "name": "Adrian Holmes",
-            "nationality": None
-          },
-          {
-            "id": 11556,
-            "name": "David Coote",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233066,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-15T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 4,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 2,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": [
-          {
-            "id": 11567,
-            "name": "Jonathan Moss",
-            "nationality": None
-          },
-          {
-            "id": 11570,
-            "name": "Harry Lennard",
-            "nationality": None
-          },
-          {
-            "id": 11568,
-            "name": "Andrew Halliday",
-            "nationality": None
-          },
-          {
-            "id": 11396,
-            "name": "Tim Robinson",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233069,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-15T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": [
-          {
-            "id": 11503,
-            "name": "Graham Scott",
-            "nationality": None
-          },
-          {
-            "id": 11504,
-            "name": "Simon Long",
-            "nationality": None
-          },
-          {
-            "id": 11424,
-            "name": "Neil Davies",
-            "nationality": None
-          },
-          {
-            "id": 11479,
-            "name": "Lee Mason",
-            "nationality": None
-          },
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233072,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-15T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 4,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 3,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": [
-          {
-            "id": 11585,
-            "name": "Craig Pawson",
-            "nationality": None
-          },
-          {
-            "id": 11530,
-            "name": "Lee Betts",
-            "nationality": None
-          },
-          {
-            "id": 11495,
-            "name": "Ian Hussin",
-            "nationality": None
-          },
-          {
-            "id": 11430,
-            "name": "Simon Hooper",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233071,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-15T16:30:00Z",
-        "status": "FINISHED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": [
-          {
-            "id": 11575,
-            "name": "Mike Dean",
-            "nationality": None
-          },
-          {
-            "id": 11576,
-            "name": "Darren Cann",
-            "nationality": None
-          },
-          {
-            "id": 11431,
-            "name": "Daniel Robathan",
-            "nationality": None
-          },
-          {
-            "id": 11520,
-            "name": "Paul Tierney",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233063,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-16T12:30:00Z",
-        "status": "FINISHED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": [
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          },
-          {
-            "id": 11611,
-            "name": "Scott Ledger",
-            "nationality": None
-          },
-          {
-            "id": 11496,
-            "name": "Mick McDonough",
-            "nationality": None
-          },
-          {
-            "id": 11494,
-            "name": "Stuart Attwell",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233068,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-16T15:00:00Z",
-        "status": "FINISHED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 3
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": [
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          },
-          {
-            "id": 11547,
-            "name": "Stephen Child",
-            "nationality": None
-          },
-          {
-            "id": 11552,
-            "name": "Peter Kirkup",
-            "nationality": None
-          },
-          {
-            "id": 11556,
-            "name": "David Coote",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233070,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-17T19:00:00Z",
-        "status": "FINISHED",
-        "matchday": 5,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": [
-          {
-            "id": 11580,
-            "name": "Anthony Taylor",
-            "nationality": None
-          },
-          {
-            "id": 11581,
-            "name": "Gary Beswick",
-            "nationality": None
-          },
-          {
-            "id": 11615,
-            "name": "Adam Nunn",
-            "nationality": None
-          },
-          {
-            "id": 11503,
-            "name": "Graham Scott",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233073,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-22T11:30:00Z",
-        "status": "FINISHED",
-        "matchday": 6,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233074,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-22T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 6,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 3,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 3,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233076,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-22T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 6,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233077,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-22T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 6,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 3,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233078,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-22T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 6,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 4,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233079,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-22T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 6,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 5
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 3
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233081,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-22T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 6,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233082,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-22T16:30:00Z",
-        "status": "FINISHED",
-        "matchday": 6,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233080,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-23T12:30:00Z",
-        "status": "FINISHED",
-        "matchday": 6,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233075,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-23T15:00:00Z",
-        "status": "FINISHED",
-        "matchday": 6,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233091,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-29T11:30:00Z",
-        "status": "FINISHED",
-        "matchday": 7,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 3,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": [
-          {
-            "id": 11605,
-            "name": "Michael Oliver",
-            "nationality": None
-          },
-          {
-            "id": 11564,
-            "name": "Stuart Burt",
-            "nationality": None
-          },
-          {
-            "id": 11488,
-            "name": "Simon Bennett",
-            "nationality": None
-          },
-          {
-            "id": 11520,
-            "name": "Paul Tierney",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233083,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-29T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 7,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": [
-          {
-            "id": 11494,
-            "name": "Stuart Attwell",
-            "nationality": None
-          },
-          {
-            "id": 11606,
-            "name": "Constantine Hatzidakis",
-            "nationality": None
-          },
-          {
-            "id": 11552,
-            "name": "Peter Kirkup",
-            "nationality": None
-          },
-          {
-            "id": 11446,
-            "name": "Robert Jones",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233084,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-29T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 7,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": [
-          {
-            "id": 11479,
-            "name": "Lee Mason",
-            "nationality": None
-          },
-          {
-            "id": 11444,
-            "name": "Matthew Wilkes",
-            "nationality": None
-          },
-          {
-            "id": 11496,
-            "name": "Mick McDonough",
-            "nationality": None
-          },
-          {
-            "id": 11287,
-            "name": "Oliver Langford",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233085,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-29T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 7,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": [
-          {
-            "id": 11430,
-            "name": "Simon Hooper",
-            "nationality": None
-          },
-          {
-            "id": 11586,
-            "name": "Richard West",
-            "nationality": None
-          },
-          {
-            "id": 11438,
-            "name": "Dan Cook",
-            "nationality": None
-          },
-          {
-            "id": 11575,
-            "name": "Mike Dean",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233086,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-29T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 7,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": [
-          {
-            "id": 11580,
-            "name": "Anthony Taylor",
-            "nationality": None
-          },
-          {
-            "id": 11581,
-            "name": "Gary Beswick",
-            "nationality": None
-          },
-          {
-            "id": 11424,
-            "name": "Neil Davies",
-            "nationality": None
-          },
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233088,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-29T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 7,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 3,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": [
-          {
-            "id": 11543,
-            "name": "Roger East",
-            "nationality": None
-          },
-          {
-            "id": 11544,
-            "name": "Simon Beck",
-            "nationality": None
-          },
-          {
-            "id": 11437,
-            "name": "Andy Garratt",
-            "nationality": None
-          },
-          {
-            "id": 11472,
-            "name": "Jeremy Simpson",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233089,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-29T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 7,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": [
-          {
-            "id": 11585,
-            "name": "Craig Pawson",
-            "nationality": None
-          },
-          {
-            "id": 11495,
-            "name": "Ian Hussin",
-            "nationality": None
-          },
-          {
-            "id": 11568,
-            "name": "Andrew Halliday",
-            "nationality": None
-          },
-          {
-            "id": 11309,
-            "name": "Peter Bankes",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233087,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-29T16:30:00Z",
-        "status": "FINISHED",
-        "matchday": 7,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": [
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          },
-          {
-            "id": 11611,
-            "name": "Scott Ledger",
-            "nationality": None
-          },
-          {
-            "id": 11504,
-            "name": "Simon Long",
-            "nationality": None
-          },
-          {
-            "id": 11443,
-            "name": "Chris Kavanagh",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233090,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-09-30T15:00:00Z",
-        "status": "FINISHED",
-        "matchday": 7,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": [
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          },
-          {
-            "id": 11547,
-            "name": "Stephen Child",
-            "nationality": None
-          },
-          {
-            "id": 11530,
-            "name": "Lee Betts",
-            "nationality": None
-          },
-          {
-            "id": 11556,
-            "name": "David Coote",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233092,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-01T19:00:00Z",
-        "status": "FINISHED",
-        "matchday": 7,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": [
-          {
-            "id": 11575,
-            "name": "Mike Dean",
-            "nationality": None
-          },
-          {
-            "id": 11431,
-            "name": "Daniel Robathan",
-            "nationality": None
-          },
-          {
-            "id": 11521,
-            "name": "Mark Scholes",
-            "nationality": None
-          },
-          {
-            "id": 11487,
-            "name": "Kevin Friend",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233101,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-05T19:00:00Z",
-        "status": "FINISHED",
-        "matchday": 8,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": [
-          {
-            "id": 11487,
-            "name": "Kevin Friend",
-            "nationality": None
-          },
-          {
-            "id": 11444,
-            "name": "Matthew Wilkes",
-            "nationality": None
-          },
-          {
-            "id": 11544,
-            "name": "Simon Beck",
-            "nationality": None
-          },
-          {
-            "id": 11430,
-            "name": "Simon Hooper",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233095,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-06T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 8,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": [
-          {
-            "id": 11575,
-            "name": "Mike Dean",
-            "nationality": None
-          },
-          {
-            "id": 11576,
-            "name": "Darren Cann",
-            "nationality": None
-          },
-          {
-            "id": 11431,
-            "name": "Daniel Robathan",
-            "nationality": None
-          },
-          {
-            "id": 11520,
-            "name": "Paul Tierney",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233097,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-06T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 8,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": [
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          },
-          {
-            "id": 11611,
-            "name": "Scott Ledger",
-            "nationality": None
-          },
-          {
-            "id": 11504,
-            "name": "Simon Long",
-            "nationality": None
-          },
-          {
-            "id": 11479,
-            "name": "Lee Mason",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233098,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-06T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 8,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": [
-          {
-            "id": 11443,
-            "name": "Chris Kavanagh",
-            "nationality": None
-          },
-          {
-            "id": 11438,
-            "name": "Dan Cook",
-            "nationality": None
-          },
-          {
-            "id": 11445,
-            "name": "Sian Massey-Ellis",
-            "nationality": None
-          },
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233100,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-06T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 8,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": [
-          {
-            "id": 11605,
-            "name": "Michael Oliver",
-            "nationality": None
-          },
-          {
-            "id": 11564,
-            "name": "Stuart Burt",
-            "nationality": None
-          },
-          {
-            "id": 11488,
-            "name": "Simon Bennett",
-            "nationality": None
-          },
-          {
-            "id": 11543,
-            "name": "Roger East",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233102,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-06T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 8,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 4
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 3
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": [
-          {
-            "id": 11567,
-            "name": "Jonathan Moss",
-            "nationality": None
-          },
-          {
-            "id": 11480,
-            "name": "Eddie Smart",
-            "nationality": None
-          },
-          {
-            "id": 11531,
-            "name": "Marc Perry",
-            "nationality": None
-          },
-          {
-            "id": 11430,
-            "name": "Simon Hooper",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233096,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-06T16:30:00Z",
-        "status": "FINISHED",
-        "matchday": 8,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 3,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": [
-          {
-            "id": 11580,
-            "name": "Anthony Taylor",
-            "nationality": None
-          },
-          {
-            "id": 11581,
-            "name": "Gary Beswick",
-            "nationality": None
-          },
-          {
-            "id": 11615,
-            "name": "Adam Nunn",
-            "nationality": None
-          },
-          {
-            "id": 11494,
-            "name": "Stuart Attwell",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233093,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-07T11:00:00Z",
-        "status": "FINISHED",
-        "matchday": 8,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 1,
-            "awayTeam": 5
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": [
-          {
-            "id": 11520,
-            "name": "Paul Tierney",
-            "nationality": None
-          },
-          {
-            "id": 11595,
-            "name": "Adrian Holmes",
-            "nationality": None
-          },
-          {
-            "id": 11496,
-            "name": "Mick McDonough",
-            "nationality": None
-          },
-          {
-            "id": 11575,
-            "name": "Mike Dean",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233099,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-07T13:15:00Z",
-        "status": "FINISHED",
-        "matchday": 8,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 3
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": [
-          {
-            "id": 11585,
-            "name": "Craig Pawson",
-            "nationality": None
-          },
-          {
-            "id": 11495,
-            "name": "Ian Hussin",
-            "nationality": None
-          },
-          {
-            "id": 11586,
-            "name": "Richard West",
-            "nationality": None
-          },
-          {
-            "id": 11543,
-            "name": "Roger East",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233094,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-07T15:30:00Z",
-        "status": "FINISHED",
-        "matchday": 8,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": [
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          },
-          {
-            "id": 11547,
-            "name": "Stephen Child",
-            "nationality": None
-          },
-          {
-            "id": 11530,
-            "name": "Lee Betts",
-            "nationality": None
-          },
-          {
-            "id": 11494,
-            "name": "Stuart Attwell",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233107,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-20T11:30:00Z",
-        "status": "FINISHED",
-        "matchday": 9,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": [
-          {
-            "id": 11575,
-            "name": "Mike Dean",
-            "nationality": None
-          },
-          {
-            "id": 11495,
-            "name": "Ian Hussin",
-            "nationality": None
-          },
-          {
-            "id": 11576,
-            "name": "Darren Cann",
-            "nationality": None
-          },
-          {
-            "id": 11585,
-            "name": "Craig Pawson",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233103,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-20T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 9,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 2
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": [
-          {
-            "id": 11479,
-            "name": "Lee Mason",
-            "nationality": None
-          },
-          {
-            "id": 11531,
-            "name": "Marc Perry",
-            "nationality": None
-          },
-          {
-            "id": 11424,
-            "name": "Neil Davies",
-            "nationality": None
-          },
-          {
-            "id": 11327,
-            "name": "John Brooks",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233104,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-20T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 9,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 5,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": [
-          {
-            "id": 11567,
-            "name": "Jonathan Moss",
-            "nationality": None
-          },
-          {
-            "id": 11480,
-            "name": "Eddie Smart",
-            "nationality": None
-          },
-          {
-            "id": 11568,
-            "name": "Andrew Halliday",
-            "nationality": None
-          },
-          {
-            "id": 11443,
-            "name": "Chris Kavanagh",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233105,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-20T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 9,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": [
-          {
-            "id": 11610,
-            "name": "Andre Marriner",
-            "nationality": None
-          },
-          {
-            "id": 11504,
-            "name": "Simon Long",
-            "nationality": None
-          },
-          {
-            "id": 11586,
-            "name": "Richard West",
-            "nationality": None
-          },
-          {
-            "id": 11378,
-            "name": "Tony Harrington",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233110,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-20T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 9,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 4,
-            "awayTeam": 2
-          },
-          "halfTime": {
-            "homeTeam": 2,
-            "awayTeam": 2
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": [
-          {
-            "id": 11487,
-            "name": "Kevin Friend",
-            "nationality": None
-          },
-          {
-            "id": 11444,
-            "name": "Matthew Wilkes",
-            "nationality": None
-          },
-          {
-            "id": 11505,
-            "name": "Derek Eaton",
-            "nationality": None
-          },
-          {
-            "id": 11387,
-            "name": "Andrew Davies",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233111,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-20T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 9,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": [
-          {
-            "id": 11551,
-            "name": "Martin Atkinson",
-            "nationality": None
-          },
-          {
-            "id": 11547,
-            "name": "Stephen Child",
-            "nationality": None
-          },
-          {
-            "id": 11552,
-            "name": "Peter Kirkup",
-            "nationality": None
-          },
-          {
-            "id": 11556,
-            "name": "David Coote",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233112,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-20T14:00:00Z",
-        "status": "FINISHED",
-        "matchday": 9,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "DRAW",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": [
-          {
-            "id": 11436,
-            "name": "Lee Probert",
-            "nationality": None
-          },
-          {
-            "id": 11544,
-            "name": "Simon Beck",
-            "nationality": None
-          },
-          {
-            "id": 11437,
-            "name": "Andy Garratt",
-            "nationality": None
-          },
-          {
-            "id": 11494,
-            "name": "Stuart Attwell",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233109,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-20T16:30:00Z",
-        "status": "FINISHED",
-        "matchday": 9,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": "AWAY_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": [
-          {
-            "id": 11605,
-            "name": "Michael Oliver",
-            "nationality": None
-          },
-          {
-            "id": 11564,
-            "name": "Stuart Burt",
-            "nationality": None
-          },
-          {
-            "id": 11488,
-            "name": "Simon Bennett",
-            "nationality": None
-          },
-          {
-            "id": 11430,
-            "name": "Simon Hooper",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233108,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-21T15:00:00Z",
-        "status": "FINISHED",
-        "matchday": 9,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T16:35:08Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 2,
-            "awayTeam": 0
-          },
-          "halfTime": {
-            "homeTeam": 0,
-            "awayTeam": 0
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": [
-          {
-            "id": 11580,
-            "name": "Anthony Taylor",
-            "nationality": None
-          },
-          {
-            "id": 11581,
-            "name": "Gary Beswick",
-            "nationality": None
-          },
-          {
-            "id": 11615,
-            "name": "Adam Nunn",
-            "nationality": None
-          },
-          {
-            "id": 11430,
-            "name": "Simon Hooper",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233106,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-22T19:00:00Z",
-        "status": "FINISHED",
-        "matchday": 9,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-23T20:55:01Z",
-        "score": {
-          "winner": "HOME_TEAM",
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": 3,
-            "awayTeam": 1
-          },
-          "halfTime": {
-            "homeTeam": 1,
-            "awayTeam": 1
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": [
-          {
-            "id": 11443,
-            "name": "Chris Kavanagh",
-            "nationality": None
-          },
-          {
-            "id": 11438,
-            "name": "Dan Cook",
-            "nationality": None
-          },
-          {
-            "id": 11445,
-            "name": "Sian Massey-Ellis",
-            "nationality": None
-          },
-          {
-            "id": 11567,
-            "name": "Jonathan Moss",
-            "nationality": None
-          }
-        ]
-      },
-      {
-        "id": 233113,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-27T14:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 10,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-26T00:00:18Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233114,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-27T14:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 10,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-26T00:00:18Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233119,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-27T14:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 10,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-26T00:00:18Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233121,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-27T14:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 10,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-26T00:00:18Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233122,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-27T14:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 10,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-26T00:00:18Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233117,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-27T16:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 10,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-26T00:00:18Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233118,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-28T13:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 10,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233120,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-28T13:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 10,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233116,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-28T16:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 10,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233115,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-10-29T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 10,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233132,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-03T12:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 11,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233125,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-03T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 11,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233128,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-03T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 11,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233130,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-03T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 11,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233131,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-03T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 11,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233126,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-03T17:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 11,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233123,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-03T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 11,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233124,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-04T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 11,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233127,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-04T16:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 11,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233129,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-05T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 11,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233140,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-10T12:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 12,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233135,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-10T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 12,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233138,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-10T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 12,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233139,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-10T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 12,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233141,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-10T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 12,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233142,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-10T17:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 12,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233133,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-11T12:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 12,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233137,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-11T14:15:00Z",
-        "status": "SCHEDULED",
-        "matchday": 12,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233134,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-11T16:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 12,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233136,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-11T16:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 12,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233144,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-24T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 13,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233146,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-24T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 13,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233147,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-24T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 13,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233149,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-24T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 13,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233150,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-24T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 13,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233151,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-24T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 13,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233145,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-24T17:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 13,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233152,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-25T13:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 13,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233143,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-25T16:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 13,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233148,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-26T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 13,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233160,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-11-30T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233154,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-01T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233155,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-01T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233158,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-01T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233159,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-01T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233162,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-01T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233161,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-01T17:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233157,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-02T12:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233156,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-02T14:05:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233153,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-02T16:15:00Z",
-        "status": "SCHEDULED",
-        "matchday": 14,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233167,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-04T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 15,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:38Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233168,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-04T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 15,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233169,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-04T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 15,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233170,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-04T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 15,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233163,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-05T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 15,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233164,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-05T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 15,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233166,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-05T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 15,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233172,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-05T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 15,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233165,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-05T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 15,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233171,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-05T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 15,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233182,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-08T12:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 16,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233174,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-08T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 16,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233177,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-08T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 16,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233179,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-08T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 16,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233180,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-08T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 16,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233181,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-08T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 16,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233175,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-08T17:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 16,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233178,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-08T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 16,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233173,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-09T16:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 16,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233176,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-10T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 16,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233186,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-15T12:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 17,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233183,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-15T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 17,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233187,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-15T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 17,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233188,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-15T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 17,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233190,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-15T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 17,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233192,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-15T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 17,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233184,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-15T17:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 17,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233189,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-16T13:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 17,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233191,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-16T13:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 17,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233185,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-16T16:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 17,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233193,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-21T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 18,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233196,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-22T12:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 18,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233194,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-22T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 18,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233195,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-22T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 18,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233197,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-22T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 18,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233199,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-22T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 18,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233201,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-22T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 18,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233202,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-22T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 18,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233200,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-22T17:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 18,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233198,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-23T16:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 18,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233203,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-26T12:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 19,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233204,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-26T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 19,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233205,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-26T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 19,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233206,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-26T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 19,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233207,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-26T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 19,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233208,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-26T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 19,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233210,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-26T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 19,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233211,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-26T17:15:00Z",
-        "status": "SCHEDULED",
-        "matchday": 19,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233212,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-26T19:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 19,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233209,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-27T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 19,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233217,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-29T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 20,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233221,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-29T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 20,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233222,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-29T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 20,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233213,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-29T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 20,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233215,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-29T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 20,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233214,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-29T17:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 20,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233220,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-30T12:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 20,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233218,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-30T14:15:00Z",
-        "status": "SCHEDULED",
-        "matchday": 20,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233219,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-30T14:15:00Z",
-        "status": "SCHEDULED",
-        "matchday": 20,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233216,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2018-12-30T16:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 20,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233228,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-01T12:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 21,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233226,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-01T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 21,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233230,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-01T17:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 21,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233223,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-02T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 21,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233227,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-02T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 21,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233229,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-02T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 21,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233231,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-02T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 21,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233232,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-02T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 21,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233225,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-02T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 21,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233224,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-03T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 21,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233240,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-12T12:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 22,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233237,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-12T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 22,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233238,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-12T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 22,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233239,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-12T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 22,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233241,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-12T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 22,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233242,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-12T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 22,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233234,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-12T17:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 22,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233236,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-13T14:15:00Z",
-        "status": "SCHEDULED",
-        "matchday": 22,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233235,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-13T16:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 22,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233233,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-14T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 22,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233243,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-19T12:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 23,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233245,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-19T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 23,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233246,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-19T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 23,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233248,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-19T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 23,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233250,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-19T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 23,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233251,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-19T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 23,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233252,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-19T15:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 23,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233247,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-19T17:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 23,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233249,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-20T13:30:00Z",
-        "status": "SCHEDULED",
-        "matchday": 23,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233244,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-20T16:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 23,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233253,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-29T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 24,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233254,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-29T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 24,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233255,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-29T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 24,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233257,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-29T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 24,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233258,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-29T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 24,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233256,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-29T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 24,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233260,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-29T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 24,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233262,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-30T19:45:00Z",
-        "status": "SCHEDULED",
-        "matchday": 24,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233259,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-30T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 24,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233261,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-01-30T20:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 24,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233263,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 25,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233264,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 25,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233265,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 25,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233266,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 25,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233267,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 25,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233268,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 25,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233269,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 25,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233270,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 25,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233271,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 25,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233272,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 25,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233273,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 26,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233274,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 26,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233275,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 26,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233276,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 26,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233277,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 26,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233278,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 26,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233279,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 26,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233280,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 26,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233281,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 26,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233282,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 26,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233283,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 27,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233284,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 27,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233285,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 27,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233286,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 27,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233287,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 27,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233288,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 27,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233289,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 27,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233290,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 27,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233291,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 27,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233292,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-22T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 27,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233293,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-25T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 28,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233294,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-25T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 28,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233295,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-25T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 28,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233296,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-25T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 28,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233297,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-25T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 28,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233298,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 28,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233299,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 28,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233300,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 28,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233301,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 28,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233302,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-02-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 28,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233303,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 29,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233304,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 29,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233305,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 29,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233306,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 29,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233307,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 29,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233308,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 29,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233309,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 29,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233310,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 29,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233311,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 29,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233312,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-01T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 29,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233313,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 30,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233314,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 30,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233315,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 30,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233316,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 30,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233317,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 30,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233318,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 30,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233319,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 30,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233320,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 30,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233321,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 30,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233322,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-08T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 30,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233323,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-15T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 31,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233324,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-15T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 31,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233325,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-15T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 31,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233326,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-15T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 31,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233327,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-15T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 31,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233328,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-15T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 31,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233329,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-15T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 31,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233330,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-15T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 31,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233331,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-15T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 31,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233332,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-15T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 31,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233333,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 32,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233334,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 32,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233335,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 32,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233336,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 32,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233337,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 32,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233338,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 32,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233339,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 32,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233340,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 32,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233341,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 32,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233342,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-03-29T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 32,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233343,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-05T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 33,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233344,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-05T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 33,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233345,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-05T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 33,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233346,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-05T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 33,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233347,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-05T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 33,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233348,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-05T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 33,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233349,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-05T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 33,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233350,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-05T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 33,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233351,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-05T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 33,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233352,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-05T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 33,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233353,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-12T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 34,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233354,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-12T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 34,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233355,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-12T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 34,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233356,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-12T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 34,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233357,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-12T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 34,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233358,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-12T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 34,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233359,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-12T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 34,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233360,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-12T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 34,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233361,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-12T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 34,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233362,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-12T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 34,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233363,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-19T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 35,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233364,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-19T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 35,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233365,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-19T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 35,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233366,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-19T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 35,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233367,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-19T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 35,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233368,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-19T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 35,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233369,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-19T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 35,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233370,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-19T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 35,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233371,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-19T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 35,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233372,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-19T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 35,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233373,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 36,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233374,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 36,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233375,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 36,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233376,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 36,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233377,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 36,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233378,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 36,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233379,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 36,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233380,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 36,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233381,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 36,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233382,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-04-26T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 36,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233383,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-03T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 37,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "awayTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233384,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-03T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 37,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "awayTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233385,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-03T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 37,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "awayTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233386,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-03T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 37,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "awayTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233387,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-03T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 37,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "awayTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233388,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-03T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 37,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "awayTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233389,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-03T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 37,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "awayTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233390,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-03T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 37,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "awayTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233391,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-03T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 37,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "awayTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233392,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-03T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 37,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "awayTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233393,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-11T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 38,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 63,
-          "name": "Fulham FC"
-        },
-        "awayTeam": {
-          "id": 67,
-          "name": "Newcastle United FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233394,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-11T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 38,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 64,
-          "name": "Liverpool FC"
-        },
-        "awayTeam": {
-          "id": 76,
-          "name": "Wolverhampton Wanderers FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233395,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-11T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 38,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 73,
-          "name": "Tottenham Hotspur FC"
-        },
-        "awayTeam": {
-          "id": 62,
-          "name": "Everton FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233396,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-11T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 38,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 66,
-          "name": "Manchester United FC"
-        },
-        "awayTeam": {
-          "id": 715,
-          "name": "Cardiff City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233397,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-11T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 38,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 338,
-          "name": "Leicester City FC"
-        },
-        "awayTeam": {
-          "id": 61,
-          "name": "Chelsea FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233398,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-11T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 38,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 328,
-          "name": "Burnley FC"
-        },
-        "awayTeam": {
-          "id": 57,
-          "name": "Arsenal FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233399,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-11T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 38,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 340,
-          "name": "Southampton FC"
-        },
-        "awayTeam": {
-          "id": 394,
-          "name": "Huddersfield Town AFC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233400,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-11T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 38,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 354,
-          "name": "Crystal Palace FC"
-        },
-        "awayTeam": {
-          "id": 1044,
-          "name": "AFC Bournemouth"
-        },
-        "referees": []
-      },
-      {
-        "id": 233401,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-11T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 38,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 397,
-          "name": "Brighton & Hove Albion FC"
-        },
-        "awayTeam": {
-          "id": 65,
-          "name": "Manchester City FC"
-        },
-        "referees": []
-      },
-      {
-        "id": 233402,
-        "season": {
-          "id": 151,
-          "startDate": "2018-08-10",
-          "endDate": "2019-05-12",
-          "currentMatchday": 10
-        },
-        "utcDate": "2019-05-11T00:00:00Z",
-        "status": "SCHEDULED",
-        "matchday": 38,
-        "stage": "REGULAR_SEASON",
-        "group": "Regular Season",
-        "lastUpdated": "2018-10-22T10:02:39Z",
-        "score": {
-          "winner": None,
-          "duration": "REGULAR",
-          "fullTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "halfTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "extraTime": {
-            "homeTeam": None,
-            "awayTeam": None
-          },
-          "penalties": {
-            "homeTeam": None,
-            "awayTeam": None
-          }
-        },
-        "homeTeam": {
-          "id": 346,
-          "name": "Watford FC"
-        },
-        "awayTeam": {
-          "id": 563,
-          "name": "West Ham United FC"
-        },
-        "referees": []
-      }
+        {
+            "id": 204967,
+            "competition": {
+                "id": 2013,
+                "name": "Série A"
+            },
+            "season": {
+                "id": 15,
+                "startDate": "2018-04-14",
+                "endDate": "2018-12-02",
+                "currentMatchday": 20,
+                "availableStages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "utcDate": "2018-08-22T22:30:00Z",
+            "status": "FINISHED",
+            "attendance": None,
+            "matchday": 20,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2018-08-23T02:30:23Z",
+            "homeTeam": {
+                "id": 1777,
+                "name": "EC Bahia",
+                "coach": {
+                    "id": 11142,
+                    "name": "Enderson Moreira",
+                    "countryOfBirth": "Brazil",
+                    "nationality": "Brazil"
+                },
+                "captain": {
+                    "id": 1370,
+                    "name": "Tiago Pagnussat",
+                    "shirtNumber": 3
+                },
+                "lineup": [
+                    {
+                        "id": 1370,
+                        "name": "Tiago Pagnussat",
+                        "position": "Defender",
+                        "shirtNumber": 3
+                    },
+                    {
+                        "id": 38734,
+                        "name": "Gilberto",
+                        "position": "Attacker",
+                        "shirtNumber": 9
+                    },
+                    {
+                        "id": 1368,
+                        "name": "Lucas Fonseca",
+                        "position": "Defender",
+                        "shirtNumber": 28
+                    },
+                    {
+                        "id": 1380,
+                        "name": "Zé Rafael",
+                        "position": "Midfielder",
+                        "shirtNumber": 10
+                    },
+                    {
+                        "id": 1334,
+                        "name": "Bruno",
+                        "position": "Defender",
+                        "shirtNumber": 22
+                    },
+                    {
+                        "id": 1386,
+                        "name": "Léo",
+                        "position": "Midfielder",
+                        "shirtNumber": 6
+                    },
+                    {
+                        "id": 1365,
+                        "name": "Anderson",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 33
+                    },
+                    {
+                        "id": 1382,
+                        "name": "Elton",
+                        "position": "Midfielder",
+                        "shirtNumber": 17
+                    },
+                    {
+                        "id": 1381,
+                        "name": "Vinicius",
+                        "position": "Midfielder",
+                        "shirtNumber": 29
+                    },
+                    {
+                        "id": 1391,
+                        "name": "Edigar Junio",
+                        "position": "Attacker",
+                        "shirtNumber": 11
+                    },
+                    {
+                        "id": 1390,
+                        "name": "Gregore",
+                        "position": "Midfielder",
+                        "shirtNumber": 26
+                    }
+                ],
+                "bench": [
+                    {
+                        "id": 1374,
+                        "name": "Douglas Grolli",
+                        "position": "Defender",
+                        "shirtNumber": 13
+                    },
+                    {
+                        "id": 1385,
+                        "name": "Élber",
+                        "position": "Midfielder",
+                        "shirtNumber": 7
+                    },
+                    {
+                        "id": 1388,
+                        "name": "Nilton",
+                        "position": "Midfielder",
+                        "shirtNumber": 19
+                    },
+                    {
+                        "id": 1124,
+                        "name": "Clayton",
+                        "position": "Attacker",
+                        "shirtNumber": 12
+                    },
+                    {
+                        "id": 1371,
+                        "name": "Edson",
+                        "position": "Defender",
+                        "shirtNumber": 15
+                    },
+                    {
+                        "id": 1383,
+                        "name": "Regis",
+                        "position": "Midfielder",
+                        "shirtNumber": 20
+                    },
+                    {
+                        "id": 1372,
+                        "name": "Nino Paraíba",
+                        "position": "Defender",
+                        "shirtNumber": 2
+                    },
+                    {
+                        "id": 1366,
+                        "name": "Douglas Friedrich",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 1
+                    },
+                    {
+                        "id": 13599,
+                        "name": "Paulo Victor",
+                        "position": "Defender",
+                        "shirtNumber": 16
+                    },
+                    {
+                        "id": 1378,
+                        "name": "Marco Antonio",
+                        "position": "Midfielder",
+                        "shirtNumber": 30
+                    },
+                    {
+                        "id": 1389,
+                        "name": "Flavio",
+                        "position": "Midfielder",
+                        "shirtNumber": 5
+                    },
+                    {
+                        "id": 1392,
+                        "name": "Júnior Brumado",
+                        "position": "Attacker",
+                        "shirtNumber": 23
+                    }
+                ]
+            },
+            "awayTeam": {
+                "id": 6684,
+                "name": "SC Internacional",
+                "coach": {
+                    "id": 11147,
+                    "name": "Odair Hellmann",
+                    "countryOfBirth": "Brazil",
+                    "nationality": "Brazil"
+                },
+                "captain": {
+                    "id": 1575,
+                    "name": "Rodrigo Dourado",
+                    "shirtNumber": 13
+                },
+                "lineup": [
+                    {
+                        "id": 1572,
+                        "name": "Rodrigo Moledo",
+                        "position": "Defender",
+                        "shirtNumber": 4
+                    },
+                    {
+                        "id": 1562,
+                        "name": "Marcelo Lomba",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 12
+                    },
+                    {
+                        "id": 1581,
+                        "name": "Camilo",
+                        "position": "Midfielder",
+                        "shirtNumber": 21
+                    },
+                    {
+                        "id": 1580,
+                        "name": "Edenilson",
+                        "position": "Midfielder",
+                        "shirtNumber": 8
+                    },
+                    {
+                        "id": 1575,
+                        "name": "Rodrigo Dourado",
+                        "position": "Midfielder",
+                        "shirtNumber": 13
+                    },
+                    {
+                        "id": 1567,
+                        "name": "Víctor Cuesta",
+                        "position": "Defender",
+                        "shirtNumber": 15
+                    },
+                    {
+                        "id": 1590,
+                        "name": "William Pottker",
+                        "position": "Attacker",
+                        "shirtNumber": 99
+                    },
+                    {
+                        "id": 1582,
+                        "name": "Patrick Nascimento",
+                        "position": "Midfielder",
+                        "shirtNumber": 88
+                    },
+                    {
+                        "id": 1593,
+                        "name": "Rossi",
+                        "position": "Attacker",
+                        "shirtNumber": 22
+                    },
+                    {
+                        "id": 1584,
+                        "name": "Luis Eduardo Dudu",
+                        "position": "Midfielder",
+                        "shirtNumber": 2
+                    },
+                    {
+                        "id": 1566,
+                        "name": "Iago",
+                        "position": "Defender",
+                        "shirtNumber": 28
+                    }
+                ],
+                "bench": [
+                    {
+                        "id": 1179,
+                        "name": "Emerson Santos",
+                        "position": "Defender",
+                        "shirtNumber": 20
+                    },
+                    {
+                        "id": 1564,
+                        "name": "Uendel",
+                        "position": "Defender",
+                        "shirtNumber": 6
+                    },
+                    {
+                        "id": 1570,
+                        "name": "Gabriel Dias",
+                        "position": "Defender",
+                        "shirtNumber": 30
+                    },
+                    {
+                        "id": 1574,
+                        "name": "Zeca",
+                        "position": "Defender",
+                        "shirtNumber": 37
+                    },
+                    {
+                        "id": 1565,
+                        "name": "William Klaus",
+                        "position": "Defender",
+                        "shirtNumber": 44
+                    },
+                    {
+                        "id": 1561,
+                        "name": "Keiller",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 32
+                    },
+                    {
+                        "id": 45887,
+                        "name": "Martín Sarrafiore",
+                        "position": "Attacker",
+                        "shirtNumber": 29
+                    },
+                    {
+                        "id": 61369,
+                        "name": "Gustavo",
+                        "position": "Midfielder",
+                        "shirtNumber": 33
+                    },
+                    {
+                        "id": 1563,
+                        "name": "Daniel",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 42
+                    },
+                    {
+                        "id": 1579,
+                        "name": "Juan",
+                        "position": "Midfielder",
+                        "shirtNumber": 47
+                    },
+                    {
+                        "id": 1585,
+                        "name": "Brenner",
+                        "position": "Midfielder",
+                        "shirtNumber": 48
+                    }
+                ]
+            },
+            "score": {
+                "winner": "AWAY_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 1
+                },
+                "halfTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 1
+                },
+                "extraTime": {
+                    "homeTeam": None,
+                    "awayTeam": None
+                },
+                "penalties": {
+                    "homeTeam": None,
+                    "awayTeam": None
+                }
+            },
+            "goals": [
+                {
+                    "minute": 23,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 6684,
+                        "name": "SC Internacional"
+                    },
+                    "scorer": {
+                        "id": 1582,
+                        "name": "Patrick Nascimento"
+                    },
+                    "assist": {
+                        "id": 1593,
+                        "name": "Rossi"
+                    }
+                }
+            ],
+            "bookings": [
+                {
+                    "minute": 33,
+                    "team": {
+                        "id": 6684,
+                        "name": "SC Internacional"
+                    },
+                    "player": {
+                        "id": 1590,
+                        "name": "William Pottker"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 33,
+                    "team": {
+                        "id": 1777,
+                        "name": "EC Bahia"
+                    },
+                    "player": {
+                        "id": 1368,
+                        "name": "Lucas Fonseca"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 84,
+                    "team": {
+                        "id": 6684,
+                        "name": "SC Internacional"
+                    },
+                    "player": {
+                        "id": 1580,
+                        "name": "Edenilson"
+                    },
+                    "card": "YELLOW_CARD"
+                }
+            ],
+            "substitutions": [
+                {
+                    "minute": 59,
+                    "team": {
+                        "id": 1777,
+                        "name": "EC Bahia"
+                    },
+                    "playerOut": {
+                        "id": 1391,
+                        "name": "Edigar Junio"
+                    },
+                    "playerIn": {
+                        "id": 1383,
+                        "name": "Regis"
+                    }
+                },
+                {
+                    "minute": 68,
+                    "team": {
+                        "id": 6684,
+                        "name": "SC Internacional"
+                    },
+                    "playerOut": {
+                        "id": 1593,
+                        "name": "Rossi"
+                    },
+                    "playerIn": {
+                        "id": 1579,
+                        "name": "Juan"
+                    }
+                },
+                {
+                    "minute": 71,
+                    "team": {
+                        "id": 6684,
+                        "name": "SC Internacional"
+                    },
+                    "playerOut": {
+                        "id": 1584,
+                        "name": "Luis Eduardo Dudu"
+                    },
+                    "playerIn": {
+                        "id": 1574,
+                        "name": "Zeca"
+                    }
+                },
+                {
+                    "minute": 74,
+                    "team": {
+                        "id": 6684,
+                        "name": "SC Internacional"
+                    },
+                    "playerOut": {
+                        "id": 1581,
+                        "name": "Camilo"
+                    },
+                    "playerIn": {
+                        "id": 1585,
+                        "name": "Brenner"
+                    }
+                },
+                {
+                    "minute": 74,
+                    "team": {
+                        "id": 1777,
+                        "name": "EC Bahia"
+                    },
+                    "playerOut": {
+                        "id": 1381,
+                        "name": "Vinicius"
+                    },
+                    "playerIn": {
+                        "id": 1378,
+                        "name": "Marco Antonio"
+                    }
+                },
+                {
+                    "minute": 83,
+                    "team": {
+                        "id": 1777,
+                        "name": "EC Bahia"
+                    },
+                    "playerOut": {
+                        "id": 1334,
+                        "name": "Bruno"
+                    },
+                    "playerIn": {
+                        "id": 1124,
+                        "name": "Clayton"
+                    }
+                }
+            ],
+            "referees": [
+                {
+                    "id": 11137,
+                    "name": "Rodrigo D'Alonso Ferreira",
+                    "nationality": None
+                },
+                {
+                    "id": 11138,
+                    "name": "Helton Nunes",
+                    "nationality": None
+                },
+                {
+                    "id": 11140,
+                    "name": "Alex dos Santos",
+                    "nationality": None
+                },
+                {
+                    "id": 11139,
+                    "name": "Thiago Americano Labes",
+                    "nationality": None
+                }
+            ]
+        },
+        {
+            "id": 204974,
+            "competition": {
+                "id": 2013,
+                "name": "Série A"
+            },
+            "season": {
+                "id": 15,
+                "startDate": "2018-04-14",
+                "endDate": "2018-12-02",
+                "currentMatchday": 20,
+                "availableStages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "utcDate": "2018-08-22T22:30:00Z",
+            "status": "FINISHED",
+            "attendance": None,
+            "matchday": 20,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2018-08-23T02:31:23Z",
+            "homeTeam": {
+                "id": 1840,
+                "name": "Paraná Clube",
+                "coach": {
+                    "id": 11218,
+                    "name": "Claudinei Oliveira",
+                    "countryOfBirth": "Brazil",
+                    "nationality": "Brazil"
+                },
+                "captain": {
+                    "id": 1624,
+                    "name": "Silvinho",
+                    "shirtNumber": 11
+                },
+                "lineup": [
+                    {
+                        "id": 1601,
+                        "name": "Cleber",
+                        "position": "Defender",
+                        "shirtNumber": 3
+                    },
+                    {
+                        "id": 1624,
+                        "name": "Silvinho",
+                        "position": "Attacker",
+                        "shirtNumber": 11
+                    },
+                    {
+                        "id": 1607,
+                        "name": "Guilherme Biteco",
+                        "position": "Midfielder",
+                        "shirtNumber": 7
+                    },
+                    {
+                        "id": 1609,
+                        "name": "Alex Santana",
+                        "position": "Midfielder",
+                        "shirtNumber": 8
+                    },
+                    {
+                        "id": 1600,
+                        "name": "Mansur",
+                        "position": "Defender",
+                        "shirtNumber": 6
+                    },
+                    {
+                        "id": 12800,
+                        "name": "Renê",
+                        "position": "Defender",
+                        "shirtNumber": 4
+                    },
+                    {
+                        "id": 1595,
+                        "name": "Richard",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 1
+                    },
+                    {
+                        "id": 1605,
+                        "name": "Junior Santos",
+                        "position": "Midfielder",
+                        "shirtNumber": 2
+                    },
+                    {
+                        "id": 18684,
+                        "name": "Rafael Grampola",
+                        "position": "Attacker",
+                        "shirtNumber": 9
+                    },
+                    {
+                        "id": 1604,
+                        "name": "Leandro Vilela",
+                        "position": "Midfielder",
+                        "shirtNumber": 5
+                    },
+                    {
+                        "id": 1612,
+                        "name": "Caio Henrique",
+                        "position": "Midfielder",
+                        "shirtNumber": 10
+                    }
+                ],
+                "bench": [
+                    {
+                        "id": 73230,
+                        "name": "Rodolfo",
+                        "position": "Attacker",
+                        "shirtNumber": 20
+                    },
+                    {
+                        "id": 1620,
+                        "name": "Marcelo Báez",
+                        "position": "Attacker",
+                        "shirtNumber": 17
+                    },
+                    {
+                        "id": 37835,
+                        "name": "Matheus Iacovelli",
+                        "position": "Attacker",
+                        "shirtNumber": 21
+                    },
+                    {
+                        "id": 1622,
+                        "name": "Wesley",
+                        "position": "Attacker",
+                        "shirtNumber": 18
+                    },
+                    {
+                        "id": 1599,
+                        "name": "Rayan",
+                        "position": "Defender",
+                        "shirtNumber": 14
+                    },
+                    {
+                        "id": 1597,
+                        "name": "Luiz Carlos",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 12
+                    },
+                    {
+                        "id": 43966,
+                        "name": "Charles",
+                        "position": "Defender",
+                        "shirtNumber": 15
+                    },
+                    {
+                        "id": 1626,
+                        "name": "Raphael",
+                        "position": "Attacker",
+                        "shirtNumber": 22
+                    },
+                    {
+                        "id": 81312,
+                        "name": "Diego Tavares",
+                        "position": "Defender",
+                        "shirtNumber": 13
+                    },
+                    {
+                        "id": 1598,
+                        "name": "David",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 23
+                    },
+                    {
+                        "id": 72760,
+                        "name": "Jhony Santiago",
+                        "position": "Defender",
+                        "shirtNumber": 16
+                    },
+                    {
+                        "id": 1608,
+                        "name": "Jhonny",
+                        "position": "Midfielder",
+                        "shirtNumber": 19
+                    }
+                ]
+            },
+            "awayTeam": {
+                "id": 1776,
+                "name": "São Paulo FC",
+                "coach": {
+                    "id": 11171,
+                    "name": "Diego Aguirre",
+                    "countryOfBirth": "Uruguay",
+                    "nationality": "Uruguay"
+                },
+                "captain": {
+                    "id": 1355,
+                    "name": "Húdson",
+                    "shirtNumber": 25
+                },
+                "lineup": [
+                    {
+                        "id": 1354,
+                        "name": "Diego Souza",
+                        "position": "Midfielder",
+                        "shirtNumber": 9
+                    },
+                    {
+                        "id": 46134,
+                        "name": "João Rojas",
+                        "position": "Midfielder",
+                        "shirtNumber": 23
+                    },
+                    {
+                        "id": 1338,
+                        "name": "Robert Arboleda",
+                        "position": "Defender",
+                        "shirtNumber": 5
+                    },
+                    {
+                        "id": 1341,
+                        "name": "Anderson Martins",
+                        "position": "Defender",
+                        "shirtNumber": 4
+                    },
+                    {
+                        "id": 1349,
+                        "name": "Jucilei",
+                        "position": "Midfielder",
+                        "shirtNumber": 8
+                    },
+                    {
+                        "id": 1802,
+                        "name": "Bruno Peres",
+                        "position": "Defender",
+                        "shirtNumber": 15
+                    },
+                    {
+                        "id": 1358,
+                        "name": "Éverton",
+                        "position": "Midfielder",
+                        "shirtNumber": 22
+                    },
+                    {
+                        "id": 1355,
+                        "name": "Húdson",
+                        "position": "Midfielder",
+                        "shirtNumber": 25
+                    },
+                    {
+                        "id": 1340,
+                        "name": "Reinaldo",
+                        "position": "Defender",
+                        "shirtNumber": 14
+                    },
+                    {
+                        "id": 1356,
+                        "name": "Nenê",
+                        "position": "Midfielder",
+                        "shirtNumber": 10
+                    },
+                    {
+                        "id": 1332,
+                        "name": "Sidáo",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 12
+                    }
+                ],
+                "bench": [
+                    {
+                        "id": 1336,
+                        "name": "Edimar",
+                        "position": "Defender",
+                        "shirtNumber": 16
+                    },
+                    {
+                        "id": 1339,
+                        "name": "Bruno Alves",
+                        "position": "Defender",
+                        "shirtNumber": 34
+                    },
+                    {
+                        "id": 1343,
+                        "name": "Rodrigo Caio",
+                        "position": "Midfielder",
+                        "shirtNumber": 3
+                    },
+                    {
+                        "id": 1413,
+                        "name": "Everton Felipe",
+                        "position": "Midfielder",
+                        "shirtNumber": 18
+                    },
+                    {
+                        "id": 1333,
+                        "name": "Jean",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 1
+                    },
+                    {
+                        "id": 72764,
+                        "name": "Gonzalo Carneiro Méndez",
+                        "position": "Attacker",
+                        "shirtNumber": 19
+                    },
+                    {
+                        "id": 1345,
+                        "name": "Felipe Araruna",
+                        "position": "Midfielder",
+                        "shirtNumber": 28
+                    },
+                    {
+                        "id": 1362,
+                        "name": "Igor",
+                        "position": "Attacker",
+                        "shirtNumber": 31
+                    },
+                    {
+                        "id": 73058,
+                        "name": "Luan",
+                        "position": None,
+                        "shirtNumber": 27
+                    },
+                    {
+                        "id": 1348,
+                        "name": "Shaylon",
+                        "position": "Midfielder",
+                        "shirtNumber": 20
+                    },
+                    {
+                        "id": 1360,
+                        "name": "Brenner",
+                        "position": "Attacker",
+                        "shirtNumber": 30
+                    },
+                    {
+                        "id": 1363,
+                        "name": "Santiago Tréllez",
+                        "position": "Attacker",
+                        "shirtNumber": 17
+                    }
+                ]
+            },
+            "score": {
+                "winner": "DRAW",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 1,
+                    "awayTeam": 1
+                },
+                "halfTime": {
+                    "homeTeam": 1,
+                    "awayTeam": 1
+                },
+                "extraTime": {
+                    "homeTeam": None,
+                    "awayTeam": None
+                },
+                "penalties": {
+                    "homeTeam": None,
+                    "awayTeam": None
+                }
+            },
+            "goals": [
+                {
+                    "minute": 8,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 1776,
+                        "name": "São Paulo FC"
+                    },
+                    "scorer": {
+                        "id": 1356,
+                        "name": "Nenê"
+                    },
+                    "assist": {
+                        "id": 1354,
+                        "name": "Diego Souza"
+                    }
+                },
+                {
+                    "minute": 37,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 1840,
+                        "name": "Paraná Clube"
+                    },
+                    "scorer": {
+                        "id": 1605,
+                        "name": "Junior Santos"
+                    },
+                    "assist": None
+                }
+            ],
+            "bookings": [
+                {
+                    "minute": 31,
+                    "team": {
+                        "id": 1840,
+                        "name": "Paraná Clube"
+                    },
+                    "player": {
+                        "id": 1607,
+                        "name": "Guilherme Biteco"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 39,
+                    "team": {
+                        "id": 1840,
+                        "name": "Paraná Clube"
+                    },
+                    "player": {
+                        "id": 1605,
+                        "name": "Junior Santos"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 56,
+                    "team": {
+                        "id": 1776,
+                        "name": "São Paulo FC"
+                    },
+                    "player": {
+                        "id": 1362,
+                        "name": "Igor"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 65,
+                    "team": {
+                        "id": 1840,
+                        "name": "Paraná Clube"
+                    },
+                    "player": {
+                        "id": 18684,
+                        "name": "Rafael Grampola"
+                    },
+                    "card": "YELLOW_CARD"
+                }
+            ],
+            "substitutions": [
+                {
+                    "minute": 45,
+                    "team": {
+                        "id": 1840,
+                        "name": "Paraná Clube"
+                    },
+                    "playerOut": {
+                        "id": 1607,
+                        "name": "Guilherme Biteco"
+                    },
+                    "playerIn": {
+                        "id": 73230,
+                        "name": "Rodolfo"
+                    }
+                },
+                {
+                    "minute": 46,
+                    "team": {
+                        "id": 1776,
+                        "name": "São Paulo FC"
+                    },
+                    "playerOut": {
+                        "id": 1355,
+                        "name": "Húdson"
+                    },
+                    "playerIn": {
+                        "id": 1362,
+                        "name": "Igor"
+                    }
+                },
+                {
+                    "minute": 74,
+                    "team": {
+                        "id": 1840,
+                        "name": "Paraná Clube"
+                    },
+                    "playerOut": {
+                        "id": 73230,
+                        "name": "Rodolfo"
+                    },
+                    "playerIn": {
+                        "id": 1608,
+                        "name": "Jhonny"
+                    }
+                },
+                {
+                    "minute": 84,
+                    "team": {
+                        "id": 1840,
+                        "name": "Paraná Clube"
+                    },
+                    "playerOut": {
+                        "id": 18684,
+                        "name": "Rafael Grampola"
+                    },
+                    "playerIn": {
+                        "id": 1626,
+                        "name": "Raphael"
+                    }
+                },
+                {
+                    "minute": 87,
+                    "team": {
+                        "id": 1776,
+                        "name": "São Paulo FC"
+                    },
+                    "playerOut": {
+                        "id": 1356,
+                        "name": "Nenê"
+                    },
+                    "playerIn": {
+                        "id": 1363,
+                        "name": "Santiago Tréllez"
+                    }
+                },
+                {
+                    "minute": 88,
+                    "team": {
+                        "id": 1776,
+                        "name": "São Paulo FC"
+                    },
+                    "playerOut": {
+                        "id": 46134,
+                        "name": "João Rojas"
+                    },
+                    "playerIn": {
+                        "id": 1348,
+                        "name": "Shaylon"
+                    }
+                }
+            ],
+            "referees": [
+                {
+                    "id": 11213,
+                    "name": "Pericles Bassols Pegado Cortez",
+                    "nationality": None
+                },
+                {
+                    "id": 11214,
+                    "name": "Clovis Amaral da Silva",
+                    "nationality": None
+                },
+                {
+                    "id": 11215,
+                    "name": "Cleberson do Nascimento Leite",
+                    "nationality": None
+                },
+                {
+                    "id": 81655,
+                    "name": "Marcelino Castro",
+                    "nationality": None
+                },
+                {
+                    "id": 11216,
+                    "name": "Marcelino Castro de Nazare",
+                    "nationality": None
+                }
+            ]
+        },
+        {
+            "id": 204972,
+            "competition": {
+                "id": 2013,
+                "name": "Série A"
+            },
+            "season": {
+                "id": 15,
+                "startDate": "2018-04-14",
+                "endDate": "2018-12-02",
+                "currentMatchday": 20,
+                "availableStages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "utcDate": "2018-08-23T00:00:00Z",
+            "status": "FINISHED",
+            "attendance": None,
+            "matchday": 20,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2018-08-23T03:57:43Z",
+            "homeTeam": {
+                "id": 1769,
+                "name": "SE Palmeiras",
+                "coach": {
+                    "id": 74736,
+                    "name": "Luiz Felipe Scolari",
+                    "countryOfBirth": "Brazil",
+                    "nationality": "Brazil"
+                },
+                "captain": {
+                    "id": 1189,
+                    "name": "Bruno Henrique",
+                    "shirtNumber": 19
+                },
+                "lineup": [
+                    {
+                        "id": 1195,
+                        "name": "Miguel Borja",
+                        "position": "Attacker",
+                        "shirtNumber": 9
+                    },
+                    {
+                        "id": 1187,
+                        "name": "Felipe Melo",
+                        "position": "Midfielder",
+                        "shirtNumber": 30
+                    },
+                    {
+                        "id": 1183,
+                        "name": "Moisés",
+                        "position": "Midfielder",
+                        "shirtNumber": 10
+                    },
+                    {
+                        "id": 1182,
+                        "name": "Dudu",
+                        "position": "Midfielder",
+                        "shirtNumber": 7
+                    },
+                    {
+                        "id": 1170,
+                        "name": "Weverton",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 21
+                    },
+                    {
+                        "id": 1189,
+                        "name": "Bruno Henrique",
+                        "position": "Midfielder",
+                        "shirtNumber": 19
+                    },
+                    {
+                        "id": 1177,
+                        "name": "Diogo Barbosa",
+                        "position": "Defender",
+                        "shirtNumber": 6
+                    },
+                    {
+                        "id": 1174,
+                        "name": "Mayke",
+                        "position": "Defender",
+                        "shirtNumber": 12
+                    },
+                    {
+                        "id": 1194,
+                        "name": "Willian",
+                        "position": "Attacker",
+                        "shirtNumber": 29
+                    },
+                    {
+                        "id": 1171,
+                        "name": "Edú Dracena",
+                        "position": "Defender",
+                        "shirtNumber": 3
+                    },
+                    {
+                        "id": 1173,
+                        "name": "Antônio Carlos",
+                        "position": "Defender",
+                        "shirtNumber": 25
+                    }
+                ],
+                "bench": [
+                    {
+                        "id": 1178,
+                        "name": "Marcos Rocha",
+                        "position": "Defender",
+                        "shirtNumber": 2
+                    },
+                    {
+                        "id": 1188,
+                        "name": "Hyoran",
+                        "position": "Midfielder",
+                        "shirtNumber": 28
+                    },
+                    {
+                        "id": 1167,
+                        "name": "Fernando Prass",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 1
+                    },
+                    {
+                        "id": 1181,
+                        "name": "Victor Luis",
+                        "position": "Defender",
+                        "shirtNumber": 26
+                    },
+                    {
+                        "id": 1191,
+                        "name": "Lucas Lima",
+                        "position": "Midfielder",
+                        "shirtNumber": 20
+                    },
+                    {
+                        "id": 1741,
+                        "name": "Gustavo Gómez",
+                        "position": "Defender",
+                        "shirtNumber": 15
+                    },
+                    {
+                        "id": 1196,
+                        "name": "Deyverson",
+                        "position": "Attacker",
+                        "shirtNumber": 16
+                    },
+                    {
+                        "id": 1168,
+                        "name": "Jaílson",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 42
+                    },
+                    {
+                        "id": 1176,
+                        "name": "Luan",
+                        "position": "Defender",
+                        "shirtNumber": 13
+                    },
+                    {
+                        "id": 1184,
+                        "name": "Thiago dos Santos",
+                        "position": "Midfielder",
+                        "shirtNumber": 5
+                    },
+                    {
+                        "id": 32489,
+                        "name": "Vitinho",
+                        "position": "Midfielder",
+                        "shirtNumber": 39
+                    },
+                    {
+                        "id": 1192,
+                        "name": "Artur Guimaraes",
+                        "position": "Midfielder",
+                        "shirtNumber": 37
+                    }
+                ]
+            },
+            "awayTeam": {
+                "id": 1770,
+                "name": "Botafogo FR",
+                "coach": {
+                    "id": 11154,
+                    "name": "Zé Ricardo",
+                    "countryOfBirth": "Brazil",
+                    "nationality": "Brazil"
+                },
+                "captain": {
+                    "id": 1215,
+                    "name": "Igor Rabello",
+                    "shirtNumber": 2
+                },
+                "lineup": [
+                    {
+                        "id": 1223,
+                        "name": "Rodrigo Pimpão",
+                        "position": "Attacker",
+                        "shirtNumber": 7
+                    },
+                    {
+                        "id": 1198,
+                        "name": "Saulo",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 1
+                    },
+                    {
+                        "id": 1215,
+                        "name": "Igor Rabello",
+                        "position": "Midfielder",
+                        "shirtNumber": 2
+                    },
+                    {
+                        "id": 1208,
+                        "name": "Yago",
+                        "position": "Defender",
+                        "shirtNumber": 3
+                    },
+                    {
+                        "id": 1220,
+                        "name": "Luiz Fernando",
+                        "position": "Midfielder",
+                        "shirtNumber": 10
+                    },
+                    {
+                        "id": 1202,
+                        "name": "Marcinho",
+                        "position": "Defender",
+                        "shirtNumber": 4
+                    },
+                    {
+                        "id": 1225,
+                        "name": "Brenner Marlos",
+                        "position": "Attacker",
+                        "shirtNumber": 9
+                    },
+                    {
+                        "id": 1207,
+                        "name": "Moises",
+                        "position": "Defender",
+                        "shirtNumber": 6
+                    },
+                    {
+                        "id": 1209,
+                        "name": "Jean Irmer",
+                        "position": "Defender",
+                        "shirtNumber": 5
+                    },
+                    {
+                        "id": 1213,
+                        "name": "Gustavo Buchecha",
+                        "position": "Midfielder",
+                        "shirtNumber": 11
+                    },
+                    {
+                        "id": 1214,
+                        "name": "Matheus Fernandes",
+                        "position": "Midfielder",
+                        "shirtNumber": 8
+                    }
+                ],
+                "bench": [
+                    {
+                        "id": 11206,
+                        "name": "Rodrigo Aguirre",
+                        "position": "Attacker",
+                        "shirtNumber": 18
+                    },
+                    {
+                        "id": 1212,
+                        "name": "Dudu Cearense",
+                        "position": "Midfielder",
+                        "shirtNumber": 22
+                    },
+                    {
+                        "id": 1200,
+                        "name": "Luis Ricardo",
+                        "position": "Defender",
+                        "shirtNumber": 13
+                    },
+                    {
+                        "id": 1222,
+                        "name": "Marcelo",
+                        "position": "Midfielder",
+                        "shirtNumber": 16
+                    },
+                    {
+                        "id": 1204,
+                        "name": "Gilson",
+                        "position": "Defender",
+                        "shirtNumber": 15
+                    },
+                    {
+                        "id": 11205,
+                        "name": "João Pedro Silva",
+                        "position": "Midfielder",
+                        "shirtNumber": 17
+                    },
+                    {
+                        "id": 73962,
+                        "name": "Diego",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 12
+                    },
+                    {
+                        "id": 1205,
+                        "name": "Kanu",
+                        "position": "Defender",
+                        "shirtNumber": 14
+                    },
+                    {
+                        "id": 1219,
+                        "name": "Ezequiel",
+                        "position": "Midfielder",
+                        "shirtNumber": 19
+                    }
+                ]
+            },
+            "score": {
+                "winner": "HOME_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 2,
+                    "awayTeam": 0
+                },
+                "halfTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 0
+                },
+                "extraTime": {
+                    "homeTeam": None,
+                    "awayTeam": None
+                },
+                "penalties": {
+                    "homeTeam": None,
+                    "awayTeam": None
+                }
+            },
+            "goals": [
+                {
+                    "minute": 78,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 1769,
+                        "name": "SE Palmeiras"
+                    },
+                    "scorer": {
+                        "id": 1191,
+                        "name": "Lucas Lima"
+                    },
+                    "assist": {
+                        "id": 1182,
+                        "name": "Dudu"
+                    }
+                },
+                {
+                    "minute": 87,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 1769,
+                        "name": "SE Palmeiras"
+                    },
+                    "scorer": {
+                        "id": 1191,
+                        "name": "Lucas Lima"
+                    },
+                    "assist": None
+                }
+            ],
+            "bookings": [
+                {
+                    "minute": 41,
+                    "team": {
+                        "id": 1770,
+                        "name": "Botafogo FR"
+                    },
+                    "player": {
+                        "id": 1207,
+                        "name": "Moises"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 55,
+                    "team": {
+                        "id": 1770,
+                        "name": "Botafogo FR"
+                    },
+                    "player": {
+                        "id": 1213,
+                        "name": "Gustavo Buchecha"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 63,
+                    "team": {
+                        "id": 1770,
+                        "name": "Botafogo FR"
+                    },
+                    "player": {
+                        "id": 1225,
+                        "name": "Brenner Marlos"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 71,
+                    "team": {
+                        "id": 1770,
+                        "name": "Botafogo FR"
+                    },
+                    "player": {
+                        "id": 1207,
+                        "name": "Moises"
+                    },
+                    "card": "YELLOW_RED_CARD"
+                },
+                {
+                    "minute": 73,
+                    "team": {
+                        "id": 1769,
+                        "name": "SE Palmeiras"
+                    },
+                    "player": {
+                        "id": 1171,
+                        "name": "Edú Dracena"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 81,
+                    "team": {
+                        "id": 1770,
+                        "name": "Botafogo FR"
+                    },
+                    "player": {
+                        "id": 1215,
+                        "name": "Igor Rabello"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 86,
+                    "team": {
+                        "id": 1770,
+                        "name": "Botafogo FR"
+                    },
+                    "player": {
+                        "id": 1204,
+                        "name": "Gilson"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 88,
+                    "team": {
+                        "id": 1769,
+                        "name": "SE Palmeiras"
+                    },
+                    "player": {
+                        "id": 1182,
+                        "name": "Dudu"
+                    },
+                    "card": "YELLOW_CARD"
+                }
+            ],
+            "substitutions": [
+                {
+                    "minute": 46,
+                    "team": {
+                        "id": 1769,
+                        "name": "SE Palmeiras"
+                    },
+                    "playerOut": {
+                        "id": 1189,
+                        "name": "Bruno Henrique"
+                    },
+                    "playerIn": {
+                        "id": 1191,
+                        "name": "Lucas Lima"
+                    }
+                },
+                {
+                    "minute": 69,
+                    "team": {
+                        "id": 1769,
+                        "name": "SE Palmeiras"
+                    },
+                    "playerOut": {
+                        "id": 1195,
+                        "name": "Miguel Borja"
+                    },
+                    "playerIn": {
+                        "id": 1196,
+                        "name": "Deyverson"
+                    }
+                },
+                {
+                    "minute": 74,
+                    "team": {
+                        "id": 1770,
+                        "name": "Botafogo FR"
+                    },
+                    "playerOut": {
+                        "id": 1213,
+                        "name": "Gustavo Buchecha"
+                    },
+                    "playerIn": {
+                        "id": 1204,
+                        "name": "Gilson"
+                    }
+                },
+                {
+                    "minute": 85,
+                    "team": {
+                        "id": 1770,
+                        "name": "Botafogo FR"
+                    },
+                    "playerOut": {
+                        "id": 1225,
+                        "name": "Brenner Marlos"
+                    },
+                    "playerIn": {
+                        "id": 11206,
+                        "name": "Rodrigo Aguirre"
+                    }
+                },
+                {
+                    "minute": 87,
+                    "team": {
+                        "id": 1770,
+                        "name": "Botafogo FR"
+                    },
+                    "playerOut": {
+                        "id": 1220,
+                        "name": "Luiz Fernando"
+                    },
+                    "playerIn": {
+                        "id": 1219,
+                        "name": "Ezequiel"
+                    }
+                },
+                {
+                    "minute": 89,
+                    "team": {
+                        "id": 1769,
+                        "name": "SE Palmeiras"
+                    },
+                    "playerOut": {
+                        "id": 1182,
+                        "name": "Dudu"
+                    },
+                    "playerIn": {
+                        "id": 1192,
+                        "name": "Artur Guimaraes"
+                    }
+                }
+            ],
+            "referees": [
+                {
+                    "id": 11161,
+                    "name": "Anderson Daronco",
+                    "nationality": None
+                },
+                {
+                    "id": 11162,
+                    "name": "Rafael da Silva Alves",
+                    "nationality": None
+                },
+                {
+                    "id": 11164,
+                    "name": "Michael Stanislau",
+                    "nationality": None
+                },
+                {
+                    "id": 81656,
+                    "name": "Andre Bittencourt",
+                    "nationality": None
+                },
+                {
+                    "id": 11440,
+                    "name": "Andre da Silva Bitencourt",
+                    "nationality": None
+                }
+            ]
+        },
+        {
+            "id": 204971,
+            "competition": {
+                "id": 2013,
+                "name": "Série A"
+            },
+            "season": {
+                "id": 15,
+                "startDate": "2018-04-14",
+                "endDate": "2018-12-02",
+                "currentMatchday": 20,
+                "availableStages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "utcDate": "2018-08-23T00:00:00Z",
+            "status": "FINISHED",
+            "attendance": None,
+            "matchday": 20,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2018-08-23T03:52:24Z",
+            "homeTeam": {
+                "id": 1778,
+                "name": "SC Recife",
+                "coach": {
+                    "id": 13940,
+                    "name": "Eduardo Alexandre Baptista",
+                    "countryOfBirth": "Brazil",
+                    "nationality": "Brazil"
+                },
+                "captain": {
+                    "id": 1396,
+                    "name": "Magrão",
+                    "shirtNumber": 1
+                },
+                "lineup": [
+                    {
+                        "id": 1676,
+                        "name": "Deivid",
+                        "position": "Midfielder",
+                        "shirtNumber": 55
+                    },
+                    {
+                        "id": 1404,
+                        "name": "Ronaldo Alves",
+                        "position": "Defender",
+                        "shirtNumber": 3
+                    },
+                    {
+                        "id": 1416,
+                        "name": "Marlone",
+                        "position": "Midfielder",
+                        "shirtNumber": 10
+                    },
+                    {
+                        "id": 1427,
+                        "name": "Gabriel",
+                        "position": "Attacker",
+                        "shirtNumber": 30
+                    },
+                    {
+                        "id": 1164,
+                        "name": "Hernane Brocador",
+                        "position": "Attacker",
+                        "shirtNumber": 9
+                    },
+                    {
+                        "id": 1411,
+                        "name": "Cláudio Winck",
+                        "position": "Defender",
+                        "shirtNumber": 2
+                    },
+                    {
+                        "id": 1412,
+                        "name": "Ernando",
+                        "position": "Defender",
+                        "shirtNumber": 14
+                    },
+                    {
+                        "id": 1396,
+                        "name": "Magrão",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 1
+                    },
+                    {
+                        "id": 1406,
+                        "name": "Sander",
+                        "position": "Defender",
+                        "shirtNumber": 56
+                    },
+                    {
+                        "id": 1421,
+                        "name": "Matheus Ferreira",
+                        "position": "Midfielder",
+                        "shirtNumber": 13
+                    },
+                    {
+                        "id": 1359,
+                        "name": "Morato",
+                        "position": "Attacker",
+                        "shirtNumber": 49
+                    }
+                ],
+                "bench": [
+                    {
+                        "id": 1186,
+                        "name": "Michel Bastos",
+                        "position": "Midfielder",
+                        "shirtNumber": 8
+                    },
+                    {
+                        "id": 1417,
+                        "name": "Fellipe Bastos",
+                        "position": "Midfielder",
+                        "shirtNumber": 5
+                    },
+                    {
+                        "id": 1401,
+                        "name": "Durval",
+                        "position": "Defender",
+                        "shirtNumber": 4
+                    },
+                    {
+                        "id": 1426,
+                        "name": "Neto",
+                        "position": "Attacker",
+                        "shirtNumber": 25
+                    },
+                    {
+                        "id": 1420,
+                        "name": "Andrigo",
+                        "position": "Midfielder",
+                        "shirtNumber": 7
+                    },
+                    {
+                        "id": 1257,
+                        "name": "Rafael Marques",
+                        "position": "Attacker",
+                        "shirtNumber": 15
+                    },
+                    {
+                        "id": 1429,
+                        "name": "Carlos",
+                        "position": "Attacker",
+                        "shirtNumber": 95
+                    },
+                    {
+                        "id": 1408,
+                        "name": "Leo Ortiz",
+                        "position": "Defender",
+                        "shirtNumber": 33
+                    },
+                    {
+                        "id": 1398,
+                        "name": "Mailson",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 32
+                    },
+                    {
+                        "id": 19254,
+                        "name": "Jean",
+                        "position": "Defender",
+                        "shirtNumber": 6
+                    }
+                ]
+            },
+            "awayTeam": {
+                "id": 1838,
+                "name": "América FC (MG)",
+                "coach": {
+                    "id": 75747,
+                    "name": "Adilson Batista",
+                    "countryOfBirth": "Brazil",
+                    "nationality": "Brazil"
+                },
+                "captain": {
+                    "id": 1643,
+                    "name": "Matheus Ferraz",
+                    "shirtNumber": 3
+                },
+                "lineup": [
+                    {
+                        "id": 1643,
+                        "name": "Matheus Ferraz",
+                        "position": "Defender",
+                        "shirtNumber": 3
+                    },
+                    {
+                        "id": 1653,
+                        "name": "Leandro Donizete",
+                        "position": "Midfielder",
+                        "shirtNumber": 5
+                    },
+                    {
+                        "id": 1640,
+                        "name": "Giovanni",
+                        "position": "Defender",
+                        "shirtNumber": 6
+                    },
+                    {
+                        "id": 1656,
+                        "name": "Luan",
+                        "position": "Attacker",
+                        "shirtNumber": 11
+                    },
+                    {
+                        "id": 1660,
+                        "name": "Marquinhos",
+                        "position": "Attacker",
+                        "shirtNumber": 7
+                    },
+                    {
+                        "id": 1652,
+                        "name": "Wesley",
+                        "position": "Midfielder",
+                        "shirtNumber": 8
+                    },
+                    {
+                        "id": 1637,
+                        "name": "Gerson Magrão",
+                        "position": "Defender",
+                        "shirtNumber": 17
+                    },
+                    {
+                        "id": 1646,
+                        "name": "Juninho",
+                        "position": "Midfielder",
+                        "shirtNumber": 2
+                    },
+                    {
+                        "id": 1649,
+                        "name": "Ruy",
+                        "position": "Midfielder",
+                        "shirtNumber": 10
+                    },
+                    {
+                        "id": 1631,
+                        "name": "João Ricardo",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 1
+                    },
+                    {
+                        "id": 1633,
+                        "name": "Messias",
+                        "position": "Defender",
+                        "shirtNumber": 4
+                    }
+                ],
+                "bench": [
+                    {
+                        "id": 1650,
+                        "name": "David",
+                        "position": "Midfielder",
+                        "shirtNumber": 20
+                    },
+                    {
+                        "id": 1468,
+                        "name": "Paulão",
+                        "position": "Defender",
+                        "shirtNumber": 16
+                    },
+                    {
+                        "id": 1657,
+                        "name": "Rafael Moura",
+                        "position": "Attacker",
+                        "shirtNumber": 9
+                    },
+                    {
+                        "id": 19873,
+                        "name": "Wesley Gomes",
+                        "position": "Attacker",
+                        "shirtNumber": 19
+                    },
+                    {
+                        "id": 1629,
+                        "name": "Fernando Leal",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 12
+                    },
+                    {
+                        "id": 1092,
+                        "name": "Robson",
+                        "position": "Attacker",
+                        "shirtNumber": 21
+                    },
+                    {
+                        "id": 1645,
+                        "name": "Christian Savio",
+                        "position": "Midfielder",
+                        "shirtNumber": 15
+                    },
+                    {
+                        "id": 1655,
+                        "name": "Matheus",
+                        "position": "Attacker",
+                        "shirtNumber": 18
+                    },
+                    {
+                        "id": 1647,
+                        "name": "Ze Ricardo",
+                        "position": "Midfielder",
+                        "shirtNumber": 14
+                    }
+                ]
+            },
+            "score": {
+                "winner": "AWAY_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 2
+                },
+                "halfTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 0
+                },
+                "extraTime": {
+                    "homeTeam": None,
+                    "awayTeam": None
+                },
+                "penalties": {
+                    "homeTeam": None,
+                    "awayTeam": None
+                }
+            },
+            "goals": [
+                {
+                    "minute": 47,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 1838,
+                        "name": "América FC (MG)"
+                    },
+                    "scorer": {
+                        "id": 1656,
+                        "name": "Luan"
+                    },
+                    "assist": None
+                },
+                {
+                    "minute": 67,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 1838,
+                        "name": "América FC (MG)"
+                    },
+                    "scorer": {
+                        "id": 1657,
+                        "name": "Rafael Moura"
+                    },
+                    "assist": {
+                        "id": 1656,
+                        "name": "Luan"
+                    }
+                }
+            ],
+            "bookings": [
+                {
+                    "minute": 8,
+                    "team": {
+                        "id": 1838,
+                        "name": "América FC (MG)"
+                    },
+                    "player": {
+                        "id": 1633,
+                        "name": "Messias"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 26,
+                    "team": {
+                        "id": 1838,
+                        "name": "América FC (MG)"
+                    },
+                    "player": {
+                        "id": 1656,
+                        "name": "Luan"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 36,
+                    "team": {
+                        "id": 1778,
+                        "name": "SC Recife"
+                    },
+                    "player": {
+                        "id": 1411,
+                        "name": "Cláudio Winck"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 90,
+                    "team": {
+                        "id": 1778,
+                        "name": "SC Recife"
+                    },
+                    "player": {
+                        "id": 1406,
+                        "name": "Sander"
+                    },
+                    "card": "YELLOW_CARD"
+                }
+            ],
+            "substitutions": [
+                {
+                    "minute": 29,
+                    "team": {
+                        "id": 1838,
+                        "name": "América FC (MG)"
+                    },
+                    "playerOut": {
+                        "id": 1649,
+                        "name": "Ruy"
+                    },
+                    "playerIn": {
+                        "id": 1657,
+                        "name": "Rafael Moura"
+                    }
+                },
+                {
+                    "minute": 46,
+                    "team": {
+                        "id": 1778,
+                        "name": "SC Recife"
+                    },
+                    "playerOut": {
+                        "id": 1421,
+                        "name": "Matheus Ferreira"
+                    },
+                    "playerIn": {
+                        "id": 1417,
+                        "name": "Fellipe Bastos"
+                    }
+                },
+                {
+                    "minute": 57,
+                    "team": {
+                        "id": 1778,
+                        "name": "SC Recife"
+                    },
+                    "playerOut": {
+                        "id": 1359,
+                        "name": "Morato"
+                    },
+                    "playerIn": {
+                        "id": 1186,
+                        "name": "Michel Bastos"
+                    }
+                },
+                {
+                    "minute": 73,
+                    "team": {
+                        "id": 1778,
+                        "name": "SC Recife"
+                    },
+                    "playerOut": {
+                        "id": 1416,
+                        "name": "Marlone"
+                    },
+                    "playerIn": {
+                        "id": 1257,
+                        "name": "Rafael Marques"
+                    }
+                },
+                {
+                    "minute": 80,
+                    "team": {
+                        "id": 1838,
+                        "name": "América FC (MG)"
+                    },
+                    "playerOut": {
+                        "id": 1656,
+                        "name": "Luan"
+                    },
+                    "playerIn": {
+                        "id": 1650,
+                        "name": "David"
+                    }
+                },
+                {
+                    "minute": 86,
+                    "team": {
+                        "id": 1838,
+                        "name": "América FC (MG)"
+                    },
+                    "playerOut": {
+                        "id": 1652,
+                        "name": "Wesley"
+                    },
+                    "playerIn": {
+                        "id": 1647,
+                        "name": "Ze Ricardo"
+                    }
+                }
+            ],
+            "referees": [
+                {
+                    "id": 18911,
+                    "name": "Jailson Macêdo Freitas",
+                    "nationality": None
+                },
+                {
+                    "id": 11261,
+                    "name": "Alessandro Álvaro Rocha de Matos",
+                    "nationality": None
+                },
+                {
+                    "id": 18188,
+                    "name": "Elicarlos Franco de Oliveira",
+                    "nationality": None
+                },
+                {
+                    "id": 18912,
+                    "name": "Jucimar dos Santos Dias",
+                    "nationality": None
+                }
+            ]
+        },
+        {
+            "id": 204966,
+            "competition": {
+                "id": 2013,
+                "name": "Série A"
+            },
+            "season": {
+                "id": 15,
+                "startDate": "2018-04-14",
+                "endDate": "2018-12-02",
+                "currentMatchday": 20,
+                "availableStages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "utcDate": "2018-08-23T00:45:00Z",
+            "status": "FINISHED",
+            "attendance": None,
+            "matchday": 20,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2018-08-23T04:40:23Z",
+            "homeTeam": {
+                "id": 1767,
+                "name": "Grêmio FBPA",
+                "coach": {
+                    "id": 11124,
+                    "name": "Renato Gaúcho",
+                    "countryOfBirth": "Brazil",
+                    "nationality": "Brazil"
+                },
+                "captain": {
+                    "id": 1147,
+                    "name": "Maicon",
+                    "shirtNumber": 8
+                },
+                "lineup": [
+                    {
+                        "id": 1165,
+                        "name": "André",
+                        "position": "Attacker",
+                        "shirtNumber": 90
+                    },
+                    {
+                        "id": 1140,
+                        "name": "Bruno Cortez",
+                        "position": "Defender",
+                        "shirtNumber": 12
+                    },
+                    {
+                        "id": 1141,
+                        "name": "Leo Moura",
+                        "position": "Defender",
+                        "shirtNumber": 2
+                    },
+                    {
+                        "id": 1134,
+                        "name": "Paulo Victor",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 48
+                    },
+                    {
+                        "id": 1159,
+                        "name": "Everton",
+                        "position": "Attacker",
+                        "shirtNumber": 11
+                    },
+                    {
+                        "id": 1145,
+                        "name": "Luan Vieira",
+                        "position": "Midfielder",
+                        "shirtNumber": 7
+                    },
+                    {
+                        "id": 1135,
+                        "name": "Pedro Geromel",
+                        "position": "Defender",
+                        "shirtNumber": 3
+                    },
+                    {
+                        "id": 1146,
+                        "name": "Ramiro",
+                        "position": "Midfielder",
+                        "shirtNumber": 17
+                    },
+                    {
+                        "id": 1147,
+                        "name": "Maicon",
+                        "position": "Midfielder",
+                        "shirtNumber": 8
+                    },
+                    {
+                        "id": 1138,
+                        "name": "Walter Kannemann",
+                        "position": "Defender",
+                        "shirtNumber": 4
+                    },
+                    {
+                        "id": 1137,
+                        "name": "Jailson",
+                        "position": "Defender",
+                        "shirtNumber": 25
+                    }
+                ],
+                "bench": [
+                    {
+                        "id": 1154,
+                        "name": "Alisson",
+                        "position": "Midfielder",
+                        "shirtNumber": 23
+                    },
+                    {
+                        "id": 1152,
+                        "name": "Cícero",
+                        "position": "Midfielder",
+                        "shirtNumber": 77
+                    },
+                    {
+                        "id": 1136,
+                        "name": "Marcelo Oliveira",
+                        "position": "Defender",
+                        "shirtNumber": 26
+                    },
+                    {
+                        "id": 1143,
+                        "name": "Paulo Miranda",
+                        "position": "Defender",
+                        "shirtNumber": 28
+                    },
+                    {
+                        "id": 1160,
+                        "name": "Jael",
+                        "position": "Attacker",
+                        "shirtNumber": 9
+                    },
+                    {
+                        "id": 1150,
+                        "name": "Léo Gomes",
+                        "position": "Midfielder",
+                        "shirtNumber": 6
+                    },
+                    {
+                        "id": 72762,
+                        "name": "Douglas",
+                        "position": "Midfielder",
+                        "shirtNumber": 10
+                    },
+                    {
+                        "id": 11189,
+                        "name": "Bruno Grassi",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 30
+                    },
+                    {
+                        "id": 21600,
+                        "name": "Marinho",
+                        "position": "Attacker",
+                        "shirtNumber": 70
+                    },
+                    {
+                        "id": 1158,
+                        "name": "Kaio",
+                        "position": "Midfielder",
+                        "shirtNumber": 14
+                    },
+                    {
+                        "id": 1156,
+                        "name": "Thaciano",
+                        "position": "Midfielder",
+                        "shirtNumber": 16
+                    },
+                    {
+                        "id": 1166,
+                        "name": "Pepê",
+                        "position": "Attacker",
+                        "shirtNumber": 33
+                    }
+                ]
+            },
+            "awayTeam": {
+                "id": 1771,
+                "name": "Cruzeiro EC",
+                "coach": {
+                    "id": 11123,
+                    "name": "Mano Menezes",
+                    "countryOfBirth": "Brazil",
+                    "nationality": "Brazil"
+                },
+                "captain": {
+                    "id": 1234,
+                    "name": "Léo",
+                    "shirtNumber": 3
+                },
+                "lineup": [
+                    {
+                        "id": 1248,
+                        "name": "Rafinha",
+                        "position": "Midfielder",
+                        "shirtNumber": 18
+                    },
+                    {
+                        "id": 1252,
+                        "name": "Bruno Silva",
+                        "position": "Midfielder",
+                        "shirtNumber": 20
+                    },
+                    {
+                        "id": 1236,
+                        "name": "Ezequiel",
+                        "position": "Defender",
+                        "shirtNumber": 2
+                    },
+                    {
+                        "id": 1240,
+                        "name": "Egídio",
+                        "position": "Defender",
+                        "shirtNumber": 6
+                    },
+                    {
+                        "id": 1230,
+                        "name": "Fábio",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 1
+                    },
+                    {
+                        "id": 1234,
+                        "name": "Léo",
+                        "position": "Defender",
+                        "shirtNumber": 3
+                    },
+                    {
+                        "id": 24692,
+                        "name": "Hernán Barcos",
+                        "position": "Attacker",
+                        "shirtNumber": 28
+                    },
+                    {
+                        "id": 1245,
+                        "name": "Alejandro Cabral",
+                        "position": "Midfielder",
+                        "shirtNumber": 5
+                    },
+                    {
+                        "id": 1246,
+                        "name": "Lucas Romero",
+                        "position": "Midfielder",
+                        "shirtNumber": 29
+                    },
+                    {
+                        "id": 1244,
+                        "name": "Giorgian De Arrascaeta",
+                        "position": "Midfielder",
+                        "shirtNumber": 10
+                    },
+                    {
+                        "id": 1237,
+                        "name": "Murilo Cerqueira",
+                        "position": "Defender",
+                        "shirtNumber": 4
+                    }
+                ],
+                "bench": [
+                    {
+                        "id": 1249,
+                        "name": "Thiago Neves",
+                        "position": "Midfielder",
+                        "shirtNumber": 30
+                    },
+                    {
+                        "id": 1247,
+                        "name": "Robinho",
+                        "position": "Midfielder",
+                        "shirtNumber": 19
+                    },
+                    {
+                        "id": 1250,
+                        "name": "Lucas Silva",
+                        "position": "Midfielder",
+                        "shirtNumber": 16
+                    },
+                    {
+                        "id": 1235,
+                        "name": "Manoel",
+                        "position": "Defender",
+                        "shirtNumber": 27
+                    },
+                    {
+                        "id": 1231,
+                        "name": "Rafael",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 12
+                    },
+                    {
+                        "id": 1253,
+                        "name": "Federico Mancuello",
+                        "position": "Midfielder",
+                        "shirtNumber": 21
+                    },
+                    {
+                        "id": 1242,
+                        "name": "Marcelo Hermes",
+                        "position": "Defender",
+                        "shirtNumber": 25
+                    },
+                    {
+                        "id": 1254,
+                        "name": "Patrick",
+                        "position": "Midfielder",
+                        "shirtNumber": 15
+                    },
+                    {
+                        "id": 1251,
+                        "name": "David",
+                        "position": "Midfielder",
+                        "shirtNumber": 11
+                    },
+                    {
+                        "id": 81440,
+                        "name": "Ederson",
+                        "position": "Midfielder",
+                        "shirtNumber": 40
+                    },
+                    {
+                        "id": 44235,
+                        "name": "Vitor",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 39
+                    }
+                ]
+            },
+            "score": {
+                "winner": "DRAW",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 1,
+                    "awayTeam": 1
+                },
+                "halfTime": {
+                    "homeTeam": 0,
+                    "awayTeam": 1
+                },
+                "extraTime": {
+                    "homeTeam": None,
+                    "awayTeam": None
+                },
+                "penalties": {
+                    "homeTeam": None,
+                    "awayTeam": None
+                }
+            },
+            "goals": [
+                {
+                    "minute": 44,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 1771,
+                        "name": "Cruzeiro EC"
+                    },
+                    "scorer": {
+                        "id": 1252,
+                        "name": "Bruno Silva"
+                    },
+                    "assist": {
+                        "id": 24692,
+                        "name": "Hernán Barcos"
+                    }
+                },
+                {
+                    "minute": 60,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 1767,
+                        "name": "Grêmio FBPA"
+                    },
+                    "scorer": {
+                        "id": 1159,
+                        "name": "Everton"
+                    },
+                    "assist": {
+                        "id": 1147,
+                        "name": "Maicon"
+                    }
+                }
+            ],
+            "bookings": [
+                {
+                    "minute": 45,
+                    "team": {
+                        "id": 1771,
+                        "name": "Cruzeiro EC"
+                    },
+                    "player": {
+                        "id": 1245,
+                        "name": "Alejandro Cabral"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 61,
+                    "team": {
+                        "id": 1767,
+                        "name": "Grêmio FBPA"
+                    },
+                    "player": {
+                        "id": 1146,
+                        "name": "Ramiro"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 64,
+                    "team": {
+                        "id": 1771,
+                        "name": "Cruzeiro EC"
+                    },
+                    "player": {
+                        "id": 24692,
+                        "name": "Hernán Barcos"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 72,
+                    "team": {
+                        "id": 1767,
+                        "name": "Grêmio FBPA"
+                    },
+                    "player": {
+                        "id": 1159,
+                        "name": "Everton"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 74,
+                    "team": {
+                        "id": 1771,
+                        "name": "Cruzeiro EC"
+                    },
+                    "player": {
+                        "id": 1236,
+                        "name": "Ezequiel"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 83,
+                    "team": {
+                        "id": 1771,
+                        "name": "Cruzeiro EC"
+                    },
+                    "player": {
+                        "id": 1240,
+                        "name": "Egídio"
+                    },
+                    "card": "YELLOW_CARD"
+                }
+            ],
+            "substitutions": [
+                {
+                    "minute": 46,
+                    "team": {
+                        "id": 1767,
+                        "name": "Grêmio FBPA"
+                    },
+                    "playerOut": {
+                        "id": 1165,
+                        "name": "André"
+                    },
+                    "playerIn": {
+                        "id": 1160,
+                        "name": "Jael"
+                    }
+                },
+                {
+                    "minute": 46,
+                    "team": {
+                        "id": 1767,
+                        "name": "Grêmio FBPA"
+                    },
+                    "playerOut": {
+                        "id": 1141,
+                        "name": "Leo Moura"
+                    },
+                    "playerIn": {
+                        "id": 1154,
+                        "name": "Alisson"
+                    }
+                },
+                {
+                    "minute": 65,
+                    "team": {
+                        "id": 1771,
+                        "name": "Cruzeiro EC"
+                    },
+                    "playerOut": {
+                        "id": 1244,
+                        "name": "Giorgian De Arrascaeta"
+                    },
+                    "playerIn": {
+                        "id": 1249,
+                        "name": "Thiago Neves"
+                    }
+                },
+                {
+                    "minute": 78,
+                    "team": {
+                        "id": 1771,
+                        "name": "Cruzeiro EC"
+                    },
+                    "playerOut": {
+                        "id": 1245,
+                        "name": "Alejandro Cabral"
+                    },
+                    "playerIn": {
+                        "id": 1250,
+                        "name": "Lucas Silva"
+                    }
+                },
+                {
+                    "minute": 85,
+                    "team": {
+                        "id": 1771,
+                        "name": "Cruzeiro EC"
+                    },
+                    "playerOut": {
+                        "id": 1236,
+                        "name": "Ezequiel"
+                    },
+                    "playerIn": {
+                        "id": 1247,
+                        "name": "Robinho"
+                    }
+                },
+                {
+                    "minute": 85,
+                    "team": {
+                        "id": 1767,
+                        "name": "Grêmio FBPA"
+                    },
+                    "playerOut": {
+                        "id": 1137,
+                        "name": "Jailson"
+                    },
+                    "playerIn": {
+                        "id": 72762,
+                        "name": "Douglas"
+                    }
+                }
+            ],
+            "referees": [
+                {
+                    "id": 11248,
+                    "name": "Marcelo de Lima Henrique",
+                    "nationality": None
+                },
+                {
+                    "id": 11249,
+                    "name": "Michael Correia",
+                    "nationality": None
+                },
+                {
+                    "id": 11250,
+                    "name": "Silbert Faria Sisquim",
+                    "nationality": None
+                },
+                {
+                    "id": 44236,
+                    "name": "Daniel de Oliveira Alves Pereira",
+                    "nationality": None
+                }
+            ]
+        },
+        {
+            "id": 204970,
+            "competition": {
+                "id": 2013,
+                "name": "Série A"
+            },
+            "season": {
+                "id": 15,
+                "startDate": "2018-04-14",
+                "endDate": "2018-12-02",
+                "currentMatchday": 20,
+                "availableStages": [
+                    "REGULAR_SEASON"
+                ]
+            },
+            "utcDate": "2018-08-23T00:45:00Z",
+            "status": "FINISHED",
+            "attendance": None,
+            "matchday": 20,
+            "stage": "REGULAR_SEASON",
+            "group": "Regular Season",
+            "lastUpdated": "2018-08-23T04:58:43Z",
+            "homeTeam": {
+                "id": 1765,
+                "name": "Fluminense FC",
+                "coach": {
+                    "id": 73229,
+                    "name": "Marcelo Oliveira",
+                    "countryOfBirth": "Brazil",
+                    "nationality": "Brazil"
+                },
+                "captain": {
+                    "id": 1068,
+                    "name": "Gum",
+                    "shirtNumber": 3
+                },
+                "lineup": [
+                    {
+                        "id": 1083,
+                        "name": "Jádson",
+                        "position": "Midfielder",
+                        "shirtNumber": 16
+                    },
+                    {
+                        "id": 1078,
+                        "name": "Junior Sornoza",
+                        "position": "Midfielder",
+                        "shirtNumber": 10
+                    },
+                    {
+                        "id": 1238,
+                        "name": "Digão",
+                        "position": "Defender",
+                        "shirtNumber": 14
+                    },
+                    {
+                        "id": 1066,
+                        "name": "Júlio César",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 22
+                    },
+                    {
+                        "id": 1068,
+                        "name": "Gum",
+                        "position": "Defender",
+                        "shirtNumber": 3
+                    },
+                    {
+                        "id": 1073,
+                        "name": "Gilberto Júnior",
+                        "position": "Defender",
+                        "shirtNumber": 2
+                    },
+                    {
+                        "id": 1087,
+                        "name": "Douglas",
+                        "position": "Midfielder",
+                        "shirtNumber": 15
+                    },
+                    {
+                        "id": 1074,
+                        "name": "Ayrton Lucas",
+                        "position": "Defender",
+                        "shirtNumber": 6
+                    },
+                    {
+                        "id": 1091,
+                        "name": "Richard",
+                        "position": "Attacker",
+                        "shirtNumber": 25
+                    },
+                    {
+                        "id": 1077,
+                        "name": "Pedro Santos",
+                        "position": "Midfielder",
+                        "shirtNumber": 9
+                    },
+                    {
+                        "id": 13604,
+                        "name": "Everaldo",
+                        "position": "Midfielder",
+                        "shirtNumber": 37
+                    }
+                ],
+                "bench": [
+                    {
+                        "id": 2817,
+                        "name": "Bryan Cabezas",
+                        "position": "Attacker",
+                        "shirtNumber": 8
+                    },
+                    {
+                        "id": 1067,
+                        "name": "Rodolfo",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 39
+                    },
+                    {
+                        "id": 1075,
+                        "name": "Léo Morais",
+                        "position": "Defender",
+                        "shirtNumber": 33
+                    },
+                    {
+                        "id": 1084,
+                        "name": "Pablo Dyego",
+                        "position": "Midfielder",
+                        "shirtNumber": 7
+                    },
+                    {
+                        "id": 30820,
+                        "name": "Paulo Ricardo",
+                        "position": "Defender",
+                        "shirtNumber": 32
+                    },
+                    {
+                        "id": 1088,
+                        "name": "Marcos Júnior",
+                        "position": "Attacker",
+                        "shirtNumber": 35
+                    },
+                    {
+                        "id": 12953,
+                        "name": "Danielzinho",
+                        "position": "Midfielder",
+                        "shirtNumber": 20
+                    },
+                    {
+                        "id": 1070,
+                        "name": "Mateus",
+                        "position": "Defender",
+                        "shirtNumber": 26
+                    },
+                    {
+                        "id": 1072,
+                        "name": "Marlon",
+                        "position": "Defender",
+                        "shirtNumber": 12
+                    },
+                    {
+                        "id": 1094,
+                        "name": "João Carlos",
+                        "position": "Attacker",
+                        "shirtNumber": 29
+                    },
+                    {
+                        "id": 1089,
+                        "name": "Matheus Alessandro",
+                        "position": "Attacker",
+                        "shirtNumber": 28
+                    },
+                    {
+                        "id": 1081,
+                        "name": "Roger Ibanez",
+                        "position": "Midfielder",
+                        "shirtNumber": 41
+                    }
+                ]
+            },
+            "awayTeam": {
+                "id": 1779,
+                "name": "SC Corinthians Paulista",
+                "coach": {
+                    "id": 11227,
+                    "name": "Osmar Loss Vieira",
+                    "countryOfBirth": "Brazil",
+                    "nationality": "Brazil"
+                },
+                "captain": {
+                    "id": 1443,
+                    "name": "Jádson",
+                    "shirtNumber": 10
+                },
+                "lineup": [
+                    {
+                        "id": 1440,
+                        "name": "Henrique Adriano",
+                        "position": "Defender",
+                        "shirtNumber": 3
+                    },
+                    {
+                        "id": 1434,
+                        "name": "Fágner",
+                        "position": "Defender",
+                        "shirtNumber": 23
+                    },
+                    {
+                        "id": 8589,
+                        "name": "Danilo Avelar",
+                        "position": "Defender",
+                        "shirtNumber": 35
+                    },
+                    {
+                        "id": 1454,
+                        "name": "Ángel Romero",
+                        "position": "Attacker",
+                        "shirtNumber": 11
+                    },
+                    {
+                        "id": 1431,
+                        "name": "Cássio Ramos",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 12
+                    },
+                    {
+                        "id": 1443,
+                        "name": "Jádson",
+                        "position": "Midfielder",
+                        "shirtNumber": 10
+                    },
+                    {
+                        "id": 1435,
+                        "name": "Pedro Henrique",
+                        "position": "Defender",
+                        "shirtNumber": 34
+                    },
+                    {
+                        "id": 1453,
+                        "name": "Ralf",
+                        "position": "Midfielder",
+                        "shirtNumber": 15
+                    },
+                    {
+                        "id": 1449,
+                        "name": "Clayson",
+                        "position": "Midfielder",
+                        "shirtNumber": 25
+                    },
+                    {
+                        "id": 1076,
+                        "name": "Douglas",
+                        "position": "Midfielder",
+                        "shirtNumber": 30
+                    },
+                    {
+                        "id": 1448,
+                        "name": "Pedro Victor",
+                        "position": "Midfielder",
+                        "shirtNumber": 38
+                    }
+                ],
+                "bench": [
+                    {
+                        "id": 1460,
+                        "name": "Roger",
+                        "position": "Attacker",
+                        "shirtNumber": 9
+                    },
+                    {
+                        "id": 392,
+                        "name": "Jonathas",
+                        "position": "Attacker",
+                        "shirtNumber": 7
+                    },
+                    {
+                        "id": 1445,
+                        "name": "Gabriel",
+                        "position": "Midfielder",
+                        "shirtNumber": 5
+                    },
+                    {
+                        "id": 1442,
+                        "name": "Danilo",
+                        "position": "Midfielder",
+                        "shirtNumber": 20
+                    },
+                    {
+                        "id": 1457,
+                        "name": "Emerson Sheik",
+                        "position": "Attacker",
+                        "shirtNumber": 47
+                    },
+                    {
+                        "id": 1432,
+                        "name": "Walter",
+                        "position": "Goalkeeper",
+                        "shirtNumber": 27
+                    },
+                    {
+                        "id": 23812,
+                        "name": "Ángelo Araos",
+                        "position": "Midfielder",
+                        "shirtNumber": 16
+                    },
+                    {
+                        "id": 1452,
+                        "name": "Mateus Vital",
+                        "position": "Midfielder",
+                        "shirtNumber": 22
+                    },
+                    {
+                        "id": 1437,
+                        "name": "Leo Santos",
+                        "position": "Defender",
+                        "shirtNumber": 14
+                    },
+                    {
+                        "id": 1438,
+                        "name": "Guilherme Mantuan",
+                        "position": "Defender",
+                        "shirtNumber": 2
+                    },
+                    {
+                        "id": 11224,
+                        "name": "Carlos",
+                        "position": "Defender",
+                        "shirtNumber": 33
+                    }
+                ]
+            },
+            "score": {
+                "winner": "HOME_TEAM",
+                "duration": "REGULAR",
+                "fullTime": {
+                    "homeTeam": 1,
+                    "awayTeam": 0
+                },
+                "halfTime": {
+                    "homeTeam": 1,
+                    "awayTeam": 0
+                },
+                "extraTime": {
+                    "homeTeam": None,
+                    "awayTeam": None
+                },
+                "penalties": {
+                    "homeTeam": None,
+                    "awayTeam": None
+                }
+            },
+            "goals": [
+                {
+                    "minute": 17,
+                    "type": "REGULAR",
+                    "team": {
+                        "id": 1765,
+                        "name": "Fluminense FC"
+                    },
+                    "scorer": {
+                        "id": 1068,
+                        "name": "Gum"
+                    },
+                    "assist": None
+                }
+            ],
+            "bookings": [
+                {
+                    "minute": 35,
+                    "team": {
+                        "id": 1779,
+                        "name": "SC Corinthians Paulista"
+                    },
+                    "player": {
+                        "id": 1453,
+                        "name": "Ralf"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 42,
+                    "team": {
+                        "id": 1779,
+                        "name": "SC Corinthians Paulista"
+                    },
+                    "player": {
+                        "id": 1454,
+                        "name": "Ángel Romero"
+                    },
+                    "card": "RED_CARD"
+                },
+                {
+                    "minute": 45,
+                    "team": {
+                        "id": 1779,
+                        "name": "SC Corinthians Paulista"
+                    },
+                    "player": {
+                        "id": 1435,
+                        "name": "Pedro Henrique"
+                    },
+                    "card": "YELLOW_CARD"
+                },
+                {
+                    "minute": 89,
+                    "team": {
+                        "id": 1765,
+                        "name": "Fluminense FC"
+                    },
+                    "player": {
+                        "id": 1068,
+                        "name": "Gum"
+                    },
+                    "card": "YELLOW_CARD"
+                }
+            ],
+            "substitutions": [
+                {
+                    "minute": 13,
+                    "team": {
+                        "id": 1765,
+                        "name": "Fluminense FC"
+                    },
+                    "playerOut": {
+                        "id": 13604,
+                        "name": "Everaldo"
+                    },
+                    "playerIn": {
+                        "id": 1089,
+                        "name": "Matheus Alessandro"
+                    }
+                },
+                {
+                    "minute": 63,
+                    "team": {
+                        "id": 1765,
+                        "name": "Fluminense FC"
+                    },
+                    "playerOut": {
+                        "id": 1083,
+                        "name": "Jádson"
+                    },
+                    "playerIn": {
+                        "id": 1070,
+                        "name": "Mateus"
+                    }
+                },
+                {
+                    "minute": 64,
+                    "team": {
+                        "id": 1779,
+                        "name": "SC Corinthians Paulista"
+                    },
+                    "playerOut": {
+                        "id": 1448,
+                        "name": "Pedro Victor"
+                    },
+                    "playerIn": {
+                        "id": 1452,
+                        "name": "Mateus Vital"
+                    }
+                },
+                {
+                    "minute": 64,
+                    "team": {
+                        "id": 1779,
+                        "name": "SC Corinthians Paulista"
+                    },
+                    "playerOut": {
+                        "id": 1453,
+                        "name": "Ralf"
+                    },
+                    "playerIn": {
+                        "id": 392,
+                        "name": "Jonathas"
+                    }
+                },
+                {
+                    "minute": 72,
+                    "team": {
+                        "id": 1765,
+                        "name": "Fluminense FC"
+                    },
+                    "playerOut": {
+                        "id": 1087,
+                        "name": "Douglas"
+                    },
+                    "playerIn": {
+                        "id": 1088,
+                        "name": "Marcos Júnior"
+                    }
+                },
+                {
+                    "minute": 81,
+                    "team": {
+                        "id": 1779,
+                        "name": "SC Corinthians Paulista"
+                    },
+                    "playerOut": {
+                        "id": 1443,
+                        "name": "Jádson"
+                    },
+                    "playerIn": {
+                        "id": 23812,
+                        "name": "Ángelo Araos"
+                    }
+                }
+            ],
+            "referees": [
+                {
+                    "id": 11185,
+                    "name": "Ricardo Marques Ribeiro",
+                    "nationality": None
+                },
+                {
+                    "id": 11186,
+                    "name": "Guilherme Dias Camilo",
+                    "nationality": None
+                },
+                {
+                    "id": 11187,
+                    "name": "Sidmar dos Santos Meurer",
+                    "nationality": None
+                },
+                {
+                    "id": 49499,
+                    "name": "Marconi Helbert Vieira",
+                    "nationality": None
+                }
+            ]
+        }
     ]
   },
   "single_match": {
@@ -26016,5 +10893,3403 @@ data = {
     "position": "Midfielder",
     "shirtNumber": 4,
     "lastUpdated": "2018-09-19T05:11:07Z"
+  },
+  "standings":{
+    "filters": {},
+    "competition": {
+        "id": 2021,
+        "area": {
+            "id": 2072,
+            "name": "England"
+        },
+        "name": "Premier League",
+        "code": "PL",
+        "plan": "TIER_ONE",
+        "lastUpdated": "2018-10-28T19:40:22Z"
+    },
+    "season": {
+        "id": 151,
+        "startDate": "2018-08-10",
+        "endDate": "2019-05-12",
+        "currentMatchday": 10,
+        "winner": None
+    },
+    "standings": [
+        {
+            "stage": "REGULAR_SEASON",
+            "type": "TOTAL",
+            "group": None,
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 64,
+                        "name": "Liverpool FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 8,
+                    "draw": 2,
+                    "lost": 0,
+                    "points": 26,
+                    "goalsFor": 20,
+                    "goalsAgainst": 4,
+                    "goalDifference": 16
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 61,
+                        "name": "Chelsea FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/5c/Chelsea_crest.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 7,
+                    "draw": 3,
+                    "lost": 0,
+                    "points": 24,
+                    "goalsFor": 24,
+                    "goalsAgainst": 7,
+                    "goalDifference": 17
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 65,
+                        "name": "Manchester City FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
+                    },
+                    "playedGames": 9,
+                    "won": 7,
+                    "draw": 2,
+                    "lost": 0,
+                    "points": 23,
+                    "goalsFor": 26,
+                    "goalsAgainst": 3,
+                    "goalDifference": 23
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 57,
+                        "name": "Arsenal FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 7,
+                    "draw": 1,
+                    "lost": 2,
+                    "points": 22,
+                    "goalsFor": 24,
+                    "goalsAgainst": 13,
+                    "goalDifference": 11
+                },
+                {
+                    "position": 5,
+                    "team": {
+                        "id": 73,
+                        "name": "Tottenham Hotspur FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg"
+                    },
+                    "playedGames": 9,
+                    "won": 7,
+                    "draw": 0,
+                    "lost": 2,
+                    "points": 21,
+                    "goalsFor": 16,
+                    "goalsAgainst": 7,
+                    "goalDifference": 9
+                },
+                {
+                    "position": 6,
+                    "team": {
+                        "id": 1044,
+                        "name": "AFC Bournemouth",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/de/4/41/Afc_bournemouth.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 6,
+                    "draw": 2,
+                    "lost": 2,
+                    "points": 20,
+                    "goalsFor": 19,
+                    "goalsAgainst": 12,
+                    "goalDifference": 7
+                },
+                {
+                    "position": 7,
+                    "team": {
+                        "id": 346,
+                        "name": "Watford FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/Watford.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 6,
+                    "draw": 1,
+                    "lost": 3,
+                    "points": 19,
+                    "goalsFor": 16,
+                    "goalsAgainst": 12,
+                    "goalDifference": 4
+                },
+                {
+                    "position": 8,
+                    "team": {
+                        "id": 66,
+                        "name": "Manchester United FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 5,
+                    "draw": 2,
+                    "lost": 3,
+                    "points": 17,
+                    "goalsFor": 17,
+                    "goalsAgainst": 17,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 9,
+                    "team": {
+                        "id": 62,
+                        "name": "Everton FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f9/Everton_FC.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 4,
+                    "draw": 3,
+                    "lost": 3,
+                    "points": 15,
+                    "goalsFor": 16,
+                    "goalsAgainst": 14,
+                    "goalDifference": 2
+                },
+                {
+                    "position": 10,
+                    "team": {
+                        "id": 76,
+                        "name": "Wolverhampton Wanderers FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 4,
+                    "draw": 3,
+                    "lost": 3,
+                    "points": 15,
+                    "goalsFor": 9,
+                    "goalsAgainst": 9,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 11,
+                    "team": {
+                        "id": 397,
+                        "name": "Brighton & Hove Albion FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 4,
+                    "draw": 2,
+                    "lost": 4,
+                    "points": 14,
+                    "goalsFor": 11,
+                    "goalsAgainst": 13,
+                    "goalDifference": -2
+                },
+                {
+                    "position": 12,
+                    "team": {
+                        "id": 338,
+                        "name": "Leicester City FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png"
+                    },
+                    "playedGames": 10,
+                    "won": 4,
+                    "draw": 1,
+                    "lost": 5,
+                    "points": 13,
+                    "goalsFor": 16,
+                    "goalsAgainst": 16,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 13,
+                    "team": {
+                        "id": 563,
+                        "name": "West Ham United FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e0/West_Ham_United_FC.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 2,
+                    "draw": 2,
+                    "lost": 6,
+                    "points": 8,
+                    "goalsFor": 9,
+                    "goalsAgainst": 15,
+                    "goalDifference": -6
+                },
+                {
+                    "position": 14,
+                    "team": {
+                        "id": 354,
+                        "name": "Crystal Palace FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/bf/Crystal_Palace_F.C._logo_%282013%29.png"
+                    },
+                    "playedGames": 10,
+                    "won": 2,
+                    "draw": 2,
+                    "lost": 6,
+                    "points": 8,
+                    "goalsFor": 7,
+                    "goalsAgainst": 13,
+                    "goalDifference": -6
+                },
+                {
+                    "position": 15,
+                    "team": {
+                        "id": 328,
+                        "name": "Burnley FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Burnley_FC_badge.png"
+                    },
+                    "playedGames": 10,
+                    "won": 2,
+                    "draw": 2,
+                    "lost": 6,
+                    "points": 8,
+                    "goalsFor": 10,
+                    "goalsAgainst": 21,
+                    "goalDifference": -11
+                },
+                {
+                    "position": 16,
+                    "team": {
+                        "id": 340,
+                        "name": "Southampton FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c9/FC_Southampton.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 1,
+                    "draw": 4,
+                    "lost": 5,
+                    "points": 7,
+                    "goalsFor": 6,
+                    "goalsAgainst": 14,
+                    "goalDifference": -8
+                },
+                {
+                    "position": 17,
+                    "team": {
+                        "id": 715,
+                        "name": "Cardiff City FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/3/3c/Cardiff_City_crest.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 1,
+                    "draw": 2,
+                    "lost": 7,
+                    "points": 5,
+                    "goalsFor": 9,
+                    "goalsAgainst": 23,
+                    "goalDifference": -14
+                },
+                {
+                    "position": 18,
+                    "team": {
+                        "id": 63,
+                        "name": "Fulham FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a8/Fulham_fc.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 1,
+                    "draw": 2,
+                    "lost": 7,
+                    "points": 5,
+                    "goalsFor": 11,
+                    "goalsAgainst": 28,
+                    "goalDifference": -17
+                },
+                {
+                    "position": 19,
+                    "team": {
+                        "id": 67,
+                        "name": "Newcastle United FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/56/Newcastle_United_Logo.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 0,
+                    "draw": 3,
+                    "lost": 7,
+                    "points": 3,
+                    "goalsFor": 6,
+                    "goalsAgainst": 14,
+                    "goalDifference": -8
+                },
+                {
+                    "position": 20,
+                    "team": {
+                        "id": 394,
+                        "name": "Huddersfield Town AFC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Huddersfield_Town_A.F.C._logo.svg"
+                    },
+                    "playedGames": 10,
+                    "won": 0,
+                    "draw": 3,
+                    "lost": 7,
+                    "points": 3,
+                    "goalsFor": 4,
+                    "goalsAgainst": 21,
+                    "goalDifference": -17
+                }
+            ]
+        },
+        {
+            "stage": "REGULAR_SEASON",
+            "type": "HOME",
+            "group": None,
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 65,
+                        "name": "Manchester City FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 5,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 15,
+                    "goalsFor": 18,
+                    "goalsAgainst": 2,
+                    "goalDifference": 16
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 64,
+                        "name": "Liverpool FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 4,
+                    "draw": 1,
+                    "lost": 0,
+                    "points": 13,
+                    "goalsFor": 12,
+                    "goalsAgainst": 1,
+                    "goalDifference": 11
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 57,
+                        "name": "Arsenal FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 4,
+                    "draw": 0,
+                    "lost": 1,
+                    "points": 12,
+                    "goalsFor": 10,
+                    "goalsAgainst": 4,
+                    "goalDifference": 6
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 346,
+                        "name": "Watford FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/Watford.svg"
+                    },
+                    "playedGames": 6,
+                    "won": 4,
+                    "draw": 0,
+                    "lost": 2,
+                    "points": 12,
+                    "goalsFor": 10,
+                    "goalsAgainst": 8,
+                    "goalDifference": 2
+                },
+                {
+                    "position": 5,
+                    "team": {
+                        "id": 61,
+                        "name": "Chelsea FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/5c/Chelsea_crest.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 3,
+                    "draw": 2,
+                    "lost": 0,
+                    "points": 11,
+                    "goalsFor": 12,
+                    "goalsAgainst": 6,
+                    "goalDifference": 6
+                },
+                {
+                    "position": 6,
+                    "team": {
+                        "id": 1044,
+                        "name": "AFC Bournemouth",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/de/4/41/Afc_bournemouth.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 3,
+                    "draw": 2,
+                    "lost": 0,
+                    "points": 11,
+                    "goalsFor": 10,
+                    "goalsAgainst": 5,
+                    "goalDifference": 5
+                },
+                {
+                    "position": 7,
+                    "team": {
+                        "id": 62,
+                        "name": "Everton FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f9/Everton_FC.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 3,
+                    "draw": 1,
+                    "lost": 1,
+                    "points": 10,
+                    "goalsFor": 9,
+                    "goalsAgainst": 5,
+                    "goalDifference": 4
+                },
+                {
+                    "position": 8,
+                    "team": {
+                        "id": 397,
+                        "name": "Brighton & Hove Albion FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 3,
+                    "draw": 1,
+                    "lost": 1,
+                    "points": 10,
+                    "goalsFor": 8,
+                    "goalsAgainst": 6,
+                    "goalDifference": 2
+                },
+                {
+                    "position": 9,
+                    "team": {
+                        "id": 66,
+                        "name": "Manchester United FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 3,
+                    "draw": 1,
+                    "lost": 1,
+                    "points": 10,
+                    "goalsFor": 8,
+                    "goalsAgainst": 8,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 10,
+                    "team": {
+                        "id": 76,
+                        "name": "Wolverhampton Wanderers FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 2,
+                    "draw": 2,
+                    "lost": 1,
+                    "points": 8,
+                    "goalsFor": 6,
+                    "goalsAgainst": 5,
+                    "goalDifference": 1
+                },
+                {
+                    "position": 11,
+                    "team": {
+                        "id": 338,
+                        "name": "Leicester City FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png"
+                    },
+                    "playedGames": 5,
+                    "won": 2,
+                    "draw": 1,
+                    "lost": 2,
+                    "points": 7,
+                    "goalsFor": 8,
+                    "goalsAgainst": 6,
+                    "goalDifference": 2
+                },
+                {
+                    "position": 12,
+                    "team": {
+                        "id": 73,
+                        "name": "Tottenham Hotspur FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg"
+                    },
+                    "playedGames": 3,
+                    "won": 2,
+                    "draw": 0,
+                    "lost": 1,
+                    "points": 6,
+                    "goalsFor": 5,
+                    "goalsAgainst": 3,
+                    "goalDifference": 2
+                },
+                {
+                    "position": 13,
+                    "team": {
+                        "id": 563,
+                        "name": "West Ham United FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e0/West_Ham_United_FC.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 1,
+                    "draw": 1,
+                    "lost": 3,
+                    "points": 4,
+                    "goalsFor": 4,
+                    "goalsAgainst": 5,
+                    "goalDifference": -1
+                },
+                {
+                    "position": 14,
+                    "team": {
+                        "id": 328,
+                        "name": "Burnley FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Burnley_FC_badge.png"
+                    },
+                    "playedGames": 5,
+                    "won": 1,
+                    "draw": 1,
+                    "lost": 3,
+                    "points": 4,
+                    "goalsFor": 6,
+                    "goalsAgainst": 10,
+                    "goalDifference": -4
+                },
+                {
+                    "position": 15,
+                    "team": {
+                        "id": 715,
+                        "name": "Cardiff City FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/3/3c/Cardiff_City_crest.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 1,
+                    "draw": 1,
+                    "lost": 3,
+                    "points": 4,
+                    "goalsFor": 7,
+                    "goalsAgainst": 12,
+                    "goalDifference": -5
+                },
+                {
+                    "position": 16,
+                    "team": {
+                        "id": 63,
+                        "name": "Fulham FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a8/Fulham_fc.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 1,
+                    "draw": 1,
+                    "lost": 3,
+                    "points": 4,
+                    "goalsFor": 6,
+                    "goalsAgainst": 13,
+                    "goalDifference": -7
+                },
+                {
+                    "position": 17,
+                    "team": {
+                        "id": 340,
+                        "name": "Southampton FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c9/FC_Southampton.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 0,
+                    "draw": 3,
+                    "lost": 2,
+                    "points": 3,
+                    "goalsFor": 3,
+                    "goalsAgainst": 7,
+                    "goalDifference": -4
+                },
+                {
+                    "position": 18,
+                    "team": {
+                        "id": 354,
+                        "name": "Crystal Palace FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/bf/Crystal_Palace_F.C._logo_%282013%29.png"
+                    },
+                    "playedGames": 5,
+                    "won": 0,
+                    "draw": 2,
+                    "lost": 3,
+                    "points": 2,
+                    "goalsFor": 2,
+                    "goalsAgainst": 7,
+                    "goalDifference": -5
+                },
+                {
+                    "position": 19,
+                    "team": {
+                        "id": 394,
+                        "name": "Huddersfield Town AFC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Huddersfield_Town_A.F.C._logo.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 0,
+                    "draw": 1,
+                    "lost": 4,
+                    "points": 1,
+                    "goalsFor": 0,
+                    "goalsAgainst": 7,
+                    "goalDifference": -7
+                },
+                {
+                    "position": 20,
+                    "team": {
+                        "id": 67,
+                        "name": "Newcastle United FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/56/Newcastle_United_Logo.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 5,
+                    "points": 0,
+                    "goalsFor": 3,
+                    "goalsAgainst": 9,
+                    "goalDifference": -6
+                }
+            ]
+        },
+        {
+            "stage": "REGULAR_SEASON",
+            "type": "AWAY",
+            "group": None,
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 73,
+                        "name": "Tottenham Hotspur FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg"
+                    },
+                    "playedGames": 6,
+                    "won": 5,
+                    "draw": 0,
+                    "lost": 1,
+                    "points": 15,
+                    "goalsFor": 11,
+                    "goalsAgainst": 4,
+                    "goalDifference": 7
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 61,
+                        "name": "Chelsea FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/5c/Chelsea_crest.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 4,
+                    "draw": 1,
+                    "lost": 0,
+                    "points": 13,
+                    "goalsFor": 12,
+                    "goalsAgainst": 1,
+                    "goalDifference": 11
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 64,
+                        "name": "Liverpool FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 4,
+                    "draw": 1,
+                    "lost": 0,
+                    "points": 13,
+                    "goalsFor": 8,
+                    "goalsAgainst": 3,
+                    "goalDifference": 5
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 57,
+                        "name": "Arsenal FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 3,
+                    "draw": 1,
+                    "lost": 1,
+                    "points": 10,
+                    "goalsFor": 14,
+                    "goalsAgainst": 9,
+                    "goalDifference": 5
+                },
+                {
+                    "position": 5,
+                    "team": {
+                        "id": 1044,
+                        "name": "AFC Bournemouth",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/de/4/41/Afc_bournemouth.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 3,
+                    "draw": 0,
+                    "lost": 2,
+                    "points": 9,
+                    "goalsFor": 9,
+                    "goalsAgainst": 7,
+                    "goalDifference": 2
+                },
+                {
+                    "position": 6,
+                    "team": {
+                        "id": 65,
+                        "name": "Manchester City FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg"
+                    },
+                    "playedGames": 4,
+                    "won": 2,
+                    "draw": 2,
+                    "lost": 0,
+                    "points": 8,
+                    "goalsFor": 8,
+                    "goalsAgainst": 1,
+                    "goalDifference": 7
+                },
+                {
+                    "position": 7,
+                    "team": {
+                        "id": 346,
+                        "name": "Watford FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/Watford.svg"
+                    },
+                    "playedGames": 4,
+                    "won": 2,
+                    "draw": 1,
+                    "lost": 1,
+                    "points": 7,
+                    "goalsFor": 6,
+                    "goalsAgainst": 4,
+                    "goalDifference": 2
+                },
+                {
+                    "position": 8,
+                    "team": {
+                        "id": 66,
+                        "name": "Manchester United FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 2,
+                    "draw": 1,
+                    "lost": 2,
+                    "points": 7,
+                    "goalsFor": 9,
+                    "goalsAgainst": 9,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 9,
+                    "team": {
+                        "id": 76,
+                        "name": "Wolverhampton Wanderers FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Wolverhampton_Wanderers.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 2,
+                    "draw": 1,
+                    "lost": 2,
+                    "points": 7,
+                    "goalsFor": 3,
+                    "goalsAgainst": 4,
+                    "goalDifference": -1
+                },
+                {
+                    "position": 10,
+                    "team": {
+                        "id": 354,
+                        "name": "Crystal Palace FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/bf/Crystal_Palace_F.C._logo_%282013%29.png"
+                    },
+                    "playedGames": 5,
+                    "won": 2,
+                    "draw": 0,
+                    "lost": 3,
+                    "points": 6,
+                    "goalsFor": 5,
+                    "goalsAgainst": 6,
+                    "goalDifference": -1
+                },
+                {
+                    "position": 11,
+                    "team": {
+                        "id": 338,
+                        "name": "Leicester City FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png"
+                    },
+                    "playedGames": 5,
+                    "won": 2,
+                    "draw": 0,
+                    "lost": 3,
+                    "points": 6,
+                    "goalsFor": 8,
+                    "goalsAgainst": 10,
+                    "goalDifference": -2
+                },
+                {
+                    "position": 12,
+                    "team": {
+                        "id": 62,
+                        "name": "Everton FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f9/Everton_FC.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 1,
+                    "draw": 2,
+                    "lost": 2,
+                    "points": 5,
+                    "goalsFor": 7,
+                    "goalsAgainst": 9,
+                    "goalDifference": -2
+                },
+                {
+                    "position": 13,
+                    "team": {
+                        "id": 340,
+                        "name": "Southampton FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c9/FC_Southampton.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 1,
+                    "draw": 1,
+                    "lost": 3,
+                    "points": 4,
+                    "goalsFor": 3,
+                    "goalsAgainst": 7,
+                    "goalDifference": -4
+                },
+                {
+                    "position": 14,
+                    "team": {
+                        "id": 397,
+                        "name": "Brighton & Hove Albion FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 1,
+                    "draw": 1,
+                    "lost": 3,
+                    "points": 4,
+                    "goalsFor": 3,
+                    "goalsAgainst": 7,
+                    "goalDifference": -4
+                },
+                {
+                    "position": 15,
+                    "team": {
+                        "id": 563,
+                        "name": "West Ham United FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e0/West_Ham_United_FC.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 1,
+                    "draw": 1,
+                    "lost": 3,
+                    "points": 4,
+                    "goalsFor": 5,
+                    "goalsAgainst": 10,
+                    "goalDifference": -5
+                },
+                {
+                    "position": 16,
+                    "team": {
+                        "id": 328,
+                        "name": "Burnley FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Burnley_FC_badge.png"
+                    },
+                    "playedGames": 5,
+                    "won": 1,
+                    "draw": 1,
+                    "lost": 3,
+                    "points": 4,
+                    "goalsFor": 4,
+                    "goalsAgainst": 11,
+                    "goalDifference": -7
+                },
+                {
+                    "position": 17,
+                    "team": {
+                        "id": 67,
+                        "name": "Newcastle United FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/56/Newcastle_United_Logo.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 0,
+                    "draw": 3,
+                    "lost": 2,
+                    "points": 3,
+                    "goalsFor": 3,
+                    "goalsAgainst": 5,
+                    "goalDifference": -2
+                },
+                {
+                    "position": 18,
+                    "team": {
+                        "id": 394,
+                        "name": "Huddersfield Town AFC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Huddersfield_Town_A.F.C._logo.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 0,
+                    "draw": 2,
+                    "lost": 3,
+                    "points": 2,
+                    "goalsFor": 4,
+                    "goalsAgainst": 14,
+                    "goalDifference": -10
+                },
+                {
+                    "position": 19,
+                    "team": {
+                        "id": 715,
+                        "name": "Cardiff City FC",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/3/3c/Cardiff_City_crest.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 0,
+                    "draw": 1,
+                    "lost": 4,
+                    "points": 1,
+                    "goalsFor": 2,
+                    "goalsAgainst": 11,
+                    "goalDifference": -9
+                },
+                {
+                    "position": 20,
+                    "team": {
+                        "id": 63,
+                        "name": "Fulham FC",
+                        "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a8/Fulham_fc.svg"
+                    },
+                    "playedGames": 5,
+                    "won": 0,
+                    "draw": 1,
+                    "lost": 4,
+                    "points": 1,
+                    "goalsFor": 5,
+                    "goalsAgainst": 15,
+                    "goalDifference": -10
+                }
+            ]
+        }
+    ]
+  },
+  "group_standings":{
+    "filters": {},
+    "competition": {
+        "id": 2000,
+        "area": {
+            "id": 2267,
+            "name": "World"
+        },
+        "name": "FIFA World Cup",
+        "code": "WC",
+        "plan": "TIER_ONE",
+        "lastUpdated": "2018-08-23T12:16:17Z"
+    },
+    "season": {
+        "id": 1,
+        "startDate": "2018-06-14",
+        "endDate": "2018-07-15",
+        "currentMatchday": 3,
+        "winner": {
+            "id": 773,
+            "name": "France",
+            "shortName": "France",
+            "tla": "FRA",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+        }
+    },
+    "standings": [
+        {
+            "stage": "GROUP_STAGE",
+            "type": "TOTAL",
+            "group": "GROUP_A",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 758,
+                        "name": "Uruguay",
+                        "crestUrl": None
+                    },
+                    "playedGames": 3,
+                    "won": 3,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 9,
+                    "goalsFor": 5,
+                    "goalsAgainst": 0,
+                    "goalDifference": 5
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 808,
+                        "name": "Russia",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg"
+                    },
+                    "playedGames": 3,
+                    "won": 2,
+                    "draw": 0,
+                    "lost": 1,
+                    "points": 6,
+                    "goalsFor": 8,
+                    "goalsAgainst": 4,
+                    "goalDifference": 4
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 801,
+                        "name": "Saudi Arabia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 0,
+                    "lost": 2,
+                    "points": 3,
+                    "goalsFor": 2,
+                    "goalsAgainst": 7,
+                    "goalDifference": -5
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 825,
+                        "name": "Egypt",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 3,
+                    "points": 0,
+                    "goalsFor": 2,
+                    "goalsAgainst": 6,
+                    "goalDifference": -4
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "HOME",
+            "group": "GROUP_A",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 825,
+                        "name": "Egypt",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 808,
+                        "name": "Russia",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 801,
+                        "name": "Saudi Arabia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 758,
+                        "name": "Uruguay",
+                        "crestUrl": None
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "AWAY",
+            "group": "GROUP_A",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 825,
+                        "name": "Egypt",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 808,
+                        "name": "Russia",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 801,
+                        "name": "Saudi Arabia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 758,
+                        "name": "Uruguay",
+                        "crestUrl": None
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "TOTAL",
+            "group": "GROUP_B",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 760,
+                        "name": "Spain",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg"
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 2,
+                    "lost": 0,
+                    "points": 5,
+                    "goalsFor": 6,
+                    "goalsAgainst": 5,
+                    "goalDifference": 1
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 765,
+                        "name": "Portugal",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 2,
+                    "lost": 0,
+                    "points": 5,
+                    "goalsFor": 5,
+                    "goalsAgainst": 4,
+                    "goalDifference": 1
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 840,
+                        "name": "Iran",
+                        "crestUrl": None
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 1,
+                    "lost": 1,
+                    "points": 4,
+                    "goalsFor": 2,
+                    "goalsAgainst": 2,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 815,
+                        "name": "Morocco",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 0,
+                    "draw": 1,
+                    "lost": 2,
+                    "points": 1,
+                    "goalsFor": 2,
+                    "goalsAgainst": 4,
+                    "goalDifference": -2
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "HOME",
+            "group": "GROUP_B",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 840,
+                        "name": "Iran",
+                        "crestUrl": None
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 815,
+                        "name": "Morocco",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 765,
+                        "name": "Portugal",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 760,
+                        "name": "Spain",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "AWAY",
+            "group": "GROUP_B",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 840,
+                        "name": "Iran",
+                        "crestUrl": None
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 815,
+                        "name": "Morocco",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 765,
+                        "name": "Portugal",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 760,
+                        "name": "Spain",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "TOTAL",
+            "group": "GROUP_C",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 773,
+                        "name": "France",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+                    },
+                    "playedGames": 3,
+                    "won": 2,
+                    "draw": 1,
+                    "lost": 0,
+                    "points": 7,
+                    "goalsFor": 3,
+                    "goalsAgainst": 1,
+                    "goalDifference": 2
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 782,
+                        "name": "Denmark",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 2,
+                    "lost": 0,
+                    "points": 5,
+                    "goalsFor": 2,
+                    "goalsAgainst": 1,
+                    "goalDifference": 1
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 832,
+                        "name": "Peru",
+                        "crestUrl": None
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 0,
+                    "lost": 2,
+                    "points": 3,
+                    "goalsFor": 2,
+                    "goalsAgainst": 2,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 779,
+                        "name": "Australia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 0,
+                    "draw": 1,
+                    "lost": 2,
+                    "points": 1,
+                    "goalsFor": 2,
+                    "goalsAgainst": 5,
+                    "goalDifference": -3
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "HOME",
+            "group": "GROUP_C",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 779,
+                        "name": "Australia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 782,
+                        "name": "Denmark",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 773,
+                        "name": "France",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 832,
+                        "name": "Peru",
+                        "crestUrl": None
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "AWAY",
+            "group": "GROUP_C",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 779,
+                        "name": "Australia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 782,
+                        "name": "Denmark",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 773,
+                        "name": "France",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 832,
+                        "name": "Peru",
+                        "crestUrl": None
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "TOTAL",
+            "group": "GROUP_D",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 799,
+                        "name": "Croatia",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg"
+                    },
+                    "playedGames": 3,
+                    "won": 3,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 9,
+                    "goalsFor": 7,
+                    "goalsAgainst": 1,
+                    "goalDifference": 6
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 762,
+                        "name": "Argentina",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 1,
+                    "lost": 1,
+                    "points": 4,
+                    "goalsFor": 3,
+                    "goalsAgainst": 5,
+                    "goalDifference": -2
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 776,
+                        "name": "Nigeria",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 0,
+                    "lost": 2,
+                    "points": 3,
+                    "goalsFor": 3,
+                    "goalsAgainst": 4,
+                    "goalDifference": -1
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 1066,
+                        "name": "Iceland",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg"
+                    },
+                    "playedGames": 3,
+                    "won": 0,
+                    "draw": 1,
+                    "lost": 2,
+                    "points": 1,
+                    "goalsFor": 2,
+                    "goalsAgainst": 5,
+                    "goalDifference": -3
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "HOME",
+            "group": "GROUP_D",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 762,
+                        "name": "Argentina",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 799,
+                        "name": "Croatia",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 776,
+                        "name": "Nigeria",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 1066,
+                        "name": "Iceland",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "AWAY",
+            "group": "GROUP_D",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 762,
+                        "name": "Argentina",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 799,
+                        "name": "Croatia",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Flag_of_Croatia.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 776,
+                        "name": "Nigeria",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 1066,
+                        "name": "Iceland",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "TOTAL",
+            "group": "GROUP_E",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 764,
+                        "name": "Brazil",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 2,
+                    "draw": 1,
+                    "lost": 0,
+                    "points": 7,
+                    "goalsFor": 5,
+                    "goalsAgainst": 1,
+                    "goalDifference": 4
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 6679,
+                        "name": "Switzerland",
+                        "crestUrl": None
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 2,
+                    "lost": 0,
+                    "points": 5,
+                    "goalsFor": 5,
+                    "goalsAgainst": 4,
+                    "goalDifference": 1
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 788,
+                        "name": "Switzerland",
+                        "crestUrl": None
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 2,
+                    "lost": 0,
+                    "points": 5,
+                    "goalsFor": 5,
+                    "goalsAgainst": 4,
+                    "goalDifference": 1
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 780,
+                        "name": "Serbia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 0,
+                    "lost": 2,
+                    "points": 3,
+                    "goalsFor": 2,
+                    "goalsAgainst": 4,
+                    "goalDifference": -2
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 793,
+                        "name": "Costa Rica",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 0,
+                    "draw": 1,
+                    "lost": 2,
+                    "points": 1,
+                    "goalsFor": 2,
+                    "goalsAgainst": 5,
+                    "goalDifference": -3
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "HOME",
+            "group": "GROUP_E",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 764,
+                        "name": "Brazil",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 793,
+                        "name": "Costa Rica",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 780,
+                        "name": "Serbia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 6679,
+                        "name": "Switzerland",
+                        "crestUrl": None
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 788,
+                        "name": "Switzerland",
+                        "crestUrl": None
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "AWAY",
+            "group": "GROUP_E",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 764,
+                        "name": "Brazil",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 793,
+                        "name": "Costa Rica",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 780,
+                        "name": "Serbia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 6679,
+                        "name": "Switzerland",
+                        "crestUrl": None
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 788,
+                        "name": "Switzerland",
+                        "crestUrl": None
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "TOTAL",
+            "group": "GROUP_F",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 792,
+                        "name": "Sweden",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg"
+                    },
+                    "playedGames": 3,
+                    "won": 2,
+                    "draw": 0,
+                    "lost": 1,
+                    "points": 6,
+                    "goalsFor": 5,
+                    "goalsAgainst": 2,
+                    "goalDifference": 3
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 769,
+                        "name": "Mexico",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 2,
+                    "draw": 0,
+                    "lost": 1,
+                    "points": 6,
+                    "goalsFor": 3,
+                    "goalsAgainst": 4,
+                    "goalDifference": -1
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 772,
+                        "name": "Korea Republic",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 0,
+                    "lost": 2,
+                    "points": 3,
+                    "goalsFor": 3,
+                    "goalsAgainst": 3,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 759,
+                        "name": "Germany",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 0,
+                    "lost": 2,
+                    "points": 3,
+                    "goalsFor": 2,
+                    "goalsAgainst": 4,
+                    "goalDifference": -2
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "HOME",
+            "group": "GROUP_F",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 759,
+                        "name": "Germany",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 772,
+                        "name": "Korea Republic",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 769,
+                        "name": "Mexico",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 792,
+                        "name": "Sweden",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "AWAY",
+            "group": "GROUP_F",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 759,
+                        "name": "Germany",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 772,
+                        "name": "Korea Republic",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 769,
+                        "name": "Mexico",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 792,
+                        "name": "Sweden",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "TOTAL",
+            "group": "GROUP_G",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 805,
+                        "name": "Belgium",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg"
+                    },
+                    "playedGames": 3,
+                    "won": 3,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 9,
+                    "goalsFor": 9,
+                    "goalsAgainst": 2,
+                    "goalDifference": 7
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 770,
+                        "name": "England",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg"
+                    },
+                    "playedGames": 3,
+                    "won": 2,
+                    "draw": 0,
+                    "lost": 1,
+                    "points": 6,
+                    "goalsFor": 8,
+                    "goalsAgainst": 3,
+                    "goalDifference": 5
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 802,
+                        "name": "Tunisia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 0,
+                    "lost": 2,
+                    "points": 3,
+                    "goalsFor": 5,
+                    "goalsAgainst": 8,
+                    "goalDifference": -3
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 1836,
+                        "name": "Panama",
+                        "crestUrl": None
+                    },
+                    "playedGames": 3,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 3,
+                    "points": 0,
+                    "goalsFor": 2,
+                    "goalsAgainst": 11,
+                    "goalDifference": -9
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "HOME",
+            "group": "GROUP_G",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 805,
+                        "name": "Belgium",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 770,
+                        "name": "England",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 802,
+                        "name": "Tunisia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 1836,
+                        "name": "Panama",
+                        "crestUrl": None
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "AWAY",
+            "group": "GROUP_G",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 805,
+                        "name": "Belgium",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Flag_of_Belgium.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 770,
+                        "name": "England",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Flag_of_England.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 802,
+                        "name": "Tunisia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 1836,
+                        "name": "Panama",
+                        "crestUrl": None
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "TOTAL",
+            "group": "GROUP_H",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 818,
+                        "name": "Colombia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 2,
+                    "draw": 0,
+                    "lost": 1,
+                    "points": 6,
+                    "goalsFor": 5,
+                    "goalsAgainst": 2,
+                    "goalDifference": 3
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 766,
+                        "name": "Japan",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 1,
+                    "lost": 1,
+                    "points": 4,
+                    "goalsFor": 4,
+                    "goalsAgainst": 4,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 804,
+                        "name": "Senegal",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 1,
+                    "lost": 1,
+                    "points": 4,
+                    "goalsFor": 4,
+                    "goalsAgainst": 4,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 794,
+                        "name": "Poland",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg"
+                    },
+                    "playedGames": 3,
+                    "won": 1,
+                    "draw": 0,
+                    "lost": 2,
+                    "points": 3,
+                    "goalsFor": 2,
+                    "goalsAgainst": 5,
+                    "goalDifference": -3
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "HOME",
+            "group": "GROUP_H",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 818,
+                        "name": "Colombia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 766,
+                        "name": "Japan",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 794,
+                        "name": "Poland",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 804,
+                        "name": "Senegal",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        },
+        {
+            "stage": "GROUP_STAGE",
+            "type": "AWAY",
+            "group": "GROUP_H",
+            "table": [
+                {
+                    "position": 1,
+                    "team": {
+                        "id": 818,
+                        "name": "Colombia",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 2,
+                    "team": {
+                        "id": 766,
+                        "name": "Japan",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 3,
+                    "team": {
+                        "id": 794,
+                        "name": "Poland",
+                        "crestUrl": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg"
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                },
+                {
+                    "position": 4,
+                    "team": {
+                        "id": 804,
+                        "name": "Senegal",
+                        "crestUrl": ""
+                    },
+                    "playedGames": 0,
+                    "won": 0,
+                    "draw": 0,
+                    "lost": 0,
+                    "points": 0,
+                    "goalsFor": 0,
+                    "goalsAgainst": 0,
+                    "goalDifference": 0
+                }
+            ]
+        }
+    ]
+  },
+  "full_match":{
+    "head2head": {
+        "numberOfMatches": 1,
+        "totalGoals": 3,
+        "homeTeam": {
+            "wins": 0,
+            "draws": 0,
+            "losses": 1
+        },
+        "awayTeam": {
+            "wins": 1,
+            "draws": 0,
+            "losses": 0
+        }
+    },
+    "match": {
+        "id": 204950,
+        "competition": {
+            "id": 2013,
+            "name": "Série A"
+        },
+        "season": {
+            "id": 15,
+            "startDate": "2018-04-14",
+            "endDate": "2018-12-02",
+            "currentMatchday": 25,
+            "availableStages": [
+                "REGULAR_SEASON"
+            ]
+        },
+        "utcDate": "2018-08-13T23:00:00Z",
+        "status": "FINISHED",
+        "minute": None,
+        "attendance": 14640,
+        "venue": "Estadio Jornalista Mário Filho",
+        "matchday": 18,
+        "stage": "REGULAR_SEASON",
+        "group": "Regular Season",
+        "lastUpdated": "2018-08-19T20:01:26Z",
+        "homeTeam": {
+            "id": 1765,
+            "name": "Fluminense FC",
+            "coach": {
+                "id": 73229,
+                "name": "Marcelo Oliveira",
+                "countryOfBirth": "Brazil",
+                "nationality": "Brazil"
+            },
+            "captain": {
+                "id": 1068,
+                "name": "Gum",
+                "shirtNumber": 3
+            },
+            "lineup": [
+                {
+                    "id": 1083,
+                    "name": "Jádson",
+                    "position": "Midfielder",
+                    "shirtNumber": 16
+                },
+                {
+                    "id": 1078,
+                    "name": "Junior Sornoza",
+                    "position": "Midfielder",
+                    "shirtNumber": 10
+                },
+                {
+                    "id": 1238,
+                    "name": "Digão",
+                    "position": "Defender",
+                    "shirtNumber": 14
+                },
+                {
+                    "id": 1066,
+                    "name": "Júlio César",
+                    "position": "Goalkeeper",
+                    "shirtNumber": 22
+                },
+                {
+                    "id": 1451,
+                    "name": "Dutra Júnior",
+                    "position": "Midfielder",
+                    "shirtNumber": 11
+                },
+                {
+                    "id": 1085,
+                    "name": "Airton",
+                    "position": "Midfielder",
+                    "shirtNumber": 5
+                },
+                {
+                    "id": 1068,
+                    "name": "Gum",
+                    "position": "Defender",
+                    "shirtNumber": 3
+                },
+                {
+                    "id": 1073,
+                    "name": "Gilberto Júnior",
+                    "position": "Defender",
+                    "shirtNumber": 2
+                },
+                {
+                    "id": 1088,
+                    "name": "Marcos Júnior",
+                    "position": "Attacker",
+                    "shirtNumber": 35
+                },
+                {
+                    "id": 1074,
+                    "name": "Ayrton Lucas",
+                    "position": "Defender",
+                    "shirtNumber": 6
+                },
+                {
+                    "id": 1077,
+                    "name": "Pedro Santos",
+                    "position": "Midfielder",
+                    "shirtNumber": 9
+                }
+            ],
+            "bench": [
+                {
+                    "id": 2817,
+                    "name": "Bryan Cabezas",
+                    "position": "Attacker",
+                    "shirtNumber": 8
+                },
+                {
+                    "id": 1067,
+                    "name": "Rodolfo",
+                    "position": "Goalkeeper",
+                    "shirtNumber": 39
+                },
+                {
+                    "id": 42901,
+                    "name": "Luciano",
+                    "position": "Attacker",
+                    "shirtNumber": 18
+                },
+                {
+                    "id": 1075,
+                    "name": "Léo Morais",
+                    "position": "Defender",
+                    "shirtNumber": 33
+                },
+                {
+                    "id": 1087,
+                    "name": "Douglas",
+                    "position": "Midfielder",
+                    "shirtNumber": 15
+                },
+                {
+                    "id": 1091,
+                    "name": "Richard",
+                    "position": "Attacker",
+                    "shirtNumber": 25
+                },
+                {
+                    "id": 1094,
+                    "name": "João Carlos",
+                    "position": "Attacker",
+                    "shirtNumber": 29
+                },
+                {
+                    "id": 13604,
+                    "name": "Everaldo",
+                    "position": "Midfielder",
+                    "shirtNumber": 37
+                },
+                {
+                    "id": 1071,
+                    "name": "Frazan",
+                    "position": "Defender",
+                    "shirtNumber": 13
+                },
+                {
+                    "id": 1089,
+                    "name": "Matheus Alessandro",
+                    "position": "Attacker",
+                    "shirtNumber": 28
+                },
+                {
+                    "id": 11179,
+                    "name": "Joao Vitor",
+                    "position": "Defender",
+                    "shirtNumber": 40
+                },
+                {
+                    "id": 1081,
+                    "name": "Roger Ibanez",
+                    "position": "Midfielder",
+                    "shirtNumber": 41
+                }
+            ]
+        },
+        "awayTeam": {
+            "id": 6684,
+            "name": "SC Internacional",
+            "coach": {
+                "id": 11147,
+                "name": "Odair Hellmann",
+                "countryOfBirth": "Brazil",
+                "nationality": "Brazil"
+            },
+            "captain": {
+                "id": 1575,
+                "name": "Rodrigo Dourado",
+                "shirtNumber": 13
+            },
+            "lineup": [
+                {
+                    "id": 22360,
+                    "name": "Jonatan Alvez",
+                    "position": "Attacker",
+                    "shirtNumber": 86
+                },
+                {
+                    "id": 1588,
+                    "name": "Nicolás López",
+                    "position": "Attacker",
+                    "shirtNumber": 7
+                },
+                {
+                    "id": 1572,
+                    "name": "Rodrigo Moledo",
+                    "position": "Defender",
+                    "shirtNumber": 4
+                },
+                {
+                    "id": 1562,
+                    "name": "Marcelo Lomba",
+                    "position": "Goalkeeper",
+                    "shirtNumber": 12
+                },
+                {
+                    "id": 1573,
+                    "name": "Fabiano Leismann",
+                    "position": "Defender",
+                    "shirtNumber": 18
+                },
+                {
+                    "id": 1580,
+                    "name": "Edenilson",
+                    "position": "Midfielder",
+                    "shirtNumber": 8
+                },
+                {
+                    "id": 1575,
+                    "name": "Rodrigo Dourado",
+                    "position": "Midfielder",
+                    "shirtNumber": 13
+                },
+                {
+                    "id": 1567,
+                    "name": "Víctor Cuesta",
+                    "position": "Defender",
+                    "shirtNumber": 15
+                },
+                {
+                    "id": 1590,
+                    "name": "William Pottker",
+                    "position": "Attacker",
+                    "shirtNumber": 99
+                },
+                {
+                    "id": 1582,
+                    "name": "Patrick Nascimento",
+                    "position": "Midfielder",
+                    "shirtNumber": 88
+                },
+                {
+                    "id": 1566,
+                    "name": "Iago",
+                    "position": "Defender",
+                    "shirtNumber": 28
+                }
+            ],
+            "bench": [
+                {
+                    "id": 1578,
+                    "name": "Andrés D'Alessandro",
+                    "position": "Midfielder",
+                    "shirtNumber": 10
+                },
+                {
+                    "id": 1179,
+                    "name": "Emerson Santos",
+                    "position": "Defender",
+                    "shirtNumber": 20
+                },
+                {
+                    "id": 1581,
+                    "name": "Camilo",
+                    "position": "Midfielder",
+                    "shirtNumber": 21
+                },
+                {
+                    "id": 1564,
+                    "name": "Uendel",
+                    "position": "Defender",
+                    "shirtNumber": 6
+                },
+                {
+                    "id": 1594,
+                    "name": "Lucca",
+                    "position": "Attacker",
+                    "shirtNumber": 19
+                },
+                {
+                    "id": 1570,
+                    "name": "Gabriel Dias",
+                    "position": "Defender",
+                    "shirtNumber": 30
+                },
+                {
+                    "id": 1593,
+                    "name": "Rossi",
+                    "position": "Attacker",
+                    "shirtNumber": 22
+                },
+                {
+                    "id": 1565,
+                    "name": "William Klaus",
+                    "position": "Defender",
+                    "shirtNumber": 44
+                },
+                {
+                    "id": 1584,
+                    "name": "Luis Eduardo Dudu",
+                    "position": "Midfielder",
+                    "shirtNumber": 2
+                },
+                {
+                    "id": 1563,
+                    "name": "Daniel",
+                    "position": "Goalkeeper",
+                    "shirtNumber": 42
+                },
+                {
+                    "id": 1579,
+                    "name": "Juan",
+                    "position": "Midfielder",
+                    "shirtNumber": 47
+                },
+                {
+                    "id": 1585,
+                    "name": "Brenner",
+                    "position": "Midfielder",
+                    "shirtNumber": 48
+                }
+            ]
+        },
+        "score": {
+            "winner": "AWAY_TEAM",
+            "duration": "REGULAR",
+            "fullTime": {
+                "homeTeam": 0,
+                "awayTeam": 3
+            },
+            "halfTime": {
+                "homeTeam": 0,
+                "awayTeam": 3
+            },
+            "extraTime": {
+                "homeTeam": None,
+                "awayTeam": None
+            },
+            "penalties": {
+                "homeTeam": None,
+                "awayTeam": None
+            }
+        },
+        "goals": [
+            {
+                "minute": 23,
+                "extraTime": None,
+                "type": "REGULAR",
+                "team": {
+                    "id": 6684,
+                    "name": "SC Internacional"
+                },
+                "scorer": {
+                    "id": 1588,
+                    "name": "Nicolás López"
+                },
+                "assist": {
+                    "id": 1575,
+                    "name": "Rodrigo Dourado"
+                }
+            },
+            {
+                "minute": 39,
+                "extraTime": None,
+                "type": "REGULAR",
+                "team": {
+                    "id": 6684,
+                    "name": "SC Internacional"
+                },
+                "scorer": {
+                    "id": 22360,
+                    "name": "Jonatan Alvez"
+                },
+                "assist": {
+                    "id": 1566,
+                    "name": "Iago"
+                }
+            },
+            {
+                "minute": 45,
+                "extraTime": 1,
+                "type": "REGULAR",
+                "team": {
+                    "id": 6684,
+                    "name": "SC Internacional"
+                },
+                "scorer": {
+                    "id": 1588,
+                    "name": "Nicolás López"
+                },
+                "assist": None
+            }
+        ],
+        "bookings": [
+            {
+                "minute": 3,
+                "team": {
+                    "id": 6684,
+                    "name": "SC Internacional"
+                },
+                "player": {
+                    "id": 1567,
+                    "name": "Víctor Cuesta"
+                },
+                "card": "YELLOW_CARD"
+            },
+            {
+                "minute": 27,
+                "team": {
+                    "id": 6684,
+                    "name": "SC Internacional"
+                },
+                "player": {
+                    "id": 22360,
+                    "name": "Jonatan Alvez"
+                },
+                "card": "YELLOW_CARD"
+            },
+            {
+                "minute": 28,
+                "team": {
+                    "id": 1765,
+                    "name": "Fluminense FC"
+                },
+                "player": {
+                    "id": 1451,
+                    "name": "Dutra Júnior"
+                },
+                "card": "YELLOW_CARD"
+            },
+            {
+                "minute": 43,
+                "team": {
+                    "id": 6684,
+                    "name": "SC Internacional"
+                },
+                "player": {
+                    "id": 1580,
+                    "name": "Edenilson"
+                },
+                "card": "YELLOW_CARD"
+            },
+            {
+                "minute": 90,
+                "team": {
+                    "id": 1765,
+                    "name": "Fluminense FC"
+                },
+                "player": {
+                    "id": 1089,
+                    "name": "Matheus Alessandro"
+                },
+                "card": "YELLOW_CARD"
+            },
+            {
+                "minute": 90,
+                "team": {
+                    "id": 1765,
+                    "name": "Fluminense FC"
+                },
+                "player": {
+                    "id": 1078,
+                    "name": "Junior Sornoza"
+                },
+                "card": "YELLOW_CARD"
+            }
+        ],
+        "substitutions": [
+            {
+                "minute": 46,
+                "team": {
+                    "id": 6684,
+                    "name": "SC Internacional"
+                },
+                "playerOut": {
+                    "id": 1588,
+                    "name": "Nicolás López"
+                },
+                "playerIn": {
+                    "id": 1578,
+                    "name": "Andrés D'Alessandro"
+                }
+            },
+            {
+                "minute": 46,
+                "team": {
+                    "id": 1765,
+                    "name": "Fluminense FC"
+                },
+                "playerOut": {
+                    "id": 1088,
+                    "name": "Marcos Júnior"
+                },
+                "playerIn": {
+                    "id": 1089,
+                    "name": "Matheus Alessandro"
+                }
+            },
+            {
+                "minute": 53,
+                "team": {
+                    "id": 1765,
+                    "name": "Fluminense FC"
+                },
+                "playerOut": {
+                    "id": 1085,
+                    "name": "Airton"
+                },
+                "playerIn": {
+                    "id": 42901,
+                    "name": "Luciano"
+                }
+            },
+            {
+                "minute": 65,
+                "team": {
+                    "id": 6684,
+                    "name": "SC Internacional"
+                },
+                "playerOut": {
+                    "id": 22360,
+                    "name": "Jonatan Alvez"
+                },
+                "playerIn": {
+                    "id": 1593,
+                    "name": "Rossi"
+                }
+            },
+            {
+                "minute": 73,
+                "team": {
+                    "id": 1765,
+                    "name": "Fluminense FC"
+                },
+                "playerOut": {
+                    "id": 1451,
+                    "name": "Dutra Júnior"
+                },
+                "playerIn": {
+                    "id": 13604,
+                    "name": "Everaldo"
+                }
+            },
+            {
+                "minute": 78,
+                "team": {
+                    "id": 6684,
+                    "name": "SC Internacional"
+                },
+                "playerOut": {
+                    "id": 1573,
+                    "name": "Fabiano Leismann"
+                },
+                "playerIn": {
+                    "id": 1584,
+                    "name": "Luis Eduardo Dudu"
+                }
+            }
+        ],
+        "referees": [
+            {
+                "id": 11143,
+                "name": "Savio Pereira",
+                "nationality": None
+            },
+            {
+                "id": 11144,
+                "name": "Daniel Henrique da Silva Andrade",
+                "nationality": None
+            },
+            {
+                "id": 11145,
+                "name": "Ciro Chaban Junqueira",
+                "nationality": None
+            },
+            {
+                "id": 18752,
+                "name": "Lehi Sousa Silva",
+                "nationality": None
+            }
+        ]
+    }
   }
 }
