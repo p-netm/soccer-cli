@@ -5,10 +5,10 @@ helps differentiate between a command to a resource, and  a command to a subreso
 """
 
 import click, json
-from soccer.validators import *
-from soccer.request_handler import RequestHandler
-from soccer.writers import get_writer
-from soccer._utils import create_payload, add_options, global_click_option, time_click_option, list_click_option
+from validators import *
+from request_handler import RequestHandler
+from writers import get_writer
+from _utils import create_payload, add_options, global_click_option, time_click_option, list_click_option
 
 
 
@@ -69,5 +69,5 @@ def matches(ctx, date_from, date_to, status, matchday, group, season, stage,
                                  season=season, stage=stage)
         response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
         writer = get_writer(output_format, output_file)
-        writer.write_matches(response, time=use12hour)
+        writer.write_matches(response, use_12_hour_format=use12hour)
         return

@@ -2,7 +2,7 @@ from urllib.parse import urljoin as join
 import requests
 import click
 
-from soccer.exceptions import APIErrorException
+from exceptions import APIErrorException
 
 
 class RequestHandler(object):
@@ -36,5 +36,8 @@ class RequestHandler(object):
             raise APIErrorException('This has nothing to do with you. {}'.format(req.json()['message']))
 
     def get(self, url, **kwargs):
-        print(url)
-        return self._get(url, **kwargs)
+        try:
+            return self._get(url, **kwargs)
+        except Exception as err:
+            click.secho(err.args[0], fg='red')
+            click.Abort()

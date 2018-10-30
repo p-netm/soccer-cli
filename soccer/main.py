@@ -3,14 +3,14 @@ import sys
 import json
 import click
 
-from soccer.validators import validate_standing, validate_limit, validate_competitions, validate_venue, validate_status,\
+from validators import validate_standing, validate_limit, validate_competitions, validate_venue, validate_status,\
     validate_season, validate_matchday, validate_plan, validate_date
-from soccer.subresource import teams as Teams
-from soccer.subresource import matches as Matches
-from soccer._utils import create_payload, add_options, global_click_option, \
+from subresource import teams as Teams
+from subresource import matches as Matches
+from _utils import create_payload, add_options, global_click_option, \
     time_click_option, list_click_option, CustomMultiGroup
-from soccer.request_handler import RequestHandler
-from soccer.writers import get_writer
+from request_handler import RequestHandler
+from writers import get_writer
 
 request_handler = RequestHandler()
 

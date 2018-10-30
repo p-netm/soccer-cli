@@ -196,5 +196,13 @@ class StdoutWriterTests(unittest.TestCase):
         self.writer.write_matches(many_matches)
         self.assertTrue(mecho.call_count > 6)    
 
+    def test_convert_time_with_show_date_argument(self, mecho):
+        sample = "2018-08-10T19:00:00Z"
+        res = Stdout.convert_utc_to_local_time(sample, show_datetime=True)
+        res2 = Stdout.convert_utc_to_local_time(sample, show_datetime=True, use_12_hour_format=True)
+        self.assertEqual('Fri Aug, 22:00', res)
+        self.assertEqual('Fri Aug, 10:00 PM', res2)
+
+
 if __name__ == '__main__':
     unittest.main()

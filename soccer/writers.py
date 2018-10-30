@@ -9,7 +9,7 @@ from itertools import groupby
 from collections import namedtuple
 from dateutil.relativedelta import relativedelta
 from dateutil import parser
-from soccer.leagueproperties import LEAGUE_PROPERTIES
+from leagueproperties import LEAGUE_PROPERTIES
 
 
 
@@ -89,11 +89,10 @@ class Stdout(BaseWriter):
         if 'filters' in _dict.keys():
             info += "FILTERS: \n"
             for key, value in _dict["filters"].items():
-                info += "\t\t{key} : {value}\n".format(key=key, value=value)
+                info += "\t{key} : {value}\n".format(key=key, value=value)
         if 'competition' in _dict.keys():
             info += 'COMPETITION: \n\tname:{name}\n\tCODE: {code}\n'.format(**_dict['competition'])
         if 'season' in _dict.keys():
-            # import pdb; pdb.set_trace()
             info += "SEASON: {}\n".format(Stdout.parse_season(_dict['season']['startDate'],
                                                             _dict['season']['endDate']))
         click.secho(info, fg=self.colors.INFO, bold=True)
@@ -125,13 +124,12 @@ class Stdout(BaseWriter):
         """
         if not player.get('role'):
             player['role'] = 'N/A'
-        try:
-            if not player.get('dateOfBirth'):
-                player['age'] = Stdout.convert_utc_to_local_time(player['dateOfBirth'], time_diff=True)
-            else:
-                player['age'] = 'N/A'
-        except KeyError:
-            import pdb; pdb.set_trace()
+    
+        if not player.get('dateOfBirth'):
+            player['age'] = Stdout.convert_utc_to_local_time(player['dateOfBirth'], time_diff=True)
+        else:
+            player['age'] = 'N/A'
+    
         fmt = (u"{id!s:<5} {shirtNumber!s:<5} {name!s:<25} {role!s:<10} {position!s:<15} "
                u"{nationality!s:<20} {age!s:<5}")
         click.secho(fmt.format(**player), fg=self.colors.CONT)
@@ -150,7 +148,9 @@ class Stdout(BaseWriter):
         :return:
         """
         comp['areaName'] = comp['area']['name']
-        comp['_season'] = Stdout.parse_season(comp['currentSeason']['startDate'], comp['currentSeason']['endDate'])
+        if comp.get('currentSeason'):
+            comp['_season'] = Stdout.parse_season(comp['currentSeason']['startDate'], comp['currentSeason']['endDate'])
+        else: comp['_season'] = None
         fmt = (u"{id!s:<5} {areaName!s:<15} {name!s:<30} {code!s:<5} {plan!s:<10} {_season!s:<10}")
         click.secho(fmt.format(**comp), fg=self.colors.TOPIC)
         if full:
@@ -166,12 +166,12 @@ class Stdout(BaseWriter):
         :param comps:
         :return:
         """
+        self.write_misc(comps)
         click.secho("%-5s  %-15s  %-30s %-5s  %-10s  %-10s" %
                     ("ID.", "AREA", "COMPETITION", "CODE", "PLAN", "SEASON")
                     , fg=self.colors.TOPIC, bold=True)
-        if 'competitions' in comps:
-            self.write_misc(comps)
-            for competition in comps:
+        if 'competitions' in comps.keys():
+            for competition in comps['competitions']:
                 self.write_competition(competition)
         else:
             self.write_competition(comps)
@@ -229,7 +229,10 @@ class Stdout(BaseWriter):
         standing_type = res if res else 'TOTAL'
         for _dict in standings_list:
             if _dict['type'] == standing_type:
-                click.secho('STAGE: {stage}'.format(**_dict), fg=self.colors.INFO)
+                if _dict['stage'] == 'GROUP_STAGE':
+                    click.secho('GROUP: {group}'.format(**_dict), fg=self.colors.INFO)
+                else:
+                    click.secho('STAGE: {stage}'.format(**_dict), fg=self.colors.INFO)
                 self.standings(_dict['table'], league_dict['competition']['code'])
 
     def aggregate_match_data(self, bookings, substitutions, goals):
@@ -273,10 +276,11 @@ class Stdout(BaseWriter):
             bookings = match['bookings'] if match.get('bookings') else []
             substitutions = match['substitutions'] if  match.get('substitutions') else []
             goals = match['goals'] if match.get('goals') else []
-            info = 'information regardings: '
+            info = 'information regarding: '
             info  += 'Bookings' if not len(bookings) else ''
             info += ', Substitutions' if not len(substitutions) else ''
             info += ', goals' if not len(goals) else ''
+            info += 'is absent'
             recs = self.aggregate_match_data(bookings, substitutions, goals)
             goals_fmt = u"{minute!s:<3}[GOAl]({team!s:<20}) {scorer}({assist})"
             card_fmt = u"{minute!s:<3}[CARD]({team!s:<20}) {player}"
@@ -307,7 +311,8 @@ class Stdout(BaseWriter):
                         scorer=rec['scorer']['name'],
                         assist=rec['assist']['name'] if rec['assist'] else ''
                     ), fg='red')
-            click.secho(info, fg='yellow')
+            if len(info) > 32:
+                click.secho(info, fg='yellow')
             return
         fmt = u"{mid!s:<10} {date!s:<15}({min!s:<3}) {hometeam!s:<30} {hscore!s:<2}  -  {ascore!s:<2} {awayteam!s:<30}"
         click.secho(fmt.format(
@@ -405,9 +410,9 @@ class Stdout(BaseWriter):
             return Stdout.time_difference(time_str)
 
         if use_12_hour_format:
-            date_format = "%I:%M %p" if not show_datetime else "%a %s, %I:%M %p"
+            date_format = "%I:%M %p" if not show_datetime else "%x, %I:%M %p"
         else:
-            date_format = "%H:%M" if not show_datetime else "%a %s, %H:%M"
+            date_format = "%H:%M" if not show_datetime else "%x, %H:%M"
 
         return datetime.datetime.strftime(local_time, date_format)
 
