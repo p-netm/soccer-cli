@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="http://i.imgur.com/F9zuexe.jpg" width="500px" />
-</p>
 
 Soccer CLI
 =====
@@ -50,6 +47,11 @@ Currently supports Linux, Mac OS X, NetBSD, FreeBSD and Windows.
 
 To get colorized terminal output on Windows, make sure to install [ansicon](https://github.com/adoxa/ansicon/releases/latest) and [colorama](https://pypi.org/project/colorama/).
 
+Specifically for the Windows terminal, by default the terminal may be limited in size(width) even when enlarged,
+However, this can be dealt with by running the commands
+> mode 800
+for more info. please check this [stackoverflow post](https://superuser.com/questions/285984/how-do-i-full-screen-my-cmd)
+
 <hr>
 
 Usage
@@ -76,7 +78,7 @@ Usage
   usually if you are not subscribed to any premium plans, you'r requests will be automatically handled as TIER_ONE
   
   ```bash
-  $soccer competitions --plan TIER_ONE # TIER_ONE has access to 14
+  $soccer competitions --plan TIER_ONE # TIER_ONE has access to 14 competitions
   ``` 
   
   <hr>
@@ -171,7 +173,7 @@ Usage
   #### specific team info
   
   ```bash
-  $ soccer teams --id <id> # MUFC is the team code for Manchester United
+  $ soccer teams --id <id> 
   ```
   
   #### Matches subresource
@@ -311,7 +313,7 @@ Todo
 - [ ] replace demo sections
 - [ ] add how to get ids section
 - [ ] integrate the writer with updated code
-- [ ] add a developer interface : to use dot notation and direct method clls as opposed to cli
+- [ ] add a developer interface : to use dot notation and direct method calls as opposed to cli
 - [ ] Badly need to add tests
 - [ ] id listing
 - [ ] predictive analytical statistics
