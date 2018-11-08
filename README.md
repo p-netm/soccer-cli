@@ -6,7 +6,8 @@ Soccer CLI
 
 Soccer for Hackers - a CLI for all the football scores. 
 
-![](http://i.imgur.com/9QbcUrj.gif)
+![](https://github.com/p-netm/imgandvid/blob/master/soccercli/pics/competitionsstandings2021.PNG)
+![](https://github.com/p-netm/imgandvid/blob/master/soccercli/pics/competitionsstandings2001.PNG)
 
 Install
 =====
@@ -289,9 +290,6 @@ $ soccer --help
   - SD: Segunda Division
 _And upto 131+ more competitions oferred by the API, supports all competitions offered by the api_ 
 
-### Team and team codes
-
-For a full list of supported team and team codes [see this](soccer/teams.json).
 
 ### Tests
 
@@ -314,7 +312,6 @@ Todo
 - [ ] add how to get ids section
 - [ ] integrate the writer with updated code
 - [ ] add a developer interface : to use dot notation and direct method calls as opposed to cli
-- [ ] Badly need to add tests
 - [ ] id listing
 - [ ] predictive analytical statistics
 - [ ] Enable cache
@@ -331,10 +328,7 @@ Open sourced under [MIT License](LICENSE)
 
 Contributions
 ====
-this is one of the simplest projects out here on github and it does require lots of help
+This is one of the simplest projects out here on github and it does require lots of help
 so feel free to branch out and send  pull request, or raise any issues that may better the project
 in the Issues section. Thanks.
 
-Support 
-====
-If you like my work, please support the project by donating
