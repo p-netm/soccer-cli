@@ -9,8 +9,11 @@ from itertools import groupby
 from collections import namedtuple
 from dateutil.relativedelta import relativedelta
 from dateutil import parser
-from leagueproperties import LEAGUE_PROPERTIES
 
+try:
+    from soccer.leagueproperties import LEAGUE_PROPERTIES
+except ImportError as error:
+    from leagueproperties import LEAGUE_PROPERTIES
 
 
 def get_writer(output_format="stdout", output_file=None):
@@ -107,9 +110,9 @@ class Stdout(BaseWriter):
         id  name country-code parent-id parent-area
         """
         self.write_misc(areas_dict)
-        click.secho("%-10s %-25s  %-10s     %-10s  %-25s" %
+        click.secho("%-10s %-25s  %-12s     %-10s  %-25s" %
                     ("ID.", "NAME", "COUNTRY-CODE", "PARENT-ID", "PARENT-AREA"), bold=True, fg=self.colors.TOPIC)
-        fmt = (u"{id!s:<10} {name!s:<25} {countryCode!s:<10} {parentAreaId!s:<10}"
+        fmt = (u"{id!s:<10} {name!s:<25} {countryCode!s:<12}     {parentAreaId!s:<10}"
                u" {parentArea!s:<25}")
         if 'areas' not in areas_dict.keys():
             click.secho(fmt.format(**areas_dict), fg=self.colors.CONT)
@@ -135,11 +138,12 @@ class Stdout(BaseWriter):
         click.secho(fmt.format(**player), fg=self.colors.CONT)
 
     def write_players(self, squad):
-        squad = list(squad)
+        players = []
+        players.extend(squad)
         click.secho("%-5s %-5s %-25s %-10s %-15s %-20s %-5s" %
                     ("ID.", "S.NO", "NAME", "ROLE", "POSITION", "NATIONALITY", "AGE"),
                     fg=self.colors.TOPIC, bold=True)
-        for player in squad:
+        for player in players:
             self.write_player(player)
 
     def write_competition(self, comp, full=False):
@@ -147,18 +151,20 @@ class Stdout(BaseWriter):
         :param comp:
         :return:
         """
+        color = self.colors.CONT if not full else self.colors.TOPIC
         comp['areaName'] = comp['area']['name']
         if comp.get('currentSeason'):
             comp['_season'] = Stdout.parse_season(comp['currentSeason']['startDate'], comp['currentSeason']['endDate'])
         else: comp['_season'] = None
         fmt = (u"{id!s:<5} {areaName!s:<15} {name!s:<30} {code!s:<5} {plan!s:<10} {_season!s:<10}")
-        click.secho(fmt.format(**comp), fg=self.colors.TOPIC)
+        click.secho(fmt.format(**comp), fg=color)
         if full:
             click.secho("\tSeasons: ", fg=self.colors.TOPIC)
-            click.secho("\t\t %-5s  %-15s  %-5s  %-30s" % ("ID.", "SEASON", "MATCHDAY", 'WINNER'), fg=self.colors.TOPIC)
-            fmt2 = u"\t\t{id!s:<5}   {season!s:<10}   {currentMatchday!s:<5}  {winner!s:<30}"
+            click.secho("\t\t %-5s  %-10s  %-5s  %-30s" % ("ID.", "SEASON", "MATCHDAY", 'WINNER'), fg=self.colors.TOPIC)
+            fmt2 = u"\t\t{id!s:<5}   {season!s:<10}   {currentMatchday!s:<5}  {_winner!s:<30}"
             for season in comp['seasons']:
                 season['season'] = Stdout.parse_season(season['startDate'], season['endDate'])
+                season['_winner'] = season['winner']['name'] if season['winner'] else None
                 click.secho(fmt2.format(**season), fg=self.colors.CONT)
 
     def write_competitions(self, comps):
@@ -174,7 +180,7 @@ class Stdout(BaseWriter):
             for competition in comps['competitions']:
                 self.write_competition(competition)
         else:
-            self.write_competition(comps)
+            self.write_competition(comps, full=True)
 
     def write_team(self, team, full=False): # can add a list of active competitions
         """
@@ -182,7 +188,7 @@ class Stdout(BaseWriter):
         :return:
         """
         team['areaName'] = team['area']['name']
-        fmt = u"{id!s:<5} {areaName!s:<10} {name!s:<30}  {website!s:<20} {founded!s:<5} {venue}"
+        fmt = u"{id!s:<5} {areaName!s:<10} {name!s:<30}  {founded!s:<5} {venue!s:<}"
         click.secho(fmt.format(**team), fg=self.colors.CONT)
         if full:
             click.secho('SQUAD: ', fg=self.colors.TOPIC)
@@ -193,10 +199,11 @@ class Stdout(BaseWriter):
         :param teams_dict:
         :return:
         """
+        self.write_misc(teams_dict)
+        click.secho('%-5s %-10s %-30s %-5s %s' % ('ID.','AREA NAME', 'TEAM NAME', 'FOUNDED', 'VENUE'))
         if "teams" not in teams_dict.keys():
             self.write_team(teams_dict, full=True)
             return
-        self.write_misc(teams_dict)
         for team in teams_dict['teams']:
             self.write_team(team)
 
@@ -206,12 +213,12 @@ class Stdout(BaseWriter):
         :return:
         """
         self.write_misc(scorers_dict)
-        click.secho("%-5s %-25s %-25s %-15s %-3s %-15s %-3s" %
+        click.secho("%-5s %-25s %-20s %-15s %-3s %-25s %-3s" %
                     ("ID", "NAME", "NATIONALITY", "POSITION", "s.NO", "TEAM", "GOALS"),
                     fg=self.colors.TOPIC, bold=True)
         for _dict in scorers_dict['scorers']:
-            res_string = u"{id!s:<5} {name!s:<25} {nationality!s:<25} {position!s:<15} {shirtNumber!s:<3}".format(**_dict['player'])
-            res_string += u"{name!s:<15}".format(**_dict['team']) + u"{numberOfGoals!s:<3}".format(**_dict)
+            res_string = u"{id!s:<5} {name!s:<25} {nationality!s:<20} {position!s:<15} {shirtNumber!s:<3}".format(**_dict['player'])
+            res_string += u" {name!s:<25}".format(**_dict['team']) + u" {numberOfGoals!s:<3}".format(**_dict)
             click.secho(res_string, fg=self.colors.CONT)
 
     def write_standings(self, league_dict):
@@ -224,29 +231,13 @@ class Stdout(BaseWriter):
         """
         self.write_misc(league_dict)
         standings_list = league_dict['standings']
-        # see if the was a standingType that was specifically requested
-        res = league_dict['filters'].get('standingType')
-        standing_type = res if res else 'TOTAL'
+        click.secho('Type Filter:  {type}'.format(**standings_list[0]), fg=self.colors.INFO)
         for _dict in standings_list:
-            if _dict['type'] == standing_type:
-                if _dict['stage'] == 'GROUP_STAGE':
-                    click.secho('GROUP: {group}'.format(**_dict), fg=self.colors.INFO)
-                else:
-                    click.secho('STAGE: {stage}'.format(**_dict), fg=self.colors.INFO)
-                self.standings(_dict['table'], league_dict['competition']['code'])
-
-    def aggregate_match_data(self, bookings, substitutions, goals):
-        """
-        :param bookings:
-        :param substitutions:
-        :param goals:
-        puts together the bookings, substitutions, and goals data into a single
-        list ordered accordings to the time of the respective event
-        """
-        bookings.extend(substitutions)
-        bookings.extend(goals)
-        sall = sorted(bookings, key=lambda x: x['minute'])
-        return sall
+            if _dict['stage'] == 'GROUP_STAGE':
+                click.secho('GROUP: {group}'.format(**_dict), fg=self.colors.INFO)
+            else:
+                click.secho('STAGE: {stage}'.format(**_dict), fg=self.colors.INFO)
+            self.standings(_dict['table'], league_dict['competition']['code'])
 
     def write_match(self, match, full=False, use_12_hour_format=False):  # assume format as shown in sample on the website for now and maybe add lineups
         """
@@ -255,76 +246,37 @@ class Stdout(BaseWriter):
         id date&time(duration) hometeam-name score - score awayteam-name
         detailed:
         datetime(datetime') hometeam-name score - score awayteam-name
-            minute' [GOAL] scorer(assist)<-color coded red
-            minute' [CARD] player- <-color coded according to card
-            minute' [SUB] [player in <=(green)][=> player out(red)]
-            minute' [GOAL] scorer(assist)
+            head 2 head
 
         """
         match = match['match'] if 'match' in match.keys() else match
         if full:
-            fmt = u"{date!s:<15}({min!s:<3}) {hometeam!s:<30} {hscore!s:<2}  -  {ascore!s:<2} {awayteam!s:<30}"
+            fmt = u"{dateandmin!s:<25} {hometeam!s:<30} {hscore!s:^6}  -  {ascore!s:^6} {awayteam!s:<30}"
             click.secho(fmt.format(
-                date=Stdout.convert_utc_to_local_time(match['utcDate'], use_12_hour_format=use_12_hour_format,
-                                                      show_datetime=True),
-                min=match['score']['duration'],
+                dateandmin=Stdout.convert_utc_to_local_time(match['utcDate'], use_12_hour_format=use_12_hour_format,
+                                                      show_datetime=True) + '(' + match['score']['duration'] + "')",
                 hometeam=match['homeTeam']['name'],
                 awayteam=match['awayTeam']['name'],
                 hscore=match['score']['fullTime']['homeTeam'],
                 ascore=match['score']['fullTime']['awayTeam']
             ))
-            bookings = match['bookings'] if match.get('bookings') else []
-            substitutions = match['substitutions'] if  match.get('substitutions') else []
-            goals = match['goals'] if match.get('goals') else []
-            info = 'information regarding: '
-            info  += 'Bookings' if not len(bookings) else ''
-            info += ', Substitutions' if not len(substitutions) else ''
-            info += ', goals' if not len(goals) else ''
-            info += 'is absent'
-            recs = self.aggregate_match_data(bookings, substitutions, goals)
-            goals_fmt = u"{minute!s:<3}[GOAl]({team!s:<20}) {scorer}({assist})"
-            card_fmt = u"{minute!s:<3}[CARD]({team!s:<20}) {player}"
-            sub_fmt = u"{minute!s:<3}[SUB]({team!s:<20}) "
-            sub_fmt1 = u"\t\t<=={playerIn}"
-            sub_fmt2 = u"\t\t==>{playerOut}"
-            for rec in recs:
-                if 'playerIn' in rec.keys():
-                    click.secho(sub_fmt.format(
-                        minute = rec['minute'],
-                        team = rec['team']['name']
-                    ))
-                    click.secho(sub_fmt1.format(playerIn=rec['playerIn']['name']),
-                                fg='green')
-                    click.secho(sub_fmt2.format(playerOut=rec['playerOut']['name']),
-                                fg='red')
-                elif 'card' in rec.keys():
-                    color = 'yellow' if rec['card'] == 'YELLOW_CARD' else 'red'
-                    click.secho(card_fmt.format(
-                        minute=rec['minute'],
-                        team=rec['team']['name'],
-                        player = rec['player']['name']
-                    ), fg=color)
-                else:
-                    click.secho(goals_fmt.format(
-                        minute=rec['minute'],
-                        team=rec['team']['name'],
-                        scorer=rec['scorer']['name'],
-                        assist=rec['assist']['name'] if rec['assist'] else ''
-                    ), fg='red')
-            if len(info) > 32:
-                click.secho(info, fg='yellow')
+            # head 2 head match information
+            if match.get('head2head'):
+                click.secho(json.dumps(match['head2head'], indent=4, separators=(",", ": "),
+                       ensure_ascii=False), fg=self.colors.CONT)
+            else:
+                click.secho('Head 2 head information absent', fg='yellow')
             return
-        fmt = u"{mid!s:<10} {date!s:<15}({min!s:<3}) {hometeam!s:<30} {hscore!s:<2}  -  {ascore!s:<2} {awayteam!s:<30}"
+        fmt = u"{mid!s:<10} {dateandmin!s:<25} {hometeam!s:<30}  {hscore!s:>6}  -  {ascore!s:^6} {awayteam!s:<30}"
         click.secho(fmt.format(
             mid=match['id'],
-            date=Stdout.convert_utc_to_local_time(match['utcDate'], use_12_hour_format=use_12_hour_format,
-                                                show_datetime=True),
-            min=match['score']['duration'],
+            dateandmin=Stdout.convert_utc_to_local_time(match['utcDate'], use_12_hour_format=use_12_hour_format,
+                                                        show_datetime=True) + '(' + match['score']['duration'] + "')",
             hometeam=match['homeTeam']['name'],
             awayteam=match['awayTeam']['name'],
             hscore=match['score']['fullTime']['homeTeam'],
             ascore=match['score']['fullTime']['awayTeam']
-        ))
+        ), fg=self.colors.CONT)
 
     def write_matches(self, matches_dicts, use_12_hour_format=False):
         """
@@ -343,8 +295,8 @@ class Stdout(BaseWriter):
         # determining if its a single match instance
         self.write_misc(matches_dicts)
         header = '%-10s  ' % "ID."
-        header1 = "%-20s(%-3s') %-30s %-2s   -  %-2s %-30s" % \
-                  ("DATE&TIME", "MIN'", "HOME TEAM", "SCORE", "SCORE", "AWAY TEAM")
+        header1 = "%-25s %-30s %-6s   -  %-6s %-30s" % \
+                  ("DATE&TIME(min')", "HOME TEAM", "HSCORE", "ASCORE", "AWAY TEAM")
         if 'count' not in matches_dicts.keys():
             click.secho(header1, fg=self.colors.TOPIC)
             self.write_match(matches_dicts, full=True, use_12_hour_format=use_12_hour_format)
@@ -360,7 +312,7 @@ class Stdout(BaseWriter):
         :param league: The league code
         """
         league = league if league in LEAGUE_PROPERTIES.keys() else 'default'
-        click.secho("%-6s %-30s  %-5s %-3s %-3s %-3s  %-5s %-5s %-5s %-5s" %
+        click.secho("%-3s %-29s  %-6s %-3s %-3s %-3s %-5s %-5s %-5s %-5s" %
                     ("POS", "CLUB", "PLAYED", "W", "D", "L", "G.F.", "G.A.", "G.D.", "POINTS"))
         for team in table:
             if team["goalDifference"] >= 0:
@@ -373,7 +325,7 @@ class Stdout(BaseWriter):
             el_upper, el_lower = LEAGUE_PROPERTIES[league]["el"]
             rl_upper, rl_lower = LEAGUE_PROPERTIES[league]["rl"]
 
-            team_str = (u"{position!s:<7} {teamName!s:<33} {playedGames!s:<5} {won!s:<3} {draw!s:<3}"
+            team_str = (u"{position!s:<3} {teamName!s:<30} {playedGames!s:<7} {won!s:<3} {draw!s:<3}"
                         u"{lost!s:<3} {goalsFor!s:<5} {goalsAgainst!s:<5}"
                         u" {goalDifference!s:<5} {points}").format(**team)
             if cl_upper <= team["position"] <= cl_lower:
@@ -458,3 +410,6 @@ class Json(BaseWriter):
 
     def write_standings(self, league_dict):
         self.generate_output(league_dict)
+
+    def write_matches(self, match_dict, use_12_hour_format=False):
+        self.generate_output(match_dict)

@@ -7,8 +7,15 @@ all responses will be returned as json unless where the has been specific argume
  NB: this module does not cushion users from creating possible erroneous API requests. This will then return
  the resultant error message as it is from the API
 """
-from soccer.request_handler import RequestHandler
-from soccer.exceptions import ApiKeyError
+
+import click
+
+try:
+    from soccer.request_handler import RequestHandler
+    from soccer.exceptions import ApiKeyError, APIErrorException
+except ImportError as error:
+    from request_handler import RequestHandler
+    from exceptions import ApiKeyError, APIErrorException
 import os, sys
 
 RH = RequestHandler()
@@ -45,12 +52,27 @@ class Query(object):
         self.headers['X-Auth-Token'] = load_config_key()
         self.payload = {}
 
-    def filter(self, **kwargs):
-        self.payload = kwargs
+    def filter(self, payload):
+        self.payload = payload
         return self
 
     def get(self):
-        return RH._get(self.url, headers = self.headers, params=self.payload)
+        return RH._get(self.url, headers=self.headers, params=self.payload)
+
+    def click_get(self):
+        """To be used by the command line interface such that it will write the error minus
+        the stack trace whan an error is thrown"""
+        try:
+            return RH._get(self.url, headers=self.headers, params=self.payload)
+        except ConnectionError:
+            click.secho('Seems like there is a problem with your connection', fg='red', bold=True)
+            return
+        except APIErrorException as error:
+            click.secho(str(error), fg='red', bold=True)
+            return
+        except Exception as err:
+            click.secho(err.args[0], fg='red', bold=True)
+            return
 
 
 class Competitions(object):
@@ -115,7 +137,7 @@ class Matches(object):
     >>> Matches(57).query.get()  # gets the match with the id 57
     """
     def __init__(self, _id):
-        self.query.uri = 'matches/{}'.format(_id) if _id else 'matches'
+        self.query_uri = 'matches/{}'.format(_id) if _id else 'matches'
         self.query = Query(self.query_uri)
 
 class Players(object):

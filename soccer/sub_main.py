@@ -5,15 +5,22 @@ helps differentiate between a command to a resource, and  a command to a subreso
 """
 
 import click, json
-from validators import *
-from request_handler import RequestHandler
-from writers import get_writer
-from _utils import create_payload, add_options, global_click_option, time_click_option, list_click_option
-
+try:
+    from soccer.validators import *
+    from soccer.request_handler import RequestHandler
+    from soccer.writers import get_writer
+    from soccer._utils import *
+    from soccer.resources import Soccer
+except ImportError as error:
+    from validators import *
+    from request_handler import RequestHandler
+    from writers import get_writer
+    from _utils import *
+    from resources import Soccer
 
 
 request_handler = RequestHandler()
-
+soccer = Soccer()
 
 
 @click.command()
@@ -26,15 +33,15 @@ request_handler = RequestHandler()
 def teams(ctx, season, stage, output_format, output_file):
     """Subresource for teams within competitions """
     # /v2/competitions/{id}/teams
-    if not ctx.obj.get('competition_id'):
-        click.secho('You have to provide a competitions id', fg='red', bold=True)
-        raise click.Abort()
+    comp_id = ctx.obj.get('competition_id')
+    if not comp_id:
+        click.secho('Aborted!, You have to provide a competitions id', fg='red', bold=True)
+        return
     else:
-        url = ctx.obj['url'] + 'teams'
         payload = create_payload(season=season, stage=stage)
-        response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        response = soccer.competitions(comp_id).teams.query.filter(payload).click_get()
         writer = get_writer(output_format, output_file)
-        writer.write_teams(response)
+        if response: writer.write_teams(response)
         return
 
 
@@ -60,14 +67,13 @@ def teams(ctx, season, stage, output_format, output_file):
 def matches(ctx, date_from, date_to, status, matchday, group, season, stage,
             use12hour, output_format, output_file):
     """subresource of matches within competitions"""
-    if not ctx.obj.get('competition_id'):
-        click.secho('You have to provide a competition id', fg='red', bold=True)
-        raise click.Abort()
+    comp_id = ctx.obj.get('competition_id')
+    if not comp_id:
+        click.secho('Aborted!, You have to provide a competition id', fg='red', bold=True)
+        return
     else:
-        url =  ctx.obj['url'] + 'matches'
         payload = create_payload(date_from=date_from, date_to=date_to, status=status, matchday=matchday, group=group,
                                  season=season, stage=stage)
-        response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        response = soccer.competitions(comp_id).matches.query.filter(payload).click_get()
         writer = get_writer(output_format, output_file)
-        writer.write_matches(response, use_12_hour_format=use12hour)
-        return
+        if response: writer.write_matches(response, use_12_hour_format=use12hour)
