@@ -8,8 +8,9 @@ import unittest
 from unittest.mock import patch, Mock
 from soccer.main import main
 
-@patch('soccer.writers.Stdout') # what is the roll of mock_writer
-@patch('soccer.request_handler.RequestHandler.get')
+
+@patch('soccer.writers.Stdout')  # mock_writer; role?
+@patch('soccer.request_handler.RequestHandler._get')
 class cliTest(unittest.TestCase):
     def setUp(self):
         self.runner = CliRunner()
@@ -30,7 +31,6 @@ class cliTest(unittest.TestCase):
     def test_competition_resource(self, mock_get, mock_writer):
         result = self.runner.invoke(main, ['competitions', '--help'])
         self.assertTrue('Competitions Resource Endpoint' in result.output)
-        # self.assertIn('headers', mock.get)
 
     @unittest.skip('Looking into implementing this in next iteration')
     def test_competitions_resource_alias(self, mock_get, mock_writer):
@@ -88,7 +88,6 @@ class cliTest(unittest.TestCase):
 
     def test_matches_resource_filters(self, mock_get, mock_writer):
         result = self.runner.invoke(main, 'matches -f 2018-10-10 -t 2018-10-11 -c 2000 -s finished'.split())
-        # import pdb; pdb.set_trace()
         self.default_check(result, mock_get, mock_writer)
 
     def test_players_resource(self, mock_get, mock_writer):
@@ -118,7 +117,7 @@ class cliTest(unittest.TestCase):
         self.assertIn('Teams Resource Endpoint', result.output)
 
         result = self.runner.invoke(main, 'teams --venue home'.split())
-        self.assertEqual(1, result.exit_code)
+        self.assertEqual(0, result.exit_code)
         self.assertIn('Aborted', result.output)
 
     def test_teams_resource_with_filters(self, mock_get, mock_writer):

@@ -52,13 +52,13 @@ class StdoutWriterTests(unittest.TestCase):
     def test_writer_many_teams_with_single_team_instance(self, mecho):
         team = data['single_team']
         self.writer.write_teams(team)
-        self.assertEqual(mecho.call_count, 33)
+        self.assertEqual(mecho.call_count, 35)
 
     def test_writer_many_teams(self, mecho):
         # now for many teams
         teams = data['many_teams']
         self.writer.write_teams(teams)
-        self.assertEqual(mecho.call_count, len(teams['teams']) + 1)
+        self.assertEqual(mecho.call_count, len(teams['teams']) + 2)
 
     def test_competition_for_single_competition(self, mecho):
         comp = data['single_competition']
@@ -80,58 +80,6 @@ class StdoutWriterTests(unittest.TestCase):
         scorers = data['many_scorers']
         self.writer.write_scorers(scorers)
         self.assertTrue(mecho.call_count > 10)
-
-    def test_aggregate_match_data(self, mecho):
-        response = self.writer.aggregate_match_data([],[],[])
-        self.assertListEqual(response, [])
-        sample = [
-            [
-                {
-                    'minute': 25,
-                    'scorer': 'Christiano Ronaldo'
-                }
-            ],
-            [
-              {
-                    'minute': 10,
-                    'scorer': 'Antony Martial'
-                }  
-            ],
-            [
-                {
-                    'minute': 5,
-                    'scorer': 'Eden Hazard'
-                },
-                {
-                    'minute': 56,
-                    'scorer': 'Romelu Lukaku'
-                }
-            ]
-        ]
-        expected = [
-            
-                {
-                    'minute': 5,
-                    'scorer': 'Eden Hazard'
-                },
-            
-              {
-                    'minute': 10,
-                    'scorer': 'Antony Martial'
-                } ,  
-            
-                {
-                    'minute': 25,
-                    'scorer': 'Christiano Ronaldo'
-                },
-                {
-                    'minute': 56,
-                    'scorer': 'Romelu Lukaku'
-                }
-            
-        ]
-        response = self.writer.aggregate_match_data(sample[0], sample[1], sample[2])
-        self.assertListEqual(expected, response)
 
     def test_time_converter_for_standard_conversions(self, mecho):
         sample = "2018-08-10"
@@ -161,7 +109,7 @@ class StdoutWriterTests(unittest.TestCase):
 
     def test_write_standings(self, mecho):
         # Here we only check if the function terminates without any errors
-        standings  = data['standings']
+        standings = data['standings']
         self.writer.write_standings(standings)
         self.assertTrue(mecho.called)
 
@@ -181,11 +129,12 @@ class StdoutWriterTests(unittest.TestCase):
         single_match = data['single_match']
         self.writer.write_match(single_match, full=True)
         self.assertEqual(mecho.call_count, 2)
-        # a match record with the full extra data
-        mecho.reset()
+
+    def test_write_match_with_bookings_cards_and_goals_info(self, mecho):
         full_match = data['full_match']
         self.writer.write_match(full_match, full=True)
         self.assertTrue(mecho.called)
+        self.assertEqual(mecho.call_count, 2)
 
     def test_write_matches(self, mecho):
         many_matches = data['many_matches']
@@ -200,8 +149,8 @@ class StdoutWriterTests(unittest.TestCase):
         sample = "2018-08-10T19:00:00Z"
         res = Stdout.convert_utc_to_local_time(sample, show_datetime=True)
         res2 = Stdout.convert_utc_to_local_time(sample, show_datetime=True, use_12_hour_format=True)
-        self.assertEqual('Fri Aug, 22:00', res)
-        self.assertEqual('Fri Aug, 10:00 PM', res2)
+        self.assertEqual('08/10/18, 22:00', res)
+        self.assertEqual('08/10/18, 10:00 PM', res2)
 
 
 if __name__ == '__main__':

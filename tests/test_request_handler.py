@@ -29,7 +29,7 @@ class TestRequestHandler(unittest.TestCase):
         mock_get.return_value = Mock(status_code=requests.codes.ok)
         mock_get.return_value.json.return_value = res
         try:
-            self.rq.get(self.dummy_url, headers=self.headers)
+            self.rq._get(self.dummy_url, headers=self.headers)
         except APIErrorException:
             self.fail("Threw exception erroneously")
 
@@ -42,7 +42,7 @@ class TestRequestHandler(unittest.TestCase):
         mock_get.return_value.json.return_value = res
 
         with self.assertRaises(APIErrorException) as context:
-            self.rq.get(self.dummy_url, headers=self.headers)
+            self.rq._get(self.dummy_url, headers=self.headers)
 
         self.assertIn('Bad Request', context.exception.__str__())
 
@@ -54,7 +54,7 @@ class TestRequestHandler(unittest.TestCase):
         mock_get.return_value = Mock(status_code=requests.codes.forbidden)
         mock_get.return_value.json.return_value = res
         with self.assertRaises(APIErrorException) as context:
-            self.rq.get(self.dummy_url, headers=self.headers)
+            self.rq._get(self.dummy_url, headers=self.headers)
             import pdb; pdb.set_trace()
 
         self.assertTrue('This resource is restricted' in context.exception.__str__())
@@ -68,8 +68,7 @@ class TestRequestHandler(unittest.TestCase):
         mock_get.return_value = Mock(status_code=requests.codes.not_found)
         mock_get.return_value.json.return_value = res
         with self.assertRaises(APIErrorException) as context:
-            self.rq.get(self.dummy_url, headers=self.headers)
-
+            self.rq._get(self.dummy_url, headers=self.headers)
         self.assertTrue("This resource does not exist. "
                             "Check parameters" in context.exception.__str__())
         self.assertTrue("Page not found" in context.exception.__str__())
