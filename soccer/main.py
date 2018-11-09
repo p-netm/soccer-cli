@@ -180,16 +180,18 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
     writer_func = writer.write_player
     url += 'matches' if matches else ''
     payload = {}
+    response = soccer.players(player_id).query.click_get()
+    if any([limit, status, competitions, date_to, date_from]) and not matches:
+        click.secho('Aborted!, seems like you forgot to provide the --matches flag, you need that,'
+                    'to be able to add filters', fg='red')
+        return
     if matches:
         payload = create_payload(date_from=date_from, date_to=date_to, competitions=competitions, status=status,
                                  limit=limit)
         writer_func = writer.write_matches
-    if any([limit, status, competitions, date_to, date_from]) and not matches:
-        click.secho('seems like you forgot to provide the --matches flag, you need that,'
-                    'to be able to add filters', fg='red')
-        raise click.Abort()
-    response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
-    writer_func(response)
+        response = soccer.players(player_id).matches.query.filter(payload).click_get()
+    if response:
+        writer_func(response)
     return
 
 
@@ -254,16 +256,16 @@ def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to, outpu
     writer = get_writer(output_format, output_file)
     writer_func = writer.write_teams
     payload = {}
+    response = soccer.teams(team_id).query.click_get()
+    if any([venue, status, limit, date_from, date_to]) and not matches:
+        click.secho('Aborted!, seems like you forgot to provide the --matches flag, you need that'
+                    ' to be able to add filters', fg='red')
+        return
     if matches:
         payload = create_payload(date_from=date_from, date_to=date_to, venue=venue, status=status, limit=limit)
         writer_func = writer.write_matches
-    if any([venue, status, limit, date_from, date_to]) and not matches:
-        click.secho('seems like you forgot to provide the --matches flag, you need that'
-                    ' to be able to add filters', fg='red')
-        raise click.Abort()
-    response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
-    writer_func(response)
-    return
+        response = soccer.teams(team_id).matches.query.filter(payload).click_get()
+    if response: writer_func(response)
 
 competitions.add_command(Teams)
 competitions.add_command(Matches)
