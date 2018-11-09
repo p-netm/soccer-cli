@@ -138,8 +138,11 @@ class Stdout(BaseWriter):
         click.secho(fmt.format(**player), fg=self.colors.CONT)
 
     def write_players(self, squad):
-        players = []
-        players.append(squad)
+        if type(squad) == list:
+            players = squad
+        else:
+            players = []
+            players.append(squad)
         click.secho("%-5s %-5s %-25s %-10s %-15s %-20s %-5s" %
                     ("ID.", "S.NO", "NAME", "ROLE", "POSITION", "NATIONALITY", "AGE"),
                     fg=self.colors.TOPIC, bold=True)
