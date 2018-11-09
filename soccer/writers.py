@@ -128,7 +128,7 @@ class Stdout(BaseWriter):
         if not player.get('role'):
             player['role'] = 'N/A'
     
-        if not player.get('dateOfBirth'):
+        if player.get('dateOfBirth'):
             player['age'] = Stdout.convert_utc_to_local_time(player['dateOfBirth'], time_diff=True)
         else:
             player['age'] = 'N/A'
