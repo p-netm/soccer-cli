@@ -159,7 +159,7 @@ class Players(object):
         :sample code:
         >>> Players(1).matches.query.filter(status='CANCELLED').get()
         """
-        self.query_url = self.query_uri + '/' + 'matches'
+        self.query.url = self.query_uri + '/' + 'matches'
         return self
 
 class Areas(object):

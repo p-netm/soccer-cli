@@ -186,6 +186,7 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
     writer = get_writer(output_format, output_file)
     writer_func = writer.write_players
     payload = {}
+    response = soccer.players(player_id).query.click_get()
     if any([limit, status, competitions, date_to, date_from]) and not matches:
         click.secho('Aborted!, seems like you forgot to provide the --matches flag, you need that,'
                     'to be able to add filters', fg='red')
@@ -195,7 +196,6 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
                                  limit=limit)
         writer_func = writer.write_matches
         response = soccer.players(player_id).matches.query.filter(payload).click_get()
-    response = soccer.players(player_id).query.click_get()
     if response:
         writer_func(response)
     return
@@ -258,6 +258,7 @@ def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to, outpu
     writer = get_writer(output_format, output_file)
     writer_func = writer.write_teams
     payload = {}
+    response = soccer.teams(team_id).query.click_get()
     if any([venue, status, limit, date_from, date_to]) and not matches:
         click.secho('Aborted!, seems like you forgot to provide the --matches flag, you need that'
                     ' to be able to add filters', fg='red')
@@ -265,8 +266,7 @@ def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to, outpu
     if matches:
         payload = create_payload(date_from=date_from, date_to=date_to, venue=venue, status=status, limit=limit)
         writer_func = writer.write_matches
-        response = soccer.teams(team_id).query.filter(payload).click_get()
-    response = soccer.teams(team_id).query.click_get()
+        response = soccer.teams(team_id).matches.query.filter(payload).click_get()
     if response: writer_func(response)
 
 competitions.add_command(Teams)

@@ -128,7 +128,7 @@ class Stdout(BaseWriter):
         if not player.get('role'):
             player['role'] = 'N/A'
     
-        if not player.get('dateOfBirth'):
+        if player.get('dateOfBirth'):
             player['age'] = Stdout.convert_utc_to_local_time(player['dateOfBirth'], time_diff=True)
         else:
             player['age'] = 'N/A'
@@ -138,8 +138,11 @@ class Stdout(BaseWriter):
         click.secho(fmt.format(**player), fg=self.colors.CONT)
 
     def write_players(self, squad):
-        players = []
-        players.extend(squad)
+        if type(squad) == list:
+            players = squad
+        else:
+            players = []
+            players.append(squad)
         click.secho("%-5s %-5s %-25s %-10s %-15s %-20s %-5s" %
                     ("ID.", "S.NO", "NAME", "ROLE", "POSITION", "NATIONALITY", "AGE"),
                     fg=self.colors.TOPIC, bold=True)
