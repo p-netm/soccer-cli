@@ -7,7 +7,7 @@ Soccer CLI
 Soccer for Hackers - a CLI for all the football scores. 
 
 ![](https://github.com/p-netm/imgandvid/blob/master/soccercli/pics/competitionsstandings2021.PNG)
-![](https://github.com/p-netm/imgandvid/blob/master/soccercli/pics/competitionsstandings2001.PNG)
+![](https://github.com/p-netm/imgandvid/blob/master/soccercli/gifs/banner_x264.gif)
 
 Install
 =====
@@ -55,11 +55,45 @@ for more info. please check this [stackoverflow post](https://superuser.com/ques
 
 <hr>
 
+Dot notation interface
+====
+
+```python
+from resources import Soccer
+soccer = Soccer()
+# to get all competitions
+response = soccer.competitions().query.get()
+
+# to get a single competition
+response = soccer.competitions(2021).query.get()
+# to apply filters i.e. say the areas we want England whose id is 2072
+response = soccer.competitions().query.filter(areas=2072).get()
+
+# a few of subresources endpoints within competitions
+soccer.competitions(2021).scorers.query.get()
+soccer.competitions(2021).scorers.query.filter(limit=20).get()
+soccer.competitions(2021).matches.query.get()
+
+# Match resource
+response = soccer.matches().query.filter(status='FINISHED').get()
+
+# players resource
+soccer.players(1).matches.query.filter(status='SCHEDULED').get()
+
+# areas resource
+soccer.areas().query.get()
+
+# teams resource
+soccer.teams(57).query.get()
+```
+
 Usage
 ====
 
 <details>
   <summary>Competition Resource commands </summary>
+  
+  ![](https://github.com/p-netm/imgandvid/blob/master/soccercli/gifs/general_competition_x264.gif)
   
   ##### get all competitions
   ```bash
@@ -112,6 +146,8 @@ Usage
   $ soccer competitions --id 2021 teams --stage <stage>
   ```
   
+  ![](https://github.com/p-netm/imgandvid/blob/master/soccercli/gifs/competiitions_teams_x264.gif)
+
   <hr>
   
   ##### get a specific competition's standings
@@ -129,6 +165,8 @@ Usage
   ```
   
   the standing types are case insesitive when fed in through the shell otherwise should be strictly upper.
+
+  ![](https://github.com/p-netm/imgandvid/blob/master/soccercli/gifs/standings_x264.gif)
   
   <hr>
   
@@ -155,6 +193,8 @@ Usage
   
   _hope you get the idea and can comfortably use the other filters and a combination of any
   to specify your query_
+
+  ![](https://github.com/p-netm/imgandvid/blob/master/soccercli/gifs/competitions_matches_x264.gif)
   
   <hr>
   
@@ -164,6 +204,8 @@ Usage
   $ soccer competition --id 2021 scorers
   $ soccer competition --id 2021 scorers --limit 20 # to get info on the top 20 scorers of the English premier league
   ```
+
+  ![](https://github.com/p-netm/imgandvid/blob/master/soccercli/gifs/competition_scorers_x264.gif)
   
   <hr>
 </details>
@@ -176,6 +218,8 @@ Usage
   ```bash
   $ soccer teams --id <id> 
   ```
+
+  ![](https://github.com/p-netm/imgandvid/blob/master/soccercli/gifs/teams_x264.gif)
   
   #### Matches subresource
   
@@ -192,6 +236,8 @@ Usage
   $ soccer teams --id 66 matches --status CANCELLED
   $ soccer teams --id 66 matches --venue <venue>
   ```
+  
+  ![](https://github.com/p-netm/imgandvid/blob/master/soccercli/gifs/matches_x264.gif)
   
   <hr>
 </details>
@@ -219,6 +265,8 @@ Usage
   soccer matches --competitions 2021 --competitions 2000 #Request for matches from 2 competitions
   ```
   
+  ![](https://github.com/p-netm/imgandvid/blob/master/soccercli/gifs/matches_x264.gif)
+
   <hr>
 </details>
 
@@ -242,6 +290,8 @@ Usage
   ```bash
   $ soccer players --id 1 --competitions 2021 --status FINISHED 
   ```
+
+  ![](https://github.com/p-netm/imgandvid/blob/master/soccercli/gifs/players_x264.gif)
   
   <hr>
 </details>
@@ -256,6 +306,8 @@ Usage
   $ soccer areas --id 2000 # retrieves info WC whose id is 2000
   ```
   
+  ![](https://github.com/p-netm/imgandvid/blob/master/soccercli/gifs/areas_x264.gif)
+
   <hr>
 </details>
 
@@ -331,4 +383,5 @@ Contributions
 This is one of the simplest projects out here on github and it does require lots of help
 so feel free to branch out and send  pull request, or raise any issues that may better the project
 in the Issues section. Thanks.
+
 
