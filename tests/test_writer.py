@@ -82,8 +82,8 @@ class StdoutWriterTests(unittest.TestCase):
         self.assertTrue(mecho.call_count > 10)
 
     def test_time_converter_for_standard_conversions(self, mecho):
-        sample = "2018-08-10"
-        sample2 = "2018-10-26T00:00:18Z"
+        sample = "2008-08-10"
+        sample2 = "2008-10-26T00:00:18Z"
         # test direct conversions
         self.assertEqual('03:00', Stdout.convert_utc_to_local_time(sample))
         response = Stdout.convert_utc_to_local_time(sample2)
@@ -91,12 +91,14 @@ class StdoutWriterTests(unittest.TestCase):
 
     def test_time_converter_time_difference(self, mecho):
         """tests the time difference in years from the given date to today"""
-        sample = "2018-08-10"
-        sample2 = "2018-10-26T00:00:18Z"
+        sample = "2008-08-10"
+        sample2 = "2008-10-26T00:00:18Z"
         response = Stdout.convert_utc_to_local_time(sample, time_diff=True)
         response2 = Stdout.convert_utc_to_local_time(sample2, time_diff=True)
         self.assertIsInstance(response, int)
         self.assertIsInstance(response, int)
+        self.assertTrue(response > 7)
+        self.assertTrue(response2 > 7)
 
     def test_parse_season(self, mecho):
         start_date = "2018-08-10"
