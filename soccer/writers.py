@@ -139,7 +139,7 @@ class Stdout(BaseWriter):
 
     def write_players(self, squad):
         players = []
-        players.extend(squad)
+        players.append(squad)
         click.secho("%-5s %-5s %-25s %-10s %-15s %-20s %-5s" %
                     ("ID.", "S.NO", "NAME", "ROLE", "POSITION", "NATIONALITY", "AGE"),
                     fg=self.colors.TOPIC, bold=True)
