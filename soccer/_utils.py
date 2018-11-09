@@ -8,7 +8,7 @@ def create_payload(**kwargs):
     payload = {}
     payload.update({'dateFrom':kwargs['date_from']}) if kwargs.get('date_from') else payload.update({})
     payload.update({'plan':kwargs['plan']}) if kwargs.get('plan') else payload.update({})
-    payload.update({'area':kwargs['area']}) if kwargs.get('area') else payload.update({})
+    payload.update({'areas':kwargs['areas']}) if kwargs.get('areas') else payload.update({})
     payload.update({'dateTo':kwargs['date_to']}) if kwargs.get('date_to') else payload.update({})
     payload.update({'status':kwargs['status']}) if kwargs.get('status') else payload.update({})
     payload.update({'matchday':kwargs['matchday']}) if kwargs.get('matchday') else payload.update({})

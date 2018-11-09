@@ -1,8 +1,12 @@
+from requests import ConnectionError
 from urllib.parse import urljoin as join
 import requests
 import click
 
-from exceptions import APIErrorException
+try:
+    from soccer.exceptions import APIErrorException
+except ImportError as error:
+    from exceptions import APIErrorException
 
 
 class RequestHandler(object):
@@ -34,10 +38,3 @@ class RequestHandler(object):
 
         if req.status_code == 500:
             raise APIErrorException('This has nothing to do with you. {}'.format(req.json()['message']))
-
-    def get(self, url, **kwargs):
-        try:
-            return self._get(url, **kwargs)
-        except Exception as err:
-            click.secho(err.args[0], fg='red')
-            click.Abort()

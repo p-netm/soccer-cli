@@ -3,16 +3,23 @@ import sys
 import json
 import click
 
-from validators import validate_standing, validate_limit, validate_competitions, validate_venue, validate_status,\
-    validate_season, validate_matchday, validate_plan, validate_date
-from subresource import teams as Teams
-from subresource import matches as Matches
-from _utils import create_payload, add_options, global_click_option, \
-    time_click_option, list_click_option, CustomMultiGroup
-from request_handler import RequestHandler
-from writers import get_writer
+try:
+    from soccer.validators import *
+    from soccer.sub_main import teams as Teams, matches as Matches
+    from soccer._utils import *
+    from soccer.request_handler import RequestHandler
+    from soccer.writers import get_writer
+    from soccer.resources import Soccer
+except ImportError as error:
+    from validators import *
+    from sub_main import teams as Teams, matches as Matches
+    from _utils import *
+    from request_handler import RequestHandler
+    from writers import get_writer
+    from resources import Soccer
 
 request_handler = RequestHandler()
+soccer = Soccer()
 
 def get_input_key():
     """Input API key and validate"""
@@ -102,22 +109,21 @@ def main(ctx, apikey):
 @click.pass_context
 def competitions(ctx, competition_id, areas, plan, output_format, output_file):
     """Competitions Resource Endpoint"""
-    url = 'competitions/{}/'.format(competition_id) if competition_id else 'competitions/'
     payload = create_payload(areas=areas, plan=plan)
     if ctx.invoked_subcommand is None:
         # dealing with the resource only, no subresources, add id
-        response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        response = soccer.competitions(competition_id).query.filter(payload).click_get()
         writer = get_writer(output_format, output_file)
-        writer.write_competitions(response)
+        if response:
+            writer.write_competitions(response)
         return
     else:
-        ctx.obj['url'] = url
         ctx.obj['competition_id'] = competition_id
 
 
 @competitions.command()
 @add_options(global_click_option)
-@click.option('--standingtype',callback=validate_standing,
+@click.option('--standingtype',callback=validate_standing, default='TOTAL',
               help='[standings]:: show standings for a particular competition ')
 @click.pass_context
 def standings(ctx, standingtype, output_format, output_file):
@@ -125,15 +131,16 @@ def standings(ctx, standingtype, output_format, output_file):
     Standings subresource for the competitions resource, only accessed and works
     if a competition id is present
     """
-    if not ctx.obj.get('competition_id'):
-        click.secho('You have to provide a competition id', fg='red', bold=True)
-        raise click.Abort()
+    comp_id = ctx.obj.get('competition_id')
+    if not comp_id:
+        click.secho('Aborted!, You have to provide a competition id', fg='red', bold=True)
+        return
     else:
-        url = ctx.obj['url'] + '/standings'
         payload = {'standingType':standingtype} if standingtype else {}
-        response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        response = soccer.competitions(comp_id).standings.query.filter(payload).click_get()
         writer = get_writer(output_format, output_file)
-        writer.write_standings(response)
+        if response:
+            writer.write_standings(response)
 
 
 @competitions.command()
@@ -143,15 +150,16 @@ def standings(ctx, standingtype, output_format, output_file):
               help='limit number of records')
 def scorers(ctx, limit, output_format, output_file):
     """Scorers subresource for competitions resource"""
-    if not ctx.obj.get('competition_id'):
-        click.secho('You have to provide a competition id', fg='red', bold=True)
-        raise click.Abort()
+    comp_id = ctx.obj.get('competition_id')
+    if not comp_id:
+        click.secho('Aborted!, You have to provide a competition id', fg='red', bold=True)
+        return
     else:
-        url = ctx.obj['url'] + 'scorers'
         payload = create_payload(limit=limit)
-        response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+        response = soccer.competitions(comp_id).scorers.query.filter(payload).click_get()
         writer = get_writer(output_format, output_file)
-        writer.write_scorers(response)
+        if response:
+            writer.write_scorers(response)
         return
 
 @main.command()
@@ -172,13 +180,11 @@ def scorers(ctx, limit, output_format, output_file):
 @click.pass_context
 def players(ctx, player_id, matches, date_from, date_to, competitions, status, limit, output_format, output_file):
     """Players Resource Endpoint"""
-    url = 'players/{}/'.format(player_id) if player_id else ''
-    if not url:
-        click.secho("Please provide a specific player's id", fg='red', bold=True)
-        raise click.Abort()
+    if not player_id:
+        click.secho("Aborted!, Please provide a specific player's id", fg='red', bold=True)
+        return
     writer = get_writer(output_format, output_file)
-    writer_func = writer.write_player
-    url += 'matches' if matches else ''
+    writer_func = writer.write_players
     payload = {}
     response = soccer.players(player_id).query.click_get()
     if any([limit, status, competitions, date_to, date_from]) and not matches:
@@ -211,11 +217,10 @@ def players(ctx, player_id, matches, date_from, date_to, competitions, status, l
 @click.pass_context
 def matches(ctx, match_id, date_from, date_to, status, competitions, use12hour, output_format, output_file):
     """Matches Resource Endpoint"""
-    url = 'matches/{}/'.format(match_id) if match_id else 'matches'
     payload = create_payload(date_from=date_from, date_to=date_to, competitions=competitions, status=status)
-    response = request_handler.get(url, headers=ctx.obj['headers'], params=payload)
+    response = soccer.matches(match_id).query.filter(payload).click_get()
     writer = get_writer(output_format, output_file)
-    writer.write_matches(response, use12hour)
+    if response: writer.write_matches(response, use12hour)
     return
 
 
@@ -226,10 +231,9 @@ def matches(ctx, match_id, date_from, date_to, status, competitions, use12hour, 
 @click.pass_context
 def areas(ctx, area_id, output_format, output_file):
     """Areas Resource Endpoint"""
-    url = 'areas/{}/'.format(area_id) if area_id else 'areas'
-    response = request_handler.get(url, headers=ctx.obj['headers'])
+    response = soccer.areas(area_id).query.click_get()
     writer = get_writer(output_format, output_file)
-    writer.write_areas(response)
+    if response: writer.write_areas(response)
     return
 
 
@@ -251,8 +255,6 @@ def areas(ctx, area_id, output_format, output_file):
 @click.pass_context
 def teams(ctx, team_id, venue, status, limit, matches, date_from, date_to, output_format, output_file):
     """Teams Resource Endpoint"""
-    url = 'teams/{}/'.format(team_id) if team_id else 'teams/'
-    url += 'matches' if matches else ''
     writer = get_writer(output_format, output_file)
     writer_func = writer.write_teams
     payload = {}

@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="http://i.imgur.com/F9zuexe.jpg" width="500px" />
-</p>
 
 Soccer CLI
 =====
@@ -9,7 +6,8 @@ Soccer CLI
 
 Soccer for Hackers - a CLI for all the football scores. 
 
-![](http://i.imgur.com/9QbcUrj.gif)
+![](https://github.com/p-netm/imgandvid/blob/master/soccercli/pics/competitionsstandings2021.PNG)
+![](https://github.com/p-netm/imgandvid/blob/master/soccercli/pics/competitionsstandings2001.PNG)
 
 Install
 =====
@@ -50,6 +48,11 @@ Currently supports Linux, Mac OS X, NetBSD, FreeBSD and Windows.
 
 To get colorized terminal output on Windows, make sure to install [ansicon](https://github.com/adoxa/ansicon/releases/latest) and [colorama](https://pypi.org/project/colorama/).
 
+Specifically for the Windows terminal, by default the terminal may be limited in size(width) even when enlarged,
+However, this can be dealt with by running the commands
+> mode 800
+for more info. please check this [stackoverflow post](https://superuser.com/questions/285984/how-do-i-full-screen-my-cmd)
+
 <hr>
 
 Usage
@@ -76,7 +79,7 @@ Usage
   usually if you are not subscribed to any premium plans, you'r requests will be automatically handled as TIER_ONE
   
   ```bash
-  $soccer competitions --plan TIER_ONE # TIER_ONE has access to 14
+  $soccer competitions --plan TIER_ONE # TIER_ONE has access to 14 competitions
   ``` 
   
   <hr>
@@ -171,7 +174,7 @@ Usage
   #### specific team info
   
   ```bash
-  $ soccer teams --id <id> # MUFC is the team code for Manchester United
+  $ soccer teams --id <id> 
   ```
   
   #### Matches subresource
@@ -287,9 +290,6 @@ $ soccer --help
   - SD: Segunda Division
 _And upto 131+ more competitions oferred by the API, supports all competitions offered by the api_ 
 
-### Team and team codes
-
-For a full list of supported team and team codes [see this](soccer/teams.json).
 
 ### Tests
 
@@ -311,8 +311,7 @@ Todo
 - [ ] replace demo sections
 - [ ] add how to get ids section
 - [ ] integrate the writer with updated code
-- [ ] add a developer interface : to use dot notation and direct method clls as opposed to cli
-- [ ] Badly need to add tests
+- [ ] add a developer interface : to use dot notation and direct method calls as opposed to cli
 - [ ] id listing
 - [ ] predictive analytical statistics
 - [ ] Enable cache
@@ -329,10 +328,7 @@ Open sourced under [MIT License](LICENSE)
 
 Contributions
 ====
-this is one of the simplest projects out here on github and it does require lots of help
+This is one of the simplest projects out here on github and it does require lots of help
 so feel free to branch out and send  pull request, or raise any issues that may better the project
 in the Issues section. Thanks.
 
-Support 
-====
-If you like my work, please support the project by donating
